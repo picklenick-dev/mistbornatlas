@@ -73,6 +73,7 @@ export const AboutModal: React.FC = () => {
 								<ul className={styles.roadmapList}>
 									<li className={styles.roadmapCurrent}>
 										<strong>v0.7.0</strong> — {t.about.roadmapCurrent}
+										<span className={styles.currentTag}>{t.about.roadmapCurrentTag}</span>
 									</li>
 									<li>
 										<strong>v0.8.0</strong> — {t.about.roadmap080}

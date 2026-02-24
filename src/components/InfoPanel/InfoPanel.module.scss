@@ -65,11 +65,6 @@
 	width: 28px;
 	height: 28px;
 
-	svg {
-		width: 16px;
-		height: 16px;
-	}
-
 	@include md-down {
 		@include touch-target-mobile;
 	}

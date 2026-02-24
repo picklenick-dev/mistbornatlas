@@ -338,6 +338,7 @@ export interface TranslationKeys {
 		licenseLabel: string;
 		versionLabel: string;
 		roadmapTitle: string;
+		roadmapCurrentTag: string;
 		roadmapCurrent: string;
 		roadmap080: string;
 		roadmap090: string;

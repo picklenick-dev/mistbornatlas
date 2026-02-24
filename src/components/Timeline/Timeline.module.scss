@@ -162,11 +162,6 @@ $toggle-bar-height-mobile: 32px;
 	@include button-icon;
 	@include touch-target-mobile;
 
-	svg {
-		width: 20px;
-		height: 20px;
-	}
-
 	&:hover {
 		color: $color-accent;
 	}
@@ -176,11 +171,6 @@ $toggle-bar-height-mobile: 32px;
 		height: 36px;
 		min-width: 36px;
 		min-height: 36px;
-
-		svg {
-			width: 16px;
-			height: 16px;
-		}
 	}
 
 	&.playButton {
@@ -194,21 +184,11 @@ $toggle-bar-height-mobile: 32px;
 			color: $color-bg-primary;
 		}
 
-		svg {
-			width: 24px;
-			height: 24px;
-		}
-
 		@include md-down {
 			width: 40px;
 			height: 40px;
 			min-width: 40px;
 			min-height: 40px;
-
-			svg {
-				width: 20px;
-				height: 20px;
-			}
 		}
 	}
 }
@@ -440,11 +420,6 @@ $toggle-bar-height-mobile: 32px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	margin-bottom: $spacing-4;
-
-	svg {
-		width: 14px;
-		height: 14px;
-	}
 }
 
 .cityPromptTitle {

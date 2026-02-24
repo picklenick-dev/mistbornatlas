@@ -19,7 +19,6 @@
 	gap: $spacing-1;
 	color: $color-text-primary;
 
-	svg,
 	i {
 		width: 20px;
 		height: 20px;
@@ -31,7 +30,6 @@
 	&:hover {
 		background: $color-bg-tertiary;
 
-		svg,
 		i {
 			color: $color-accent;
 		}
@@ -148,7 +146,6 @@
 		color: $color-accent;
 	}
 
-	svg,
 	i {
 		width: 16px;
 		height: 16px;
@@ -208,10 +205,6 @@
 	margin-bottom: $spacing-3;
 	width: 100%;
 
-	svg {
-		flex-shrink: 0;
-	}
-
 	&:hover {
 		background: rgba($color-warning, 0.25);
 		border-color: rgba($color-warning, 0.5);
@@ -243,10 +236,6 @@
 	transition: all $transition-fast;
 	margin-bottom: $spacing-3;
 	width: 100%;
-
-	svg {
-		flex-shrink: 0;
-	}
 
 	&:hover {
 		background: rgba($color-atium, 0.2);

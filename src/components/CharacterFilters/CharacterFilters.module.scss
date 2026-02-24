@@ -144,11 +144,6 @@
 	transition: all $transition-fast;
 	flex-shrink: 0;
 
-	svg {
-		width: 14px;
-		height: 14px;
-	}
-
 	&:hover:not(:disabled) {
 		background: $color-bg-tertiary;
 		color: $color-text-primary;
@@ -173,10 +168,5 @@
 	@include md-down {
 		width: 32px;
 		height: 32px;
-
-		svg {
-			width: 16px;
-			height: 16px;
-		}
 	}
 }

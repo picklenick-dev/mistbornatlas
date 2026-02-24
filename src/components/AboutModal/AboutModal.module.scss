@@ -20,7 +20,7 @@
 
 	i {
 		font-size: 28px;
-		color: $color-text-secondary;
+		color: $color-warning;
 	}
 
 	&:hover {
@@ -60,7 +60,11 @@
 
 .aboutSublabel {
 	font-size: $font-size-xs;
-	color: $color-text-muted;
+	color: $color-text-primary;
+	background: rgba($color-warning, 0.15);
+	padding: 2px $spacing-2;
+	border-radius: $radius-sm;
+	border: 1px solid rgba($color-warning, 0.3);
 	line-height: 1.2;
 	white-space: nowrap;
 
@@ -117,22 +121,17 @@
 .versionBadge {
 	font-size: $font-size-xs;
 	font-weight: $font-weight-medium;
-	color: $color-text-muted;
-	background: $color-bg-tertiary;
-	padding: 2px $spacing-2;
+	color: $color-text-primary;
+	background: rgba($color-warning, 0.15);
+	padding: 3px $spacing-3;
 	border-radius: $radius-sm;
-	border: 1px solid $color-border;
+	border: 1px solid rgba($color-warning, 0.3);
 }
 
 .closeButton {
 	@include button-icon;
 	width: 28px;
 	height: 28px;
-
-	svg {
-		width: 16px;
-		height: 16px;
-	}
 }
 
 .content {
@@ -316,6 +315,19 @@
 			color: $color-accent;
 		}
 	}
+}
+
+.currentTag {
+	font-size: 10px;
+	font-weight: $font-weight-bold;
+	color: $color-text-primary;
+	background: rgba($color-warning, 0.15);
+	padding: 0.45rem 0.65rem;
+	border-radius: $radius-sm;
+	border: 1px solid rgba($color-warning, 0.3);
+	margin-left: $spacing-1;
+	letter-spacing: 0.5px;
+	vertical-align: middle;
 }
 
 .footer {

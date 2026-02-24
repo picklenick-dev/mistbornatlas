@@ -359,11 +359,6 @@
 .iconButton {
 	@include button-icon;
 	@include touch-target-mobile;
-
-	svg {
-		width: 20px;
-		height: 20px;
-	}
 }
 
 // WIP ribbon — fixed below header, centered
