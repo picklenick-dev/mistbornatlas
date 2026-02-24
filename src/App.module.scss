@@ -1,0 +1,42 @@
+@use './styles/variables' as *;
+@use './styles/mixins' as *;
+
+.app {
+	width: 100vw;
+	height: 100vh;
+	height: 100dvh;
+	overflow: hidden;
+	position: relative;
+	background: $color-bg-primary;
+}
+
+// The <main> wrapping MapViewSwitcher must be invisible — it exists only for semantics/skip-links
+.mapReveal main {
+	@include absolute-fill;
+	display: contents;
+}
+
+// <footer> wrapping About + Donation buttons — invisible wrapper, buttons are fixed-positioned themselves
+.mapReveal footer {
+	display: contents;
+}
+
+// Map reveal — starts slightly zoomed and blurred, settles as mist clears
+
+.mapReveal {
+	@include absolute-fill;
+	opacity: 0;
+	filter: blur(6px) brightness(0.7);
+	transform: scale(1.03);
+	transition:
+		opacity 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+		filter 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+		transform 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	will-change: opacity, filter, transform;
+
+	&.revealed {
+		opacity: 1;
+		filter: none;
+		transform: none;
+	}
+}

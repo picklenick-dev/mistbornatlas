@@ -1,0 +1,167 @@
+// colors
+
+@use 'sass:color';
+
+$color-ash: #1a1a1a;
+$color-mist: #8d9db6;
+$color-steel: #4a5568;
+$color-iron: #2d3748;
+$color-copper: #c77f4e;
+$color-bronze: #a67c52;
+$color-gold: #d4af37;
+$color-atium: #9b59b6;
+
+// Book colors
+$color-book-tfe: #8b0000;
+$color-book-woa: #2f4f4f;
+$color-book-hoa: #4a0080;
+
+// Character colors - High contrast for map visibility
+$color-vin: #ff00ff;
+$color-kelsier: #00ffff;
+$color-sazed: #00ff00;
+$color-elend: #b366ff;
+$color-marsh: #ff3300;
+$color-spook: #ffff00;
+
+$color-bg-primary: #0d0d0d;
+$color-bg-secondary: #171717;
+$color-bg-tertiary: #212121;
+$color-bg-overlay: rgba(0, 0, 0, 0.85);
+
+$color-text-primary: #e8e8e8;
+$color-text-secondary: #a0a0a0;
+$color-text-muted: #666666;
+
+$color-border: #333333;
+$color-border-light: #444444;
+
+$color-accent: $color-copper;
+$color-accent-hover: color.adjust($color-copper, $lightness: 10%);
+
+// Status colors
+$color-success: #27ae60;
+$color-warning: #f39c12;
+$color-danger: #e74c3c;
+$color-info: #3498db;
+
+// typography
+
+$font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-heading: 'Cinzel', Georgia, serif;
+$font-mono: 'Fira Code', 'Consolas', monospace;
+
+$font-size-xs: 0.75rem; // 12px
+$font-size-sm: 0.875rem; // 14px
+$font-size-base: 1rem; // 16px
+$font-size-lg: 1.125rem; // 18px
+$font-size-xl: 1.25rem; // 20px
+$font-size-2xl: 1.5rem; // 24px
+$font-size-3xl: 1.875rem; // 30px
+$font-size-4xl: 2.25rem; // 36px
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$line-height-tight: 1.25;
+$line-height-normal: 1.5;
+$line-height-relaxed: 1.75;
+
+// spacing
+
+$spacing-0: 0;
+$spacing-1: 0.25rem; // 4px
+$spacing-2: 0.5rem; // 8px
+$spacing-3: 0.75rem; // 12px
+$spacing-4: 1rem; // 16px
+$spacing-5: 1.25rem; // 20px
+$spacing-6: 1.5rem; // 24px
+$spacing-8: 2rem; // 32px
+$spacing-10: 2.5rem; // 40px
+$spacing-12: 3rem; // 48px
+$spacing-14: 3.5rem; // 56px
+$spacing-16: 4rem; // 64px
+
+// layout
+
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+$breakpoint-2xl: 1536px;
+
+// Z-index layers
+$z-index-base: 1;
+$z-index-dropdown: 100;
+$z-index-sticky: 200;
+$z-index-overlay: 400;
+$z-index-popover: 500;
+$z-index-modal: 600;
+$z-index-tooltip: 700;
+$z-index-loading: 1000;
+
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 12px;
+$radius-xl: 16px;
+$radius-full: 9999px;
+
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.5);
+$shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+$shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.5);
+
+$transition-fast: 150ms ease;
+$transition-normal: 250ms ease;
+$transition-slow: 350ms ease;
+
+// map
+
+$map-bg-color: #1a1a1a;
+$map-grid-color: rgba(100, 100, 100, 0.2);
+$map-border-color: rgba(200, 200, 200, 0.3);
+
+$marker-size-sm: 20px;
+$marker-size-md: 28px;
+$marker-size-lg: 36px;
+
+// Allomantic marker colors (diversified metal palette)
+$marker-gold: #d4af37;
+$marker-steel: #6b9ec7;
+$marker-tin: #c0cad4;
+$marker-pewter: #6a8060;
+$marker-copper: #c77f4e;
+$marker-bronze: #9a7050;
+$marker-iron: #8a5050;
+$marker-zinc: #6aaa7a;
+$marker-brass: #b89060;
+$marker-atium: #9b4d6d;
+$marker-electrum: #8a8a60;
+$marker-lerasium: #e0d8f0;
+$marker-chromium: #4a9a9a;
+$marker-nicrosil: #7a8a7a;
+
+$path-width-thin: 2px;
+$path-width-normal: 3px;
+$path-width-thick: 4px;
+
+// panels
+
+$panel-width: 340px;
+$panel-width-lg: 380px;
+$header-height: 60px;
+$timeline-height: 80px;
+$footer-height: 40px;
+
+// Mobile dimensions
+$header-height-mobile: 52px;
+$timeline-height-mobile: 64px;
+$touch-target-min: 44px;
+
+// Safe area (for notched devices)
+$safe-area-top: env(safe-area-inset-top, 0px);
+$safe-area-bottom: env(safe-area-inset-bottom, 0px);
+$safe-area-left: env(safe-area-inset-left, 0px);
+$safe-area-right: env(safe-area-inset-right, 0px);

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="mistGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#708090;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Ash circle background -->
+  <circle cx="50" cy="50" r="48" fill="#1a1a1a" stroke="#c9a227" stroke-width="2"/>
+  <!-- Stylized 'M' for Mistborn -->
+  <path d="M25 75 L25 35 L50 55 L75 35 L75 75" 
+        fill="none" 
+        stroke="url(#mistGrad)" 
+        stroke-width="6" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  <!-- Mist wisps -->
+  <path d="M20 25 Q35 20 50 25 Q65 30 80 25" 
+        fill="none" 
+        stroke="#708090" 
+        stroke-width="2" 
+        stroke-opacity="0.6"
+        stroke-linecap="round"/>
+  <path d="M15 85 Q30 80 50 85 Q70 90 85 85" 
+        fill="none" 
+        stroke="#708090" 
+        stroke-width="1.5" 
+        stroke-opacity="0.4"
+        stroke-linecap="round"/>
+</svg>

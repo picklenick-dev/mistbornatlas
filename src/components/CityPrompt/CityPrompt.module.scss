@@ -1,0 +1,118 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+// Toggle bar heights must match Timeline.module.scss
+$toggle-bar-height: 36px;
+$toggle-bar-height-mobile: 32px;
+
+.cityPrompt {
+	position: fixed;
+	// Default: expanded timeline
+	bottom: calc(#{$toggle-bar-height} + #{$timeline-height} + #{$spacing-4});
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: $z-index-overlay;
+	@include glass-panel;
+	border: 1px solid $color-border;
+	border-radius: $radius-lg;
+	padding: $spacing-4 $spacing-6;
+	display: flex;
+	align-items: center;
+	gap: $spacing-4;
+	animation: slideUp 0.3s ease-out;
+	max-width: 500px;
+	box-shadow: $shadow-lg;
+	transition: bottom $transition-normal;
+
+	// Collapsed timeline — sit just above the pill
+	body[data-timeline-collapsed='1'] & {
+		bottom: calc(#{$toggle-bar-height} + #{$spacing-4});
+	}
+
+	@media (max-width: $breakpoint-md) {
+		bottom: calc(#{$toggle-bar-height-mobile} + #{$timeline-height-mobile} + #{$spacing-3});
+		flex-direction: column;
+		gap: $spacing-3;
+		padding: $spacing-3 $spacing-4;
+		max-width: calc(100vw - #{$spacing-8});
+
+		body[data-timeline-collapsed='1'] & {
+			bottom: calc(#{$toggle-bar-height-mobile} + #{$spacing-3});
+		}
+	}
+}
+
+.pausedIndicator {
+	display: block;
+	width: 100%;
+	font-size: $font-size-xs;
+	color: $color-accent;
+	font-weight: $font-weight-semibold;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin-bottom: $spacing-2;
+	text-align: center;
+}
+
+.message {
+	font-size: $font-size-sm;
+	color: $color-text-primary;
+	line-height: $line-height-normal;
+	flex: 1;
+
+	strong {
+		color: $color-accent;
+		font-weight: $font-weight-semibold;
+	}
+}
+
+.actions {
+	display: flex;
+	gap: $spacing-2;
+	flex-shrink: 0;
+}
+
+.enterButton {
+	padding: $spacing-2 $spacing-4;
+	background-color: $color-accent;
+	color: $color-text-primary;
+	border: none;
+	border-radius: $radius-sm;
+	cursor: pointer;
+	font-weight: $font-weight-semibold;
+	font-size: $font-size-sm;
+	white-space: nowrap;
+	transition: background-color $transition-fast;
+
+	&:hover {
+		background-color: $color-accent-hover;
+	}
+}
+
+.dismissButton {
+	padding: $spacing-2 $spacing-4;
+	background-color: $color-bg-tertiary;
+	color: $color-text-secondary;
+	border: 1px solid $color-border;
+	border-radius: $radius-sm;
+	cursor: pointer;
+	font-size: $font-size-sm;
+	white-space: nowrap;
+	transition: all $transition-fast;
+
+	&:hover {
+		border-color: $color-border-light;
+		color: $color-text-primary;
+	}
+}
+
+@keyframes slideUp {
+	from {
+		opacity: 0;
+		transform: translateX(-50%) translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(-50%) translateY(0);
+	}
+}

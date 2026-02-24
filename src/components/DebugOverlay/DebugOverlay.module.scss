@@ -1,0 +1,105 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.debugOverlay {
+	position: fixed;
+	top: calc(#{$header-height} + #{$spacing-4});
+	right: $spacing-4;
+	z-index: $z-index-popover;
+	@include glass-panel;
+	padding: $spacing-3;
+	border: 2px solid $color-accent;
+	border-radius: $radius-md;
+	min-width: 200px;
+	background: rgba(0, 0, 0, 0.9);
+	backdrop-filter: blur(10px);
+	font-family: 'Courier New', monospace;
+	box-shadow: 0 4px 20px rgba($color-accent, 0.4);
+	pointer-events: auto;
+}
+
+.debugTitle {
+	font-size: $font-size-xs;
+	color: $color-accent;
+	font-weight: $font-weight-bold;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: $spacing-2;
+	border-bottom: 1px solid $color-accent;
+	padding-bottom: $spacing-1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: $spacing-2;
+}
+
+.frozenBadge {
+	font-size: $font-size-xs;
+	color: #fff;
+	background: #ff4444;
+	padding: 2px 6px;
+	border-radius: $radius-sm;
+	animation: pulse 1s infinite;
+}
+
+.debugCoords {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: $spacing-1;
+}
+
+.debugLabel {
+	font-size: $font-size-sm;
+	color: $color-text-secondary;
+	font-weight: $font-weight-semibold;
+}
+
+.debugValue {
+	font-size: $font-size-base;
+	color: $color-text-primary;
+	font-weight: $font-weight-bold;
+	background: rgba($color-accent, 0.1);
+	padding: 2px 8px;
+	border-radius: $radius-sm;
+}
+
+.debugFormat {
+	margin-top: $spacing-2;
+	padding: $spacing-2;
+	background: rgba($color-accent, 0.15);
+	border: 1px dashed $color-accent;
+	border-radius: $radius-sm;
+	text-align: center;
+	font-size: $font-size-base;
+	color: $color-text-primary;
+	font-weight: $font-weight-bold;
+	cursor: pointer;
+	transition: all $transition-fast;
+
+	&:hover {
+		background: rgba($color-accent, 0.25);
+		transform: scale(1.02);
+	}
+
+	&:active {
+		transform: scale(0.98);
+	}
+}
+
+.debugHint {
+	font-size: $font-size-xs;
+	color: $color-text-muted;
+	text-align: center;
+	margin-top: $spacing-1;
+	font-style: italic;
+}
+
+@include md-down {
+	.debugOverlay {
+		top: calc(#{$header-height-mobile} + #{$spacing-2});
+		right: $spacing-2;
+		left: $spacing-2;
+		min-width: auto;
+	}
+}

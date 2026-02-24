@@ -1,0 +1,529 @@
+[
+	{
+		"id": "luthadel",
+		"name": "Luthadel",
+		"worldLocationId": "luthadel",
+		"bounds": [
+			[0, 0],
+			[100, 100]
+		],
+		"description": "The capital of the Final Empire and cultural center during the Lord Ruler's reign. The only city allowed to have man-made walls in the entire empire. Built with radial symmetry around Kredik Shaw, which sits directly over the Well of Ascension. Eight gates named after Allomantic metals provide access through the defensive walls. Located at the magnetic North pole—all compasses point to Luthadel.",
+		"landmarks": [
+			{
+				"checked": true,
+				"id": "kredik-shaw",
+				"name": "Kredik Shaw",
+				"type": "palace",
+				"coords": [65.6, 50.4],
+				"description": "The Lord Ruler's palace, 'Hill of a Thousand Spires'. Built directly on top of the only entrance to the cave complex housing the Well of Ascension. Its piecemeal construction suggests the city was not perfectly planned from the beginning.",
+				"worldLocationId": "kredik-shaw"
+			},
+			{
+				"checked": true,
+				"id": "iron-gate",
+				"name": "Iron Gate",
+				"type": "gate",
+				"coords": [7.8, 54.2],
+				"description": "Northern gate, leading to Urteau and the Northern Dominance."
+			},
+			{
+				"checked": true,
+				"id": "steel-gate",
+				"name": "Steel Gate",
+				"type": "gate",
+				"coords": [23.3, 79.1],
+				"description": "Northwestern gate, leading toward the Pits of Hathsin."
+			},
+			{
+				"checked": true,
+				"id": "pewter-gate",
+				"name": "Pewter Gate",
+				"type": "gate",
+				"coords": [89.5, 70.1],
+				"description": "Northeastern gate of Luthadel."
+			},
+			{
+				"checked": true,
+				"id": "zinc-gate",
+				"name": "Zinc Gate",
+				"type": "gate",
+				"coords": [89.3, 48.3],
+				"description": "Southeastern gate of Luthadel."
+			},
+			{
+				"checked": true,
+				"id": "brass-gate",
+				"name": "Brass Gate",
+				"type": "gate",
+				"coords": [82.8, 18.5],
+				"description": "Southern gate, leading to Fellise and the Southern Dominance."
+			},
+			{
+				"checked": true,
+				"id": "copper-gate",
+				"name": "Copper Gate",
+				"type": "gate",
+				"coords": [60.1, 18],
+				"description": "Southwestern gate, near the industrial district."
+			},
+			{
+				"checked": true,
+				"id": "bronze-gate",
+				"name": "Bronze Gate",
+				"type": "gate",
+				"coords": [31, 15.7],
+				"description": "Western gate, leading to the River Channerel."
+			},
+			{
+				"checked": true,
+				"id": "keep-venture",
+				"name": "Keep Venture",
+				"type": "keep",
+				"coords": [69.4, 68.2],
+				"description": "House Venture's stronghold. Elend's base of operations and frequent venue for noble balls.",
+				"worldLocationId": "keep-venture"
+			},
+			{
+				"id": "keep-elariel",
+				"name": "Keep Elariel",
+				"type": "keep",
+				"coords": [61.6, 61],
+				"description": "Home of House Elariel, one of the Great Houses of Luthadel."
+			},
+			{
+				"checked": true,
+				"id": "keep-hasting",
+				"name": "Keep Hasting",
+				"type": "keep",
+				"coords": [41.3, 49.4],
+				"description": "Located near the palace; fell early in the House War."
+			},
+			{
+				"checked": true,
+				"id": "clubs-shop",
+				"name": "Clubs' Shop",
+				"type": "shop",
+				"coords": [37, 58.9],
+				"description": "The carpentry shop used as Kelsier's crew's base of operations."
+			},
+			{
+				"checked": true,
+				"id": "camons-safehouse",
+				"name": "Camon's Safehouse",
+				"type": "safehouse",
+				"coords": [24.3, 66.2],
+				"description": "Initial safehouse in the slums where Vin is recruited by Kelsier."
+			},
+			{
+				"id": "fountain-square",
+				"name": "Fountain Square",
+				"type": "plaza",
+				"coords": [40.8, 61.2],
+				"description": "Site of public executions and Kelsier's death. Later renamed the Square of the Survivor."
+			},
+			{
+				"checked": true,
+				"id": "lake-luthadel",
+				"name": "Lake Luthadel",
+				"type": "landmark",
+				"coords": [95.0, 50.0],
+				"description": "A large, ash-stained freshwater body immediately east of the city walls."
+			},
+			{
+				"checked": true,
+				"id": "canton-of-finance",
+				"name": "Canton of Finance",
+				"type": "ministry",
+				"coords": [45.4, 38.6],
+				"description": "The Steel Ministry headquarters where obligators manage the empire's finances.",
+				"worldLocationId": "canton-finance"
+			},
+			{
+				"id": "skaa-hovels",
+				"name": "Skaa Hovels",
+				"type": "district",
+				"coords": [42, 21.5],
+				"description": "The impoverished skaa districts where street crews operate.",
+				"worldLocationId": "luthadel-slums"
+			},
+			{
+				"checked": true,
+				"id": "well-of-ascension",
+				"name": "Well of Ascension",
+				"type": "landmark",
+				"coords": [62.8, 50.6],
+				"description": "The hidden power source beneath Kredik Shaw where power collects every 1024 years.",
+				"worldLocationId": "well-ascension"
+			},
+			{
+				"id": "tin-gate-north",
+				"name": "Tin Gate (North)",
+				"type": "gate",
+				"coords": [65.6, 75.4],
+				"description": "The northeastern gate area."
+			},
+			{
+				"id": "assembly-hall",
+				"name": "Assembly Hall",
+				"type": "plaza",
+				"coords": [49.2, 38.5],
+				"description": "The Assembly building where Elend's democratic parliament convened during the siege of Luthadel. Site of his deposition and the political drama of the new government."
+			},
+			{
+				"id": "keep-tekiel",
+				"name": "Keep Tekiel",
+				"type": "keep",
+				"coords": [57.9, 73.8],
+				"description": "Stronghold of House Tekiel, one of the Great Houses targeted during Kelsier's assassination campaign to ignite the House War."
+			},
+			{
+				"checked": true,
+				"id": "luthadel-garrison",
+				"name": "Luthadel Garrison",
+				"type": "district",
+				"coords": [22.1, 77.5],
+				"description": "The city's military training ground and barracks. Ham and Vin visited here to assess the Lord Ruler's military strength and recruit sympathetic soldiers."
+			},
+			{
+				"id": "warehouse-district",
+				"name": "Warehouse District",
+				"type": "district",
+				"coords": [81.2, 40.1],
+				"description": "The industrial district near the western canals where Kelsier's crew stockpiled weapons and held secret rallies for the skaa rebellion."
+			},
+			{
+				"id": "canton-inquisition",
+				"name": "Canton of Inquisition Headquarters",
+				"type": "ministry",
+				"coords": [64, 47],
+				"description": "A fortress-like structure that served as the primary base for the Steel Inquisitors. It was a place of dread for both skaa and noble, representing the absolute disciplinary power of the Ministry."
+			},
+			{
+				"id": "canton-resource",
+				"name": "Canton of Resource Headquarters",
+				"type": "ministry",
+				"coords": [67.2, 44.1],
+				"description": "The administrative heart of the empire's economy, where the distribution of grain, metals, and skaa labor was meticulously recorded and managed."
+			},
+			{
+				"id": "canton-orthodoxy",
+				"name": "Canton of Orthodoxy",
+				"type": "ministry",
+				"coords": [67.7, 52.2],
+				"description": "The religious center of the city, tasked with maintaining the theological purity of the Lord Ruler's worship and managing the Ministry's numerous rituals."
+			},
+			{
+				"id": "keep-lekal",
+				"name": "Keep Lekal",
+				"type": "keep",
+				"coords": [77.4, 65.4],
+				"description": "One of the grand keeps belonging to House Lekal, a Great House. These structures were monumental in scale, often featuring dozens of towers and elaborate stained-glass windows that were cleaned daily of ash."
+			},
+			{
+				"id": "hotel-district",
+				"name": "Hotel District",
+				"type": "district",
+				"coords": [18.5, 59.9],
+				"description": "An affluent area designed to house visiting nobles from the outer dominances. Known for its luxury and its distance from the industrial soot."
+			},
+			{
+				"id": "commercial-district",
+				"name": "Commercial District",
+				"type": "district",
+				"coords": [37.1, 32.7],
+				"description": "The legal trade hub where noble houses negotiated contracts and Ministry factors oversaw the exchange of imperial commodities."
+			},
+			{
+				"id": "industrial-district",
+				"name": "Industrial District",
+				"type": "district",
+				"coords": [76.9, 40.3],
+				"description": "A region dominated by smithies, mills, and workshops. Situated near the Lord's Canal to facilitate the transport of heavy materials and the disposal of waste."
+			},
+			{
+				"id": "ahlstrom-square",
+				"name": "Ahlstrom Square",
+				"type": "plaza",
+				"coords": [74.2, 71.9],
+				"description": "A prominent public square in Luthadel, often used for official proclamations or as a meeting point for the city's upper-middle-class residents."
+			},
+			{
+				"id": "south-bridge",
+				"name": "South Bridge",
+				"type": "landmark",
+				"coords": [76.5, 34],
+				"description": "A major transit point over the city's waterways, linking the industrial sectors with the residential zones of the southern wall."
+			},
+			{
+				"id": "the-twists",
+				"name": "The Twists",
+				"type": "district",
+				"coords": [20, 69.4],
+				"description": "A labyrinthine slum district characterized by winding alleys and interconnected buildings. Notoriously difficult for Ministry guards to navigate, making it a sanctuary for the skaa criminal underworld and Kelsier's crew."
+			},
+			{
+				"id": "sootwarrens",
+				"name": "Sootwarrens",
+				"type": "district",
+				"coords": [73.3, 78],
+				"description": "One of the most impoverished sections of the city, where ash accumulation was heaviest and the living conditions most dire. Areas defined by block-style housing that lacked proper ventilation."
+			},
+			{
+				"id": "the-cracks",
+				"name": "The Cracks",
+				"type": "district",
+				"coords": [57.1, 26.9],
+				"description": "A destitute sector known for its deteriorating infrastructure and high population density. Often the first area to suffer during periods of grain shortage."
+			},
+			{
+				"id": "aspen-row",
+				"name": "Aspen Row",
+				"type": "district",
+				"coords": [12.5, 74.6],
+				"description": "A residential street that, despite being in a skaa-dominant area, maintained a slightly higher status than the deep warrens, often housing skilled laborers or noble servants."
+			},
+			{
+				"id": "blockstreet",
+				"name": "Blockstreet",
+				"type": "district",
+				"coords": [87.9, 61.3],
+				"description": "Representative of the dense, grid-like residential planning imposed on the skaa to maximize population capacity within the city walls."
+			}
+		]
+	},
+	{
+		"id": "urteau",
+		"name": "Urteau",
+		"worldLocationId": "urteau",
+		"bounds": [
+			[0, 0],
+			[100, 100]
+		],
+		"description": "The largest city in the Northern Dominance, located northeast of Luthadel near the Kalling Ashmount. Hereditary home of House Venture. Defined by its 'streetslots'—wide canals emptied of water for a hundred years, now serving as ash-filled sunken roadways. The canals were drained to store water in a hidden underground lake within the Lord Ruler's cache. Most buildings are wood rather than stone. No city walls by Lord Ruler's decree.",
+		"landmarks": [
+			{
+				"id": "ministry-canton",
+				"name": "Canton of Inquisition",
+				"type": "ministry",
+				"coords": [66.6, 56.7],
+				"description": "The Steel Ministry headquarters built directly over the third storage cavern, which contains a massive underground lake—the Source from which the canal network was originally fed. Houses the flood gate mechanism that Sazed built to release the reservoir during the fires."
+			},
+			{
+				"checked": true,
+				"id": "marketpit",
+				"name": "The Marketpit",
+				"type": "plaza",
+				"coords": [61.8, 40.5],
+				"description": "The widest of the streetslot canals, functioning as the city's main boulevard and central marketplace. A broad junction occupied largely by tradesmen and beggars."
+			},
+			{
+				"id": "spooks-hideout",
+				"name": "Spook's Hideout",
+				"type": "safehouse",
+				"coords": [24.3, 66.2],
+				"description": "The 'Burning House' used by Spook's crew during the uprising."
+			},
+			{
+				"id": "citizens-estate",
+				"name": "Citizen's Estate",
+				"type": "palace",
+				"coords": [40.0, 63.0],
+				"description": "Quellion's appropriated noble mansion, serving as his seat of power."
+			},
+			{
+				"id": "luthadel-gate",
+				"name": "Luthadel Gate",
+				"type": "gate",
+				"coords": [50.0, 14.0],
+				"description": "The southern entrance to the canal network, leading toward Luthadel."
+			},
+			{
+				"id": "venture-estate",
+				"name": "House Venture Estate",
+				"type": "keep",
+				"coords": [60.0, 45.0],
+				"description": "The hereditary home of the Venture family in Urteau, abandoned under Quellion's rule."
+			},
+			{
+				"id": "burning-district",
+				"name": "The Burning District",
+				"type": "district",
+				"coords": [30.0, 70.0],
+				"description": "Approximately one-third of the city destroyed by fires during Spook's rebellion against Quellion. The fire spread during riots when Spook exposed the Citizen's use of Hemalurgic spikes to blackmail Allomancers."
+			},
+			{
+				"id": "skaa-slums",
+				"name": "Skaa Slums",
+				"type": "district",
+				"coords": [25.0, 55.0],
+				"description": "The impoverished districts where revolutionaries gather in the dry canal beds."
+			},
+			{
+				"id": "the-harrows",
+				"name": "The Harrows",
+				"type": "district",
+				"coords": [28.0, 35.0],
+				"description": "A tangled maze of narrow, interconnected canals in the southern section of the city. The dense, chaotic network makes navigation difficult."
+			},
+			{
+				"id": "west-docks",
+				"name": "West Docks",
+				"type": "district",
+				"coords": [12.0, 50.0],
+				"description": "The western terminus of the canal network where trade goods were once loaded and unloaded. The end point of the water flow through the city."
+			},
+			{
+				"id": "fedre-aqueduct",
+				"name": "Lord Fedre's Aqueduct",
+				"type": "landmark",
+				"coords": [72, 76.4],
+				"description": "A monumental piece of pre-collapse infrastructure that once supplied the city with water. It remained as a skeletal landmark of Urteau's former glory."
+			},
+			{
+				"id": "white-streets",
+				"name": "The White Streets",
+				"type": "district",
+				"coords": [52.5, 63],
+				"description": "An affluent district where the cobblestones were kept meticulously clean of ash. Following the revolution, many of the wooden noble houses in this area were burned by the Citizen's regime."
+			},
+			{
+				"id": "citizens-home",
+				"name": "The Citizen's Home",
+				"type": "palace",
+				"coords": [55.9, 71],
+				"description": "The headquarters of Quellion, a skaa who seized power after the Lord Ruler's fall. His regime turned the noble mansions of Urteau into communal dwellings or sites of execution."
+			},
+			{
+				"id": "interchange-building",
+				"name": "Interchange Building",
+				"type": "landmark",
+				"coords": [69.5, 56.6],
+				"description": "A major logistical center where goods were moved between the different levels of the city's canal and street systems."
+			},
+			{
+				"id": "old-city-square",
+				"name": "Old City Square",
+				"type": "plaza",
+				"coords": [56.6, 54.1],
+				"description": "The historic center of Urteau, which became a site of radical political upheaval and public burnings during the Citizen's reign."
+			},
+			{
+				"id": "canton-orthodoxy-urteau",
+				"name": "Canton of Orthodoxy",
+				"type": "ministry",
+				"coords": [62.4, 45.6],
+				"description": "Managed the spiritual and legal affairs of the Northern Dominance, ensuring that the Venturers and other noble houses remained subservient to the Ministry."
+			}
+		]
+	},
+	{
+		"id": "fadrex",
+		"name": "Fadrex City",
+		"worldLocationId": "fadrex-city",
+		"bounds": [
+			[0, 0],
+			[100, 100]
+		],
+		"description": "A major trade hub in the Western Dominance, several months' journey from Urteau, located near Chardees. Fortified by natural dark red and orange rock formations—'cremnol' shelves—that serve as natural city walls, making it much more defensible than larger cities like Tremredare. Contains one of the Lord Ruler's secret storage caches. Ashweather Cett made it his capital after the Collapse, later seized by Obligator Aradan Yomen.",
+		"landmarks": [
+			{
+				"id": "keep-orielle",
+				"name": "Keep Orielle",
+				"type": "keep",
+				"coords": [36.8, 46.7],
+				"description": "The primary keep of House Orielle, sitting on elevated ground on the rock shelf. Used by Obligator Aradan Yomen as his palace after he seized control. Site of noble balls where Yomen reestablished Final Empire social structures."
+			},
+			{
+				"id": "storage-cache",
+				"name": "Storage Cavern",
+				"type": "landmark",
+				"coords": [22.4, 61.5],
+				"description": "The secret cache containing food and electrum, hidden within the northern rock formations near Keep Orielle. The strategic goal of Elend's siege."
+			},
+			{
+				"id": "cetts-base",
+				"name": "Cett's Base",
+				"type": "keep",
+				"coords": [40.0, 45.0],
+				"description": "Ashweather Cett's fortified compound before he moved to Luthadel."
+			},
+			{
+				"id": "cremnol-wall-north",
+				"name": "Northern Cremnol Wall",
+				"type": "landmark",
+				"coords": [51.6, 77],
+				"description": "The natural dark red and orange rock shelf that cups the city to the north, providing natural defensive walls superior to man-made fortifications."
+			},
+			{
+				"id": "cremnol-wall-south",
+				"name": "Southern Cremnol Wall",
+				"type": "landmark",
+				"coords": [33.3, 35.8],
+				"description": "The natural dark red and orange rock shelf that cups the city to the south, forming a geological barrier against attack."
+			},
+			{
+				"id": "yomens-palace",
+				"name": "Yomen's Palace",
+				"type": "palace",
+				"coords": [46.9, 55.2],
+				"description": "The administrative seat of Aradan Yomen, the Obligator who controls the city."
+			},
+			{
+				"id": "main-gate",
+				"name": "Main Gate",
+				"type": "gate",
+				"coords": [77.5, 55.3],
+				"description": "The primary entrance to the city through the geological formations."
+			},
+			{
+				"id": "conway-canal",
+				"name": "Conway Canal",
+				"type": "canal",
+				"coords": [46.9, 55.2],
+				"description": "One of the major canals in the area, facilitating trade and transport through the city basin at the lower elevation beneath the rock shelves."
+			},
+			{
+				"id": "city-walls-east",
+				"name": "Eastern Walls",
+				"type": "landmark",
+				"coords": [77.5, 55.3],
+				"description": "The eastern defensive perimeter of the city, formed by natural rock formations."
+			},
+			{
+				"id": "ash-mounds",
+				"name": "Ash Mounds",
+				"type": "landmark",
+				"coords": [77.4, 25.4],
+				"description": "The ash-covered plains outside the city walls to the southeast, where Elend's besieging army established their encampment."
+			},
+			{
+				"id": "canton-of-resource",
+				"name": "Canton of Resource",
+				"type": "ministry",
+				"coords": [46.5, 41.3],
+				"description": "The Steel Ministry's Canton of Resource in Fadrex, used by Yomen as a prison for Vin. Contains a hidden connection to the storage cache beneath the city."
+			},
+			{
+				"id": "slowshifts-house",
+				"name": "Slowshift's House",
+				"type": "landmark",
+				"coords": [24.4, 48.5],
+				"description": "The residence of an elderly, experienced informant who possessed deep knowledge of the city's secrets and the Ministry's local operations."
+			},
+			{
+				"id": "the-wells",
+				"name": "The Wells",
+				"type": "landmark",
+				"coords": [56.8, 38.4],
+				"description": "In a city without a major river, the deep-water wells were the most vital resources. They were heavily fortified and monitored by the Ministry to prevent sabotage or skaa poisoning."
+			},
+			{
+				"id": "infirmary",
+				"name": "Infirmary",
+				"type": "landmark",
+				"coords": [68.6, 61.9],
+				"description": "A Ministry-run medical facility that, while ostensibly for healing, also served as a site for the observation of 'mist-sick' patients and other anomalies."
+			}
+		]
+	}
+]

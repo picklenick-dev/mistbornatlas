@@ -1,0 +1,405 @@
+[
+	{
+		"checked": true,
+		"id": "luthadel",
+		"name": "Luthadel",
+		"type": "capital",
+		"dominance": "Central",
+		"coords": [1274, 751],
+		"description": "The capital of the Final Empire and seat of the Lord Ruler's power for one thousand years. Geographically situated at the magnetic north pole of Scadrial, a deliberate manipulation to centralize navigation. The only settlement permitted to have a stone wall.",
+		"features": ["Kredik Shaw", "Keep Venture", "City Walls", "Well of Ascension"],
+		"cityMapId": "luthadel"
+	},
+	{
+		"checked": true,
+		"id": "lake-luthadel",
+		"name": "Lake Luthadel",
+		"type": "landmark",
+		"dominance": "Central",
+		"coords": [1350, 800],
+		"description": "A large, ash-stained freshwater body located immediately east of Luthadel. Serves as the primary reservoir for the capital and termination point for the eastern canal systems."
+	},
+	{
+		"checked": true,
+		"id": "pits-hathsin",
+		"name": "Pits of Hathsin",
+		"type": "mine",
+		"dominance": "Central",
+		"coords": [1195, 886],
+		"description": "A Perpendicularity manifesting as jagged fissures in the ground where Atium crystallizes. The map is defined by narrow, razor-sharp vertical cracks twisting deep into the crust. Prisoners crawled through these claustrophobic tunnels seeking geodes. Kelsier discovered the Eleventh Metal (Malatium) in a hidden chamber deep within the unmapped fissure network before destroying the crystals and ending Atium production.",
+		"features": [
+			"Atium Geode Mines",
+			"Crystal Fissures",
+			"Kandra Homeland",
+			"Eleventh Metal Chamber"
+		]
+	},
+	{
+		"checked": true,
+		"id": "fellise",
+		"name": "Fellise",
+		"type": "city",
+		"dominance": "Central",
+		"coords": [1244, 746],
+		"description": "A smaller, aristocratic retreat city located west of Luthadel. House Renoux maintained a country estate here, used as a staging ground for Kelsier's crew. Described as having slightly cleaner air than Luthadel."
+	},
+	{
+		"checked": true,
+		"id": "holstep",
+		"name": "Holstep",
+		"type": "city",
+		"dominance": "Central",
+		"coords": [1267, 868],
+		"description": "A garrison town located west of Luthadel on the road to the Western Dominance. Serves as a checkpoint for trade and military movements."
+	},
+	{
+		"checked": true,
+		"id": "ashmount-tyrian",
+		"name": "Tyrian",
+		"type": "ashmount",
+		"dominance": "Central",
+		"coords": [1135, 786],
+		"description": "The closest Ashmount to Luthadel, visible from the city walls. Its constant eruptions cloak the Central Dominance in the thickest layers of ash, necessitating constant cleanup crews."
+	},
+	{
+		"checked": true,
+		"id": "urteau",
+		"name": "Urteau",
+		"type": "city",
+		"dominance": "Northern",
+		"coords": [1509, 916],
+		"description": "The capital of the Northern Dominance and ancestral seat of House Venture. Famous for its 'streetslots'—canals that were drained by the Lord Ruler to serve as sunken roadways. Stronghold of the Citizen (Quellion) during the Collapse.",
+		"features": ["Streetslots", "Dry Canals", "Storage Cavern"],
+		"cityMapId": "urteau"
+	},
+	{
+		"checked": true,
+		"id": "ashmount-kalling",
+		"name": "Kalling",
+		"type": "ashmount",
+		"dominance": "Northern",
+		"coords": [1422, 982],
+		"description": "The primary volcanic vent for the Northern Dominance. Its ash fall is darker and grittier than that of Tyrian. Increased activity signals the acceleration of Ruin's plan."
+	},
+	{
+		"checked": true,
+		"id": "fadrex-city",
+		"name": "Fadrex City",
+		"type": "city",
+		"dominance": "Western",
+		"coords": [881, 803],
+		"description": "A major trade hub that rose to prominence after the death of the Lord Ruler. Relies on natural rock formations ('cremnol' shelves) for defense rather than walls. Houses one of the Lord Ruler's secret Storage Caverns.",
+		"features": ["Cremnol Formations", "Storage Cavern", "Natural Fortress"],
+		"cityMapId": "fadrex"
+	},
+	{
+		"checked": true,
+		"id": "tremredare",
+		"name": "Tremredare",
+		"type": "city",
+		"dominance": "Western",
+		"coords": [689, 930],
+		"description": "The historical capital of the Western Dominance. Fell out of favor after the Collapse due to its lack of defensibility compared to Fadrex City."
+	},
+	{
+		"checked": true,
+		"id": "ashmount-morag",
+		"name": "Morag",
+		"type": "ashmount",
+		"dominance": "Western",
+		"coords": [873, 958],
+		"description": "Dominating the western skyline, Morag is a massive volcano. The ash from Morag is crucial for the specific ecology of the western agricultural zones."
+	},
+	{
+		"checked": true,
+		"id": "chardees",
+		"name": "Chardees",
+		"type": "city",
+		"dominance": "Western",
+		"coords": [900, 829],
+		"description": "The ancestral seat of House Hasting and a 'Shadow Capital' of the Western Dominance. While Fadrex and Tremredare appear on official maps, Chardees operates in cartographic obscurity—likely located in a secluded canyon or ash-forest region. Its urban layout prioritizes private estates over public plazas, designed for privacy, conspiracy, and the concealment of House Hasting's wealth and troop movements."
+	},
+	{
+		"checked": true,
+		"id": "austrex",
+		"name": "Austrex",
+		"type": "capital",
+		"dominance": "Southern",
+		"coords": [1123, 606],
+		"description": "The capital of the Southern Dominance and breadbasket hub of the Final Empire. Situated in the center of the largest contiguous agricultural zone, its flat topography allowed a horizontal sprawl dominated by Distribution Plazas rather than noble keeps. As the seat of the Canton of Resource in the south, the city's geography is defined by massive granaries, silos, and processing plants. The canal nexus where tributaries from outlying plantations converge before the main line to Luthadel."
+	},
+	{
+		"checked": true,
+		"id": "vetitan",
+		"name": "Vetitan",
+		"type": "city",
+		"dominance": "Northern",
+		"coords": [1162, 508],
+		"description": "A Northern Dominance city built directly atop one of the Lord Ruler's Storage Caverns. The architecture adapted to heavy ashfall with subterranean expansions and Ministry-centric layout. By The Hero of Ages, the city is being consumed by ashdrifts, with citizens living on the upper floors of buildings as the lower levels fill with ash.",
+		"features": ["Storage Cavern", "Ash Drifts", "Subterranean Adaptation"]
+	},
+	{
+		"checked": true,
+		"id": "ashmount-zerinah",
+		"name": "Zerinah",
+		"type": "ashmount",
+		"dominance": "Southern",
+		"coords": [968, 540],
+		"description": "The southernmost Ashmount shown on the map. Plays a critical role in regulating the temperature of the southern hemisphere."
+	},
+	{
+		"checked": true,
+		"id": "conventical",
+		"name": "Conventical of Seran",
+		"type": "stronghold",
+		"dominance": "Northern",
+		"coords": [1642, 193],
+		"description": "A vertical fortress carved into a cliff face near the Northern border. The upper levels function as a standard Ministry temple (chapel, living quarters), but a steep spiraling stairwell descends into the truth: the Hall of Servants (mass graves), Inquisitor dormitories, and the Hemalurgy Chamber with its stone tables, drainage channels, and spike vault. Deep within, Sazed discovered Kwaan's steel plate inscription hidden in a secret alcove. This is where Inquisitors are made.",
+		"features": ["Hemalurgy Chamber", "Kwaan's Inscription", "Inquisitor Stronghold"]
+	},
+	{
+		"checked": true,
+		"id": "tathingdwen",
+		"name": "Tathingdwen",
+		"type": "capital",
+		"dominance": "Terris",
+		"coords": [1352, 1356],
+		"description": "Tathingdwen is the capital of the Terris Dominance of the Final Empire on Scadrial"
+	},
+	{
+		"id": "terris-mountains",
+		"name": "Terris Mountains",
+		"type": "landmark",
+		"dominance": "Terris",
+		"coords": [1300, 1450],
+		"description": "A rugged mountain range where the Terris people were subjugated. The location of the original Well of Ascension before the Lord Ruler altered the world's geography."
+	},
+	{
+		"id": "tincut-fastness",
+		"name": "Tincut Fastness",
+		"type": "stronghold",
+		"dominance": "Terris",
+		"coords": [1250, 1480],
+		"description": "A hidden stronghold within the Terris mountains where the Synod and refugees retreated during the collapse of the Empire."
+	},
+	{
+		"id": "high-villages",
+		"name": "High Villages",
+		"type": "landmark",
+		"dominance": "Terris",
+		"coords": [1320, 1420],
+		"description": "A network of Terris settlements that defy traditional mapping, often invisible from the valley floor. To survive harsh winters and Imperial scrutiny, these villages extend underground with small surface footprints (a few stone huts) concealing vast tunnel networks and communal halls dug into mountainsides. The three-dimensional map includes escape routes exiting miles away in hidden ravines\u2014a geography of hiding spots and evasion, not fortifications. This is the psychology of the subjugated Terris: always ready to disappear.",
+		"features": ["Tunnel Architecture", "Hidden Entrances", "Mountain Communities"]
+	},
+	{
+		"id": "imperial-canal",
+		"name": "Imperial Canal",
+		"type": "landmark",
+		"dominance": "Central",
+		"coords": [1247, 1149],
+		"description": "Not a natural river but an artificial artery cut into the earth by the Lord Ruler's decree. Links Tathingdwen in the north directly to Luthadel, allowing extraction of Terris resources (wool, timber, craftsmanship) and insertion of Imperial soldiers. The canal represents both connection and intrusion\u2014the very infrastructure connecting Tathingdwen to the world became the avenue of its destruction when Koloss armies used the canal road to attack. A monument to imperial engineering and imperial oppression.",
+		"features": ["Northern Terminus: Tathingdwen", "Central Hub: Luthadel", "Transport Artery"]
+	},
+	{
+		"checked": true,
+		"id": "kandra-homeland",
+		"name": "Kandra Homeland",
+		"type": "hideout",
+		"dominance": "Central",
+		"coords": [1206.5, 901.4],
+		"description": "Deep caverns beneath the Pits of Hathsin, home of the kandra people who guard the Lord Ruler's greatest secrets including the Trust."
+	},
+	{
+		"checked": true,
+		"id": "ashmount-torinost",
+		"name": "Torinost",
+		"type": "ashmount",
+		"dominance": "Western",
+		"coords": [1128, 1098],
+		"description": "A massive peak in the northern reaches of the Western Dominance, forming a visual barrier between West and North."
+	},
+	{
+		"checked": true,
+		"id": "ashmount-faleast",
+		"name": "Faleast",
+		"type": "ashmount",
+		"dominance": "Eastern",
+		"coords": [1328, 491],
+		"description": "Primary geological feature of the Eastern Dominance. Its ash is grittier due to silica content from the eastern deserts approaching the Burnlands."
+	},
+	{
+		"checked": true,
+		"id": "ashmount-doriel",
+		"name": "Doriel",
+		"type": "ashmount",
+		"dominance": "Southern",
+		"coords": [1173, 330],
+		"description": "Located south of Luthadel near the Southern Sea coast. This mountain was flattened post-Catacendre to create the Elendel Basin."
+	},
+	{
+		"id": "statlin-city",
+		"name": "Statlin City",
+		"type": "city",
+		"dominance": "Southern",
+		"coords": [1180, 480],
+		"description": "Southern anchor of the Storage Cavern network. Contains Storage Cavern 2 with emergency supplies.",
+		"features": ["Storage Cavern 2"]
+	},
+	{
+		"id": "tresting-plantation",
+		"name": "Tresting Plantation",
+		"type": "landmark",
+		"dominance": "Central",
+		"coords": [1246.6, 885.8],
+		"description": "The plantation is owned by Themos Tresting and the staff at the plantation included other lords and at least two minor obligators, as well as a number of taskmasters and over two dozen soldiers. His plantation was manned by a workforce of several hundred skaa.",
+		"features": ["Manor House", "Skaa Village", "Agricultural Fields"]
+	},
+	{
+		"checked": true,
+		"id": "lekal-city",
+		"name": "Lekal City",
+		"type": "city",
+		"dominance": "Southern",
+		"coords": [1069, 564],
+		"description": "A feudal anomaly—a major city named after a Great House, suggesting autonomy that contradicts the Lord Ruler's centralized absolutism. Unlike Luthadel where noble houses have keeps within the city, Lekal City IS the keep. The urban map is a massive extension of the Lekal estate, with the skaa population living in structures that are essentially outbuildings of the noble compound. Features heavy perimeter fortifications and a centralized citadel, functioning as a city-state within the fractured Empire.",
+		"features": ["Fortress-City", "House Lekal Citadel", "Standing Army"]
+	},
+	{
+		"checked": true,
+		"id": "mantiz",
+		"name": "Mantiz",
+		"type": "city",
+		"dominance": "Western",
+		"coords": [746, 722],
+		"description": "A respectable-sized city in the far north of the Western Dominance. Only one Ashmount (Torinost) lies near Mantiz, meaning less ash falls here than in Luthadel, but with no organized cleanup effort, the city is almost drowning in ash. Four massive keeps break its skyline, including Keep Shezler.",
+		"features": ["Keep Shezler", "Four Great Keeps", "Heavy Ash Accumulation"],
+		"placementNote": "⚠️ Current placement may be incorrect. Source material states Mantiz is in the 'far north of the Western Dominance' near Torinost Ashmount, not in the far west Western Dominance."
+	},
+	{
+		"checked": true,
+		"id": "channerel-river",
+		"name": "River Channerel",
+		"type": "landmark",
+		"dominance": "Central",
+		"coords": [1550, 770],
+		"description": "The main artery of the Empire, flowing from the mountains through Luthadel to the western coast. Critical for trade and transport."
+	},
+	{
+		"checked": true,
+		"id": "burnlands-west",
+		"name": "Western Burnlands",
+		"type": "landmark",
+		"dominance": "None",
+		"coords": [412, 908],
+		"description": "The outermost edge of the Final Empire's inhabited territory—an uninhabitable desert zone on the western edge of the continent, too close to the sun after Rashek's alterations. The Western Dominance borders on these wastes where the 'wasted men' (tribes rebelling against the Final Empire) survive beyond Imperial control."
+	},
+	{
+		"checked": true,
+		"id": "burnlands-east",
+		"name": "Eastern Burnlands",
+		"type": "landmark",
+		"dominance": "None",
+		"coords": [1933, 771],
+		"description": "The outermost edge of the Final Empire's inhabited territory—an uninhabitable desert zone on the eastern edge of the continent. The Eastern Dominance reaches to the borders of these burnlands, which likely include or border on territories where the 'wasted men' (tribes rebelling against the Final Empire) live beyond Imperial control."
+	},
+	{
+		"checked": true,
+		"id": "arguois-caverns",
+		"name": "Arguois Caverns",
+		"type": "hideout",
+		"dominance": "Central",
+		"coords": [1270, 925],
+		"description": "A network of limestone caves in the mountains between Luthadel and the Pits of Hathsin. Used by Kelsier's rebel army as a hidden staging ground, these caverns provided shelter for thousands of skaa soldiers training for the revolution."
+	},
+	{
+		"id": "garthwood",
+		"name": "Garthwood",
+		"type": "city",
+		"dominance": "Eastern",
+		"coords": [1188, 494.9],
+		"description": "A settlement in the Eastern Dominance where Sazed traveled to teach freed skaa about suppressed religions. The surrounding villages were among the first to experience the mist sickness that would later spread across the empire.",
+		"placementNote": "⚠️ Dominance assignment uncertain. Some sources place Garthwood in the Central Dominance as an agricultural/logistical node for grain processing, while others identify it in the Eastern Dominance. May be near a dominance border or there may be multiple settlements with this name."
+	},
+	{
+		"checked": true,
+		"id": "straffs-camp",
+		"name": "Straff's War Camp",
+		"type": "landmark",
+		"dominance": "Central",
+		"coords": [1267.5, 799.5],
+		"description": "Straff Venture's military encampment south of Luthadel during the siege, positioned outside the Iron Gate. A massive force of fifty thousand soldiers positioned to intimidate the city into surrender, with Straff's command tent at the center surrounded by cavalry pickets."
+	},
+	{
+		"id": "koloss-camp",
+		"name": "Koloss Camp",
+		"type": "landmark",
+		"dominance": "Central",
+		"coords": [1280.5, 659.8],
+		"description": "The koloss army's encampment north of Luthadel during the siege of 1024 FE, positioned near the Steel Gate. Jastes Lekal's disastrous attempt to buy koloss loyalty with wooden coins led to the creatures turning on the city in a devastating assault."
+	},
+	{
+		"id": "longsfollow",
+		"name": "Longsfollow",
+		"type": "town",
+		"dominance": "Western",
+		"coords": [1062.5, 640],
+		"description": "A Western Dominance town situated along the mountain passes, serving as a gateway to the Farmost Dominance. Critical for the movement of cultural goods and luxury items toward the capital."
+	},
+	{
+		"checked": true,
+		"id": "chakatah",
+		"name": "Chakatah",
+		"type": "village",
+		"dominance": "Western",
+		"coords": [717.7, 831.1],
+		"description": "A minor mining village in the Western Dominance, often bypassed by major trade routes."
+	},
+	{
+		"id": "north-seran",
+		"name": "North Seran",
+		"type": "region",
+		"dominance": "Southern",
+		"coords": [1771, 289],
+		"description": "A territory near the Conventical of Seran, historically significant as a secret staging ground for the Steel Inquisition."
+	},
+	{
+		"id": "river-seran",
+		"name": "River Seran",
+		"type": "river",
+		"dominance": "Southern",
+		"coords": [1764, 159.4],
+		"description": "A major southern waterway used by the Ministry to transport sensitive materials away from noble scrutiny. Critical for the movement of Inquisitors to and from the Conventical of Seran."
+	},
+	{
+		"id": "urbene",
+		"name": "Urbene",
+		"type": "town",
+		"dominance": "Central",
+		"coords": [1587.5, 277.1],
+		"description": "A high-security Ministry waypoint for grain shipments entering the capital from the Northern Dominance. Agricultural hub that processed grain for Luthadel's lower-class districts."
+	},
+	{
+		"id": "erlac",
+		"name": "Erlac",
+		"type": "town",
+		"dominance": "Central",
+		"coords": [1524.3, 374.6],
+		"description": "A garrison settlement located southwest of Luthadel, responsible for patrolling the Lord Ruler's personal estates. Garrison town for troops patrolling the roads into Luthadel."
+	},
+	{
+		"id": "valtroux-city-central",
+		"name": "Valtroux",
+		"type": "city",
+		"dominance": "Central",
+		"coords": [1248, 842],
+		"description": "A major garrison city located northwest of Luthadel. It housed a standing army of 5,000 soldiers who intercepted and massacred Yeden's rebellion army near the town of Holstep, demonstrating the Lord Ruler's ability to project rapid military force."
+	},
+	{
+		"id": "haverfrex-cannery-central",
+		"name": "Haverfrex",
+		"type": "industrial",
+		"dominance": "Central",
+		"coords": [1286, 891],
+		"description": "An industrial waypoint in the Central Dominance known for its large-scale cannery. It served as the primary supply node for Lord Ashweather Cett's army during the Siege of Luthadel, providing the logistical endurance necessary for a long-term military presence."
+	}
+]

@@ -1,0 +1,204 @@
+[
+	{
+		"book": "tfe",
+		"chapter": 7,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "The Reluctant Brother",
+		"description": "Marsh arrives at Clubs' Shop, Kelsier's older brother and a rebel leader in his own right. He grudgingly joins the crew's plan.",
+		"season": "Late Spring",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 10.2,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "warehouse-district",
+		"title": "The Warehouse Rally",
+		"description": "Marsh attends the secret warehouse rally with the crew, watching his brother Kelsier preach revolution to the gathered skaa workers.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 13,
+		"location": "ashmount-tyrian",
+		"title": "Ministry Infiltrator",
+		"description": "Marsh meets Kelsier at Mount Tyrian, several miles outside Luthadel, to discuss the rebellion plan away from Ministry ears before beginning his dangerous infiltration of the Steel Ministry.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 20,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "Deeper Undercover",
+		"description": "Marsh delves deeper into the Ministry hierarchy at Kredik Shaw, learning the dark secrets of Hemalurgy while risking discovery by the Inquisitors.",
+		"season": "Late Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 30,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "Vanishing",
+		"description": "Marsh goes silent, his communications ceasing as he disappears into the deepest levels of the Canton of Inquisition. The crew fears the worst.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 38,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "The Inquisitor",
+		"description": "Marsh appears during the final assault on Kredik Shaw, still alive but transformed—iron spikes driven through his eyes. He fights for the crew despite his transformation.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 4,
+		"location": "garthwood",
+		"title": "Eastern Wanderer",
+		"description": "Marsh wanders the Eastern Dominance as a lone Inquisitor, seeking to understand his transformation while helping Sazed investigate distant villages.",
+		"season": "Autumn",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 7,
+		"location": "conventical",
+		"title": "The Conventical Guide",
+		"description": "Marsh leads Sazed to the Conventical of Seran, an Inquisitor stronghold in the remote north, to find the records Sazed seeks.",
+		"season": "Late Autumn",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 12,
+		"location": "conventical",
+		"title": "Abandonment",
+		"description": "Marsh abruptly abandons Sazed at the Conventical and vanishes into the wilderness, driven by forces he increasingly cannot resist. Ruin's influence grows.",
+		"season": "Late Autumn",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 57,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "Ruin's Puppet",
+		"description": "Marsh appears at Kredik Shaw under Ruin's full control, fighting Sazed in the corridors while Vin descends to the Well of Ascension below.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 59,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "well-of-ascension",
+		"title": "Guarding the Well",
+		"description": "Marsh guards the entrance to the Well, a puppet of Ruin, fighting to prevent anyone from reaching Vin—or helping her make the right choice.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 0,
+		"location": "tathingdwen",
+		"title": "Creating Inquisitors",
+		"description": "Under Ruin's control, Marsh performs dark Hemalurgic rituals in Tathingdwen, creating new Inquisitors from captured Feruchemists and Allomancers.",
+		"season": "Spring",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 6,
+		"location": "luthadel",
+		"offset": [200, 100],
+		"title": "Leading Koloss",
+		"description": "Marsh commands a growing army of koloss on behalf of Ruin, moving through the Eastern Dominance and gathering forces for the final battle.",
+		"season": "Summer",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 22,
+		"location": "luthadel",
+		"offset": [-140, 35],
+		"title": "Near Tyrian",
+		"description": "Marsh operates near Mount Tyrian, creating Hemalurgic spikes from captured prisoners and building Ruin's army of Inquisitors in the shadow of the ashmount.",
+		"season": "Winter",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 38,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-hasting",
+		"title": "The Spiking of Penrod",
+		"description": "Marsh infiltrates Luthadel to spike King Penrod, granting Ruin a direct conduit into the governance of the capital.",
+		"season": "Winter",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 45,
+		"location": "fadrex-city",
+		"offset": [-20, 20],
+		"title": "Converging on Fadrex",
+		"description": "Marsh leads his Inquisitors toward Fadrex City, converging on the siege as Ruin seeks to recover the atium cache hidden within.",
+		"season": "Winter",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 59,
+		"location": "fadrex-city",
+		"offset": [200, -20],
+		"title": "Pursuing Vin",
+		"description": "Marsh leads the Inquisitor pack chasing Vin eastward as she flees from Fadrex toward Luthadel, drawing Ruin's servants away from the cache.",
+		"season": "Spring",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 69,
+		"location": "pits-hathsin",
+		"title": "The Battle of Hathsin",
+		"description": "Marsh arrives at the Pits leading Ruin's forces. In a moment of recovered will, he tears Vin's earring free—an act of defiance that changes everything.",
+		"season": "Autumn",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 79,
+		"location": "pits-hathsin",
+		"title": "Killing Elend",
+		"description": "Marsh, driven by Ruin, kills Emperor Elend during the Battle of Hathsin. The act fulfills Ruin's plan but costs Marsh another piece of his soul.",
+		"season": "Autumn",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 83,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "Freedom at Last",
+		"description": "With Ruin destroyed, Marsh is finally freed from the god's control. He stands alone in the remade world, an Inquisitor who survived the end of everything.",
+		"season": "Autumn",
+		"year": "1027 FE"
+	}
+]

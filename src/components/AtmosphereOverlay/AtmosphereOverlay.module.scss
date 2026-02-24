@@ -1,0 +1,29 @@
+@use '@/styles/variables' as *;
+@use '@/styles/mixins' as *;
+
+.atmosphereContainer {
+	@include atmosphere-layer-wrapper;
+}
+
+.mistLayer,
+.ashLayer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none; // Pass through to map
+
+	canvas {
+		pointer-events: none; // Particles don't block map
+	}
+}
+
+.mistLayer {
+	z-index: 1; // Behind ash
+	filter: blur(80px); // Blur particles to create realistic fog/mist effect
+}
+
+.ashLayer {
+	z-index: 2; // In front of mist
+}

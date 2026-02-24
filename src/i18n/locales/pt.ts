@@ -1,0 +1,325 @@
+import type { Translation } from '../types';
+import { ptData } from './pt-data';
+
+export const pt: Translation = {
+	meta: {
+		title: 'Mapa interativo de Nascidos da Bruma — Scadrial',
+		description:
+			'Visualização crono-cartográfica interativa da trilogia original de Nascidos da Bruma de Brandon Sanderson. Acompanhe os movimentos dos personagens por Scadrial.',
+	},
+
+	header: {
+		title: 'ATLAS NASCIDOS DA BRUMA',
+		help: 'Ajuda',
+		selectBook: 'Selecionar livro',
+		selectMap: 'Selecionar vista do mapa',
+	},
+
+	map: {
+		worldMap: 'O Império Final (Mundo)',
+		cityMaps: 'Mapas de cidades',
+	},
+
+	books: {
+		tfe: 'O Império Final',
+		woa: 'O Poço da Ascensão',
+		hoa: 'O Herói das Eras',
+	},
+
+	timeline: {
+		reset: 'Voltar ao início',
+		previous: 'Capítulo anterior',
+		play: 'Iniciar reprodução',
+		pause: 'Pausar reprodução',
+		next: 'Próximo capítulo',
+		chapter: 'Capítulo',
+		prologue: 'Prólogo',
+		epilogue: 'Epílogo',
+		exploreCity: 'Explorar',
+		exitCity: 'Sair',
+		cityPromptEnter: 'Entrar na cidade',
+		cityPromptStay: 'Ficar no mapa mundial',
+		cityPromptDesc:
+			'Os personagens entraram numa cidade. Deseja segui-los para o mapa detalhado da cidade ou continuar no mapa mundial?',
+		exitCityPromptDesc:
+			'Os personagens deixaram esta cidade. Deseja voltar ao mapa mundial para seguir a jornada deles ou ficar na vista da cidade?',
+		cityPromptExitBtn: 'Voltar ao mapa mundial',
+		paused: 'Em pausa',
+		showTimeline: 'Mostrar cronologia',
+		hideTimeline: 'Ocultar cronologia',
+		label: 'Cronologia',
+		returnToWorldMap: 'Voltar ao mapa mundial',
+	},
+
+	characters: {
+		title: 'Personagens',
+		showAll: 'Mostrar tudo (Spoilers)',
+		follow: 'Seguir este personagem',
+		following: 'A seguir este personagem',
+		notYetIntroduced: 'Ainda não apresentado',
+		hiddenPlaceholder: '???',
+	},
+
+	locations: {
+		type: 'Tipo de local',
+		dominance: 'Dominância',
+		coordinates: 'Coordenadas',
+		exploreCity: 'Explorar cidade',
+		features: 'Características',
+	},
+
+	legend: {
+		title: 'Legenda',
+		showLocations: 'Mostrar locais',
+		characters: 'Personagens',
+		locations: 'Locais',
+		openLegend: 'Abrir legenda',
+		closeLegend: 'Fechar legenda',
+		cityLandmarks: 'Pontos de interesse da cidade',
+		explorableCity: 'Cidade explorável',
+		other: 'Outros',
+		characterPosition: 'Posição do personagem',
+		travelPath: 'Rota de viagem',
+	},
+
+	infoPanel: {
+		close: 'Fechar painel',
+		locationType: 'Tipo de local',
+		cityPosition: 'Posição na cidade',
+	},
+
+	characterMarker: {
+		characterEvent: 'Evento do personagem',
+		earlier: '← Anterior',
+		later: 'Posterior →',
+		current: 'Atual',
+		chapterAbbr: 'Cap',
+		showLess: 'Mostrar menos',
+		readMore: 'Ler mais',
+		chapter: 'Capítulo',
+		season: 'Estação',
+		year: 'Ano',
+		timelinePaused: '⏸ Cronologia em pausa',
+		continueTimeline: 'Continuar cronologia',
+		cityChoiceDesc: 'Entrar na cidade ou ficar no mapa?',
+		charactersEntered: 'Os personagens entraram em',
+		enterCity: 'Entrar na cidade',
+		stayOnMap: 'Ficar no mapa',
+		partOf: 'Parte {part}/{total}',
+	},
+
+	characterPath: {
+		journeyTooltip: ' — jornada',
+	},
+
+	cityLandmark: {
+		showLess: 'Mostrar menos',
+		readMore: 'Ler mais',
+		locationType: 'Tipo de local',
+	},
+
+	cityMap: {
+		returnToWorldMap: 'Voltar ao mapa mundial',
+		worldMap: 'Mapa mundial',
+	},
+
+	cityPrompt: {
+		onWorldMap: 'no mapa mundial.',
+		worldMap: 'Mapa mundial',
+		timelinePaused: '⏸ Cronologia em pausa',
+		enteredCity: '',
+		viewCityMap: 'Ver o mapa da cidade?',
+		enterCity: 'Entrar na cidade',
+		dismiss: 'Dispensar',
+		is: 'está',
+		are: 'estão',
+		has: 'entrou em',
+		have: 'entraram em',
+	},
+
+	controls: {
+		openPanel: 'Abrir painel de controles',
+		label: 'Controles',
+		title: 'Controles',
+		closePanel: 'Fechar painel',
+		secretHistoryTitle:
+			'Incluir conteúdo de História Secreta (movimentos de Kelsier no Reino Cognitivo)',
+		secretHistoryContent: 'Conteúdo de História Secreta',
+		ashAndMist: 'Cinza e Bruma',
+		cityLandmarksNote: 'Os pontos da cidade estão sempre visíveis',
+	},
+
+	locationMarker: {
+		showLess: 'Mostrar menos',
+		readMore: 'Ler mais',
+		dominance: 'Dominância',
+		exploreCity: 'Explorar cidade',
+	},
+
+	loading: {
+		title: 'ATLAS NASCIDOS DA BRUMA',
+		subtitle: 'A carregar o mundo de cinza e bruma...',
+	},
+
+	common: {
+		loading: 'A carregar...',
+		error: 'Erro',
+		back: 'Voltar',
+		worldMap: 'Mapa mundial',
+		returnToWorldMap: 'Voltar ao mapa mundial',
+	},
+
+	locationTypes: {
+		capital: 'Sede',
+		city: 'Cidade',
+		landmark: 'Marco',
+		mystical: 'Lugar sagrado',
+		ashmount: 'Monte de Cinzas',
+		mine: 'Mina',
+		palace: 'Palácio',
+		keep: 'Mansão',
+		district: 'Distrito',
+		hideout: 'Esconderijo',
+		stronghold: 'Fortaleza',
+		region: 'Região',
+		plantation: 'Plantação',
+		estate: 'Propriedade Nobre',
+		town: 'Povoação',
+		village: 'Aldeia skaa',
+		river: 'Curso de água',
+		industrial: 'Posto de abastecimento',
+	},
+
+	landmarkTypes: {
+		gate: 'Porta',
+		keep: 'Mansão',
+		palace: 'Palácio',
+		district: 'Distrito',
+		shop: 'Loja',
+		safehouse: 'Esconderijo',
+		landmark: 'Marco',
+		canal: 'Canal',
+		ministry: 'Cantão',
+		plaza: 'Praça',
+	},
+
+	dominances: {
+		Central: 'Dominância Central',
+		Northern: 'Dominância do Norte',
+		Southern: 'Dominância do Sul',
+		Eastern: 'Dominância do Leste',
+		Western: 'Dominância do Oeste',
+		Terris: 'Dominância de Terris',
+		None: 'Além do Império',
+	},
+
+	donation: {
+		buttonLabel: 'Pague-me um café',
+		buttonLabelShort: 'Café',
+		modalTitle: 'Apoiar o Atlas dos Nascidos da Bruma',
+		modalDesc:
+			'O Atlas dos Nascidos da Bruma é um projeto fan gratuito e de código aberto, construído e mantido no meu tempo livre. Alojamento, custos de domínio e desenvolvimento acumulam-se. Se está a gostar da aplicação e quer ajudar a manter as brumas a fluir, uma pequena doação faz a diferença — mas sem pressão, a aplicação será sempre totalmente gratuita!',
+		modalButton: 'Pague-me um café no Ko-fi',
+		modalDismiss: 'Talvez mais tarde',
+		modalDontAsk: 'Não mostrar novamente',
+		close: 'Fechar',
+	},
+
+	headerExtra: {
+		world: 'Mundo',
+		city: 'Cidade',
+		wipBadge: 'Em desenvolvimento',
+		wipTitle: 'O que vem a seguir',
+		wipItem1: 'Reler a trilogia para verificar cada movimento de personagem na cronologia',
+		wipItem2: 'Verificar todo o conteúdo dos locais para garantir a precisão',
+		wipItem3: 'Localização — suporte multilingue',
+		wipItem4: 'Tornar o projeto open-source',
+		wipItem5: 'Mais mapas e conteúdo da Era 2 (talvez?)',
+		supportKofi: 'Apoiar no Ko-fi',
+		mapLabel: 'Mapa:',
+		selectLanguage: 'Selecionar idioma',
+	},
+
+	about: {
+		ariaLabel: 'Sobre esta página',
+		title: 'Sobre esta página e atribuições',
+		buttonLabel: 'Sobre',
+		buttonSublabel: 'Informações e atribuições',
+		modalTitle: 'Sobre esta página',
+		close: 'Fechar',
+		disclaimerTitle: 'Aviso Legal',
+		disclaimerBadge: 'PROJETO FAN NÃO OFICIAL',
+		disclaimerIntro:
+			'Este é um projeto não oficial feito por fãs e não é afiliado, endossado ou ligado a:',
+		disclaimerBranderson: 'Brandon Sanderson',
+		disclaimerDragonsteel: 'Dragonsteel Entertainment',
+		disclaimerTor: 'Tor Books / Macmillan Publishers',
+		disclaimerIsaac: 'Isaac Stewart',
+		disclaimerOutro:
+			'Este projeto foi criado apenas para fins educacionais e de entretenimento. Todo o conteúdo de Nascidos da Bruma, incluindo personagens, locais, enredos e obras de arte, é propriedade dos respetivos detentores de direitos autorais.',
+		mapAttributionTitle: 'Atribuição do mapa',
+		mapAttributionDesc:
+			'O mapa usado neste projeto é o mapa oficial do Império Final de Isaac Stewart, obtido do Coppermind Wiki.',
+		mapArtist: 'Isaac Stewart',
+		mapSource: 'Coppermind Wiki',
+		mapOriginalWork: 'Criado para a série Nascidos da Bruma de Brandon Sanderson',
+		mapNote:
+			'Isaac Stewart é o ilustrador oficial de muitas obras de Brandon Sanderson, incluindo os mapas e ilustrações do universo Cosmere.',
+		portraitsTitle: 'Retratos de personagens',
+		portraitsDesc: 'Os retratos dos personagens provêm do Coppermind Wiki sob CC BY-NC-ND 4.0.',
+		portraitVinMistborn: 'Nascida da Bruma',
+		portraitVinUrchin: 'Menina de rua',
+		portraitKelsier: 'Kelsier',
+		portraitSazed: 'Sazed',
+		portraitElend: 'Elend',
+		portraitMarshInquisitor: 'Inquisidor',
+		portraitMarshKelsier: 'com Kelsier',
+		portraitSpook: 'Fantasma',
+		symbolsTitle: 'Símbolos alomânticos',
+		symbolsDesc:
+			'Os glifos dos marcadores de local usam símbolos dos metais alomânticos desenhados por Isaac Stewart, obtidos da página do Alfabeto de Aço no Coppermind Wiki.',
+		symbolsArtist: 'Isaac Stewart',
+		symbolsSource: 'Coppermind Wiki — Alfabeto de Aço',
+		symbolsLicense: 'Uso justo para este projeto fan não comercial',
+		symbolsUsed: 'Símbolos usados no mapa:',
+		symbolGold: 'Sede da Dominância · Mansão Nobre · Propriedade Nobre',
+		symbolSteel: 'Cidade · Porta da cidade',
+		symbolAtium: 'Monte de Cinzas · Palácio',
+		symbolTin: 'Marco · Local notável',
+		symbolPewter: 'Fortaleza · Canal',
+		symbolCopper: 'Refúgio Seguro · Esconderijo do bando',
+		symbolIron: 'Mina-prisão',
+		symbolBronze: 'Posto de abastecimento · Cantão',
+		symbolLerasium: 'Lugar Sagrado',
+		symbolZinc: 'Povoação · Distrito',
+		symbolBrass: 'Aldeia skaa · Comerciante · Plantação',
+		symbolChromium: 'Curso de água',
+		symbolElectrum: 'Região · Praça',
+		copyrightTitle: 'Aviso de direitos autorais',
+		copyrightTrademark: 'Nascidos da Bruma é uma marca registada de Dragonsteel Entertainment, LLC',
+		copyrightMap: 'Mapa © Isaac Stewart',
+		copyrightBook: 'Conteúdo do livro © Brandon Sanderson',
+		closeButton: 'Fechar',
+		artistLabel: 'Artista:',
+		sourceLabel: 'Fonte:',
+		originalWorkLabel: 'Obra original:',
+		licenseLabel: 'Licença:',
+		versionLabel: 'Versão',
+		roadmapTitle: 'Roteiro',
+		roadmapCurrent: 'O Império Final — linha do tempo completa',
+		roadmap080: 'O Poço da Ascensão — linha do tempo completa',
+		roadmap090: 'O Herói das Eras — linha do tempo completa',
+		roadmap100: 'História Secreta — linha do tempo completa',
+	},
+
+	skipLinks: {
+		nav: 'Ir para a seção',
+		toHeader: 'Ir para o cabeçalho',
+		toMap: 'Ir para o mapa',
+		toCharacterMenu: 'Ir para o menu de personagens',
+		toTimeline: 'Ir para a linha do tempo',
+		toAttribution: 'Ir para a atribuição',
+	},
+
+	data: ptData,
+};

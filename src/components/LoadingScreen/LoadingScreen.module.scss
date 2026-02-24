@@ -1,0 +1,182 @@
+@use 'sass:math';
+@use 'sass:color';
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+// ─── Root container
+
+.loadingScreen {
+	@include fixed-fill;
+	@include flex-column-center;
+	z-index: $z-index-loading;
+	background: $color-bg-primary;
+	overflow: hidden;
+	transition:
+		opacity 1.2s ease-in-out,
+		visibility 1.2s ease-in-out;
+
+	&.hidden {
+		opacity: 0;
+		visibility: hidden;
+		pointer-events: none;
+	}
+}
+
+// ─── Central content
+
+.content {
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	padding: 0 $spacing-4;
+}
+
+.title {
+	@include heading($font-size-4xl);
+	font-size: clamp(1.5rem, 8vw, $font-size-4xl);
+	margin-bottom: $spacing-2;
+	letter-spacing: 0.1em;
+	color: $color-text-primary;
+	@include text-glow($color-mist, 10px);
+}
+
+.subtitle {
+	font-size: clamp($font-size-sm, 4vw, $font-size-lg);
+	color: $color-text-secondary;
+	margin-bottom: $spacing-8;
+	font-style: italic;
+
+	@include md-down {
+		margin-bottom: $spacing-6;
+	}
+}
+
+.loadingText {
+	font-size: $font-size-sm;
+	color: $color-text-muted;
+	margin-top: $spacing-4;
+
+	&::after {
+		content: '';
+		animation: loadingDots 1.5s infinite;
+	}
+}
+
+// ─── Progress bar
+
+.progressTrack {
+	position: relative;
+	width: min(320px, 70vw);
+	height: 4px;
+	margin: 0 auto;
+	background: $color-border;
+	border-radius: $radius-full;
+	overflow: visible;
+}
+
+.progressFill {
+	height: 100%;
+	border-radius: $radius-full;
+	background: linear-gradient(90deg, $color-mist, color.adjust($color-mist, $lightness: 12%));
+	transition: width 0.12s linear;
+	box-shadow: 0 0 8px rgba($color-mist, 0.6);
+}
+
+.progressGlow {
+	position: absolute;
+	top: 50%;
+	width: 18px;
+	height: 18px;
+	transform: translate(-50%, -50%);
+	border-radius: $radius-full;
+	background: radial-gradient(circle, rgba($color-mist, 0.45) 0%, transparent 70%);
+	pointer-events: none;
+	transition: left 0.12s linear;
+}
+
+// ─── Falling ash particles (pure CSS)
+
+.ashContainer {
+	@include absolute-fill;
+	pointer-events: none;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.ash {
+	position: absolute;
+	display: block;
+	background: #9a9a9a;
+	border-radius: 50%;
+	opacity: 0;
+	animation: ashDrift linear infinite;
+	will-change: transform, opacity;
+
+	// Generate 60 unique particles with varied size, position, speed & delay
+	@for $i from 1 through 60 {
+		$size: 2 + math.random(4); // 2–6 px
+		$left: math.random(100); // 0–100 %
+		$dur: 4 + math.random(6); // 4–10 s
+		$delay: math.random(40) * 0.1; // 0–4 s
+		$drift: -20 + math.random(40); // horizontal wobble −20..+20 px
+
+		&:nth-child(#{$i}) {
+			width: #{$size}px;
+			height: #{$size}px;
+			left: #{$left}#{'%'};
+			animation-duration: #{$dur}s;
+			animation-delay: #{$delay}s;
+			--drift: #{$drift}px;
+		}
+	}
+}
+
+@keyframes ashDrift {
+	0% {
+		opacity: 0;
+		transform: translateY(-10px) translateX(0) rotate(0deg);
+	}
+	8% {
+		opacity: 0.85;
+	}
+	85% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(100vh) translateX(var(--drift, 0px)) rotate(360deg);
+	}
+}
+
+// ─── Mist wisps
+
+.mistContainer {
+	@include absolute-fill;
+	overflow: hidden;
+	pointer-events: none;
+	z-index: 0;
+}
+
+.mistParticle {
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	background: radial-gradient(
+		ellipse at center,
+		rgba($color-mist, 0.18) 0%,
+		rgba($color-mist, 0.06) 40%,
+		transparent 70%
+	);
+	border-radius: $radius-full;
+	animation: mistFlow 8s ease-in-out infinite;
+
+	@for $i from 1 through 16 {
+		&:nth-child(#{$i}) {
+			left: math.random(100) * 1%;
+			top: math.random(100) * 1%;
+			animation-delay: #{$i * 0.4}s;
+			animation-duration: #{5 + math.random(5)}s;
+			transform: scale(#{math.div(8 + math.random(12), 10)});
+		}
+	}
+}

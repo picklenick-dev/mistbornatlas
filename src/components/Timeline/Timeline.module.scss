@@ -1,0 +1,612 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+$toggle-bar-height: 36px;
+$toggle-bar-height-mobile: 32px;
+
+.timeline {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: $z-index-sticky;
+	background: $color-bg-overlay;
+	backdrop-filter: blur(10px);
+	border-top: 1px solid $color-border;
+	transition:
+		height $transition-normal,
+		background $transition-normal,
+		border-color $transition-normal;
+
+	// Expanded height = toggle bar + content
+	height: calc(#{$toggle-bar-height} + #{$timeline-height});
+
+	@include md-down {
+		height: calc(#{$toggle-bar-height-mobile} + #{$timeline-height-mobile} + #{$safe-area-bottom});
+	}
+
+	&.collapsed {
+		// No full-width background when collapsed — just the toggle pill
+		background: transparent;
+		backdrop-filter: none;
+		border-top-color: transparent;
+		height: $toggle-bar-height;
+		pointer-events: none; // let map clicks through, toggle bar re-enables
+
+		@include md-down {
+			height: calc(#{$toggle-bar-height-mobile} + #{$safe-area-bottom});
+		}
+	}
+}
+
+// ── Toggle bar
+.toggleBar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: $spacing-2;
+	width: 100%;
+	height: $toggle-bar-height;
+	padding: 0 $spacing-4;
+	background: none;
+	border: none;
+	border-bottom: 1px solid rgba($color-border, 0.4);
+	color: $color-text-secondary;
+	font-family: $font-heading;
+	font-size: $font-size-xs;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	cursor: pointer;
+	user-select: none;
+	pointer-events: auto; // always clickable even when parent has pointer-events:none
+	transition:
+		color $transition-fast,
+		background $transition-fast;
+
+	@include md-down {
+		height: $toggle-bar-height-mobile;
+		font-size: 10px;
+		gap: $spacing-1;
+		padding: 0 $spacing-2;
+	}
+
+	&:hover {
+		color: $color-accent;
+	}
+
+	// Remove border when expanded — content takes over visually
+	.timeline:not(.collapsed) & {
+		border-bottom-color: transparent;
+	}
+
+	// Centered pill style when collapsed
+	.collapsed & {
+		width: auto;
+		margin: 0 auto;
+		padding: 0 $spacing-4;
+		background: $color-bg-overlay;
+		backdrop-filter: blur(10px);
+		border: 1px solid $color-border;
+		border-radius: $radius-lg $radius-lg 0 0;
+		height: $toggle-bar-height;
+
+		@include md-down {
+			height: $toggle-bar-height-mobile;
+			padding: 0 $spacing-3;
+		}
+	}
+}
+
+.toggleLabel {
+	font-weight: $font-weight-semibold;
+}
+
+.toggleChapter {
+	color: $color-accent;
+	font-weight: $font-weight-medium;
+
+	// Show chapter label only when collapsed so user can see where they are
+	.timeline:not(.collapsed) & {
+		display: none;
+	}
+}
+
+.toggleArrow {
+	width: 16px;
+	height: 16px;
+	transition: transform $transition-fast;
+
+	@include md-down {
+		width: 14px;
+		height: 14px;
+	}
+}
+
+.toggleArrowFlipped {
+	transform: rotate(180deg);
+}
+
+// ── Collapsible content wrapper
+.timelineContent {
+	@include flex-center;
+	height: $timeline-height;
+	padding: 0 $spacing-6;
+	gap: $spacing-4;
+	overflow: hidden;
+	opacity: 1;
+	transition: opacity $transition-fast;
+
+	@include md-down {
+		height: $timeline-height-mobile;
+		padding: 0 $spacing-2;
+		padding-bottom: $safe-area-bottom;
+		gap: $spacing-2;
+	}
+
+	.collapsed & {
+		opacity: 0;
+		pointer-events: none;
+	}
+}
+
+.controls {
+	@include flex-center;
+	gap: $spacing-2;
+
+	@include md-down {
+		gap: $spacing-1;
+	}
+}
+
+.controlButton {
+	@include button-icon;
+	@include touch-target-mobile;
+
+	svg {
+		width: 20px;
+		height: 20px;
+	}
+
+	&:hover {
+		color: $color-accent;
+	}
+
+	@include md-down {
+		width: 36px;
+		height: 36px;
+		min-width: 36px;
+		min-height: 36px;
+
+		svg {
+			width: 16px;
+			height: 16px;
+		}
+	}
+
+	&.playButton {
+		width: 44px;
+		height: 44px;
+		background: $color-accent;
+		color: $color-bg-primary;
+
+		&:hover {
+			background: $color-accent-hover;
+			color: $color-bg-primary;
+		}
+
+		svg {
+			width: 24px;
+			height: 24px;
+		}
+
+		@include md-down {
+			width: 40px;
+			height: 40px;
+			min-width: 40px;
+			min-height: 40px;
+
+			svg {
+				width: 20px;
+				height: 20px;
+			}
+		}
+	}
+}
+
+.sliderContainer {
+	flex: 1;
+	max-width: 600px;
+	@include flex-column;
+	gap: $spacing-1;
+
+	@include md-down {
+		max-width: 100%;
+		flex: 1;
+		min-width: 0;
+	}
+}
+
+.sliderTrack {
+	position: relative;
+	width: 100%;
+	height: 8px;
+	background: $color-bg-tertiary;
+	border-radius: $radius-full;
+	cursor: pointer;
+
+	@include md-down {
+		height: 6px;
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: var(--progress, 0%);
+		background: $color-accent;
+		border-radius: $radius-full;
+		transition: width $transition-fast;
+	}
+}
+
+.sliderInput {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+
+	@include md-down {
+		height: $touch-target-min;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+.sliderThumb {
+	position: absolute;
+	top: 50%;
+	left: var(--progress, 0%);
+	transform: translate(-50%, -50%);
+	width: 16px;
+	height: 16px;
+	background: $color-accent;
+	border: 2px solid $color-text-primary;
+	border-radius: $radius-full;
+	pointer-events: none;
+	transition: left $transition-fast;
+	z-index: 2;
+
+	@include md-down {
+		width: 14px;
+		height: 14px;
+	}
+}
+
+// Chapter tick marks on slider
+.sliderTicks {
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	z-index: 1;
+}
+
+.sliderTick {
+	position: absolute;
+	top: 50%;
+	width: 2px;
+	height: 14px;
+	background: rgba($color-text-primary, 0.35);
+	border-radius: 1px;
+	transform: translate(-50%, -50%);
+
+	@include md-down {
+		height: 12px;
+		width: 1px;
+	}
+}
+
+.sliderLabels {
+	font-size: $font-size-xs;
+
+	@include md-down {
+		font-size: 10px;
+	}
+}
+
+.currentChapterLabel {
+	color: $color-accent;
+	font-weight: $font-weight-medium;
+}
+
+// City zoom suggestion button
+.citySuggestion {
+	display: flex;
+	align-items: center;
+	gap: $spacing-2;
+	padding: $spacing-2 $spacing-3;
+	background: linear-gradient(135deg, rgba($color-copper, 0.3) 0%, rgba($color-gold, 0.2) 100%);
+	border: 1px solid $color-copper;
+	border-radius: $radius-md;
+	color: $color-text-primary;
+	font-size: $font-size-sm;
+	cursor: pointer;
+	transition: all $transition-fast;
+	animation: pulseGlow 2s ease-in-out infinite;
+	@include touch-target-mobile;
+
+	@include md-down {
+		display: none; // Hide on mobile to save space
+	}
+
+	&:hover {
+		background: linear-gradient(135deg, rgba($color-copper, 0.5) 0%, rgba($color-gold, 0.4) 100%);
+		border-color: $color-gold;
+		transform: scale(1.02);
+	}
+
+	&:active {
+		transform: scale(0.98);
+	}
+}
+
+.citySuggestionIcon {
+	font-size: $font-size-lg;
+}
+
+.citySuggestionText {
+	font-weight: $font-weight-medium;
+}
+
+.citySuggestionBadge {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 20px;
+	height: 20px;
+	padding: 0 $spacing-1;
+	background: $color-copper;
+	color: $color-bg-primary;
+	font-size: $font-size-xs;
+	font-weight: $font-weight-bold;
+	border-radius: $radius-full;
+}
+
+// City prompt overlay — dims everything and presents a clear choice
+.cityPromptBackdrop {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.6);
+	backdrop-filter: blur(3px);
+	z-index: $z-index-modal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: $spacing-4;
+	animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.cityPromptCard {
+	background: $color-bg-secondary;
+	border: 2px solid $color-copper;
+	border-radius: $radius-lg;
+	padding: $spacing-6;
+	max-width: 420px;
+	width: 100%;
+	text-align: center;
+	animation: cardSlideUp 0.3s ease-out;
+	box-shadow:
+		0 0 40px rgba($color-copper, 0.3),
+		$shadow-xl;
+
+	@include md-down {
+		padding: $spacing-4;
+		max-width: 340px;
+	}
+}
+
+@keyframes cardSlideUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.cityPromptPaused {
+	display: inline-flex;
+	align-items: center;
+	gap: $spacing-2;
+	padding: $spacing-1 $spacing-3;
+	background: rgba($color-text-muted, 0.15);
+	border-radius: $radius-full;
+	font-size: $font-size-xs;
+	font-weight: $font-weight-bold;
+	color: $color-text-muted;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin-bottom: $spacing-4;
+
+	svg {
+		width: 14px;
+		height: 14px;
+	}
+}
+
+.cityPromptTitle {
+	font-family: $font-heading;
+	font-size: $font-size-xl;
+	color: $color-copper;
+	margin-bottom: $spacing-2;
+
+	@include md-down {
+		font-size: $font-size-lg;
+	}
+}
+
+.cityPromptDesc {
+	font-size: $font-size-sm;
+	color: $color-text-secondary;
+	line-height: $line-height-relaxed;
+	margin-bottom: $spacing-4;
+
+	@include md-down {
+		font-size: $font-size-xs;
+		margin-bottom: $spacing-3;
+	}
+}
+
+.cityPromptRemember {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: $spacing-2;
+	font-size: $font-size-xs;
+	color: $color-text-muted;
+	cursor: pointer;
+	margin-bottom: $spacing-5;
+	user-select: none;
+
+	@include md-down {
+		margin-bottom: $spacing-4;
+	}
+
+	input[type='checkbox'] {
+		width: 16px;
+		height: 16px;
+		cursor: pointer;
+		accent-color: $color-copper;
+	}
+
+	&:hover {
+		color: $color-text-secondary;
+	}
+}
+
+.cityPromptActions {
+	display: flex;
+	gap: $spacing-3;
+	justify-content: center;
+
+	@include md-down {
+		flex-direction: column;
+		gap: $spacing-2;
+	}
+}
+
+.cityPromptEnterBtn {
+	flex: 1;
+	padding: $spacing-3 $spacing-4;
+	background: $color-copper;
+	color: $color-bg-primary;
+	border: none;
+	border-radius: $radius-md;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-bold;
+	font-family: $font-heading;
+	cursor: pointer;
+	transition: all $transition-fast;
+	@include touch-target-mobile;
+
+	&:hover {
+		background: $color-accent-hover;
+		transform: translateY(-1px);
+		box-shadow: 0 4px 12px rgba($color-copper, 0.4);
+	}
+
+	&:active {
+		transform: translateY(0);
+	}
+}
+
+.cityPromptStayBtn {
+	flex: 1;
+	padding: $spacing-3 $spacing-4;
+	background: transparent;
+	color: $color-text-secondary;
+	border: 1px solid $color-border;
+	border-radius: $radius-md;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-medium;
+	cursor: pointer;
+	transition: all $transition-fast;
+	@include touch-target-mobile;
+
+	&:hover {
+		background: $color-bg-tertiary;
+		border-color: $color-border-light;
+		color: $color-text-primary;
+	}
+
+	&:active {
+		opacity: 0.8;
+	}
+}
+
+// Return to world map button (shown in city view)
+.returnToWorld {
+	display: flex;
+	align-items: center;
+	gap: $spacing-2;
+	padding: $spacing-2 $spacing-4;
+	background: linear-gradient(
+		135deg,
+		rgba($color-steel, 0.3) 0%,
+		rgba($color-bg-tertiary, 0.5) 100%
+	);
+	border: 2px solid $color-steel;
+	border-radius: $radius-md;
+	color: $color-text-primary;
+	font-size: $font-size-sm;
+	font-family: $font-heading;
+	cursor: pointer;
+	transition: all $transition-fast;
+	@include touch-target-mobile;
+
+	@include md-down {
+		padding: $spacing-1 $spacing-2;
+		font-size: $font-size-xs;
+		gap: $spacing-1;
+	}
+
+	&:hover {
+		background: linear-gradient(
+			135deg,
+			rgba($color-steel, 0.5) 0%,
+			rgba($color-bg-tertiary, 0.7) 100%
+		);
+		border-color: $color-accent;
+		transform: scale(1.02);
+	}
+
+	&:active {
+		transform: scale(0.98);
+	}
+}
+
+.returnToWorldIcon {
+	font-size: $font-size-lg;
+
+	@include md-down {
+		font-size: $font-size-base;
+	}
+}
+
+.returnToWorldText {
+	font-weight: $font-weight-medium;
+	letter-spacing: 0.5px;
+}

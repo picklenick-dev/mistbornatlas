@@ -1,0 +1,116 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.mapWrapper {
+	@include absolute-fill;
+	top: $header-height;
+	bottom: 0;
+	z-index: $z-index-base;
+	animation: mistReveal 0.45s ease-out both;
+
+	&.zoomingIntoCity {
+		animation: worldZoomIntoCity 0.5s ease-in forwards;
+		pointer-events: none;
+	}
+
+	&[data-controls-open='false'] {
+		:global(.leaflet-top.leaflet-left) {
+			left: $spacing-12 !important;
+		}
+	}
+
+	@include md-down {
+		top: $header-height-mobile;
+		bottom: 0;
+
+		:global(.leaflet-control-zoom) {
+			display: none;
+		}
+	}
+}
+
+.map {
+	width: 100%;
+	height: 100%;
+	background: $map-bg-color;
+}
+
+.atmosphereOverlay {
+	@include atmosphere-layer-wrapper;
+}
+
+@keyframes worldZoomIntoCity {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+		filter: none;
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.5);
+		filter: blur(4px);
+	}
+}
+
+@keyframes mistReveal {
+	0% {
+		opacity: 0;
+		transform: scale(0.75);
+		filter: blur(8px) brightness(0.6);
+	}
+	60% {
+		opacity: 1;
+		filter: blur(3px) brightness(0.85);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+		filter: none;
+	}
+}
+
+@keyframes mistDrift {
+	0%,
+	100% {
+		transform: translateX(0) translateY(0) scale(1);
+	}
+	25% {
+		transform: translateX(-1.5%) translateY(0.5%) scale(1.02);
+	}
+	50% {
+		transform: translateX(-2%) translateY(-1%) scale(1.01);
+	}
+	75% {
+		transform: translateX(-0.5%) translateY(-0.5%) scale(1.03);
+	}
+}
+
+@keyframes ashDrift {
+	0% {
+		transform: translateY(0) translateX(0) rotate(0deg);
+	}
+	100% {
+		transform: translateY(3%) translateX(1%) rotate(3deg);
+	}
+}
+
+.mistLayer {
+	position: absolute;
+	inset: -10%;
+	background:
+		radial-gradient(ellipse 80% 60% at 15% 25%, rgba(180, 180, 200, 0.12) 0%, transparent 70%),
+		radial-gradient(ellipse 70% 50% at 85% 65%, rgba(160, 165, 180, 0.1) 0%, transparent 65%),
+		radial-gradient(ellipse 90% 70% at 50% 80%, rgba(170, 170, 190, 0.14) 0%, transparent 60%),
+		radial-gradient(circle at center, transparent 30%, rgba(60, 55, 50, 0.45) 100%);
+	animation: mistDrift 40s ease-in-out infinite;
+}
+
+.ashLayer {
+	position: absolute;
+	inset: -5%;
+	background:
+		radial-gradient(ellipse 60% 40% at 65% 15%, rgba(90, 80, 72, 0.1) 0%, transparent 60%),
+		radial-gradient(ellipse 50% 45% at 25% 75%, rgba(80, 72, 65, 0.12) 0%, transparent 55%),
+		radial-gradient(circle at center, transparent 35%, rgba(45, 40, 35, 0.4) 100%);
+	animation: ashDrift 50s ease-in-out infinite alternate;
+}

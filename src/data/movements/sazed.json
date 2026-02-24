@@ -1,0 +1,294 @@
+[
+	{
+		"book": "tfe",
+		"chapter": 9,
+		"location": "fellise",
+		"title": "The Terris Steward",
+		"description": "Sazed arrives at Lord Renoux's estate in Fellise to serve as Vin's tutor, teaching her the ways of nobility while secretly preserving ancient religions.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 10.2,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "warehouse-district",
+		"title": "The Warehouse Rally",
+		"description": "Sazed attends the secret warehouse rally alongside Kelsier and Vin, observing as the Survivor preaches revolution to the gathered skaa workers.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 13,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Guardian at the Ball",
+		"description": "Sazed accompanies Vin to her first ball as her steward, watching over her from the servants' quarters while she infiltrates noble society.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 22,
+		"location": "fellise",
+		"title": "The Scholar's Work",
+		"description": "Sazed teaches Vin between balls at the Renoux estate, sharing his vast knowledge of religions while studying the patterns of the Final Empire.",
+		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 34,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "fountain-square",
+		"title": "Witness to Revolution",
+		"description": "Sazed is in Luthadel during the revolution, watching as the skaa rise and Kelsier falls in Fountain Square.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 38,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "The Fall of the Empire",
+		"description": "Sazed assists the crew in the assault on Kredik Shaw, using his Feruchemy to fight through the Lord Ruler's guards.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 39,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "A New Beginning",
+		"description": "In the aftermath, Sazed begins studying Kredik Shaw's records, searching for answers about the Deepness and the Hero of Ages prophecy.",
+		"season": "Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 4,
+		"location": "garthwood",
+		"title": "The Traveling Teacher",
+		"description": "Sazed travels through the Eastern Dominance, visiting rural villages to share suppressed religions and knowledge with the newly freed skaa.",
+		"season": "Autumn",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 7,
+		"location": "conventical",
+		"title": "The Conventical of Seran",
+		"description": "Guided by Marsh, Sazed discovers the Conventical of Seran—a horrifying Inquisitor stronghold where he finds Kwaan's steel inscription plate.",
+		"season": "Late Autumn",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 12,
+		"location": "conventical",
+		"title": "Deciphering the Plate",
+		"description": "Sazed studies Kwaan's inscription in the Conventical, uncovering the Terris Keeper's desperate warning that the Hero of Ages prophecy was altered.",
+		"season": "Late Autumn",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 15,
+		"location": "urbene",
+		"title": "The Mist Killings",
+		"description": "Returning westward through Urbene, Sazed encounters villages where people have mysteriously died in the mists—the first signs of the mist sickness.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 22,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Return to Luthadel",
+		"description": "Sazed arrives at Luthadel bearing grave news about the altered prophecy, the mist killings, and the steel inscription's true meaning.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 40,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Debating the Prophecy",
+		"description": "Sazed works with Tindwyl at Keep Venture, comparing the original and altered versions of the Hero of Ages prophecy, growing closer to her.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 52,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "tin-gate-north",
+		"title": "Defending the Gate",
+		"description": "When koloss breach Luthadel's walls, Sazed uses his Feruchemy to hold Tin Gate single-handedly, burning through his stored attributes in a desperate last stand.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 57,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "Fighting Marsh",
+		"description": "Sazed battles a Ruin-controlled Marsh in the corridors of Kredik Shaw, barely surviving the Inquisitor's assault while Vin descends to the Well.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 59,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Tindwyl's Death",
+		"description": "Sazed discovers that Tindwyl was killed during the koloss attack. Devastated, he begins his crisis of faith, questioning every religion he carries.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 4,
+		"location": "lekal-city",
+		"title": "Southern Diplomacy",
+		"description": "Sazed visits Lekal City with Breeze to negotiate a treaty, using diplomacy to bring the southern king into Elend's growing coalition.",
+		"season": "Summer",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 8,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "tin-gate-north",
+		"title": "Heading North",
+		"description": "Sazed receives his assignment to secure Urteau through diplomacy while Elend takes the army west. He departs through the northern gate.",
+		"season": "Summer",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 14,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "venture-estate",
+		"title": "Arriving in Urteau",
+		"description": "Sazed arrives in Urteau to find it under the Citizen Quellion's oppressive rule, establishing a diplomatic enclave at the abandoned Venture estate.",
+		"season": "Autumn",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 25,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "venture-estate",
+		"title": "Building Trust",
+		"description": "Sazed works to build trust with Urteau's population while studying the city's history and searching for the storage cavern beneath the ministry building.",
+		"season": "Early Winter",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 40,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "The Ministry Investigation",
+		"description": "Sazed investigates the Ministry Canton, working to access the storage cavern beneath it while navigating Quellion's paranoid government.",
+		"season": "Winter",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 50,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "The Cavern Discovery",
+		"description": "Sazed discovers the mechanism to flood the dry canal system—the Lord Ruler had drained the canals to hide the water in the storage cavern below.",
+		"season": "Early Spring",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 58,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "Saving Urteau",
+		"description": "As fires rage through the city during the revolution against Quellion, Sazed releases the stored water to flood the canals, saving Urteau from destruction.",
+		"season": "Spring",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 64,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "marketpit",
+		"title": "Rebuilding",
+		"description": "With Quellion deposed and the fires extinguished, Sazed helps rebuild Urteau, distributing supplies from the cache while studying the Lord Ruler's message.",
+		"season": "Summer",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 69,
+		"location": "pits-hathsin",
+		"title": "Journey to Hathsin",
+		"description": "Sazed travels to the Pits of Hathsin, drawn by the convergence of events. His study of religions and Kwaan's inscription has led him to a terrible revelation.",
+		"season": "Autumn",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 71,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "The Final Gathering",
+		"description": "Sazed returns to Luthadel as the world dies around him, the ash falling in black curtains. He carries the knowledge of every religion and every prophecy.",
+		"season": "Autumn",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 82,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "well-of-ascension",
+		"title": "The Hero of Ages",
+		"description": "With Vin and Ruin both destroyed, Sazed realizes he is the Hero of Ages. He takes up both Preservation and Ruin's power at the Well of Ascension.",
+		"season": "Autumn",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 83,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "Harmony",
+		"description": "Sazed ascends as Harmony, combining Ruin and Preservation. He remakes the world—moving the planet, restoring the green, and healing a thousand years of damage.",
+		"season": "Autumn",
+		"year": "1027 FE"
+	}
+]

@@ -1,0 +1,344 @@
+@use 'sass:color';
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.aboutButton {
+	position: fixed;
+	bottom: $spacing-4;
+	left: $spacing-4;
+	height: auto;
+	padding: $spacing-3 $spacing-3;
+	border-radius: $radius-lg;
+	@include glass-panel;
+	border: 1px solid $color-border;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: $spacing-2;
+	transition: all $transition-fast;
+	z-index: $z-index-overlay;
+
+	i {
+		font-size: 28px;
+		color: $color-text-secondary;
+	}
+
+	&:hover {
+		border-color: $color-accent;
+		transform: scale(1.03);
+
+		i {
+			color: $color-accent;
+		}
+	}
+
+	@include md-down {
+		bottom: calc(#{$timeline-height-mobile} + 32px + #{$spacing-4});
+		padding: $spacing-2 $spacing-2;
+		gap: $spacing-1;
+
+		:global(body[data-timeline-collapsed='1']) & {
+			bottom: $spacing-4;
+		}
+
+		i {
+			font-size: 22px;
+		}
+	}
+}
+
+.aboutLabel {
+	font-size: $font-size-sm;
+	font-weight: $font-weight-semibold;
+	color: $color-text-primary;
+	line-height: 1.2;
+
+	@include md-down {
+		font-size: $font-size-xs;
+	}
+}
+
+.aboutSublabel {
+	font-size: $font-size-xs;
+	color: $color-text-muted;
+	line-height: 1.2;
+	white-space: nowrap;
+
+	@include md-down {
+		display: none;
+	}
+}
+
+.backdrop {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.7);
+	backdrop-filter: blur(4px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: $z-index-modal;
+	padding: $spacing-4;
+	animation: fadeIn 0.2s ease-out;
+}
+
+.modal {
+	@include glass-panel;
+	width: 100%;
+	max-width: 560px;
+	max-height: 80vh;
+	display: flex;
+	flex-direction: column;
+	animation: slideUp 0.3s ease-out;
+	position: relative;
+	z-index: $z-index-modal;
+
+	@include md-down {
+		max-height: 90vh;
+	}
+}
+
+.header {
+	@include flex-between;
+	padding: $spacing-4;
+	border-bottom: 1px solid $color-border;
+	flex-shrink: 0;
+}
+
+.title {
+	font-family: $font-heading;
+	font-size: $font-size-xl;
+	color: $color-text-primary;
+	display: flex;
+	align-items: center;
+	gap: $spacing-2;
+}
+
+.versionBadge {
+	font-size: $font-size-xs;
+	font-weight: $font-weight-medium;
+	color: $color-text-muted;
+	background: $color-bg-tertiary;
+	padding: 2px $spacing-2;
+	border-radius: $radius-sm;
+	border: 1px solid $color-border;
+}
+
+.closeButton {
+	@include button-icon;
+	width: 28px;
+	height: 28px;
+
+	svg {
+		width: 16px;
+		height: 16px;
+	}
+}
+
+.content {
+	padding: $spacing-4;
+	overflow-y: auto;
+	flex: 1;
+}
+
+.section {
+	&:not(:last-child) {
+		margin-bottom: $spacing-5;
+		padding-bottom: $spacing-4;
+		border-bottom: 1px solid $color-border;
+	}
+}
+
+.sectionTitle {
+	font-family: $font-heading;
+	font-size: $font-size-base;
+	color: $color-accent;
+	margin-bottom: $spacing-3;
+	display: flex;
+	align-items: center;
+	gap: $spacing-2;
+}
+
+.warningIcon {
+	font-size: $font-size-lg;
+}
+
+.content p {
+	font-size: $font-size-sm;
+	color: $color-text-secondary;
+	line-height: $line-height-relaxed;
+	margin-bottom: $spacing-2;
+
+	strong {
+		color: $color-text-primary;
+	}
+
+	a {
+		color: $color-accent;
+		text-decoration: underline;
+
+		&:hover {
+			color: color.adjust($color-accent, $lightness: 10%);
+		}
+	}
+}
+
+.attributionList,
+.copyrightList,
+.roadmapList {
+	list-style: none;
+	padding: 0;
+	margin: $spacing-2 0;
+
+	li {
+		font-size: $font-size-sm;
+		color: $color-text-secondary;
+		padding: $spacing-1 0;
+		padding-left: $spacing-4;
+		position: relative;
+
+		&::before {
+			content: '•';
+			position: absolute;
+			left: $spacing-1;
+			color: $color-accent;
+		}
+
+		strong {
+			color: $color-text-primary;
+		}
+	}
+}
+
+.note {
+	font-size: $font-size-xs !important;
+	font-style: italic;
+	color: $color-text-muted !important;
+	margin-top: $spacing-2;
+}
+
+.portraitList {
+	list-style: none;
+	padding: 0;
+	margin: $spacing-3 0;
+	display: flex;
+	flex-direction: column;
+	gap: $spacing-2;
+
+	li {
+		display: flex;
+		align-items: center;
+		gap: $spacing-3;
+		font-size: $font-size-sm;
+		color: $color-text-secondary;
+
+		strong {
+			color: $color-text-primary;
+		}
+
+		a {
+			color: $color-accent;
+			text-decoration: underline;
+
+			&:hover {
+				color: color.adjust($color-accent, $lightness: 10%);
+			}
+		}
+	}
+}
+
+.portraitIcon {
+	@include portrait-icon(55px);
+}
+
+.symbolIcon {
+	width: 40px;
+	height: 40px;
+	min-width: 40px;
+	border-radius: 50%;
+	border: 2px solid;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+
+	img {
+		width: 60%;
+		height: 60%;
+		display: block;
+	}
+}
+
+.disclaimer {
+	background: rgba($color-accent, 0.1);
+	border: 1px solid rgba($color-accent, 0.3);
+	border-radius: $radius-md;
+	padding: $spacing-3;
+
+	p:first-child {
+		color: $color-accent;
+		font-size: $font-size-sm;
+		margin-bottom: $spacing-2;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: $spacing-2 0;
+
+		li {
+			font-size: $font-size-sm;
+			color: $color-text-secondary;
+			padding: $spacing-1 0;
+			padding-left: $spacing-4;
+			position: relative;
+
+			&::before {
+				content: '×';
+				position: absolute;
+				left: $spacing-1;
+				color: $color-text-muted;
+			}
+		}
+	}
+}
+
+.roadmapList {
+	.roadmapCurrent {
+		color: $color-accent;
+
+		&::before {
+			content: '▸';
+			color: $color-accent;
+		}
+
+		strong {
+			color: $color-accent;
+		}
+	}
+}
+
+.footer {
+	padding: $spacing-3 $spacing-4;
+	border-top: 1px solid $color-border;
+	display: flex;
+	justify-content: flex-end;
+	flex-shrink: 0;
+}
+
+.closeButtonAlt {
+	padding: $spacing-2 $spacing-4;
+	background: $color-bg-tertiary;
+	border: 1px solid $color-border;
+	border-radius: $radius-md;
+	color: $color-text-primary;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-medium;
+	cursor: pointer;
+	transition: all $transition-fast;
+
+	&:hover {
+		background: $color-accent;
+		border-color: $color-accent;
+	}
+}

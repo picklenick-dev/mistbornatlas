@@ -1,0 +1,123 @@
+[
+	{
+		"id": "vin",
+		"name": "Vin",
+		"color": "#ff00ff",
+		"icon": "mistborn",
+		"title": "Mistborn",
+		"debutBook": "tfe",
+		"debutChapter": 1,
+		"titleProgression": {
+			"tfe-1": "Street Urchin",
+			"tfe-9": "Mistborn Apprentice",
+			"tfe-12": "Lady Valette Renoux",
+			"tfe-25": "Mistborn",
+			"tfe-38": "Slayer of the Lord Ruler",
+			"woa-1": "Heir to the Survivor",
+			"woa-47": "Protector of Luthadel",
+			"hoa-1": "Empress",
+			"hoa-79": "Vessel of Preservation"
+		},
+		"portraitChanges": [{ "book": "tfe", "chapter": 9, "image": "/characters/vin.jpg" }],
+		"description": "A powerful Mistborn who rose from the streets of Luthadel to become one of the most significant figures in Scadrian history."
+	},
+	{
+		"id": "kelsier",
+		"name": "Kelsier",
+		"color": "#00ffff",
+		"icon": "survivor",
+		"title": "The Survivor",
+		"debutBook": "tfe",
+		"debutChapter": 0,
+		"titleProgression": {
+			"tfe-0": "Mysterious Skaa",
+			"tfe-1": "The Survivor of Hathsin",
+			"tfe-11": "Crew Leader",
+			"tfe-21": "Destroyer of the Pits",
+			"tfe-34": "Martyr of the Rebellion"
+		},
+		"secretHistoryTitles": {
+			"woa-1": "Cognitive Shadow",
+			"hoa-1": "Preservation's Champion"
+		},
+		"description": "The charismatic leader of the Luthadel rebellion who escaped from the Pits of Hathsin."
+	},
+	{
+		"id": "sazed",
+		"name": "Sazed",
+		"color": "#00ff00",
+		"icon": "keeper",
+		"title": "Terris Keeper",
+		"debutBook": "tfe",
+		"debutChapter": 9,
+		"titleProgression": {
+			"tfe-9": "Terris Steward",
+			"tfe-22": "Keeper of Religions",
+			"woa-1": "Scholar and Keeper",
+			"woa-12": "Seeker of Truth",
+			"woa-52": "Defender of Luthadel",
+			"hoa-1": "Ambassador of the New Empire",
+			"hoa-50": "Scholar in Crisis",
+			"hoa-82": "Hero of Ages"
+		},
+		"description": "A Terris Keeper who preserves the knowledge of all religions and plays a pivotal role in the fate of the world."
+	},
+	{
+		"id": "elend",
+		"name": "Elend Venture",
+		"color": "#b366ff",
+		"icon": "emperor",
+		"title": "Emperor",
+		"debutBook": "tfe",
+		"debutChapter": 12,
+		"titleProgression": {
+			"tfe-12": "Noble Philosopher",
+			"tfe-24": "Dissenting Noble",
+			"tfe-38": "Unexpected Leader",
+			"woa-1": "King of the Central Dominance",
+			"woa-35": "Deposed King",
+			"woa-58": "Mistborn Emperor",
+			"hoa-1": "Emperor of the New Empire",
+			"hoa-54": "Warrior Emperor"
+		},
+		"description": "The idealistic son of House Venture who transforms from a bookish noble into a powerful leader."
+	},
+	{
+		"id": "marsh",
+		"name": "Marsh",
+		"color": "#ff3300",
+		"icon": "inquisitor",
+		"title": "Inquisitor",
+		"debutBook": "tfe",
+		"debutChapter": 7,
+		"titleProgression": {
+			"tfe-7": "Rebel Infiltrator",
+			"tfe-13": "Ministry Spy",
+			"tfe-38": "Steel Inquisitor",
+			"woa-4": "Reluctant Inquisitor",
+			"woa-57": "Pawn of Ruin",
+			"hoa-0": "Hand of Ruin",
+			"hoa-79": "Ironeyes"
+		},
+		"portraitChanges": [{ "book": "tfe", "chapter": 38, "image": "/characters/marsh.png" }],
+		"description": "Kelsier's brother who sacrificed much for the rebellion and carries a heavy burden."
+	},
+	{
+		"id": "spook",
+		"name": "Spook",
+		"color": "#ffff00",
+		"icon": "tineye",
+		"title": "Tineye",
+		"debutBook": "tfe",
+		"debutChapter": 7,
+		"titleProgression": {
+			"tfe-7": "Young Tineye",
+			"woa-1": "Scout",
+			"hoa-14": "Infiltrator",
+			"hoa-38": "Tin Savant",
+			"hoa-58": "Hero of Urteau",
+			"hoa-83": "Survivor of the Flames"
+		},
+		"description": "A young Misting who grows from a shy crew member into a hero in his own right."
+	}
+]

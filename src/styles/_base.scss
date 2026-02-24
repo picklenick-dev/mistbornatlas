@@ -1,0 +1,188 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+// reset
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	font-family: $font-primary;
+	font-size: $font-size-base;
+	line-height: $line-height-normal;
+	color: $color-text-primary;
+	background-color: $color-bg-primary;
+	overflow: hidden;
+}
+
+// typography
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-heading;
+	font-weight: $font-weight-semibold;
+	line-height: $line-height-tight;
+	color: $color-text-primary;
+}
+
+h1 {
+	font-size: $font-size-4xl;
+}
+h2 {
+	font-size: $font-size-3xl;
+}
+h3 {
+	font-size: $font-size-2xl;
+}
+h4 {
+	font-size: $font-size-xl;
+}
+h5 {
+	font-size: $font-size-lg;
+}
+h6 {
+	font-size: $font-size-base;
+}
+
+p {
+	margin-bottom: $spacing-4;
+	color: $color-text-secondary;
+}
+
+a {
+	color: $color-accent;
+	text-decoration: none;
+	transition: color $transition-fast;
+
+	&:hover {
+		color: $color-accent-hover;
+	}
+}
+
+small {
+	font-size: $font-size-sm;
+	color: $color-text-muted;
+}
+
+strong {
+	font-weight: $font-weight-semibold;
+}
+
+// lists
+
+ul,
+ol {
+	list-style: none;
+}
+
+// form elements
+
+button {
+	font-family: inherit;
+	cursor: pointer;
+}
+
+input,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+// media
+
+img,
+svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+// accessibility
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.focus-visible:focus {
+	outline: 2px solid $color-accent;
+	outline-offset: 2px;
+}
+
+// skip links — visible only on keyboard focus, providing quick navigation to landmarks
+
+.skip-links {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	display: flex;
+	gap: $spacing-2;
+	padding: $spacing-2;
+	pointer-events: none;
+}
+
+.skip-link {
+	position: relative;
+	transform: translateY(-200%);
+	padding: $spacing-2 $spacing-4;
+	background: $color-bg-primary;
+	color: $color-accent;
+	border: 2px solid $color-accent;
+	border-radius: $radius-md;
+	font-family: $font-primary;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-semibold;
+	text-decoration: none;
+	white-space: nowrap;
+	transition: transform 0.15s ease;
+	pointer-events: none;
+
+	&:focus {
+		transform: translateY(0);
+		outline: none;
+		pointer-events: auto;
+	}
+}
+
+// landmark focus ring — shown when a skip-link target receives programmatic focus
+#site-header:focus-visible,
+#map-main:focus-visible,
+#character-panel:focus-visible,
+#site-footer:focus-visible {
+	outline: 2px solid $color-accent;
+	outline-offset: 2px;
+}
+
+// root app
+
+#root {
+	width: 100vw;
+	height: 100vh;
+	height: 100dvh;
+	overflow: hidden;
+}

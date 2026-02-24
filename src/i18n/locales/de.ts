@@ -1,0 +1,325 @@
+import type { Translation } from '../types';
+import { deData } from './de-data';
+
+export const de: Translation = {
+	meta: {
+		title: 'Interaktive Mistborn-Karte — Scadrial',
+		description:
+			'Interaktive chrono-kartographische Darstellung der originalen Mistborn-Trilogie von Brandon Sanderson. Verfolge die Bewegungen der Charaktere durch Scadrial.',
+	},
+
+	header: {
+		title: 'MISTBORN ATLAS',
+		help: 'Hilfe',
+		selectBook: 'Buch wählen',
+		selectMap: 'Kartenansicht wählen',
+	},
+
+	map: {
+		worldMap: 'Letztes Reich (Welt)',
+		cityMaps: 'Stadtkarten',
+	},
+
+	books: {
+		tfe: 'Kinder des Nebels',
+		woa: 'Krieger des Feuers',
+		hoa: 'Herrscher des Lichts',
+	},
+
+	timeline: {
+		reset: 'Zum Anfang zurück',
+		previous: 'Vorheriges Kapitel',
+		play: 'Wiedergabe starten',
+		pause: 'Wiedergabe pausieren',
+		next: 'Nächstes Kapitel',
+		chapter: 'Kapitel',
+		prologue: 'Prolog',
+		epilogue: 'Epilog',
+		exploreCity: 'Erkunden',
+		exitCity: 'Verlassen',
+		cityPromptEnter: 'Stadt betreten',
+		cityPromptStay: 'Auf Weltkarte bleiben',
+		cityPromptDesc:
+			'Charaktere haben eine Stadt betreten. Möchten Sie ihnen auf die detaillierte Stadtkarte folgen oder auf der Weltkarte bleiben?',
+		exitCityPromptDesc:
+			'Charaktere haben diese Stadt verlassen. Möchten Sie zur Weltkarte zurückkehren, um ihre Reise zu verfolgen, oder in der Stadtansicht bleiben?',
+		cityPromptExitBtn: 'Zur Weltkarte zurückkehren',
+		paused: 'Pausiert',
+		showTimeline: 'Zeitleiste anzeigen',
+		hideTimeline: 'Zeitleiste ausblenden',
+		label: 'Zeitleiste',
+		returnToWorldMap: 'Zur Weltkarte zurückkehren',
+	},
+
+	characters: {
+		title: 'Charaktere',
+		showAll: 'Alle anzeigen (Spoiler)',
+		follow: 'Diesem Charakter folgen',
+		following: 'Diesem Charakter wird gefolgt',
+		notYetIntroduced: 'Noch nicht eingeführt',
+		hiddenPlaceholder: '???',
+	},
+
+	locations: {
+		type: 'Ortstyp',
+		dominance: 'Dominanz',
+		coordinates: 'Koordinaten',
+		exploreCity: 'Stadt erkunden',
+		features: 'Merkmale',
+	},
+
+	legend: {
+		title: 'Legende',
+		showLocations: 'Orte anzeigen',
+		characters: 'Charaktere',
+		locations: 'Orte',
+		openLegend: 'Legende öffnen',
+		closeLegend: 'Legende schließen',
+		cityLandmarks: 'Stadtmarken',
+		explorableCity: 'Erkundbare Stadt',
+		other: 'Sonstiges',
+		characterPosition: 'Charakterposition',
+		travelPath: 'Reiseweg',
+	},
+
+	infoPanel: {
+		close: 'Panel schließen',
+		locationType: 'Ortstyp',
+		cityPosition: 'Position in der Stadt',
+	},
+
+	characterMarker: {
+		characterEvent: 'Charakterereignis',
+		earlier: '← Früher',
+		later: 'Später →',
+		current: 'Aktuell',
+		chapterAbbr: 'Kap',
+		showLess: 'Weniger anzeigen',
+		readMore: 'Mehr lesen',
+		chapter: 'Kapitel',
+		season: 'Jahreszeit',
+		year: 'Jahr',
+		timelinePaused: '⏸ Zeitleiste pausiert',
+		continueTimeline: 'Zeitleiste fortsetzen',
+		cityChoiceDesc: 'Stadt betreten oder auf Karte bleiben?',
+		charactersEntered: 'Charaktere haben betreten',
+		enterCity: 'Stadt betreten',
+		stayOnMap: 'Auf Karte bleiben',
+		partOf: 'Teil {part}/{total}',
+	},
+
+	characterPath: {
+		journeyTooltip: 's Reise',
+	},
+
+	cityLandmark: {
+		showLess: 'Weniger anzeigen',
+		readMore: 'Mehr lesen',
+		locationType: 'Ortstyp',
+	},
+
+	cityMap: {
+		returnToWorldMap: 'Zur Weltkarte zurückkehren',
+		worldMap: 'Weltkarte',
+	},
+
+	cityPrompt: {
+		onWorldMap: 'auf der Weltkarte.',
+		worldMap: 'Weltkarte',
+		timelinePaused: '⏸ Zeitleiste pausiert',
+		enteredCity: '',
+		viewCityMap: 'Stadtkarte ansehen?',
+		enterCity: 'Stadt betreten',
+		dismiss: 'Verwerfen',
+		is: 'ist',
+		are: 'sind',
+		has: 'betritt',
+		have: 'betreten',
+	},
+
+	controls: {
+		openPanel: 'Steuerung öffnen',
+		label: 'Steuerung',
+		title: 'Steuerung',
+		closePanel: 'Panel schließen',
+		secretHistoryTitle:
+			'Secret-History-Inhalte einschließen (Kelsiers Bewegungen im Kognitiven Reich)',
+		secretHistoryContent: 'Secret-History-Inhalte',
+		ashAndMist: 'Asche und Nebel',
+		cityLandmarksNote: 'Stadt-Wahrzeichen sind immer sichtbar',
+	},
+
+	locationMarker: {
+		showLess: 'Weniger anzeigen',
+		readMore: 'Mehr lesen',
+		dominance: 'Dominanz',
+		exploreCity: 'Stadt erkunden',
+	},
+
+	loading: {
+		title: 'MISTBORN ATLAS',
+		subtitle: 'Die Welt aus Asche und Nebel wird geladen...',
+	},
+
+	common: {
+		loading: 'Wird geladen...',
+		error: 'Fehler',
+		back: 'Zurück',
+		worldMap: 'Weltkarte',
+		returnToWorldMap: 'Zur Weltkarte zurückkehren',
+	},
+
+	locationTypes: {
+		capital: 'Hauptstadt',
+		city: 'Stadt',
+		landmark: 'Wahrzeichen',
+		mystical: 'Heilige Stätte',
+		ashmount: 'Ascheberg',
+		mine: 'Mine',
+		palace: 'Palast',
+		keep: 'Burg',
+		district: 'Bezirk',
+		hideout: 'Versteck',
+		stronghold: 'Festung',
+		region: 'Region',
+		plantation: 'Plantage',
+		estate: 'Adelsgut',
+		town: 'Siedlung',
+		village: 'Skaa-Dorf',
+		river: 'Wasserweg',
+		industrial: 'Versorgungsposten',
+	},
+
+	landmarkTypes: {
+		gate: 'Tor',
+		keep: 'Burg',
+		palace: 'Palast',
+		district: 'Bezirk',
+		shop: 'Händler',
+		safehouse: 'Unterschlupf',
+		landmark: 'Wahrzeichen',
+		canal: 'Kanal',
+		ministry: 'Kanton',
+		plaza: 'Platz',
+	},
+
+	dominances: {
+		Central: 'Zentrale Dominanz',
+		Northern: 'Nördliche Dominanz',
+		Southern: 'Südliche Dominanz',
+		Eastern: 'Östliche Dominanz',
+		Western: 'Westliche Dominanz',
+		Terris: 'Terris-Dominanz',
+		None: 'Außerhalb des Reiches',
+	},
+
+	donation: {
+		buttonLabel: 'Kauf mir einen Kaffee',
+		buttonLabelShort: 'Kaffee',
+		modalTitle: 'Mistborn Atlas unterstützen',
+		modalDesc:
+			'Mistborn Atlas ist ein kostenloses Open-Source-Fanprojekt, das in meiner Freizeit erstellt und gepflegt wird. Hosting, Domainkosten und Entwicklung summieren sich. Wenn Ihnen die App gefällt und Sie helfen möchten, macht eine kleine Spende viel aus — aber kein Druck, die App bleibt immer komplett kostenlos!',
+		modalButton: 'Kauf mir einen Kaffee auf Ko-fi',
+		modalDismiss: 'Vielleicht später',
+		modalDontAsk: 'Nicht mehr anzeigen',
+		close: 'Schließen',
+	},
+
+	headerExtra: {
+		world: 'Welt',
+		city: 'Stadt',
+		wipBadge: 'In Arbeit',
+		wipTitle: 'Was kommt',
+		wipItem1: 'Neueinlesen der Trilogie zur Überprüfung jeder Charakterbewegung auf der Zeitleiste',
+		wipItem2: 'Doppelte Prüfung aller Ortsinhalte auf Richtigkeit',
+		wipItem3: 'Lokalisierung — mehrsprachige Unterstützung',
+		wipItem4: 'Projekt als Open Source veröffentlichen',
+		wipItem5: 'Mehr Karten und Ära-2-Inhalte (vielleicht?)',
+		supportKofi: 'Auf Ko-fi unterstützen',
+		mapLabel: 'Karte:',
+		selectLanguage: 'Sprache wählen',
+	},
+
+	about: {
+		ariaLabel: 'Über diese Seite',
+		title: 'Über diese Seite und Quellenangaben',
+		buttonLabel: 'Über',
+		buttonSublabel: 'Info & Quellenangaben',
+		modalTitle: 'Über diese Seite',
+		close: 'Schließen',
+		disclaimerTitle: 'Haftungsausschluss',
+		disclaimerBadge: 'INOFFIZIELLES FANPROJEKT',
+		disclaimerIntro:
+			'Dies ist ein inoffizielles Fanprojekt und ist nicht verbunden mit, unterstützt von oder verknüpft mit:',
+		disclaimerBranderson: 'Brandon Sanderson',
+		disclaimerDragonsteel: 'Dragonsteel Entertainment',
+		disclaimerTor: 'Tor Books / Macmillan Publishers',
+		disclaimerIsaac: 'Isaac Stewart',
+		disclaimerOutro:
+			'Dieses Projekt wurde ausschließlich zu Bildungs- und Unterhaltungszwecken erstellt. Alle Mistborn-Inhalte, einschließlich Charaktere, Orte, Handlungen und Kunstwerke, sind Eigentum der jeweiligen Urheberrechtsinhaber.',
+		mapAttributionTitle: 'Kartenquelle',
+		mapAttributionDesc:
+			'Die in diesem Projekt verwendete Karte ist Isaac Stewarts offizielle Karte des Letzten Reiches aus dem Coppermind Wiki.',
+		mapArtist: 'Isaac Stewart',
+		mapSource: 'Coppermind Wiki',
+		mapOriginalWork: 'Erstellt für Brandon Sandersons Mistborn-Serie',
+		mapNote:
+			'Isaac Stewart ist der offizielle Illustrator für viele Werke von Brandon Sanderson, einschließlich der Karten und Kunstwerke für das Kosmeer-Universum.',
+		portraitsTitle: 'Charakterporträts',
+		portraitsDesc: 'Charakterporträts aus dem Coppermind Wiki unter CC BY-NC-ND 4.0.',
+		portraitVinMistborn: 'Nebelgeborene',
+		portraitVinUrchin: 'Straßenkind',
+		portraitKelsier: 'Kelsier',
+		portraitSazed: 'Sazed',
+		portraitElend: 'Elant',
+		portraitMarshInquisitor: 'Inquisitor',
+		portraitMarshKelsier: 'mit Kelsier',
+		portraitSpook: 'Spukie',
+		symbolsTitle: 'Allomantische Symbole',
+		symbolsDesc:
+			'Ortsmarkierungen verwenden allomantische Metallsymbole, entworfen von Isaac Stewart, entnommen der Stahlalphabet-Seite im Coppermind Wiki.',
+		symbolsArtist: 'Isaac Stewart',
+		symbolsSource: 'Coppermind Wiki — Stahlalphabet',
+		symbolsLicense: 'Verwendet unter Fair Use für dieses nicht-kommerzielle Fanprojekt',
+		symbolsUsed: 'Auf der Karte verwendete Symbole:',
+		symbolGold: 'Dominanzsitz · Adelshaus · Adelsgut',
+		symbolSteel: 'Stadt · Stadttor',
+		symbolAtium: 'Ascheberg · Palast',
+		symbolTin: 'Wahrzeichen · Sehenswürdigkeit',
+		symbolPewter: 'Festung · Kanal',
+		symbolCopper: 'Zufluchtsort · Unterschlupf der Bande',
+		symbolIron: 'Gefängnismine',
+		symbolBronze: 'Versorgungsposten · Kanton',
+		symbolLerasium: 'Heilige Stätte',
+		symbolZinc: 'Siedlung · Bezirk',
+		symbolBrass: 'Skaa-Dorf · Händler · Plantage',
+		symbolChromium: 'Wasserweg',
+		symbolElectrum: 'Region · Platz',
+		copyrightTitle: 'Urheberrechtshinweis',
+		copyrightTrademark: 'Mistborn ist eine eingetragene Marke von Dragonsteel Entertainment, LLC',
+		copyrightMap: 'Kartenmaterial © Isaac Stewart',
+		copyrightBook: 'Buchinhalt © Brandon Sanderson',
+		closeButton: 'Schließen',
+		artistLabel: 'Künstler:',
+		sourceLabel: 'Quelle:',
+		originalWorkLabel: 'Originalwerk:',
+		licenseLabel: 'Lizenz:',
+		versionLabel: 'Version',
+		roadmapTitle: 'Roadmap',
+		roadmapCurrent: 'Kinder des Nebels — Zeitleiste vollständig',
+		roadmap080: 'Krieger des Feuers — Zeitleiste vollständig',
+		roadmap090: 'Herrscher des Lichts — Zeitleiste vollständig',
+		roadmap100: 'Geheime Geschichte — Zeitleiste vollständig',
+	},
+
+	skipLinks: {
+		nav: 'Zum Abschnitt springen',
+		toHeader: 'Zur Kopfzeile springen',
+		toMap: 'Zur Karte springen',
+		toCharacterMenu: 'Zum Charaktermenü springen',
+		toTimeline: 'Zur Zeitleiste springen',
+		toAttribution: 'Zur Quellenangabe springen',
+	},
+
+	data: deData,
+};

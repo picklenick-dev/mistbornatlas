@@ -1,0 +1,145 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.backdrop {
+	display: none;
+
+	@include md-down {
+		@include backdrop-overlay;
+	}
+}
+
+.panel {
+	position: fixed;
+	top: calc(#{$header-height} + #{$spacing-4});
+	right: $spacing-4;
+	width: $panel-width;
+	z-index: $z-index-overlay;
+	@include glass-panel;
+	animation: slideInRight $transition-normal ease forwards;
+
+	@include md-down {
+		width: calc(100vw - #{$spacing-8});
+		max-width: 320px;
+		left: 50%;
+		transform: translateX(-50%);
+		right: auto;
+		animation: fadeInUp $transition-normal ease forwards;
+	}
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translate(-50%, 20px);
+	}
+	to {
+		opacity: 1;
+		transform: translate(-50%, 0);
+	}
+}
+
+.header {
+	@include flex-between;
+	padding: $spacing-4;
+	border-bottom: 1px solid $color-border;
+}
+
+.type {
+	font-size: $font-size-xs;
+	font-weight: $font-weight-semibold;
+	color: $color-accent;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.title {
+	font-family: $font-heading;
+	font-size: $font-size-lg;
+	color: $color-text-primary;
+	margin-top: $spacing-1;
+}
+
+.closeButton {
+	@include button-icon;
+	width: 28px;
+	height: 28px;
+
+	svg {
+		width: 16px;
+		height: 16px;
+	}
+
+	@include md-down {
+		@include touch-target-mobile;
+	}
+}
+
+.content {
+	padding: $spacing-4;
+}
+
+.description {
+	font-size: $font-size-sm;
+	color: $color-text-secondary;
+	line-height: $line-height-relaxed;
+	margin-bottom: $spacing-4;
+}
+
+.metadata {
+	@include flex-column;
+	gap: $spacing-2;
+	padding: $spacing-3;
+	background: $color-bg-tertiary;
+	border-radius: $radius-md;
+}
+
+.metaItem {
+	@include flex-between;
+	font-size: $font-size-sm;
+}
+
+.metaLabel {
+	color: $color-text-muted;
+}
+
+.metaValue {
+	color: $color-text-primary;
+	font-weight: $font-weight-medium;
+}
+
+.characterBadge {
+	display: inline-flex;
+	align-items: center;
+	gap: $spacing-2;
+	padding: $spacing-2 $spacing-3;
+	background: $color-bg-tertiary;
+	border-radius: $radius-md;
+	margin-top: $spacing-3;
+
+	.colorDot {
+		width: 12px;
+		height: 12px;
+		border-radius: $radius-full;
+		background: var(--char-color, $color-accent);
+		flex-shrink: 0;
+	}
+
+	.charInfo {
+		display: flex;
+		flex-direction: column;
+		gap: $spacing-1;
+	}
+
+	.charName {
+		font-size: $font-size-sm;
+		font-weight: $font-weight-medium;
+		color: $color-text-primary;
+	}
+
+	.charTitle {
+		font-size: $font-size-xs;
+		color: $color-text-muted;
+		font-style: italic;
+	}
+}

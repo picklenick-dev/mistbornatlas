@@ -1,0 +1,227 @@
+[
+	{
+		"book": "tfe",
+		"chapter": 7,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "The Young Tineye",
+		"description": "Spook, Clubs' young nephew, works as a lookout and messenger for the crew at the carpentry shop, speaking in thick Eastern street slang.",
+		"season": "Late Spring",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 9,
+		"location": "fellise",
+		"title": "Messenger Runs",
+		"description": "Spook runs messages between Clubs' Shop in Luthadel and the Renoux estate in Fellise, his tin-enhanced senses making him an exceptional scout.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 22,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Crew Support",
+		"description": "Spook remains at Clubs' Shop during the House War, providing intelligence from his rooftop watches and message runs through the slums.",
+		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 34,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "fountain-square",
+		"title": "Witnessing the Sacrifice",
+		"description": "Spook watches from the crowd as Kelsier dies in Fountain Square, an event that will shape the rest of his life.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 38,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "The Revolution",
+		"description": "Spook fights with the crew during the final revolution, helping coordinate the skaa uprising from the streets of Luthadel.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 6,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Growing Scout",
+		"description": "Spook serves as a scout for Elend's new government, patrolling the city and observing the encircling armies during the siege.",
+		"season": "Autumn",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 49,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "tin-gate-north",
+		"title": "Exile Group",
+		"description": "Spook departs Luthadel with Vin and Elend's exile party through the Tin Gate, heading north toward the Terris mountains.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 52,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Surviving the Battle",
+		"description": "After returning to Luthadel during the koloss attack, Spook survives the Battle of Luthadel and helps secure the city.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 1,
+		"location": "vetitan",
+		"title": "Campaign Soldier",
+		"description": "Spook serves in Elend's army at Vetitan, gradually earning more responsibility as the emperor's forces secure the storage cache.",
+		"season": "Spring",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 14,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "the-harrows",
+		"title": "The Infiltrator",
+		"description": "Spook arrives in Urteau ahead of Sazed's diplomatic mission, infiltrating the city through the tangle of dry canals known as the Harrows.",
+		"season": "Autumn",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 17,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "spooks-hideout",
+		"title": "The Burning House",
+		"description": "Spook establishes a base in a hidden building within the Harrows, watching the Citizen's oppressive regime and making contact with local resistance.",
+		"season": "Autumn",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 23,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "marketpit",
+		"title": "Market Observation",
+		"description": "Spook observes Quellion the Citizen giving speeches in the Marketpit, studying his patterns and the Allomancers he forces to serve through Hemalurgic spikes.",
+		"season": "Early Winter",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 30,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "citizens-estate",
+		"title": "Approaching the Citizen",
+		"description": "Spook gets closer to the Citizen's inner circle, investigating the spikes Quellion uses to control Allomancers and gathering evidence of corruption.",
+		"season": "Winter",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 38,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "spooks-hideout",
+		"title": "Planning the Revolution",
+		"description": "Working from his hideout, Spook coordinates with Sazed and local rebels to plan the overthrow of Quellion's regime and secure the storage cache.",
+		"season": "Early Spring",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 45,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "the-harrows",
+		"title": "Kelsier's Voice",
+		"description": "Spook begins hearing what he believes is Kelsier's voice guiding him, driving him toward increasingly dangerous actions against the Citizen.",
+		"season": "Spring",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 50,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "burning-district",
+		"title": "The Burning Building",
+		"description": "Spook is spiked during a building fire, gaining enhanced Allomantic abilities but also becoming vulnerable to Ruin's influence through the spike.",
+		"season": "Spring",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 55,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "spooks-hideout",
+		"title": "Revelation",
+		"description": "Spook realizes the voice he has been hearing is not Kelsier but Ruin, manipulating him through the Hemalurgic spike. He tears out the spike in agony.",
+		"season": "Late Spring",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 58,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "Hero of Urteau",
+		"description": "Spook leads the revolution against Quellion, exposing his corruption. As fires consume the city, Sazed floods the canals, saving Urteau from destruction.",
+		"season": "Spring",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 64,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "marketpit",
+		"title": "Recovery",
+		"description": "Badly burned but alive, Spook recovers as Urteau stabilizes under new leadership and supplies from the storage cache are distributed.",
+		"season": "Summer",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 69,
+		"location": "pits-hathsin",
+		"title": "To the Pits",
+		"description": "Spook travels to the Pits of Hathsin with the Urteau forces, joining the gathering armies for what will be the final battle.",
+		"season": "Autumn",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 83,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "fountain-square",
+		"title": "A New World",
+		"description": "Spook emerges into Sazed's remade world—a field of flowers and green grass beneath a blue sky. He carries Sazed's final words for the survivors.",
+		"season": "Autumn",
+		"year": "1027 FE"
+	}
+]

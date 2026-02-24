@@ -1,0 +1,24 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/assets/*",
+      "/characters/*",
+      "/maps/*",
+      "/symbols/*",
+      "*.js",
+      "*.css",
+      "*.jpg",
+      "*.png",
+      "*.svg",
+      "*.webp",
+      "*.ico",
+      "*.woff",
+      "*.woff2"
+    ]
+  },
+  "mimeTypes": {
+    ".js": "text/javascript",
+    ".mjs": "text/javascript"
+  }
+}

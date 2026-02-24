@@ -1,0 +1,331 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.toggleTab {
+	position: fixed;
+	top: calc(#{$header-height} + #{$spacing-4});
+	left: 0;
+	z-index: $z-index-popover;
+	@include glass-panel;
+	border-left: none;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	padding: $spacing-3 $spacing-2;
+	cursor: pointer;
+	transition: all $transition-normal;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: $spacing-1;
+	color: $color-text-primary;
+
+	svg,
+	i {
+		width: 20px;
+		height: 20px;
+		font-size: 20px;
+		color: $color-text-primary;
+		transition: color $transition-fast;
+	}
+
+	&:hover {
+		background: $color-bg-tertiary;
+
+		svg,
+		i {
+			color: $color-accent;
+		}
+	}
+
+	&.hidden {
+		transform: translateX(-100%);
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	@include md-down {
+		@include mobile-fab;
+		top: calc(#{$header-height-mobile} + #{$spacing-2});
+		left: $spacing-2;
+		z-index: $z-index-popover;
+		flex-direction: row;
+		padding: 0;
+		border-radius: $radius-full;
+
+		&.hidden {
+			transform: translateX(-150%);
+		}
+	}
+}
+
+.toggleTabLabel {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-size: $font-size-xs;
+	font-weight: $font-weight-semibold;
+	color: $color-text-secondary;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+
+	@include md-down {
+		display: none;
+	}
+}
+
+.panel {
+	position: fixed;
+	top: calc(#{$header-height} + #{$spacing-4});
+	left: $spacing-4;
+	width: $panel-width;
+	max-height: calc(100vh - #{$header-height} - #{$timeline-height} - #{$spacing-8});
+	z-index: $z-index-popover;
+	@include glass-panel;
+	@include scrollable;
+	transition:
+		transform $transition-normal ease,
+		opacity $transition-normal ease;
+
+	&.open {
+		transform: translateX(0);
+		opacity: 1;
+	}
+
+	&.closed {
+		transform: translateX(calc(-100% - #{$spacing-4}));
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	// Mobile: slide in from left side
+	@include md-down {
+		top: $header-height-mobile;
+		left: 0;
+		width: 280px;
+		max-width: 85vw;
+		max-height: calc(100vh - #{$header-height-mobile} - #{$timeline-height-mobile});
+		border-radius: 0 $radius-lg $radius-lg 0;
+		padding-bottom: $safe-area-bottom;
+
+		&.open {
+			transform: translateX(0);
+			opacity: 1;
+		}
+
+		&.closed {
+			transform: translateX(-100%);
+			opacity: 1;
+		}
+	}
+}
+
+.dragHandle {
+	display: none;
+}
+
+.header {
+	@include flex-between;
+	padding: $spacing-4;
+	border-bottom: 1px solid $color-border;
+	position: sticky;
+	top: 0;
+	background: $color-bg-overlay;
+	backdrop-filter: blur(10px);
+}
+
+.title {
+	font-family: $font-heading;
+	font-size: $font-size-lg;
+	color: $color-text-primary;
+	letter-spacing: 0.05em;
+}
+
+.closeButton {
+	@include button-icon;
+	@include touch-target-mobile;
+	color: $color-text-primary;
+
+	&:hover {
+		color: $color-accent;
+	}
+
+	svg,
+	i {
+		width: 16px;
+		height: 16px;
+		font-size: 16px;
+		color: inherit;
+	}
+}
+
+.content {
+	padding: $spacing-4;
+
+	@include md-down {
+		padding-bottom: calc(#{$spacing-4} + #{$safe-area-bottom});
+	}
+}
+
+.section {
+	margin-bottom: $spacing-6;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.sectionHeader {
+	@include flex-between;
+	margin-bottom: $spacing-3;
+}
+
+.sectionTitle {
+	font-size: $font-size-sm;
+	font-weight: $font-weight-semibold;
+	color: $color-text-secondary;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin-bottom: 0;
+
+	// When not in a sectionHeader, apply margin
+	.section > &:first-child {
+		margin-bottom: $spacing-3;
+	}
+}
+
+.overrideButton {
+	display: flex;
+	align-items: center;
+	gap: $spacing-1;
+	padding: $spacing-1 $spacing-2;
+	background: rgba($color-warning, 0.15);
+	border: 1px solid rgba($color-warning, 0.3);
+	border-radius: $radius-sm;
+	color: $color-warning;
+	font-size: $font-size-xs;
+	font-weight: $font-weight-medium;
+	cursor: pointer;
+	transition: all $transition-fast;
+	margin-bottom: $spacing-3;
+	width: 100%;
+
+	svg {
+		flex-shrink: 0;
+	}
+
+	&:hover {
+		background: rgba($color-warning, 0.25);
+		border-color: rgba($color-warning, 0.5);
+	}
+
+	&.active {
+		background: rgba($color-accent, 0.2);
+		border-color: rgba($color-accent, 0.4);
+		color: $color-accent;
+
+		&:hover {
+			background: rgba($color-accent, 0.3);
+		}
+	}
+}
+
+.secretHistoryButton {
+	display: flex;
+	align-items: center;
+	gap: $spacing-1;
+	padding: $spacing-1 $spacing-2;
+	background: rgba($color-atium, 0.1);
+	border: 1px solid rgba($color-atium, 0.25);
+	border-radius: $radius-sm;
+	color: $color-text-muted;
+	font-size: $font-size-xs;
+	font-weight: $font-weight-medium;
+	cursor: pointer;
+	transition: all $transition-fast;
+	margin-bottom: $spacing-3;
+	width: 100%;
+
+	svg {
+		flex-shrink: 0;
+	}
+
+	&:hover {
+		background: rgba($color-atium, 0.2);
+		border-color: rgba($color-atium, 0.4);
+		color: $color-atium;
+	}
+
+	&.active {
+		background: rgba($color-atium, 0.2);
+		border-color: rgba($color-atium, 0.5);
+		color: $color-atium;
+	}
+}
+
+.toggleRow {
+	@include flex-between;
+	padding: $spacing-2 0;
+
+	&:not(:last-child) {
+		border-bottom: 1px solid rgba($color-border, 0.5);
+	}
+}
+
+.toggleLabel {
+	font-size: $font-size-sm;
+	color: $color-text-primary;
+}
+
+.toggle {
+	position: relative;
+	width: 40px;
+	height: 22px;
+	background: $color-bg-tertiary;
+	border: 1px solid $color-border;
+	border-radius: $radius-full;
+	cursor: pointer;
+	transition: all $transition-fast;
+
+	// Larger touch target on mobile
+	@include md-down {
+		width: 50px;
+		height: 28px;
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 2px;
+		left: 2px;
+		width: 16px;
+		height: 16px;
+		background: $color-text-secondary;
+		border-radius: $radius-full;
+		transition: all $transition-fast;
+
+		@include md-down {
+			width: 22px;
+			height: 22px;
+		}
+	}
+
+	&.active {
+		background: $color-accent;
+		border-color: $color-accent;
+
+		&::after {
+			left: 20px;
+			background: $color-bg-primary;
+
+			@include md-down {
+				left: 24px;
+			}
+		}
+	}
+}
+
+.cityNote {
+	font-size: $font-size-xs;
+	color: $color-text-muted;
+	font-style: italic;
+	padding: $spacing-2 0;
+}

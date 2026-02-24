@@ -1,0 +1,461 @@
+@use 'variables' as *;
+
+// keyframes
+
+// Fade animations
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+// Slide animations
+@keyframes slideInLeft {
+	from {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideInRight {
+	from {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideOutLeft {
+	from {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes slideOutRight {
+	from {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+}
+
+@keyframes slideInUp {
+	from {
+		opacity: 0;
+		transform: translateY(100%);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes slideOutDown {
+	from {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateY(100%);
+	}
+}
+
+// Pulse & glow animations
+@keyframes pulse {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+}
+
+@keyframes pulseScale {
+	0%,
+	100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+}
+
+@keyframes glow {
+	0%,
+	100% {
+		box-shadow: 0 0 5px currentColor;
+	}
+	50% {
+		box-shadow:
+			0 0 20px currentColor,
+			0 0 30px currentColor;
+	}
+}
+
+@keyframes textGlow {
+	0%,
+	100% {
+		text-shadow: 0 0 5px currentColor;
+	}
+	50% {
+		text-shadow:
+			0 0 15px currentColor,
+			0 0 25px currentColor;
+	}
+}
+
+// Mist effect animation
+@keyframes mistFlow {
+	0% {
+		opacity: 0.3;
+		transform: translateX(-10px);
+	}
+	50% {
+		opacity: 0.6;
+		transform: translateX(10px);
+	}
+	100% {
+		opacity: 0.3;
+		transform: translateX(-10px);
+	}
+}
+
+@keyframes mistRise {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+}
+
+// Spin animations
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spinSlow {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+// Ripple effect
+@keyframes ripple {
+	0% {
+		transform: scale(0.8);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(2.5);
+		opacity: 0;
+	}
+}
+
+// Loading animations
+@keyframes shimmer {
+	0% {
+		background-position: -200% 0;
+	}
+	100% {
+		background-position: 200% 0;
+	}
+}
+
+@keyframes loadingDots {
+	0%,
+	20% {
+		content: '.';
+	}
+	40% {
+		content: '..';
+	}
+	60%,
+	100% {
+		content: '...';
+	}
+}
+
+// Path drawing animation
+@keyframes drawPath {
+	from {
+		stroke-dashoffset: 1000;
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+// Marker animations
+@keyframes markerPop {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+	50% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes markerBounce {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-5px);
+	}
+}
+
+// Ash falling animation
+@keyframes ashFall {
+	0% {
+		opacity: 1;
+		transform: translateY(-10px) rotate(0deg);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(100vh) rotate(720deg);
+	}
+}
+
+// Modal animations
+@keyframes slideUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+// Map transition animations
+@keyframes worldZoomIntoCity {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+		filter: none;
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.5);
+		filter: blur(4px);
+	}
+}
+
+@keyframes mistReveal {
+	0% {
+		opacity: 0;
+		transform: scale(0.75);
+		filter: blur(8px) brightness(0.6);
+	}
+	60% {
+		opacity: 1;
+		filter: blur(3px) brightness(0.85);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+		filter: none;
+	}
+}
+
+@keyframes cityZoomIn {
+	0% {
+		opacity: 0;
+		transform: scale(1.5);
+		filter: blur(8px) brightness(0.6);
+	}
+	60% {
+		opacity: 1;
+		filter: blur(3px) brightness(0.85);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+		filter: none;
+	}
+}
+
+@keyframes cityZoomOut {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+		filter: none;
+	}
+	100% {
+		opacity: 0;
+		transform: scale(0.7);
+		filter: blur(6px) brightness(0.6);
+	}
+}
+
+// UI glow / pulse animations
+@keyframes pulseGlow {
+	0%,
+	100% {
+		box-shadow: 0 0 8px rgba($color-copper, 0.4);
+	}
+	50% {
+		box-shadow: 0 0 16px rgba($color-copper, 0.7);
+	}
+}
+
+@keyframes gentleGlow {
+	0%,
+	100% {
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+	}
+	50% {
+		box-shadow:
+			0 2px 12px rgba($color-copper, 0.35),
+			0 0 20px rgba($color-copper, 0.15);
+	}
+}
+
+@keyframes wipSlide {
+	from {
+		opacity: 0;
+		transform: translateY(-4px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+// utility classes
+
+.animate-fadeIn {
+	animation: fadeIn $transition-normal ease forwards;
+}
+
+.animate-fadeOut {
+	animation: fadeOut $transition-normal ease forwards;
+}
+
+.animate-fadeInUp {
+	animation: fadeInUp $transition-normal ease forwards;
+}
+
+.animate-slideInLeft {
+	animation: slideInLeft $transition-normal ease forwards;
+}
+
+.animate-slideInRight {
+	animation: slideInRight $transition-normal ease forwards;
+}
+
+.animate-pulse {
+	animation: pulse 2s ease-in-out infinite;
+}
+
+.animate-glow {
+	animation: glow 2s ease-in-out infinite;
+}
+
+.animate-spin {
+	animation: spin 1s linear infinite;
+}
+
+.animate-spinSlow {
+	animation: spinSlow 3s linear infinite;
+}
+
+// Animation delays
+.delay-100 {
+	animation-delay: 100ms;
+}
+.delay-200 {
+	animation-delay: 200ms;
+}
+.delay-300 {
+	animation-delay: 300ms;
+}
+.delay-500 {
+	animation-delay: 500ms;
+}
+.delay-1000 {
+	animation-delay: 1000ms;
+}
+
+// Animation durations
+.duration-fast {
+	animation-duration: $transition-fast;
+}
+.duration-normal {
+	animation-duration: $transition-normal;
+}
+.duration-slow {
+	animation-duration: $transition-slow;
+}

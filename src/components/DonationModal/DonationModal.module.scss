@@ -1,0 +1,213 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.donateButton {
+	position: fixed;
+	bottom: $spacing-4;
+	right: $spacing-4;
+	z-index: $z-index-overlay;
+	@include glass-panel;
+	border: 1px solid $color-border;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: $spacing-2;
+	padding: $spacing-2 $spacing-3;
+	border-radius: $radius-full;
+	transition: all $transition-fast;
+	animation: gentleGlow 5s ease-in-out infinite;
+
+	i {
+		font-size: 20px;
+		color: $color-copper;
+		flex-shrink: 0;
+	}
+
+	&:hover {
+		border-color: $color-copper;
+		transform: scale(1.05);
+		animation: none;
+		box-shadow: 0 2px 16px rgba($color-copper, 0.4);
+	}
+
+	@include md-down {
+		width: 40px;
+		height: 40px;
+		padding: 0;
+		justify-content: center;
+		border-radius: $radius-full;
+		bottom: calc(#{$timeline-height-mobile} + 32px + #{$spacing-4});
+
+		:global(body[data-timeline-collapsed='1']) & {
+			bottom: $spacing-4;
+		}
+	}
+}
+
+.donateLabel {
+	font-size: $font-size-sm;
+	color: $color-text-secondary;
+	font-weight: $font-weight-medium;
+	white-space: nowrap;
+
+	@include md-down {
+		display: none;
+	}
+}
+
+.backdrop {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.7);
+	backdrop-filter: blur(4px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: $z-index-modal;
+	padding: $spacing-4;
+	animation: fadeIn 0.2s ease-out;
+}
+
+.modal {
+	@include glass-panel;
+	width: 100%;
+	max-width: 480px;
+	display: flex;
+	flex-direction: column;
+	animation: slideUp 0.3s ease-out;
+	position: relative;
+	z-index: $z-index-modal;
+	text-align: center;
+
+	@include md-down {
+		max-height: 90vh;
+	}
+}
+
+.modalHeader {
+	@include flex-between;
+	padding: $spacing-4;
+	border-bottom: 1px solid $color-border;
+	flex-shrink: 0;
+}
+
+.modalTitle {
+	font-family: $font-heading;
+	font-size: $font-size-xl;
+	color: $color-text-primary;
+}
+
+.closeButton {
+	@include button-icon;
+	width: 28px;
+	height: 28px;
+
+	svg {
+		width: 16px;
+		height: 16px;
+	}
+}
+
+.modalContent {
+	padding: $spacing-5 $spacing-4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: $spacing-4;
+}
+
+.coffeeIcon {
+	font-size: 64px;
+	color: $color-copper;
+}
+
+.modalDesc {
+	font-size: $font-size-sm;
+	color: $color-text-secondary;
+	line-height: $line-height-relaxed;
+	text-align: center;
+	max-width: 400px;
+}
+
+.kofiButton {
+	display: inline-flex;
+	align-items: center;
+	gap: $spacing-2;
+	padding: $spacing-3 $spacing-5;
+	background: $color-copper;
+	color: #fff;
+	border: 2px solid $color-copper;
+	border-radius: $radius-md;
+	font-size: $font-size-base;
+	font-weight: $font-weight-semibold;
+	cursor: pointer;
+	transition: all $transition-normal;
+	text-decoration: none;
+	position: relative;
+
+	i {
+		font-size: 20px;
+		transition: transform $transition-fast;
+	}
+
+	&:hover {
+		background: #e0a573;
+		border-color: #f5d7b8;
+		color: #fff;
+		transform: scale(1.05);
+		box-shadow:
+			0 8px 24px rgba($color-copper, 0.6),
+			0 4px 12px rgba($color-copper, 0.4);
+		filter: brightness(1.1);
+
+		i {
+			transform: scale(1.15);
+		}
+	}
+
+	&:active {
+		transform: scale(0.98);
+		box-shadow: 0 2px 8px rgba($color-copper, 0.4);
+	}
+}
+
+.modalFooter {
+	padding: $spacing-3 $spacing-4;
+	border-top: 1px solid $color-border;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+.dismissButton {
+	padding: $spacing-2 $spacing-4;
+	background: $color-bg-tertiary;
+	border: 1px solid $color-border;
+	border-radius: $radius-md;
+	color: $color-text-primary;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-medium;
+	cursor: pointer;
+	transition: all $transition-fast;
+
+	&:hover {
+		background: $color-accent;
+		border-color: $color-accent;
+	}
+}
+
+.dontAskButton {
+	background: none;
+	border: none;
+	color: $color-text-muted;
+	font-size: $font-size-xs;
+	cursor: pointer;
+	padding: $spacing-1 $spacing-2;
+	transition: color $transition-fast;
+
+	&:hover {
+		color: $color-text-secondary;
+		text-decoration: underline;
+	}
+}

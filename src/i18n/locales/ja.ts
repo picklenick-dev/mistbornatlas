@@ -1,0 +1,323 @@
+import type { Translation } from '../types';
+import { jaData } from './ja-data';
+
+export const ja: Translation = {
+	meta: {
+		title: 'ミストボーン・インタラクティブマップ — スキャドリアル',
+		description:
+			'ブランドン・サンダーソンの「ミストボーン」オリジナル三部作のインタラクティブな時空間地図。スキャドリアルにおけるキャラクターの移動を追跡。',
+	},
+
+	header: {
+		title: 'ミストボーン・アトラス',
+		help: 'ヘルプ',
+		selectBook: '本を選択',
+		selectMap: 'マップビューを選択',
+	},
+
+	map: {
+		worldMap: '終の帝国（世界）',
+		cityMaps: '都市マップ',
+	},
+
+	books: {
+		tfe: 'ミストボーン: 霧の落とし子',
+		woa: 'ミストスピリット: 霧のうつし身',
+		hoa: 'ミストクローク: 霧の羽衣',
+	},
+
+	timeline: {
+		reset: '最初に戻る',
+		previous: '前の章',
+		play: '再生開始',
+		pause: '一時停止',
+		next: '次の章',
+		chapter: '章',
+		prologue: 'プロローグ',
+		epilogue: 'エピローグ',
+		exploreCity: '探索',
+		exitCity: '退出',
+		cityPromptEnter: '都市に入る',
+		cityPromptStay: '世界マップに留まる',
+		cityPromptDesc:
+			'キャラクターが都市に入りました。詳細な都市マップに移動しますか、それとも世界マップに留まりますか？',
+		exitCityPromptDesc:
+			'キャラクターがこの都市を去りました。世界マップに戻って旅を追いますか、それとも都市ビューに留まりますか？',
+		cityPromptExitBtn: '世界マップに戻る',
+		paused: '一時停止中',
+		showTimeline: 'タイムラインを表示',
+		hideTimeline: 'タイムラインを非表示',
+		label: 'タイムライン',
+		returnToWorldMap: '世界マップに戻る',
+	},
+
+	characters: {
+		title: 'キャラクター',
+		showAll: 'すべて表示（ネタバレ）',
+		follow: 'このキャラクターを追跡',
+		following: 'このキャラクターを追跡中',
+		notYetIntroduced: 'まだ登場していません',
+		hiddenPlaceholder: '???',
+	},
+
+	locations: {
+		type: '場所のタイプ',
+		dominance: '支配地',
+		coordinates: '座標',
+		exploreCity: '都市を探索',
+		features: '特徴',
+	},
+
+	legend: {
+		title: '凡例',
+		showLocations: '場所を表示',
+		characters: 'キャラクター',
+		locations: '場所',
+		openLegend: '凡例を開く',
+		closeLegend: '凡例を閉じる',
+		cityLandmarks: '都市のランドマーク',
+		explorableCity: '探索可能な都市',
+		other: 'その他',
+		characterPosition: 'キャラクター位置',
+		travelPath: '旅路',
+	},
+
+	infoPanel: {
+		close: 'パネルを閉じる',
+		locationType: '場所のタイプ',
+		cityPosition: '都市内の位置',
+	},
+
+	characterMarker: {
+		characterEvent: 'キャラクターイベント',
+		earlier: '← 前へ',
+		later: '後へ →',
+		current: '現在',
+		chapterAbbr: '章',
+		showLess: '折りたたむ',
+		readMore: '続きを読む',
+		chapter: '章',
+		season: '季節',
+		year: '年',
+		timelinePaused: '⏸ タイムライン一時停止',
+		continueTimeline: 'タイムラインを続行',
+		cityChoiceDesc: '都市に入りますか？マップに留まりますか？',
+		charactersEntered: 'キャラクターが入りました',
+		enterCity: '都市に入る',
+		stayOnMap: 'マップに留まる',
+		partOf: 'パート {part}/{total}',
+	},
+
+	characterPath: {
+		journeyTooltip: 'の旅',
+	},
+
+	cityLandmark: {
+		showLess: '折りたたむ',
+		readMore: '続きを読む',
+		locationType: '場所のタイプ',
+	},
+
+	cityMap: {
+		returnToWorldMap: '世界マップに戻る',
+		worldMap: '世界マップ',
+	},
+
+	cityPrompt: {
+		onWorldMap: '世界マップにいます。',
+		worldMap: '世界マップ',
+		timelinePaused: '⏸ タイムライン一時停止',
+		enteredCity: 'が入りました：',
+		viewCityMap: '都市マップを見ますか？',
+		enterCity: '都市に入る',
+		dismiss: '閉じる',
+		is: 'は',
+		are: 'は',
+		has: '',
+		have: '',
+	},
+
+	controls: {
+		openPanel: 'コントロールパネルを開く',
+		label: 'コントロール',
+		title: 'コントロール',
+		closePanel: 'パネルを閉じる',
+		secretHistoryTitle: 'シークレット・ヒストリーの内容を含む（ケルシャーの認知領域の移動）',
+		secretHistoryContent: 'シークレット・ヒストリー',
+		ashAndMist: '灰と霧',
+		cityLandmarksNote: '都市のランドマークは常に表示されます',
+	},
+
+	locationMarker: {
+		showLess: '折りたたむ',
+		readMore: '続きを読む',
+		dominance: '支配地',
+		exploreCity: '都市を探索',
+	},
+
+	loading: {
+		title: 'ミストボーン・アトラス',
+		subtitle: '灰と霧の世界を読み込み中...',
+	},
+
+	common: {
+		loading: '読み込み中...',
+		error: 'エラー',
+		back: '戻る',
+		worldMap: '世界マップ',
+		returnToWorldMap: '世界マップに戻る',
+	},
+
+	locationTypes: {
+		capital: '首都',
+		city: '都市',
+		landmark: '名所',
+		mystical: '聖地',
+		ashmount: '灰の山',
+		mine: '鉱山',
+		palace: '宮殿',
+		keep: '砦',
+		district: '地区',
+		hideout: '隠れ家',
+		stronghold: '要塞',
+		region: '地域',
+		plantation: '農園',
+		estate: '貴族の屋敷',
+		town: '集落',
+		village: 'スカーの村',
+		river: '水路',
+		industrial: '補給拠点',
+	},
+
+	landmarkTypes: {
+		gate: '門',
+		keep: '砦',
+		palace: '宮殿',
+		district: '街区',
+		shop: '商店',
+		safehouse: 'アジト',
+		landmark: '名所',
+		canal: '運河',
+		ministry: '教区',
+		plaza: '広場',
+	},
+
+	dominances: {
+		Central: '中央支配地',
+		Northern: '北方支配地',
+		Southern: '南方支配地',
+		Eastern: '東方支配地',
+		Western: '西方支配地',
+		Terris: 'テリス支配地',
+		None: '帝国の外',
+	},
+
+	donation: {
+		buttonLabel: 'コーヒーをおごってください',
+		buttonLabelShort: 'コーヒー',
+		modalTitle: 'ミストボーン・アトラスを支援',
+		modalDesc:
+			'ミストボーン・アトラスは無料のオープンソースファンプロジェクトで、空き時間に構築・維持しています。ホスティング、ドメイン、開発にはコストがかかります。アプリを楽しんでいただけているなら、少額の寄付が大きな助けになります。もちろんプレッシャーはありません。アプリは常に完全無料です！',
+		modalButton: 'Ko-fiでコーヒーをおごる',
+		modalDismiss: 'また今度',
+		modalDontAsk: '今後表示しない',
+		close: '閉じる',
+	},
+
+	headerExtra: {
+		world: '世界',
+		city: '都市',
+		wipBadge: '開発中',
+		wipTitle: '今後の予定',
+		wipItem1: '三部作を再読してタイムライン上のキャラクター移動を検証',
+		wipItem2: 'すべての場所コンテンツの正確性を確認',
+		wipItem3: 'ローカライゼーション — 多言語サポート',
+		wipItem4: 'プロジェクトのオープンソース化',
+		wipItem5: 'さらなるマップとEra 2コンテンツ（かも？）',
+		supportKofi: 'Ko-fiで支援',
+		mapLabel: 'マップ：',
+		selectLanguage: '言語を選択',
+	},
+
+	about: {
+		ariaLabel: 'このページについて',
+		title: 'このページについてとクレジット',
+		buttonLabel: '情報',
+		buttonSublabel: '情報とクレジット',
+		modalTitle: 'このページについて',
+		close: '閉じる',
+		disclaimerTitle: '免責事項',
+		disclaimerBadge: '非公式ファンプロジェクト',
+		disclaimerIntro: 'これは非公式のファン制作プロジェクトであり、以下とは一切関係ありません：',
+		disclaimerBranderson: 'Brandon Sanderson',
+		disclaimerDragonsteel: 'Dragonsteel Entertainment',
+		disclaimerTor: 'Tor Books / Macmillan Publishers',
+		disclaimerIsaac: 'Isaac Stewart',
+		disclaimerOutro:
+			'このプロジェクトは教育と娯楽の目的でのみ作成されています。ミストボーンのすべてのコンテンツ（キャラクター、場所、ストーリーライン、アートワークを含む）は、それぞれの著作権者の所有物です。',
+		mapAttributionTitle: 'マップのクレジット',
+		mapAttributionDesc:
+			'このプロジェクトで使用されているマップはIsaac Stewartの公式終の帝国マップで、Coppermind Wikiから取得しています。',
+		mapArtist: 'Isaac Stewart',
+		mapSource: 'Coppermind Wiki',
+		mapOriginalWork: 'Brandon Sandersonのミストボーンシリーズのために制作',
+		mapNote:
+			'Isaac Stewartは多くのBrandon Sanderson作品の公式イラストレーターで、コスメア宇宙のマップやアートワークを含みます。',
+		portraitsTitle: 'キャラクターポートレート',
+		portraitsDesc: 'キャラクターポートレートはCoppermind WikiからCC BY-NC-ND 4.0で取得しています。',
+		portraitVinMistborn: '霧の落とし子',
+		portraitVinUrchin: '路地裏の浮浪児',
+		portraitKelsier: 'ケルシャー',
+		portraitSazed: 'セイズド',
+		portraitElend: 'エレンド',
+		portraitMarshInquisitor: '審問官',
+		portraitMarshKelsier: 'ケルシャーと',
+		portraitSpook: 'スプーク',
+		symbolsTitle: 'アロマンシーのシンボル',
+		symbolsDesc:
+			'ロケーションマーカーのグリフはIsaac Stewartがデザインしたアロマンシーの金属シンボルを使用し、Coppermind Wikiの鋼のアルファベットページから取得しています。',
+		symbolsArtist: 'Isaac Stewart',
+		symbolsSource: 'Coppermind Wiki — 鋼のアルファベット',
+		symbolsLicense: 'この非営利ファンプロジェクトでのフェアユース',
+		symbolsUsed: 'マップで使用されるシンボル：',
+		symbolGold: '支配地の首府 · 貴族の砦 · 貴族の屋敷',
+		symbolSteel: '都市 · 城門',
+		symbolAtium: '灰の山 · 宮殿',
+		symbolTin: '名所 · 重要地点',
+		symbolPewter: '要塞 · 運河',
+		symbolCopper: '隠れ家 · クルーのアジト',
+		symbolIron: '監獄鉱山',
+		symbolBronze: '補給拠点 · 教省支部',
+		symbolLerasium: '聖地',
+		symbolZinc: '集落 · 街区',
+		symbolBrass: 'スカーの村 · 商店 · 農園',
+		symbolChromium: '水路',
+		symbolElectrum: '支配地 · 広場',
+		copyrightTitle: '著作権表示',
+		copyrightTrademark: 'ミストボーンはDragonsteel Entertainment, LLCの登録商標です',
+		copyrightMap: 'マップ © Isaac Stewart',
+		copyrightBook: '書籍内容 © Brandon Sanderson',
+		closeButton: '閉じる',
+		artistLabel: 'アーティスト：',
+		sourceLabel: 'ソース：',
+		originalWorkLabel: '原作：',
+		licenseLabel: 'ライセンス：',
+		versionLabel: 'バージョン',
+		roadmapTitle: 'ロードマップ',
+		roadmapCurrent: '霧の帝国 — タイムライン完了',
+		roadmap080: '昇華の泉 — タイムライン完了',
+		roadmap090: '永遠の英雄 — タイムライン完了',
+		roadmap100: '秘密の歴史 — タイムライン完了',
+	},
+
+	skipLinks: {
+		nav: 'セクションへスキップ',
+		toHeader: 'ヘッダーへスキップ',
+		toMap: '地図へスキップ',
+		toCharacterMenu: 'キャラクターメニューへスキップ',
+		toTimeline: 'タイムラインへスキップ',
+		toAttribution: 'クレジットへスキップ',
+	},
+
+	data: jaData,
+};

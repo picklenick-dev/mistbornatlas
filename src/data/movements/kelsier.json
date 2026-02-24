@@ -1,0 +1,283 @@
+[
+	{
+		"book": "tfe",
+		"chapter": 0,
+		"location": "tresting-plantation",
+		"title": "The Survivor Returns",
+		"description": "Kelsier arrives at Lord Tresting's plantation in the Southern Dominance, killing the cruel nobleman—his first strike against the nobility since escaping the Pits.",
+		"season": "Spring",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 1,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "camons-safehouse",
+		"title": "Hidden Observer",
+		"description": "Kelsier watches Camon's crew operate from the shadows, noting Vin's unconscious use of Allomancy—a street urchin with Mistborn powers.",
+		"season": "Spring",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 3,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "camons-safehouse",
+		"title": "Recruiting Vin",
+		"description": "Kelsier rescues Vin from Camon's abuse and offers her a place in his crew, revealing the truth about her abilities as a Mistborn.",
+		"season": "Spring",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 5,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Atium Heist",
+		"description": "Kelsier breaks into Keep Venture's vault to steal atium, funding the rebellion while testing the defenses of the noble houses.",
+		"season": "Spring",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 6,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "The Crew Assembles",
+		"description": "At Clubs' carpentry shop, Kelsier gathers the full crew—Ham, Breeze, Dockson, Clubs, and now Vin—and reveals his plan to overthrow the Lord Ruler.",
+		"season": "Spring",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 7,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "steel-gate",
+		"title": "Teaching the Apprentice",
+		"description": "Kelsier takes Vin to the city walls near Steel Gate for Allomancy training, teaching her to Push and Pull on metals while leaping between spires.",
+		"season": "Late Spring",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 8,
+		"location": "fellise",
+		"title": "The Renoux Cover",
+		"description": "Kelsier escorts Vin to Fellise and Lord Renoux's estate, establishing her cover identity as Lady Valette for the infiltration of noble society.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 10,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Planning the Revolution",
+		"description": "Back in Luthadel, Kelsier meets with the crew at Clubs' shop to review the rebellion's progress. He takes Vin on a nighttime run through the city to continue her Allomancy training.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 10.2,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "warehouse-district",
+		"title": "The Warehouse Rally",
+		"description": "Kelsier preaches revolution to gathered skaa workers at a secret rally in the warehouse district, using his legend as the Survivor of Hathsin to inspire the rebellion.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 11,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "camons-safehouse",
+		"title": "Camon's Lair Massacre",
+		"description": "Kelsier and the crew discover that the Ministry has slaughtered everyone at Camon's old lair in retaliation for the Canton of Finance scam, hardening their resolve against the Lord Ruler.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 14,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "Palace Reconnaissance",
+		"description": "Kelsier and Vin scout Kredik Shaw at night, mapping the palace defenses and testing the Inquisitors' response capabilities.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 18,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-elariel",
+		"title": "House War Operations",
+		"description": "Kelsier orchestrates attacks between noble houses, assassinating targets and planting evidence to fuel the House War that weakens the nobility.",
+		"season": "Late Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 21,
+		"location": "arguois-caverns",
+		"title": "The Rebel Army",
+		"description": "Kelsier travels to the Arguois Caverns to inspect the growing rebel army hidden in the mountains, training soldiers who have never held weapons.",
+		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 25,
+		"location": "holstep",
+		"title": "Disaster at Holstep",
+		"description": "Kelsier pewter-drags to Holstep when the garrison discovers and massacres the rebel army. He arrives to find devastation and must flee south.",
+		"season": "Late Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 26,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Picking Up the Pieces",
+		"description": "Back at Clubs' Shop, Kelsier regroups after the Holstep disaster, refusing to abandon the revolution even as hope seems lost.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 32,
+		"location": "pits-hathsin",
+		"title": "Destroying the Pits",
+		"description": "Kelsier returns to the Pits of Hathsin—the site of his greatest suffering—and destroys the atium crystals, cutting off the Lord Ruler's most valuable resource.",
+		"season": "Winter",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 34,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "fountain-square",
+		"title": "The Survivor's Last Stand",
+		"description": "Kelsier faces the Lord Ruler in Fountain Square, fighting an impossible battle. He dies with a smile, becoming a martyr whose death ignites the revolution.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 35,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Beyond Death",
+		"description": "Through OreSeur the kandra wearing his bones, Kelsier's final plan unfolds—his death was the spark that set the revolution ablaze across Luthadel.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 1,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "well-of-ascension",
+		"title": "Beyond the Veil",
+		"description": "Trapped in the Cognitive Realm after his death, Kelsier exists as a cognitive shadow near the Well of Ascension, watching Luthadel transform under Elend's rule.",
+		"season": "Autumn",
+		"year": "1023 FE",
+		"secretHistory": true
+	},
+	{
+		"book": "woa",
+		"chapter": 59,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "well-of-ascension",
+		"title": "Witnessing the Release",
+		"description": "Kelsier watches helplessly from the Cognitive Realm as Vin takes the power at the Well of Ascension and releases it, freeing Ruin from its prison.",
+		"season": "Winter",
+		"year": "1024 FE",
+		"secretHistory": true
+	},
+	{
+		"book": "sh",
+		"chapter": 4.1,
+		"location": "burnlands-west",
+		"title": "Cognitive Westward Journey",
+		"description": "Existing as a Cognitive Shadow, Kelsier travels across the 'mist ocean' toward the western Burnlands to seek aid from the Ire fortress.",
+		"season": "Spring",
+		"year": "1025 FE",
+		"secretHistory": true
+	},
+	{
+		"book": "hoa",
+		"chapter": 1,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "well-of-ascension",
+		"title": "The Survivor Endures",
+		"description": "In the Cognitive Realm, Kelsier works alongside Preservation's fading power, seeking any way to help the Physical Realm resist Ruin's growing influence.",
+		"season": "Spring",
+		"year": "1026 FE",
+		"secretHistory": true
+	},
+	{
+		"book": "sh",
+		"chapter": 6.1,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"title": "The Warning at Fadrex",
+		"description": "Kelsier arrives at the Cognitive reflection of Fadrex City, encountering Hoid and attempting to warn Vin of her Hemalurgic spike.",
+		"season": "Autumn",
+		"year": "1026 FE",
+		"secretHistory": true
+	},
+	{
+		"book": "hoa",
+		"chapter": 50,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "well-of-ascension",
+		"title": "Holding Preservation",
+		"description": "As Preservation's consciousness fades, Kelsier takes up the Shard's power—holding it imperfectly from the Cognitive Realm, buying time for the final act.",
+		"season": "Spring",
+		"year": "1027 FE",
+		"secretHistory": true
+	},
+	{
+		"book": "hoa",
+		"chapter": 81,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "well-of-ascension",
+		"title": "Passing the Torch",
+		"description": "Vin takes Preservation's power from Kelsier to destroy Ruin. The Survivor releases the Shard, his role fulfilled—but he refuses to pass into the Beyond.",
+		"season": "Autumn",
+		"year": "1027 FE",
+		"secretHistory": true
+	},
+	{
+		"book": "hoa",
+		"chapter": 83,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "well-of-ascension",
+		"title": "The Survivor Lives On",
+		"description": "Even as Harmony remakes the world, Kelsier persists in the Cognitive Realm—the Survivor who refused to let even death stop him.",
+		"season": "Autumn",
+		"year": "1027 FE",
+		"secretHistory": true
+	}
+]

@@ -1,0 +1,492 @@
+@use 'sass:color';
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: $header-height;
+	z-index: $z-index-modal;
+	@include flex-between;
+	padding: 0 $spacing-6;
+	background: $color-bg-overlay;
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid $color-border;
+
+	@include md-down {
+		height: $header-height-mobile;
+		padding: 0 $spacing-2;
+		gap: $spacing-2;
+	}
+}
+
+.logo {
+	@include flex-start;
+	align-items: center;
+	gap: $spacing-3;
+
+	@include md-down {
+		gap: $spacing-2;
+	}
+}
+
+.logoIcon {
+	font-size: 28px;
+	color: $color-mist;
+
+	@include md-down {
+		font-size: 22px;
+	}
+}
+
+.title {
+	font-family: $font-heading;
+	font-size: $font-size-xl;
+	font-weight: $font-weight-semibold;
+	color: $color-text-primary;
+	letter-spacing: 0.1em;
+
+	@include md-down {
+		display: none;
+	}
+}
+
+// Language selector
+.languageSelector {
+	@include flex-center;
+	gap: $spacing-2;
+	position: relative;
+
+	@include md-down {
+		gap: $spacing-1;
+	}
+
+	.selectArrow {
+		color: $color-text-primary;
+
+		@include md-down {
+			display: none;
+		}
+	}
+}
+
+.languageLabel {
+	@include flex-center;
+	gap: $spacing-2;
+	color: $color-text-secondary;
+	font-size: $font-size-sm;
+	cursor: pointer;
+
+	@include md-down {
+		gap: $spacing-1;
+	}
+
+	&:hover {
+		color: $color-text-primary;
+	}
+}
+
+.languageIcon {
+	font-size: 18px;
+	flex-shrink: 0;
+	line-height: 1;
+}
+
+.languageSelect {
+	appearance: none;
+	padding: $spacing-2 $spacing-8 $spacing-2 $spacing-3;
+	font-family: $font-primary;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-medium;
+	color: $color-text-primary;
+	background: $color-bg-secondary;
+	border: 1px solid $color-border;
+	border-radius: $radius-md;
+	cursor: pointer;
+	transition: all 0.2s ease;
+
+	@include md-down {
+		position: absolute;
+		opacity: 0;
+		pointer-events: all;
+		width: 80px;
+		left: 0;
+		top: 0;
+		padding: $spacing-1;
+		font-size: $font-size-xs;
+	}
+
+	&:hover {
+		background: $color-bg-tertiary;
+		border-color: $color-accent;
+	}
+
+	&:focus {
+		outline: 2px solid $color-accent;
+		outline-offset: 2px;
+		border-color: $color-accent;
+	}
+
+	option {
+		background: $color-bg-primary;
+		color: $color-text-primary;
+	}
+}
+
+.selectedValue {
+	font-size: $font-size-sm;
+	font-weight: $font-weight-medium;
+	color: $color-text-primary;
+
+	@include md-down {
+		font-size: $font-size-xs;
+	}
+}
+
+.mapSelector {
+	@include flex-center;
+	gap: $spacing-2;
+	position: relative;
+
+	@include md-down {
+		gap: $spacing-1;
+	}
+
+	.selectArrow {
+		color: $color-text-primary;
+
+		@include md-down {
+			display: none;
+		}
+	}
+}
+
+.mapLabel {
+	@include flex-center;
+	gap: $spacing-2;
+	color: $color-text-secondary;
+	font-size: $font-size-sm;
+	cursor: pointer;
+
+	@include md-down {
+		gap: $spacing-1;
+	}
+
+	&:hover {
+		color: $color-text-primary;
+	}
+}
+
+.mapLabelText {
+	@include md-down {
+		display: none;
+	}
+}
+
+.mapIcon {
+	font-size: 18px;
+	flex-shrink: 0;
+	line-height: 1;
+}
+
+.mapSelect {
+	appearance: none;
+	padding: $spacing-2 $spacing-8 $spacing-2 $spacing-3;
+	font-family: $font-primary;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-medium;
+	color: $color-text-primary;
+	background: $color-bg-secondary;
+	border: 1px solid $color-border;
+	border-radius: $radius-md;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	min-width: 200px;
+
+	@include md-down {
+		position: absolute;
+		opacity: 0;
+		pointer-events: all;
+		width: 100px;
+		left: 0;
+		top: 0;
+		padding: $spacing-1;
+		font-size: $font-size-xs;
+	}
+
+	&:hover {
+		background: $color-bg-tertiary;
+		border-color: $color-accent;
+	}
+
+	&:focus {
+		outline: 2px solid $color-accent;
+		outline-offset: 2px;
+		border-color: $color-accent;
+	}
+
+	option,
+	optgroup {
+		background: $color-bg-primary;
+		color: $color-text-primary;
+	}
+
+	optgroup {
+		font-weight: $font-weight-semibold;
+		color: $color-text-secondary;
+	}
+}
+
+.bookNav {
+	@include flex-center;
+	gap: $spacing-2;
+}
+
+.bookTabs {
+	@include flex-center;
+	gap: $spacing-2;
+
+	@include md-down {
+		display: none;
+	}
+}
+
+.bookDropdown {
+	display: none;
+	position: relative;
+
+	@include md-down {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.bookSelect {
+	appearance: none;
+	padding: $spacing-2 $spacing-8 $spacing-2 $spacing-3;
+	font-family: $font-heading;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-semibold;
+	color: #ffffff;
+	background: var(--book-color, $color-accent);
+	border: 2px solid var(--book-color, $color-accent);
+	border-radius: $radius-md;
+	cursor: pointer;
+	min-height: $touch-target-min;
+
+	@include md-down {
+		padding: $spacing-1 $spacing-6 $spacing-1 $spacing-2;
+		font-size: $font-size-xs;
+		min-height: auto;
+	}
+
+	option {
+		background: $color-bg-primary;
+		color: $color-text-primary;
+	}
+}
+
+.selectArrow {
+	position: absolute;
+	right: $spacing-2;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 14px;
+	line-height: 1;
+	pointer-events: none;
+	color: #ffffff;
+
+	@include md-down {
+		font-size: 12px;
+		right: $spacing-2;
+	}
+}
+
+.bookButton {
+	@include button-base;
+	padding: $spacing-2 $spacing-4;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-semibold;
+	background: $color-bg-tertiary;
+	color: $color-text-primary;
+	border: 2px solid $color-border;
+
+	&:focus {
+		outline: 2px solid $color-text-primary;
+		outline-offset: 2px;
+	}
+
+	&:focus:not(:focus-visible) {
+		outline: none;
+	}
+
+	&:focus-visible {
+		outline: 2px solid $color-text-primary;
+		outline-offset: 2px;
+	}
+
+	&.active {
+		background: var(--book-color, $color-accent);
+		color: #ffffff;
+		border-color: var(--book-color, $color-accent);
+		@include glow(var(--book-color, $color-accent), 8px);
+	}
+
+	&:hover:not(.active) {
+		background: var(--book-color, $color-accent);
+		border-color: var(--book-color, $color-accent);
+		color: #ffffff;
+		transform: translateY(-1px);
+	}
+
+	@include md-down {
+		padding: $spacing-1 $spacing-2;
+		font-size: $font-size-xs;
+	}
+}
+
+.controls {
+	@include flex-center;
+	gap: $spacing-3;
+
+	@include md-down {
+		display: none;
+	}
+}
+
+.iconButton {
+	@include button-icon;
+	@include touch-target-mobile;
+
+	svg {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+// WIP ribbon — fixed below header, centered
+.wipRibbon {
+	position: fixed;
+	top: $header-height;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: $z-index-overlay;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@include md-down {
+		top: $header-height-mobile;
+	}
+}
+
+.wipBadge {
+	display: flex;
+	align-items: center;
+	gap: $spacing-2;
+	padding: $spacing-2 $spacing-6;
+	background: $color-danger;
+	border: 1px solid color.adjust($color-danger, $lightness: 10%);
+	border-top: none;
+	border-radius: 0 0 $radius-md $radius-md;
+	color: #ffffff;
+	font-family: $font-heading;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-semibold;
+	letter-spacing: 0.05em;
+	cursor: pointer;
+	transition: all $transition-fast;
+	white-space: nowrap;
+	box-shadow: 0 2px 8px rgba($color-danger, 0.4);
+
+	&:hover {
+		background: color.adjust($color-danger, $lightness: 5%);
+		box-shadow: 0 4px 12px rgba($color-danger, 0.6);
+	}
+
+	@include md-down {
+		padding: $spacing-1 $spacing-4;
+		font-size: $font-size-xs;
+	}
+}
+
+.wipDot {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #ffffff;
+	animation: pulse 2s ease-in-out infinite;
+}
+
+.wipPopover {
+	margin-top: $spacing-2;
+	width: 280px;
+	padding: $spacing-4;
+	background: $color-bg-secondary;
+	border: 1px solid $color-border;
+	border-radius: $radius-lg;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+	animation: wipSlide 0.15s ease;
+
+	@include md-down {
+		width: 260px;
+	}
+}
+
+.wipTitle {
+	font-family: $font-heading;
+	font-size: $font-size-base;
+	font-weight: $font-weight-semibold;
+	color: $color-gold;
+	margin: 0 0 $spacing-3;
+}
+
+.wipList {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 $spacing-4;
+	display: flex;
+	flex-direction: column;
+	gap: $spacing-3;
+
+	li {
+		display: flex;
+		align-items: baseline;
+		gap: $spacing-3;
+		font-size: $font-size-sm;
+		color: $color-text-secondary;
+		line-height: 1.4;
+	}
+}
+
+.wipIcon {
+	flex-shrink: 0;
+	font-size: $font-size-base;
+	color: $color-copper;
+	width: 1em;
+	text-align: center;
+}
+
+.wipSupport {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: $spacing-2;
+	width: 100%;
+	padding: $spacing-2 $spacing-3;
+	background: rgba($color-copper, 0.2);
+	border: 1px solid $color-copper;
+	border-radius: $radius-md;
+	color: $color-gold;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-semibold;
+	text-decoration: none;
+	transition: all $transition-fast;
+
+	&:hover {
+		background: rgba($color-copper, 0.4);
+		border-color: $color-gold;
+	}
+}

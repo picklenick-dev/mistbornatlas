@@ -1,0 +1,360 @@
+[
+	{
+		"book": "tfe",
+		"chapter": 12,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Reading Noble",
+		"description": "Elend Venture is introduced at a ball in his own keep, reading alone while the rest of the nobility dances and schemes around him.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 13,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Meeting Lady Valette",
+		"description": "Elend meets the mysterious Lady Valette Renoux at a ball, drawn to her unconventional behavior and sharp wit.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 19,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Courtship",
+		"description": "Elend's infatuation with Lady Valette grows as they share conversations at balls, discussing philosophy and the failings of the nobility.",
+		"season": "Late Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 24,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Noble Conspirator",
+		"description": "Elend secretly organizes moderate nobles who oppose the Lord Ruler's tyranny, meeting in Keep Venture's private library.",
+		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 34,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "fountain-square",
+		"title": "The Revolution",
+		"description": "Elend witnesses the chaos of the skaa uprising in Fountain Square and steps forward to protect both nobles and commoners from the violence.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 38,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "Unexpected Leader",
+		"description": "In the aftermath of the Lord Ruler's death, Elend emerges as a unifying voice, calling for order as the empire crumbles around him.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 39,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The New King",
+		"description": "Elend Venture is declared King of the Central Dominance, beginning the difficult task of building a democratic government from the ruins of tyranny.",
+		"season": "Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 1,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "King of Luthadel",
+		"description": "Elend works tirelessly at Keep Venture to establish a constitutional government, drafting laws and building an Assembly while armies gather outside.",
+		"season": "Autumn",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 5,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "assembly-hall",
+		"title": "The Assembly",
+		"description": "Elend addresses the Assembly he created, advocating for democratic principles even as his advisors warn that democracy may not survive the siege.",
+		"season": "Autumn",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 12,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "iron-gate",
+		"title": "Surveying the Siege",
+		"description": "Elend surveys the siege lines from the city walls, watching his father Straff's army to the north and Cett's forces approaching from the west.",
+		"season": "Early Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 22,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "assembly-hall",
+		"title": "Fighting for Democracy",
+		"description": "Elend faces mounting opposition in the Assembly as fear of the siege drives many to seek a stronger leader than a philosopher-king.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 26,
+		"location": "straffs-camp",
+		"title": "Parley with Father",
+		"description": "Elend rides out to Straff Venture's camp to negotiate, bringing Vin as his protector. The meeting reveals Straff's contempt for his idealistic son.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 28,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Plotting Diplomacy",
+		"description": "Back at Keep Venture, Elend attempts to play the three armies against each other—Straff, Cett, and the approaching koloss horde.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 35,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "assembly-hall",
+		"title": "Deposed",
+		"description": "The Assembly votes to replace Elend with Lord Penrod, exploiting a clause in Elend's own democratic constitution. His idealism proves his undoing.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 42,
+		"location": "koloss-camp",
+		"title": "Mission to the Koloss",
+		"description": "Elend leaves Luthadel through the tunnels to negotiate with Jastes Lekal and his koloss army, a desperate gamble to secure an ally.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 46,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Return from the Koloss",
+		"description": "Elend returns from the koloss camp having failed to negotiate—Jastes lost control of his beasts. The koloss will attack regardless.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 49,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "tin-gate-north",
+		"title": "Exile from Luthadel",
+		"description": "Elend departs Luthadel with Vin through the Tin Gate, exiled by Penrod's government, heading north toward Terris to seek the Keeper synod's aid.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 50,
+		"location": "luthadel",
+		"offset": [0, 50],
+		"title": "The Journey North",
+		"description": "Elend's party travels toward Terris, but growing unease pushes them to reconsider. The Well of Ascension may not be where they thought.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 52,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "tin-gate-north",
+		"title": "The Battle",
+		"description": "Elend returns to find Luthadel under koloss assault, fighting through the chaos as the walls are breached and the city threatens to fall.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 58,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "well-of-ascension",
+		"title": "To the Well",
+		"description": "Elend descends beneath Kredik Shaw with Vin, seeking the Well of Ascension as Marsh fights Sazed above them.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 59,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "well-of-ascension",
+		"title": "The Mistborn Emperor",
+		"description": "Stabbed and dying at the Well, Elend is saved when Vin forces a bead of lerasium into his mouth, transforming him into a Mistborn.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 1,
+		"location": "vetitan",
+		"title": "Emperor at War",
+		"description": "Elend leads his armies to Vetitan, now a Mistborn emperor directing military campaigns to secure the Lord Ruler's hidden supply caches.",
+		"season": "Spring",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 3,
+		"location": "vetitan",
+		"title": "Securing the Cache",
+		"description": "Elend secures the Vetitan storage cavern, finding food and a metal plate message warning about the danger Rashek imprisoned.",
+		"season": "Spring",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 8,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "tin-gate-north",
+		"title": "Strategic Division",
+		"description": "At Luthadel, Elend divides his forces: sending Sazed to secure Urteau diplomatically while he marches west to take Fadrex by force if necessary.",
+		"season": "Summer",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 10,
+		"location": "luthadel",
+		"offset": [-150, 20],
+		"title": "The Western March",
+		"description": "Elend leads his army west toward Fadrex City, the ash falling heavier each day. He trains as a Mistborn during the march.",
+		"season": "Summer",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 21,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "ash-mounds",
+		"title": "The Siege of Fadrex",
+		"description": "Elend's army arrives at Fadrex and establishes siege lines on the ash-covered plains. Yomen refuses to negotiate or surrender the cache.",
+		"season": "Autumn",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 28,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "ash-mounds",
+		"title": "The Reluctant Besieger",
+		"description": "Elend struggles with his role as a conqueror, trying diplomacy even as his generals push for assault. The ashfall grows worse daily.",
+		"season": "Autumn",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 47,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "ash-mounds",
+		"title": "Losing Vin",
+		"description": "When Vin is captured inside Fadrex, Elend faces an impossible choice between rescuing his wife and protecting tens of thousands of soldiers.",
+		"season": "Winter",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 54,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "keep-orielle",
+		"title": "Entering Fadrex",
+		"description": "Koloss attack forces a temporary alliance with Yomen. Elend enters the city and accesses the storage cache, finding the Lord Ruler's final message.",
+		"season": "Late Winter",
+		"year": "1026 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 58,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "main-gate",
+		"title": "Departure for Hathsin",
+		"description": "With the cache secured and Vin gone east, Elend learns the final truth: the atium must be at the Pits of Hathsin. He marches his army south.",
+		"season": "Early Spring",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 61,
+		"location": "pits-hathsin",
+		"title": "March to the Pits",
+		"description": "Elend leads his exhausted army to the Pits of Hathsin, where the Kandra Homeland lies beneath. Marsh's Inquisitor army follows close behind.",
+		"season": "Spring",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 69,
+		"location": "pits-hathsin",
+		"title": "The Battle of Hathsin",
+		"description": "Elend burns the last of the atium in a desperate battle against the Inquisitors and koloss at the Pits, knowing it means his death when the metal runs out.",
+		"season": "Summer",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 79,
+		"location": "pits-hathsin",
+		"title": "The Emperor's Death",
+		"description": "Elend is killed by Marsh in the final moments of the Battle of Hathsin, his atium spent. He dies having burned all the metal Ruin sought.",
+		"season": "Autumn",
+		"year": "1027 FE"
+	},
+	{
+		"book": "hoa",
+		"chapter": 83,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "fountain-square",
+		"title": "Reunited in Death",
+		"description": "Elend's body is found beside Vin's in the field of flowers—Sazed's first gift to the remade world—at peace after all their struggles.",
+		"season": "Autumn",
+		"year": "1027 FE"
+	}
+]

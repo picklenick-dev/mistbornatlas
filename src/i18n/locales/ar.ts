@@ -1,0 +1,323 @@
+import type { Translation } from '../types';
+import { arData } from './ar-data';
+
+export const ar: Translation = {
+	meta: {
+		title: 'خريطة تفاعلية لمولودي الضباب — سكادريال',
+		description:
+			'تصور زمني-كارتوغرافي تفاعلي لثلاثية مولودي الضباب الأصلية لبراندون ساندرسون. تتبع تحركات الشخصيات عبر سكادريال.',
+	},
+
+	header: {
+		title: 'أطلس مولودي الضباب',
+		help: 'مساعدة',
+		selectBook: 'اختر كتاباً',
+		selectMap: 'اختر عرض الخريطة',
+	},
+
+	map: {
+		worldMap: 'الإمبراطورية الأخيرة (العالم)',
+		cityMaps: 'خرائط المدن',
+	},
+
+	books: {
+		tfe: 'الإمبراطورية الأخيرة',
+		woa: 'بئر الارتقاء',
+		hoa: 'بطل العصور',
+	},
+
+	timeline: {
+		reset: 'العودة إلى البداية',
+		previous: 'الفصل السابق',
+		play: 'بدء التشغيل',
+		pause: 'إيقاف مؤقت',
+		next: 'الفصل التالي',
+		chapter: 'فصل',
+		prologue: 'مقدمة',
+		epilogue: 'خاتمة',
+		exploreCity: 'استكشاف',
+		exitCity: 'خروج',
+		cityPromptEnter: 'دخول المدينة',
+		cityPromptStay: 'البقاء على خريطة العالم',
+		cityPromptDesc:
+			'دخلت الشخصيات مدينة. هل تريد متابعتها إلى خريطة المدينة التفصيلية أم البقاء على خريطة العالم؟',
+		exitCityPromptDesc:
+			'غادرت الشخصيات هذه المدينة. هل تريد العودة إلى خريطة العالم لمتابعة رحلتها أم البقاء في عرض المدينة؟',
+		cityPromptExitBtn: 'العودة إلى خريطة العالم',
+		paused: 'متوقف مؤقتاً',
+		showTimeline: 'إظهار الجدول الزمني',
+		hideTimeline: 'إخفاء الجدول الزمني',
+		label: 'الجدول الزمني',
+		returnToWorldMap: 'العودة إلى خريطة العالم',
+	},
+
+	characters: {
+		title: 'الشخصيات',
+		showAll: 'إظهار الكل (حرق)',
+		follow: 'تتبع هذه الشخصية',
+		following: 'جارٍ تتبع هذه الشخصية',
+		notYetIntroduced: 'لم تظهر بعد',
+		hiddenPlaceholder: '???',
+	},
+
+	locations: {
+		type: 'نوع الموقع',
+		dominance: 'السيادة',
+		coordinates: 'الإحداثيات',
+		exploreCity: 'استكشاف المدينة',
+		features: 'المميزات',
+	},
+
+	legend: {
+		title: 'دليل الرموز',
+		showLocations: 'إظهار المواقع',
+		characters: 'الشخصيات',
+		locations: 'المواقع',
+		openLegend: 'فتح دليل الرموز',
+		closeLegend: 'إغلاق دليل الرموز',
+		cityLandmarks: 'معالم المدينة',
+		explorableCity: 'مدينة قابلة للاستكشاف',
+		other: 'أخرى',
+		characterPosition: 'موقع الشخصية',
+		travelPath: 'مسار السفر',
+	},
+
+	infoPanel: {
+		close: 'إغلاق اللوحة',
+		locationType: 'نوع الموقع',
+		cityPosition: 'الموقع في المدينة',
+	},
+
+	characterMarker: {
+		characterEvent: 'حدث الشخصية',
+		earlier: '→ سابقاً',
+		later: '← لاحقاً',
+		current: 'الحالي',
+		chapterAbbr: 'فصل',
+		showLess: 'عرض أقل',
+		readMore: 'اقرأ المزيد',
+		chapter: 'فصل',
+		season: 'موسم',
+		year: 'سنة',
+		timelinePaused: '⏸ الجدول الزمني متوقف',
+		continueTimeline: 'متابعة الجدول الزمني',
+		cityChoiceDesc: 'دخول المدينة أم البقاء على الخريطة؟',
+		charactersEntered: 'دخلت الشخصيات',
+		enterCity: 'دخول المدينة',
+		stayOnMap: 'البقاء على الخريطة',
+		partOf: 'الجزء {part}/{total}',
+	},
+
+	characterPath: {
+		journeyTooltip: ' — رحلة',
+	},
+
+	cityLandmark: {
+		showLess: 'عرض أقل',
+		readMore: 'اقرأ المزيد',
+		locationType: 'نوع الموقع',
+	},
+
+	cityMap: {
+		returnToWorldMap: 'العودة إلى خريطة العالم',
+		worldMap: 'خريطة العالم',
+	},
+
+	cityPrompt: {
+		onWorldMap: 'على خريطة العالم.',
+		worldMap: 'خريطة العالم',
+		timelinePaused: '⏸ الجدول الزمني متوقف',
+		enteredCity: '',
+		viewCityMap: 'عرض خريطة المدينة؟',
+		enterCity: 'دخول المدينة',
+		dismiss: 'تجاهل',
+		is: '',
+		are: '',
+		has: 'دخل',
+		have: 'دخلوا',
+	},
+
+	controls: {
+		openPanel: 'فتح لوحة التحكم',
+		label: 'التحكم',
+		title: 'التحكم',
+		closePanel: 'إغلاق اللوحة',
+		secretHistoryTitle: 'تضمين محتوى التاريخ السري (تحركات كيلسير في العالم الإدراكي)',
+		secretHistoryContent: 'محتوى التاريخ السري',
+		ashAndMist: 'الرماد والضباب',
+		cityLandmarksNote: 'معالم المدينة مرئية دائماً',
+	},
+
+	locationMarker: {
+		showLess: 'عرض أقل',
+		readMore: 'اقرأ المزيد',
+		dominance: 'السيادة',
+		exploreCity: 'استكشاف المدينة',
+	},
+
+	loading: {
+		title: 'أطلس مولودي الضباب',
+		subtitle: 'جارٍ تحميل عالم الرماد والضباب...',
+	},
+
+	common: {
+		loading: 'جارٍ التحميل...',
+		error: 'خطأ',
+		back: 'رجوع',
+		worldMap: 'خريطة العالم',
+		returnToWorldMap: 'العودة إلى خريطة العالم',
+	},
+
+	locationTypes: {
+		capital: 'مقر السيادة',
+		city: 'مدينة',
+		landmark: 'معلم',
+		mystical: 'موقع مقدس',
+		ashmount: 'جبل الرماد',
+		mine: 'منجم',
+		palace: 'قصر',
+		keep: 'قلعة',
+		district: 'حي',
+		hideout: 'مخبأ',
+		stronghold: 'حصن',
+		region: 'منطقة',
+		plantation: 'مزرعة',
+		estate: 'ملكية نبيلة',
+		town: 'بلدة',
+		village: 'قرية سكاا',
+		river: 'ممر مائي',
+		industrial: 'محطة إمداد',
+	},
+
+	landmarkTypes: {
+		gate: 'بوابة',
+		keep: 'قلعة',
+		palace: 'قصر',
+		district: 'حي',
+		shop: 'متجر',
+		safehouse: 'مخبأ',
+		landmark: 'معلم',
+		canal: 'قناة',
+		ministry: 'كانتون',
+		plaza: 'ساحة',
+	},
+
+	dominances: {
+		Central: 'السيادة المركزية',
+		Northern: 'السيادة الشمالية',
+		Southern: 'السيادة الجنوبية',
+		Eastern: 'السيادة الشرقية',
+		Western: 'السيادة الغربية',
+		Terris: 'سيادة تيريس',
+		None: 'خارج الإمبراطورية',
+	},
+
+	donation: {
+		buttonLabel: 'اشترِ لي قهوة',
+		buttonLabelShort: 'قهوة',
+		modalTitle: 'ادعم أطلس مولودي الضباب',
+		modalDesc:
+			'أطلس مولودي الضباب هو مشروع معجبين مجاني ومفتوح المصدر، تم إنشاؤه وصيانته في وقت فراغي. تكاليف الاستضافة والنطاق والتطوير تتراكم. إذا كنت تستمتع بالتطبيق وتريد المساعدة، فإن تبرعاً صغيراً يحدث فرقاً كبيراً — لكن بدون أي ضغط، التطبيق سيبقى دائماً مجانياً بالكامل!',
+		modalButton: 'اشترِ لي قهوة على Ko-fi',
+		modalDismiss: 'ربما لاحقاً',
+		modalDontAsk: 'لا تعرض هذا مجدداً',
+		close: 'إغلاق',
+	},
+
+	headerExtra: {
+		world: 'العالم',
+		city: 'المدينة',
+		wipBadge: 'قيد التطوير',
+		wipTitle: 'ما هو قادم',
+		wipItem1: 'إعادة قراءة الثلاثية للتحقق من كل تحرك شخصية على الجدول الزمني',
+		wipItem2: 'التحقق من دقة كل محتوى المواقع',
+		wipItem3: 'التعريب — دعم متعدد اللغات',
+		wipItem4: 'فتح مصدر المشروع',
+		wipItem5: 'المزيد من الخرائط ومحتوى الحقبة الثانية (ربما؟)',
+		supportKofi: 'ادعم على Ko-fi',
+		mapLabel: 'الخريطة:',
+		selectLanguage: 'اختر اللغة',
+	},
+
+	about: {
+		ariaLabel: 'حول هذه الصفحة',
+		title: 'حول هذه الصفحة والإسناد',
+		buttonLabel: 'حول',
+		buttonSublabel: 'معلومات وإسناد',
+		modalTitle: 'حول هذه الصفحة',
+		close: 'إغلاق',
+		disclaimerTitle: 'إخلاء مسؤولية',
+		disclaimerBadge: 'مشروع معجبين غير رسمي',
+		disclaimerIntro: 'هذا مشروع معجبين غير رسمي وليس تابعاً أو معتمداً أو مرتبطاً بـ:',
+		disclaimerBranderson: 'Brandon Sanderson',
+		disclaimerDragonsteel: 'Dragonsteel Entertainment',
+		disclaimerTor: 'Tor Books / Macmillan Publishers',
+		disclaimerIsaac: 'Isaac Stewart',
+		disclaimerOutro:
+			'تم إنشاء هذا المشروع لأغراض تعليمية وترفيهية فقط. جميع محتويات مولودي الضباب بما في ذلك الشخصيات والمواقع والقصص والأعمال الفنية هي ملك لأصحاب حقوق النشر.',
+		mapAttributionTitle: 'إسناد الخريطة',
+		mapAttributionDesc:
+			'الخريطة المستخدمة في هذا المشروع هي خريطة الإمبراطورية الأخيرة الرسمية لإسحاق ستيوارت من Coppermind Wiki.',
+		mapArtist: 'Isaac Stewart',
+		mapSource: 'Coppermind Wiki',
+		mapOriginalWork: 'أُنشئت لسلسلة مولودي الضباب لبراندون ساندرسون',
+		mapNote:
+			'إسحاق ستيوارت هو الرسام الرسمي للعديد من أعمال براندون ساندرسون، بما في ذلك الخرائط والأعمال الفنية لعالم الكوزمير.',
+		portraitsTitle: 'صور الشخصيات',
+		portraitsDesc: 'صور الشخصيات من Coppermind Wiki تحت رخصة CC BY-NC-ND 4.0.',
+		portraitVinMistborn: 'مولودة الضباب',
+		portraitVinUrchin: 'طفلة الشوارع',
+		portraitKelsier: 'كيلسير',
+		portraitSazed: 'سازيد',
+		portraitElend: 'إيلند',
+		portraitMarshInquisitor: 'المحقق',
+		portraitMarshKelsier: 'مع كيلسير',
+		portraitSpook: 'شبح',
+		symbolsTitle: 'رموز الألومانسي',
+		symbolsDesc:
+			'تستخدم رموز المواقع رموز المعادن الألومانسية التي صممها إسحاق ستيوارت من صفحة الأبجدية الفولاذية على Coppermind Wiki.',
+		symbolsArtist: 'Isaac Stewart',
+		symbolsSource: 'Coppermind Wiki — الأبجدية الفولاذية',
+		symbolsLicense: 'استخدام عادل لهذا المشروع غير التجاري',
+		symbolsUsed: 'الرموز المستخدمة على الخريطة:',
+		symbolGold: 'عاصمة السيادة · قلعة نبيلة · ملكية نبيلة',
+		symbolSteel: 'مدينة · بوابة المدينة',
+		symbolAtium: 'جبل الرماد · قصر',
+		symbolTin: 'معلم · موقع بارز',
+		symbolPewter: 'حصن · قناة',
+		symbolCopper: 'ملاذ · مخبأ الفريق',
+		symbolIron: 'منجم سجن',
+		symbolBronze: 'محطة إمداد · كانتون الوزارة',
+		symbolLerasium: 'موقع مقدس',
+		symbolZinc: 'بلدة · حي',
+		symbolBrass: 'قرية سكاا · متجر · مزرعة',
+		symbolChromium: 'ممر مائي',
+		symbolElectrum: 'منطقة · ساحة',
+		copyrightTitle: 'إشعار حقوق النشر',
+		copyrightTrademark: 'مولودي الضباب علامة تجارية مسجلة لـ Dragonsteel Entertainment, LLC',
+		copyrightMap: 'الخريطة © Isaac Stewart',
+		copyrightBook: 'محتوى الكتاب © Brandon Sanderson',
+		closeButton: 'إغلاق',
+		artistLabel: 'الفنان:',
+		sourceLabel: 'المصدر:',
+		originalWorkLabel: 'العمل الأصلي:',
+		licenseLabel: 'الرخصة:',
+		versionLabel: 'الإصدار',
+		roadmapTitle: 'خارطة الطريق',
+		roadmapCurrent: 'الإمبراطورية الأخيرة — الجدول الزمني مكتمل',
+		roadmap080: 'بئر الصعود — الجدول الزمني مكتمل',
+		roadmap090: 'بطل العصور — الجدول الزمني مكتمل',
+		roadmap100: 'التاريخ السري — الجدول الزمني مكتمل',
+	},
+
+	skipLinks: {
+		nav: 'الانتقال إلى القسم',
+		toHeader: 'الانتقال إلى الرأس',
+		toMap: 'الانتقال إلى الخريطة',
+		toCharacterMenu: 'الانتقال إلى قائمة الشخصيات',
+		toTimeline: 'الانتقال إلى الجدول الزمني',
+		toAttribution: 'الانتقال إلى قسم الإسناد',
+	},
+
+	data: arData,
+};

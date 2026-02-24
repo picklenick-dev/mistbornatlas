@@ -1,0 +1,108 @@
+@use '../../styles/variables' as *;
+
+// History navigation inside popup header
+.historyNav {
+	display: flex;
+	align-items: center;
+	gap: $spacing-2;
+	margin-top: $spacing-2;
+	font-size: $font-size-sm;
+	color: $color-text-secondary;
+}
+
+.historyButton {
+	padding: $spacing-1 $spacing-2;
+	background-color: $color-bg-tertiary;
+	color: $color-text-primary;
+	border: none;
+	border-radius: $radius-sm;
+	cursor: pointer;
+	font-size: $font-size-xs;
+
+	&:disabled {
+		background-color: $color-bg-secondary;
+		color: $color-text-muted;
+		cursor: not-allowed;
+	}
+}
+
+.historyCounter {
+	flex: 1;
+	text-align: center;
+}
+
+.partLabel {
+	opacity: 0.7;
+	font-size: $font-size-xs;
+}
+
+// Continue / timeline-paused section
+.continueSection {
+	margin-top: $spacing-4;
+	padding: $spacing-3;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: $radius-md;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pausedLabel {
+	display: block;
+	font-size: 11px;
+	color: $color-text-muted;
+	margin-bottom: $spacing-2;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	text-align: center;
+}
+
+// Shared base for action buttons (colour set via --char-color / --char-text-color)
+%actionButton {
+	padding: $spacing-2 $spacing-4;
+	background-color: var(--char-color);
+	color: var(--char-text-color);
+	border: none;
+	border-radius: $radius-sm;
+	cursor: pointer;
+	font-weight: $font-weight-bold;
+}
+
+.actionButton {
+	@extend %actionButton;
+}
+
+.continueButton {
+	@extend %actionButton;
+	width: 100%;
+}
+
+// City-choice prompt
+.cityChoice {
+	margin-top: $spacing-3;
+}
+
+.cityChoiceText {
+	margin-bottom: $spacing-2;
+	font-size: $font-size-sm;
+	color: $color-text-primary;
+}
+
+.cityChoiceButtons {
+	display: flex;
+	gap: $spacing-2;
+}
+
+.cityActionButton {
+	@extend %actionButton;
+	flex: 1;
+}
+
+.secondaryButton {
+	flex: 1;
+	padding: $spacing-2 $spacing-4;
+	background-color: $color-bg-tertiary;
+	color: $color-text-primary;
+	border: none;
+	border-radius: $radius-sm;
+	cursor: pointer;
+	font-weight: $font-weight-bold;
+}

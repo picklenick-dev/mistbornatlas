@@ -1,0 +1,32 @@
+[
+	{
+		"id": "tfe",
+		"title": "The Final Empire",
+		"order": 1,
+		"totalChapters": 38,
+		"hasPrologue": true,
+		"hasEpilogue": true,
+		"year": "1021-1022 FE",
+		"color": "#5a4a3a"
+	},
+	{
+		"id": "woa",
+		"title": "The Well of Ascension",
+		"order": 2,
+		"totalChapters": 59,
+		"hasPrologue": false,
+		"hasEpilogue": true,
+		"year": "1023-1024 FE",
+		"color": "#3a4a5a"
+	},
+	{
+		"id": "hoa",
+		"title": "The Hero of Ages",
+		"order": 3,
+		"totalChapters": 82,
+		"hasPrologue": true,
+		"hasEpilogue": true,
+		"year": "1025-1027 FE",
+		"color": "#4a3a5a"
+	}
+]
