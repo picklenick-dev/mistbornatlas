@@ -11,7 +11,6 @@ import {
 	BookOpenIcon,
 	MapPinIcon,
 	EarthIcon,
-	BookIcon,
 } from '@/components/icons';
 import type { BookId, CityId } from '@/types';
 import type { LanguageCode } from '@/i18n/types';
@@ -178,12 +177,8 @@ export const Header: React.FC = () => {
 								{t.headerExtra.wipItem3}
 							</li>
 							<li>
-								<BookIcon className={styles.wipIcon} />
-								{t.headerExtra.wipItem4}
-							</li>
-							<li>
 								<MapFoldIcon className={styles.wipIcon} />
-								{t.headerExtra.wipItem5}
+								{t.headerExtra.wipItem4}
 							</li>
 						</ul>
 						<a

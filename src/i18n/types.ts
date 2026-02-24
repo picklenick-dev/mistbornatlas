@@ -271,7 +271,6 @@ export interface TranslationKeys {
 		wipItem2: string;
 		wipItem3: string;
 		wipItem4: string;
-		wipItem5: string;
 		supportKofi: string;
 		mapLabel: string;
 		selectLanguage: string;

@@ -210,9 +210,9 @@ Translations are currently **AI-generated and not yet verified** by native speak
 ### Confidence levels
 
 Each data translation entry can have a confidence level from AI:
-- `'human'` — **set this status** when you have verified or fixed it.
+- `'human'` — **set this status** when you have verified or fixed it. This is the only legit status.
 - `'verified'` — AI-generated, but AI says it is confirmed from an official published edition
-- `'probable'` — Likely correct based on research but not fully confirmed
+- `'probable'` — AI-generated, Likely correct based on research but not fully confirmed
 - `'unconfirmed'` — AI-generated, needs native speaker review
 
 ### Supported languages
