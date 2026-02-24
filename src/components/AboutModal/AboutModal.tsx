@@ -158,7 +158,7 @@ export const AboutModal: React.FC = () => {
 								<p>
 									{t.about.symbolsDesc.split('Isaac Stewart')[0]}
 									<a
-										href="https://coppermind.net/wiki/Isaac_Stewart"
+										href="https://www.instagram.com/izykstewart/"
 										target="_blank"
 										rel="noopener noreferrer"
 									>

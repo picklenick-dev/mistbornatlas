@@ -190,7 +190,7 @@ export const PORTRAIT_ATTRIBUTIONS: PortraitAttribution[] = [
 		alt: 'Vin',
 		labelKey: 'portraitVinMistborn',
 		artistName: 'Miranda Meeks',
-		artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Miranda_Meeks',
+		artistUrl: 'https://miranda-meeks.tumblr.com/',
 	},
 	{
 		characterId: 'vin',
@@ -198,7 +198,7 @@ export const PORTRAIT_ATTRIBUTIONS: PortraitAttribution[] = [
 		alt: 'Vin',
 		labelKey: 'portraitVinUrchin',
 		artistName: 'GisAlmeida',
-		artistUrl: 'https://coppermind.net/wiki/File:Vin_by_GisAlmeida.jpg',
+		artistUrl: 'https://www.deviantart.com/gisalmeida',
 	},
 	{
 		characterId: 'kelsier',
@@ -206,7 +206,7 @@ export const PORTRAIT_ATTRIBUTIONS: PortraitAttribution[] = [
 		alt: 'Kelsier',
 		labelKey: 'portraitKelsier',
 		artistName: 'Diego López',
-		artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Diego_L%C3%B3pez',
+		artistUrl: 'https://www.instagram.com/diegolopez_artist/',
 	},
 	{
 		characterId: 'sazed',
@@ -214,7 +214,7 @@ export const PORTRAIT_ATTRIBUTIONS: PortraitAttribution[] = [
 		alt: 'Sazed',
 		labelKey: 'portraitSazed',
 		artistName: 'Diego López',
-		artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Diego_L%C3%B3pez',
+		artistUrl: 'https://www.instagram.com/diegolopez_artist/',
 	},
 	{
 		characterId: 'elend',
@@ -222,7 +222,7 @@ export const PORTRAIT_ATTRIBUTIONS: PortraitAttribution[] = [
 		alt: 'Elend',
 		labelKey: 'portraitElend',
 		artistName: 'Shayndlart',
-		artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shayndlart',
+		artistUrl: 'https://www.instagram.com/shayndl_art/',
 	},
 	{
 		characterId: 'marsh',
@@ -246,7 +246,7 @@ export const PORTRAIT_ATTRIBUTIONS: PortraitAttribution[] = [
 		alt: 'Spook',
 		labelKey: 'portraitSpook',
 		artistName: 'Lazifyre',
-		artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Lazifyre',
+		artistUrl: 'https://www.instagram.com/lazifyre/',
 	},
 ];
 
