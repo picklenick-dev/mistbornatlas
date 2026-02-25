@@ -21,12 +21,21 @@
 	},
 	{
 		"book": "tfe",
-		"chapter": 13,
+		"chapter": 12,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Guardian at the Ball",
-		"description": "Sazed accompanies Vin to her first ball as her steward, watching over her from the servants' quarters while she infiltrates noble society.",
+		"description": "Sazed accompanies Vin to her first ball at Keep Venture as her steward, watching over her from the servants' quarters while she infiltrates noble society.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 13,
+		"location": "fellise",
+		"title": "Debriefing at Fellise",
+		"description": "Sazed returns to Lord Renoux's estate in Fellise with Vin and Kelsier, reviewing the results of Vin's first ball and planning next steps.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},

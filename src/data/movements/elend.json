@@ -6,18 +6,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Reading Noble",
-		"description": "Elend Venture is introduced at a ball in his own keep, reading alone while the rest of the nobility dances and schemes around him.",
-		"season": "Summer",
-		"year": "1021 FE"
-	},
-	{
-		"book": "tfe",
-		"chapter": 13,
-		"location": "luthadel",
-		"cityId": "luthadel",
-		"cityLandmark": "keep-venture",
-		"title": "Meeting Lady Valette",
-		"description": "Elend meets the mysterious Lady Valette Renoux at a ball, drawn to her unconventional behavior and sharp wit.",
+		"description": "Elend Venture notices Vin standing alone at a balcony during a ball at his own keep and excuses himself to share it with her. He irritates her by pulling out Trials of Monument and reading while the rest of the nobility dances and schemes around them.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},

@@ -107,6 +107,15 @@
 	},
 	{
 		"book": "tfe",
+		"chapter": 13,
+		"location": "fellise",
+		"title": "Planning at Fellise",
+		"description": "Kelsier meets with Vin and Sazed at Lord Renoux's estate in Fellise, reviewing the intelligence from Vin's first ball and preparing the next phase of the plan.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
 		"chapter": 14,
 		"location": "luthadel",
 		"cityId": "luthadel",

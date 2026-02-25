@@ -96,12 +96,21 @@
 	},
 	{
 		"book": "tfe",
-		"chapter": 13,
+		"chapter": 12,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "First Ball at Keep Venture",
-		"description": "Vin attends her first ball as Lady Valette Renoux, entering the glittering world of the nobility. She meets Elend Venture reading alone in a corner.",
+		"description": "Vin attends her first ball as Lady Valette Renoux at Keep Venture. Among the nobility she catches a glimpse of her father, and meets Elend Venture reading Trials of Monument alone in a corner.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 13,
+		"location": "fellise",
+		"title": "Return to Fellise",
+		"description": "Vin returns to Lord Renoux's estate in Fellise with Kelsier and Sazed, debriefing on the intelligence gathered at her first ball.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
