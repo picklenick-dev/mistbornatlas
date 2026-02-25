@@ -56,7 +56,14 @@ export const CityPrompt: React.FC = () => {
 			.map(({ character }) => t.data.characters[character.id]?.name ?? character.name);
 	}, [debutedPositions, citySuggestion, mapView, t]);
 
-	const showWorldMapPrompt = mapView === 'city' && worldMapCharacters.length > 0;
+	const [dismissedWorldMapPrompt, setDismissedWorldMapPrompt] = useState(false);
+
+	useEffect(() => {
+		setDismissedWorldMapPrompt(false);
+	}, [activeCity, currentChapter]);
+
+	const showWorldMapPrompt =
+		mapView === 'city' && worldMapCharacters.length > 0 && !dismissedWorldMapPrompt;
 	const showCityPrompt =
 		citySuggestion && mapView !== 'city' && !waitingForConfirmation && cityCharacters.length > 0;
 
@@ -95,6 +102,12 @@ export const CityPrompt: React.FC = () => {
 				<div className={styles.actions}>
 					<button className={styles.enterButton} onClick={exitCity}>
 						{t.cityPrompt.worldMap}
+					</button>
+					<button
+						className={styles.dismissButton}
+						onClick={() => setDismissedWorldMapPrompt(true)}
+					>
+						{t.cityPrompt.dismiss}
 					</button>
 				</div>
 			</div>
