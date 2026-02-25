@@ -23,15 +23,6 @@
 	},
 	{
 		"book": "tfe",
-		"chapter": 13,
-		"location": "ashmount-tyrian",
-		"title": "Ministry Infiltrator",
-		"description": "Marsh meets Kelsier at Mount Tyrian, several miles outside Luthadel, to discuss the rebellion plan away from Ministry ears before beginning his dangerous infiltration of the Steel Ministry.",
-		"season": "Summer",
-		"year": "1021 FE"
-	},
-	{
-		"book": "tfe",
 		"chapter": 20,
 		"location": "luthadel",
 		"cityId": "luthadel",
