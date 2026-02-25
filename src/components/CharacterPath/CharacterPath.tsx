@@ -1,5 +1,5 @@
 import React from 'react';
-import { Polyline, Tooltip } from 'react-leaflet';
+import { Polyline, Tooltip, Pane } from 'react-leaflet';
 import L from 'leaflet';
 import { useLanguage } from '@/context/LanguageContext';
 import { CHARACTER_COLORS } from '@/data/characterConfig';
@@ -31,11 +31,6 @@ export const CharacterPath: React.FC<CharacterPathProps> = ({
 
 	const color = CHARACTER_COLORS[character.id];
 
-	/*
-		Calculate offset for collision avoidance
-		When multiple characters travel the same path, spread them out
-	*/
-
 	let offset = 0;
 	if (totalAtPath > 1) {
 		const totalWidth = (totalAtPath - 1) * PATH_OFFSET;
@@ -43,46 +38,48 @@ export const CharacterPath: React.FC<CharacterPathProps> = ({
 		offset = startOffset + offsetIndex * PATH_OFFSET;
 	}
 
-	const positions: L.LatLngExpression[] = validMovements.map(m => {
+	// Only render the last two segments to avoid clutter, but still show a bit of the path history in the tooltip
+	const lastTwo = validMovements.slice(-2);
+	const positions: L.LatLngExpression[] = lastTwo.map(m => {
 		const coords = useCityCoords ? m.cityCoords! : m.coords;
-
 		const x = coords[0] + (offset && !useCityCoords ? offset : 0);
 		const y = coords[1];
-
 		return [y, x];
 	});
 
-	const outlineOptions: L.PathOptions = {
-		className: `character-path-outline ${character.id}`,
-		color: '#000000',
-		weight: 7,
-		opacity: 0.8,
-		lineCap: 'round',
-		lineJoin: 'round',
-	};
-
-	const pathOptions: L.PathOptions = {
-		className: `character-path ${character.id}`,
-		color,
-		weight: 4,
-		opacity: 1,
-		dashArray: '12, 6',
-		lineCap: 'round',
-		lineJoin: 'round',
-	};
-
 	return (
-		<>
-			<Polyline positions={positions} pathOptions={outlineOptions} />
-			<Polyline positions={positions} pathOptions={pathOptions}>
+		<Pane name={`character-path-${character.id}`} style={{ zIndex: 650 }}>
+			<Polyline
+				positions={positions}
+				pathOptions={{
+					className: `character-path-outline ${character.id}`,
+					color: '#000000',
+					weight: 7,
+					opacity: 0.8,
+					lineCap: 'round',
+					lineJoin: 'round',
+				}}
+			/>
+			<Polyline
+				positions={positions}
+				pathOptions={{
+					className: `character-path ${character.id}`,
+					color,
+					weight: 4,
+					opacity: 1,
+					dashArray: '12, 6',
+					lineCap: 'round',
+					lineJoin: 'round',
+				}}
+			>
 				<Tooltip sticky>
 					<span>
 						{t.data.characters[character.id]?.name ?? character.name}
-						{t.characterPath.journeyTooltip} ({movements.length} stops)
+						{t.characterPath.journeyTooltip}
 					</span>
 				</Tooltip>
 			</Polyline>
-		</>
+		</Pane>
 	);
 };
 

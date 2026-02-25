@@ -573,6 +573,14 @@
 	}
 }
 
+// Paths hidden by default, making it so it reveals on hover over a character.
+.character-path,
+.character-path-outline {
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.3s ease;
+}
+
 .character-path {
 	fill: none;
 	stroke-linecap: round;
@@ -615,12 +623,6 @@ body[data-character-hovered] {
 		transition: opacity 0.2s ease;
 	}
 
-	.character-path,
-	.character-path-outline {
-		opacity: 0.75;
-		transition: opacity 0.2s ease;
-	}
-
 	// Locations visited by the hovered character stay at full opacity
 	[data-character-visited] {
 		opacity: 1 !important;
@@ -636,6 +638,18 @@ body[data-character-hovered] {
 		.character-path.#{$char},
 		.character-path-outline.#{$char} {
 			opacity: 1 !important;
+			pointer-events: auto;
+		}
+	}
+}
+
+// Followed character's path is always visible
+@each $char in vin, kelsier, sazed, elend, marsh, spook {
+	body[data-character-followed='#{$char}'] {
+		.character-path.#{$char},
+		.character-path-outline.#{$char} {
+			opacity: 1 !important;
+			pointer-events: auto;
 		}
 	}
 }

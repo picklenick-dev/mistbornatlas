@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useMapContext } from '@/context/MapContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { CharacterFilters } from '@/components/CharacterFilters';
@@ -18,8 +18,21 @@ export const ControlsPanel: React.FC = () => {
 		controlsPanelOpen,
 		setControlsPanelOpen,
 		mapView,
+		followedCharacter,
 	} = useMapContext();
 	const { t } = useLanguage();
+
+	// Sync followed character to body attribute. We this in CSS, e.g. always show character paths.
+	useEffect(() => {
+		if (followedCharacter) {
+			document.body.setAttribute('data-character-followed', followedCharacter);
+		} else {
+			document.body.removeAttribute('data-character-followed');
+		}
+		return () => {
+			document.body.removeAttribute('data-character-followed');
+		};
+	}, [followedCharacter]);
 
 	return (
 		<>
