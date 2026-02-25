@@ -27,6 +27,10 @@
 	&[data-controls-open='false'] {
 		margin-left: 0;
 
+		:global(.leaflet-top.leaflet-left) {
+			left: $spacing-12 !important;
+		}
+
 		@include md-down {
 			.cityMap :global(.leaflet-top.leaflet-left) {
 				left: 56px !important;
