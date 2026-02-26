@@ -11,14 +11,14 @@
 			"tfe-1": "Street Urchin",
 			"tfe-9": "Mistborn Apprentice",
 			"tfe-12": "Lady Valette Renoux",
-			"tfe-25": "Mistborn",
+			"tfe-17": "Mistborn",
 			"tfe-38": "Slayer of the Lord Ruler",
 			"woa-1": "Heir to the Survivor",
 			"woa-47": "Protector of Luthadel",
 			"hoa-1": "Empress",
 			"hoa-79": "Vessel of Preservation"
 		},
-		"portraitChanges": [{ "book": "tfe", "chapter": 9, "image": "/characters/vin.jpg" }],
+		"portraitChanges": [{ "book": "tfe", "chapter": 17, "image": "/characters/vin.jpg" }],
 		"description": "A powerful Mistborn who rose from the streets of Luthadel to become one of the most significant figures in Scadrian history."
 	},
 	{
