@@ -60,7 +60,10 @@ export const CityMapContainer: React.FC = () => {
 		({ movement }) => movement?.cityId === activeCity && movement?.cityCoords
 	);
 
+	const cityCharacterIds = new Set(cityCharacterPositions.map(({ character }) => character.id));
+
 	const cityCharacterPaths = characterPaths
+		.filter(({ character }) => cityCharacterIds.has(character.id))
 		.map(({ character, movements, offsetIndex, totalAtPath }) => ({
 			character,
 			movements: movements.filter(m => m.cityId === activeCity && m.cityCoords),
