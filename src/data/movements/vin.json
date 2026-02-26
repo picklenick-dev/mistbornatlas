@@ -127,12 +127,52 @@
 	},
 	{
 		"book": "tfe",
+		"chapter": 15,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Wounded",
+		"description": "After being gravely injured during the scouting mission to Kredik Shaw, Vin is brought to Clubs' shop where Sazed performs surgery to save her life.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
 		"chapter": 16,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Recovery at Clubs' Shop",
+		"description": "Vin wakes up at Clubs' shop, attended by Lestibournes and Kelsier. Despite her injuries from the Kredik Shaw mission, she begins to recover.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 16.2,
+		"location": "fellise",
+		"title": "Return to Fellise",
+		"description": "Once recovered enough to travel, Vin returns to the Renoux estate in Fellise from Clubs' shop in Luthadel.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 17,
+		"location": "fellise",
+		"title": "The Garden of Mansion Renoux",
+		"description": "Vin rests in the beautiful garden of Mansion Renoux in Fellise. Kelsier arrives with Breeze, Yeden, and Dockson for a meeting with Lord Renoux and Vin.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 18,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "keep-elariel",
 		"title": "Ball at Keep Elariel",
-		"description": "Vin attends a ball at House Elariel, gathering intelligence on the noble houses and their alliances while deepening her cover identity.",
+		"description": "Vin attends a ball at Keep Elariel with Sazed. Elend Venture joins her at a table, sitting and reading as usual. He compliments her dress, leaving her jaw-dropped. She dances with Lord Liese and asks about Elend, learning about Lady Shan Elariel who has spoken about Vin. Vin tells Liese that Elend is like an older brother showing her around, so not everyone is so intimidated to ask her for a dance. Lady Shan takes an interest in using Vin, but Vin somehow managed to avoid being completly drawn into it by excusing her suddenly that she needs to return to her table because her Terrisman (Sazed) will worry otherwise. Vin, when leaving the ball witnesses that a city guard slits the throat of a young skaa kitchen boy in the mists.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},

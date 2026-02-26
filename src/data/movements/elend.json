@@ -12,6 +12,17 @@
 	},
 	{
 		"book": "tfe",
+		"chapter": 18,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-elariel",
+		"title": "An Evening with Valette",
+		"description": "Elend attends the ball at Keep Elariel where he sits at a table with Vin, reading as usual. He compliments her dress, making her jaw drop.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
 		"chapter": 19,
 		"location": "luthadel",
 		"cityId": "luthadel",

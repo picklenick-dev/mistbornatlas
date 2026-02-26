@@ -127,7 +127,38 @@
 	},
 	{
 		"book": "tfe",
-		"chapter": 18,
+		"chapter": 15,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Aftermath of Kredik Shaw",
+		"description": "Kelsier meets with Dockson at Clubs' shop after the Kredik Shaw scouting mission. Dockson is furious about the risk of taking Vin to the Lord Ruler's palace.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 16,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Watching Over Vin",
+		"description": "Kelsier stays at Clubs' shop watching over Vin as she recovers from her injuries sustained at Kredik Shaw, present when she finally wakes up.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 17,
+		"location": "fellise",
+		"title": "Meeting at Renoux Estate",
+		"description": "Kelsier travels to Fellise with Breeze, Yeden, and Dockson to meet with Lord Renoux at his estate, discussing the next phase of the rebellion.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 19,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "keep-elariel",

@@ -21,6 +21,17 @@
 	},
 	{
 		"book": "tfe",
+		"chapter": 16,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Watching Over Vin",
+		"description": "Lestibournes watches over the injured Vin at Clubs' shop, present when she wakes up from her injuries sustained during the Kredik Shaw scouting mission. He now tells that he got a new name from Kelsier; Spook.",
+		"season": "Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
 		"chapter": 22,
 		"location": "luthadel",
 		"cityId": "luthadel",
