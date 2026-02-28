@@ -95,6 +95,7 @@
 	@include md-down {
 		@include touch-target;
 		padding: $spacing-2 $spacing-3;
+		display: none;
 	}
 }
 
