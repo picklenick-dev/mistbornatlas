@@ -106,6 +106,8 @@ export const en: Translation = {
 		enterCity: 'Enter City',
 		stayOnMap: 'Stay on Map',
 		partOf: 'Part {part}/{total}',
+		revealSpoiler: 'Tap to reveal',
+		readAlongNote: 'Read-along mode enabled',
 	},
 
 	characterPath: {
@@ -146,6 +148,10 @@ export const en: Translation = {
 		secretHistoryContent: 'Secret History Content',
 		ashAndMist: 'Ash & Mist',
 		cityLandmarksNote: 'City landmarks are always visible',
+		readAlongMode: 'Read-along Mode',
+		readAlongModeTitle: 'Hide movement descriptions until clicked — perfect for reading the book alongside the map',
+		statusOn: 'ON',
+		statusOff: 'OFF',
 	},
 
 	locationMarker: {

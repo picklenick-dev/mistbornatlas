@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useMapContext } from '@/context/MapContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { CharacterFilters } from '@/components/CharacterFilters';
-import { HamburgerIcon, CloseIcon, EyeIcon, EyeOffIcon, EyeIrisIcon } from '@/components/icons';
+import { HamburgerIcon, CloseIcon, EyeIcon, EyeOffIcon, EyeIrisIcon, BookOpenIcon } from '@/components/icons';
 import styles from './ControlsPanel.module.scss';
 
 export const ControlsPanel: React.FC = () => {
@@ -13,6 +13,8 @@ export const ControlsPanel: React.FC = () => {
 		setShowAllCharacters,
 		secretHistoryMode,
 		setSecretHistoryMode,
+		hideMovementSpoilers,
+		setHideMovementSpoilers,
 		showAtmosphere,
 		setShowAtmosphere,
 		controlsPanelOpen,
@@ -72,6 +74,9 @@ export const ControlsPanel: React.FC = () => {
 						>
 							{showAllCharacters ? <EyeIcon /> : <EyeOffIcon />}
 							<span>{t.characters.showAll}</span>
+							<span className={`${styles.statusBadge} ${styles.statusBadgeWarning}`}>
+								{showAllCharacters ? t.controls.statusOn : t.controls.statusOff}
+							</span>
 						</button>
 						{showAllCharacters && (
 							<button
@@ -81,8 +86,22 @@ export const ControlsPanel: React.FC = () => {
 							>
 								<EyeIrisIcon />
 								<span>{t.controls.secretHistoryContent}</span>
+								<span className={`${styles.statusBadge} ${styles.statusBadgeAtium}`}>
+									{secretHistoryMode ? t.controls.statusOn : t.controls.statusOff}
+								</span>
 							</button>
 						)}
+						<button
+							className={`${styles.readAlongButton} ${hideMovementSpoilers ? styles.active : ''}`}
+							onClick={() => setHideMovementSpoilers(!hideMovementSpoilers)}
+							title={t.controls.readAlongModeTitle}
+						>
+							<BookOpenIcon />
+							<span>{t.controls.readAlongMode}</span>
+							<span className={`${styles.statusBadge} ${styles.statusBadgeMist}`}>
+								{hideMovementSpoilers ? t.controls.statusOn : t.controls.statusOff}
+							</span>
+						</button>
 						<CharacterFilters />
 					</section>
 

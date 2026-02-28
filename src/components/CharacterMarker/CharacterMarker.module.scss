@@ -106,3 +106,57 @@
 	cursor: pointer;
 	font-weight: $font-weight-bold;
 }
+
+.redacted {
+	color: transparent !important;
+	background: none;
+	cursor: pointer;
+	user-select: none;
+	transition: all 0.3s ease;
+
+	span {
+		background: $color-text-muted;
+		border-radius: 2px;
+		line-height: 1.8;
+		box-decoration-break: clone;
+		-webkit-box-decoration-break: clone;
+		padding: 1px 0;
+	}
+
+	&:hover span {
+		background: $color-text-secondary;
+	}
+}
+
+.redactedBlock {
+	cursor: pointer;
+	padding-top: $spacing-2;
+	border-radius: $radius-sm;
+	outline: none;
+
+	&:focus-visible {
+		outline: 2px solid $color-copper;
+		outline-offset: 2px;
+	}
+}
+
+.revealHint {
+	display: block;
+	margin-top: $spacing-3;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-semibold;
+	color: $color-copper;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.readAlongNote {
+	display: block;
+	margin-top: $spacing-1;
+	margin-bottom: $spacing-3;
+	font-size: $font-size-xs;
+	color: $color-text-muted;
+	text-align: center;
+	font-style: italic;
+}

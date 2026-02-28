@@ -104,6 +104,8 @@ export const zh: Translation = {
 		enterCity: '进入城市',
 		stayOnMap: '留在地图',
 		partOf: '第 {part}/{total} 部分',
+		revealSpoiler: '点击揭示',
+		readAlongNote: '伴读模式已启用',
 	},
 
 	characterPath: {
@@ -144,6 +146,10 @@ export const zh: Translation = {
 		secretHistoryContent: '秘史内容',
 		ashAndMist: '灰烬与迷雾',
 		cityLandmarksNote: '城市地标始终可见',
+		readAlongMode: '伴读模式',
+		readAlongModeTitle: '点击前隐藏移动描述 — 适合边读边看地图',
+		statusOn: '开启',
+		statusOff: '关闭',
 	},
 
 	locationMarker: {

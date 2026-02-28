@@ -106,6 +106,8 @@ export const ru: Translation = {
 		enterCity: 'Войти в город',
 		stayOnMap: 'Остаться на карте',
 		partOf: 'Часть {part}/{total}',
+		revealSpoiler: 'Нажмите, чтобы открыть',
+		readAlongNote: 'Режим чтения включён',
 	},
 
 	characterPath: {
@@ -147,6 +149,10 @@ export const ru: Translation = {
 		secretHistoryContent: 'Содержание Тайной истории',
 		ashAndMist: 'Пепел и туман',
 		cityLandmarksNote: 'Достопримечательности города всегда видны',
+		readAlongMode: 'Режим чтения',
+		readAlongModeTitle: 'Скрывать описания перемещений до нажатия — идеально для чтения вместе с картой',
+		statusOn: 'ВКЛ',
+		statusOff: 'ВЫКЛ',
 	},
 
 	locationMarker: {

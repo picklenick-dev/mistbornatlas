@@ -106,6 +106,8 @@ export const sv: Translation = {
 		enterCity: 'Gå in i staden',
 		stayOnMap: 'Stanna på kartan',
 		partOf: 'Del {part}/{total}',
+		revealSpoiler: 'Tryck för att visa',
+		readAlongNote: 'Medläsningsläge aktiverat',
 	},
 
 	characterPath: {
@@ -146,6 +148,10 @@ export const sv: Translation = {
 		secretHistoryContent: 'Secret History-innehåll',
 		ashAndMist: 'Aska och dimma',
 		cityLandmarksNote: 'Stadslandmärken visas alltid',
+		readAlongMode: 'Medläsningsläge',
+		readAlongModeTitle: 'Dölj förflyttningsbeskrivningar tills de klickas — perfekt för att läsa med kartan',
+		statusOn: 'PÅ',
+		statusOff: 'AV',
 	},
 
 	locationMarker: {

@@ -12,6 +12,7 @@ import type L from 'leaflet';
 import type { BookId, CharacterId, SelectedItem, MapContextType, MapView, CityId } from '@/types';
 import { books, characters } from '@/data';
 import { loadAppState, saveBookState, type PersistedBookState } from '@/services';
+import { HIDE_MOVEMENT_SPOILERS_KEY } from '@/config';
 import { hasCharacterDebuted } from '@/utils/titleProgression';
 import { isDebugMode } from '@/utils';
 import { DEFAULT_BOOK } from '@/config';
@@ -73,6 +74,15 @@ export const MapProvider: React.FC<MapProviderProps> = ({ children }) => {
 			return localStorage.getItem('mistborn-secret-history') === '1';
 		} catch {
 			return false;
+		}
+	});
+
+	const [hideMovementSpoilers, setHideMovementSpoilers] = useState<boolean>(() => {
+		try {
+			const stored = localStorage.getItem(HIDE_MOVEMENT_SPOILERS_KEY);
+			return stored === null ? true : stored === '1';
+		} catch {
+			return true;
 		}
 	});
 
@@ -201,6 +211,14 @@ export const MapProvider: React.FC<MapProviderProps> = ({ children }) => {
 		}
 	}, [secretHistoryMode]);
 
+	useEffect(() => {
+		try {
+			localStorage.setItem(HIDE_MOVEMENT_SPOILERS_KEY, hideMovementSpoilers ? '1' : '0');
+		} catch {
+			// Silently fail
+		}
+	}, [hideMovementSpoilers]);
+
 	const isInitialMount = useRef(true);
 	useEffect(() => {
 		if (isInitialMount.current) {
@@ -271,6 +289,8 @@ export const MapProvider: React.FC<MapProviderProps> = ({ children }) => {
 			setShowAllCharacters,
 			secretHistoryMode,
 			setSecretHistoryMode,
+			hideMovementSpoilers,
+			setHideMovementSpoilers,
 			mapView,
 			activeCity,
 			enterCity,
@@ -303,6 +323,7 @@ export const MapProvider: React.FC<MapProviderProps> = ({ children }) => {
 			showAtmosphere,
 			showAllCharacters,
 			secretHistoryMode,
+			hideMovementSpoilers,
 			mapView,
 			activeCity,
 			enterCity,

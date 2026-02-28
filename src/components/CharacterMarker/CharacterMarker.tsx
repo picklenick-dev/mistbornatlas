@@ -87,6 +87,7 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 		mapView,
 		showAllCharacters,
 		secretHistoryMode,
+		hideMovementSpoilers,
 		registerCharacterMarker,
 	} = useMapContext();
 	const { setHoveredCharacter } = useHoverContext();
@@ -94,6 +95,7 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 	const markerRef = useRef<L.Marker>(null);
 	const [showFullDescription, setShowFullDescription] = useState(false);
 	const [showCityChoice, setShowCityChoice] = useState(false);
+	const [spoilerRevealed, setSpoilerRevealed] = useState(false);
 
 	// Get all movements for this character up to current chapter
 	const allMovements = getCharacterMovements(character.id)
@@ -125,6 +127,7 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 
 	useEffect(() => {
 		setHistoryIndex(0);
+		setSpoilerRevealed(false);
 	}, [currentChapter]);
 
 	// Register marker ref with context for sidebar popup control (primary position only)
@@ -249,6 +252,8 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 			? movDescription.slice(0, DESCRIPTION_LIMIT) + '...'
 			: movDescription;
 
+	const isSpoilerRedacted = hideMovementSpoilers && !showAllCharacters && !spoilerRevealed;
+
 	// History navigation
 	const canGoBack = displayIdx > 0;
 	const canGoForward = historyIndex > 0;
@@ -355,7 +360,9 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 							</span>
 						)}
 					</span>
-					<h3 className="popup-title">{movTrans?.title ?? activeMovement.title}</h3>
+					<h3 className="popup-title">
+						{movTrans?.title ?? activeMovement.title}
+					</h3>
 					{allMovements.length > 1 && (
 						<div className={styles.historyNav}>
 							<button
@@ -390,14 +397,40 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 					)}
 				</div>
 				<div className="popup-content">
-					<p className="popup-description">{displayDescription}</p>
-					{needsTruncation && (
-						<button
-							onClick={() => setShowFullDescription(!showFullDescription)}
-							className="popup-read-more"
+					{isSpoilerRedacted ? (
+						<div
+							className={styles.redactedBlock}
+							role="button"
+							tabIndex={0}
+							onClick={e => {
+								e.stopPropagation();
+								setSpoilerRevealed(true);
+							}}
+							onKeyDown={e => {
+								if (e.key === 'Enter' || e.key === ' ') {
+									e.preventDefault();
+									e.stopPropagation();
+									setSpoilerRevealed(true);
+								}
+							}}
+							aria-label={t.characterMarker.revealSpoiler}
 						>
-							{showFullDescription ? t.characterMarker.showLess : t.characterMarker.readMore}
-						</button>
+							<p className={`popup-description ${styles.redacted}`}><span>{displayDescription}</span></p>
+							<span className={styles.revealHint}>{t.characterMarker.revealSpoiler}</span>
+							<span className={styles.readAlongNote}>{t.characterMarker.readAlongNote}</span>
+						</div>
+					) : (
+						<>
+							<p className="popup-description">{displayDescription}</p>
+							{needsTruncation && (
+								<button
+									onClick={() => setShowFullDescription(!showFullDescription)}
+									className="popup-read-more"
+								>
+									{showFullDescription ? t.characterMarker.showLess : t.characterMarker.readMore}
+								</button>
+							)}
+						</>
 					)}
 					<div className="popup-metadata">
 						<div className="popup-meta-item">

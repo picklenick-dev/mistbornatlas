@@ -106,6 +106,8 @@ export const ar: Translation = {
 		enterCity: 'دخول المدينة',
 		stayOnMap: 'البقاء على الخريطة',
 		partOf: 'الجزء {part}/{total}',
+		revealSpoiler: 'انقر للكشف',
+		readAlongNote: 'وضع القراءة المتزامنة مفعّل',
 	},
 
 	characterPath: {
@@ -146,6 +148,10 @@ export const ar: Translation = {
 		secretHistoryContent: 'محتوى التاريخ السري',
 		ashAndMist: 'الرماد والضباب',
 		cityLandmarksNote: 'معالم المدينة مرئية دائماً',
+		readAlongMode: 'وضع القراءة المتزامنة',
+		readAlongModeTitle: 'إخفاء أوصاف التنقل حتى النقر عليها — مثالي للقراءة مع الخريطة',
+		statusOn: 'مفعّل',
+		statusOff: 'معطّل',
 	},
 
 	locationMarker: {

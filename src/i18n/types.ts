@@ -132,6 +132,8 @@ export interface TranslationKeys {
 		enterCity: string;
 		stayOnMap: string;
 		partOf: string;
+		revealSpoiler: string;
+		readAlongNote: string;
 	};
 
 	// Character path
@@ -177,6 +179,10 @@ export interface TranslationKeys {
 		secretHistoryContent: string;
 		ashAndMist: string;
 		cityLandmarksNote: string;
+		readAlongMode: string;
+		readAlongModeTitle: string;
+		statusOn: string;
+		statusOff: string;
 	};
 
 	// Location marker popup

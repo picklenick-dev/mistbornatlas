@@ -106,6 +106,8 @@ export const es: Translation = {
 		enterCity: 'Entrar en la ciudad',
 		stayOnMap: 'Quedarse en el mapa',
 		partOf: 'Parte {part}/{total}',
+		revealSpoiler: 'Toca para revelar',
+		readAlongNote: 'Modo lectura simultánea activado',
 	},
 
 	characterPath: {
@@ -147,6 +149,10 @@ export const es: Translation = {
 		secretHistoryContent: 'Contenido de Historia Secreta',
 		ashAndMist: 'Ceniza y Bruma',
 		cityLandmarksNote: 'Los puntos de la ciudad siempre son visibles',
+		readAlongMode: 'Modo lectura simultánea',
+		readAlongModeTitle: 'Ocultar descripciones de movimiento hasta hacer clic — perfecto para leer junto con el mapa',
+		statusOn: 'SÍ',
+		statusOff: 'NO',
 	},
 
 	locationMarker: {

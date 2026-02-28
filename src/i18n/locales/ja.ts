@@ -106,6 +106,8 @@ export const ja: Translation = {
 		enterCity: '都市に入る',
 		stayOnMap: 'マップに留まる',
 		partOf: 'パート {part}/{total}',
+		revealSpoiler: 'タップで表示',
+		readAlongNote: '読書モード有効',
 	},
 
 	characterPath: {
@@ -146,6 +148,10 @@ export const ja: Translation = {
 		secretHistoryContent: 'シークレット・ヒストリー',
 		ashAndMist: '灰と霧',
 		cityLandmarksNote: '都市のランドマークは常に表示されます',
+		readAlongMode: '読書モード',
+		readAlongModeTitle: 'クリックするまで移動の説明を隠す — 本と一緒に地図を見るのに最適',
+		statusOn: 'オン',
+		statusOff: 'オフ',
 	},
 
 	locationMarker: {

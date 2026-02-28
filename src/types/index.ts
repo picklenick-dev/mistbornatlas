@@ -204,6 +204,8 @@ export interface MapContextType {
 	setShowAllCharacters: (show: boolean) => void;
 	secretHistoryMode: boolean;
 	setSecretHistoryMode: (enabled: boolean) => void;
+	hideMovementSpoilers: boolean;
+	setHideMovementSpoilers: (hide: boolean) => void;
 	mapView: MapView;
 	activeCity: CityId | null;
 	enterCity: (cityId: CityId) => void;

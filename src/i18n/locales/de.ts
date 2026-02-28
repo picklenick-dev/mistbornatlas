@@ -106,6 +106,8 @@ export const de: Translation = {
 		enterCity: 'Stadt betreten',
 		stayOnMap: 'Auf Karte bleiben',
 		partOf: 'Teil {part}/{total}',
+		revealSpoiler: 'Tippen zum Aufdecken',
+		readAlongNote: 'Mitlese-Modus aktiviert',
 	},
 
 	characterPath: {
@@ -147,6 +149,10 @@ export const de: Translation = {
 		secretHistoryContent: 'Secret-History-Inhalte',
 		ashAndMist: 'Asche und Nebel',
 		cityLandmarksNote: 'Stadt-Wahrzeichen sind immer sichtbar',
+		readAlongMode: 'Mitlese-Modus',
+		readAlongModeTitle: 'Bewegungsbeschreibungen verbergen, bis angeklickt — perfekt zum Lesen mit der Karte',
+		statusOn: 'AN',
+		statusOff: 'AUS',
 	},
 
 	locationMarker: {
