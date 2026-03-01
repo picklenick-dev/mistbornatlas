@@ -301,6 +301,10 @@ export const fr: Translation = {
 		symbolBrass: 'Village skaa · Marchand · Plantation',
 		symbolChromium: "Cours d'eau",
 		symbolElectrum: 'Région · Place',
+		specialThanksTitle: 'Remerciements spéciaux',
+		specialThanksDesc:
+			'Un immense merci à l\'utilisateur Reddit u/participating et au fil de lecture commune du Cosmere sur r/readalong. Les données de déplacement des personnages de ce projet ont été en partie élaborées à partir de leurs résumés chapitre par chapitre, combinés avec mes propres notes. Utilisé avec permission.',
+		specialThanksReddit: 'r/readalong Cosmere Wiki',
 		copyrightTitle: "Avis de droit d'auteur",
 		copyrightTrademark: 'Fils-des-brumes est une marque déposée de Dragonsteel Entertainment, LLC',
 		copyrightMap: 'Carte © Isaac Stewart',

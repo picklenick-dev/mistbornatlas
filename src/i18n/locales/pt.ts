@@ -300,6 +300,10 @@ export const pt: Translation = {
 		symbolBrass: 'Aldeia skaa · Comerciante · Plantação',
 		symbolChromium: 'Curso de água',
 		symbolElectrum: 'Região · Praça',
+		specialThanksTitle: 'Agradecimentos especiais',
+		specialThanksDesc:
+			'Um enorme agradecimento ao utilizador do Reddit u/participating e ao tópico de leitura conjunta do Cosmere no r/readalong. Os dados de movimentação de personagens neste projeto foram construídos em parte usando os seus resumos capítulo a capítulo, combinados com as minhas próprias notas. Utilizado com permissão.',
+		specialThanksReddit: 'r/readalong Cosmere Wiki',
 		copyrightTitle: 'Aviso de direitos autorais',
 		copyrightTrademark: 'Nascidos da Bruma é uma marca registada de Dragonsteel Entertainment, LLC',
 		copyrightMap: 'Mapa © Isaac Stewart',

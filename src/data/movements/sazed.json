@@ -4,7 +4,7 @@
 		"chapter": 9,
 		"location": "fellise",
 		"title": "The Terris Steward",
-		"description": "Sazed arrives at Lord Renoux's estate in Fellise to serve as Vin's tutor, teaching her the ways of nobility while secretly preserving ancient religions.",
+		"description": "Sazed arrives at Lord Renoux's estate in Fellise to serve as Vin's tutor and steward, teaching her etiquette, dance, and deportment. He tells Vin about Trelagism—the fifth religion he has pitched to her—and when questioned, admits to knowing about 562 more.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -81,11 +81,53 @@
 	},
 	{
 		"book": "tfe",
+		"chapter": 19,
+		"location": "fellise",
+		"title": "Intelligence Exchange",
+		"description": "Sazed is at Mansion Renoux when Kelsier returns via the Spikeway. They trade intelligence about the noble houses and the rebellion's progress, with Kelsier lecturing Vin about staying away from Elend.",
+		"season": "Late Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
 		"chapter": 22,
 		"location": "fellise",
-		"title": "The Scholar's Work",
-		"description": "Sazed teaches Vin between balls at the Renoux estate, sharing his vast knowledge of religions while studying the patterns of the Final Empire.",
+		"title": "Secrets of Feruchemy",
+		"description": "At the Renoux estate, Sazed talks with Vin about the Terrisman in the Lord Ruler's logbook. He reveals the secrets of Feruchemy and explains how the Keepers were formed for the purpose of remembering everything after the Terris religion was lost. He also learns new things about his people from the logbook—how the land was once green and fertile, not a tundra of frozen dirt.",
 		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 23,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-hasting",
+		"title": "Guardian at Keep Hasting",
+		"description": "Sazed accompanies Vin to the ball at Keep Hasting as her Terris steward. He waits while she spreads rumors and talks to nobles, ever watchful as her guardian.",
+		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 27,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Marsh's Message",
+		"description": "Sazed returns to Clubs' shop bearing a letter from Marsh with news and instructions on where to meet. He also delivers translations of the Lord Ruler's logbook.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 28,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-lekal",
+		"title": "Guardian at Keep Lekal",
+		"description": "Sazed accompanies Vin to the ball at Keep Lekal as her Terris steward. He waits for her as she works to ignite the House Wars and talks with Elend.",
+		"season": "Winter",
 		"year": "1021 FE"
 	},
 	{

@@ -33,12 +33,32 @@
 	{
 		"book": "tfe",
 		"chapter": 22,
+		"location": "fellise",
+		"title": "The Handkerchief",
+		"description": "Spook visits the Renoux estate in Fellise and finds Vin reading the Lord Ruler's logbook. He tells her that Dockson came to get more weapons, and—flushed and nervous—gives her a handkerchief before dashing away. Sazed later explains to Vin that this is how a young man signals he would like to seriously court a lady.",
+		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 24,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
-		"title": "Crew Support",
-		"description": "Spook remains at Clubs' Shop during the House War, providing intelligence from his rooftop watches and message runs through the slums.",
+		"title": "Late Night at Clubs'",
+		"description": "Spook shares a late-night drink at Clubs' shop with Kelsier, Ham, and Clubs while the crew discusses the status of the mission.",
 		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 26,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "fountain-square",
+		"title": "The Executions",
+		"description": "Spook bursts into Clubs' shop to announce executions at Fountain Square. He joins the crew as they head to the square and witness the brutal public execution of skaa women and children, their blood emptied into the fountain.",
+		"season": "Late Autumn",
 		"year": "1021 FE"
 	},
 	{

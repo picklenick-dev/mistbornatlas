@@ -24,12 +24,21 @@
 	{
 		"book": "tfe",
 		"chapter": 20,
+		"location": "fellise",
+		"title": "Teaching Vin",
+		"description": "Marsh arrives at the Renoux estate in Fellise to teach Vin about Seeking—using bronze to sense other Allomancers burning metals, what type, and how to identify Mistlings or Mistborn—as well as additional details about Allomancy in general. He also teaches her about copper and how Smokers can hide Allomantic pulses.",
+		"season": "Late Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 27,
 		"location": "luthadel",
 		"cityId": "luthadel",
-		"cityLandmark": "kredik-shaw",
-		"title": "Deeper Undercover",
-		"description": "Marsh delves deeper into the Ministry hierarchy at Kredik Shaw, learning the dark secrets of Hemalurgy while risking discovery by the Inquisitors.",
-		"season": "Late Summer",
+		"cityLandmark": "the-twists",
+		"title": "The Ministry Infiltration",
+		"description": "Marsh meets Kelsier and Vin at an abandoned building in the Twists, bearing the tattoos of a low-ranked obligator from the Canton of Inquisition. He has truly infiltrated the Ministry. He reveals that the Ministry places Soothers in skaa regions under constant Soothing, hidden by Smokers. He also confirms that Inquisitors can die of old age.",
+		"season": "Winter",
 		"year": "1021 FE"
 	},
 	{

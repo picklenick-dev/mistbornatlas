@@ -215,6 +215,20 @@ export const AboutModal: React.FC = () => {
 							</section>
 
 							<section className={styles.section}>
+								<h3 className={styles.sectionTitle}>{t.about.specialThanksTitle}</h3>
+								<p>{t.about.specialThanksDesc}</p>
+								<p>
+									<a
+										href="https://www.reddit.com/r/readalong/wiki/index/read_alongs/cosmere/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{t.about.specialThanksReddit}
+									</a>
+								</p>
+							</section>
+
+							<section className={styles.section}>
 								<h3 className={styles.sectionTitle}>{t.about.copyrightTitle}</h3>
 								<ul className={styles.copyrightList}>
 									<li>

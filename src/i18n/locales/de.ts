@@ -300,6 +300,10 @@ export const de: Translation = {
 		symbolBrass: 'Skaa-Dorf · Händler · Plantage',
 		symbolChromium: 'Wasserweg',
 		symbolElectrum: 'Region · Platz',
+		specialThanksTitle: 'Besonderer Dank',
+		specialThanksDesc:
+			'Ein riesiges Dankeschön an Reddit-Benutzer u/participating und den r/readalong Cosmere-Mitlese-Thread. Die Charakterbewegungsdaten in diesem Projekt basieren teilweise auf ihren kapitelweisen Zusammenfassungen, ergänzt durch meine eigenen Notizen. Verwendet mit Genehmigung.',
+		specialThanksReddit: 'r/readalong Cosmere Wiki',
 		copyrightTitle: 'Urheberrechtshinweis',
 		copyrightTrademark: 'Mistborn ist eine eingetragene Marke von Dragonsteel Entertainment, LLC',
 		copyrightMap: 'Kartenmaterial © Isaac Stewart',

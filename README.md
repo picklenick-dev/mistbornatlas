@@ -251,6 +251,10 @@ Character portraits are sourced from the [Coppermind Wiki](https://coppermind.ne
 
 Steel Alphabet glyphs by Isaac Stewart, sourced from the Coppermind Wiki under CC BY-SA 3.0.
 
+### Special Thanks
+
+Huge thank you to Reddit user u/participating and the [r/readalong Cosmere read-along thread](https://www.reddit.com/r/readalong/wiki/index/read_alongs/cosmere/). Character movement data in this project was built in part using their chapter-by-chapter summaries, combined with my own notes. Used with permission.
+
 ### Copyright Notice
 
 - **Mistborn** is a registered trademark of Dragonsteel Entertainment, LLC

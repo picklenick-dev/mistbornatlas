@@ -6,7 +6,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "camons-safehouse",
 		"title": "Street Urchin",
-		"description": "Vin works as a lookout for Camon's thieving crew in the Luthadel slums, using her unknown Allomantic abilities to subtly influence those around her.",
+		"description": "Vin is summoned to meet her crewleader Camon, who is rough with her. She unconsciously uses her Luck—a form of Allomantic Soothing—to placate him. Camon pretends to be Lord Jedue, a nobleman desperately seeking new contracts, and prepares to scam the Steel Ministry. Vin uses her Luck on the obligator Prelan Laird so he won't dismiss Camon's pleas.",
 		"season": "Spring",
 		"year": "1021 FE"
 	},
@@ -17,7 +17,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "canton-of-finance",
 		"title": "The Ministry Scam",
-		"description": "Vin accompanies Camon's crew on a high-stakes con at the Canton of Finance, where her Allomantic pulses attract Kelsier's attention.",
+		"description": "Camon, as Lord Jedue, takes Vin to the Canton of Finance to scam the Ministry. Vin uses her Luck on the High Prelan, who gives Camon three thousand boxings. Kelsier and Dockson sit in the waiting room and notice Vin's Allomantic pulses. Afterward, they spot a Steel Inquisitor tailing Camon's retinue.",
 		"season": "Spring",
 		"year": "1021 FE"
 	},
@@ -28,7 +28,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Recruited",
-		"description": "After Kelsier rescues Vin from Camon's beating, she is brought to Clubs' carpentry shop—the crew's headquarters—and introduced to the plan to overthrow the Lord Ruler.",
+		"description": "Kelsier pitches his plan to overthrow the Final Empire to the crew at Clubs' carpentry shop. The crew agrees—except Clubs, who walks out before eventually returning. Kelsier reveals to the others that Vin is a Mistborn, then tells them about and shows them the Eleventh Metal.",
 		"season": "Spring",
 		"year": "1021 FE"
 	},
@@ -39,7 +39,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "steel-gate",
 		"title": "Mistborn Training",
-		"description": "Kelsier takes Vin to the city walls near Steel Gate for her first real Allomancy training, teaching her to burn steel and iron among the dark rooftops.",
+		"description": "Kelsier takes Vin out for her first night of training, giving her a Mistcloak. He teaches her about the eight basic metals—tin, pewter, iron, steel, zinc, brass, copper, and bronze—ending the night at the Luthadel city wall.",
 		"season": "Late Spring",
 		"year": "1021 FE"
 	},
@@ -48,7 +48,7 @@
 		"chapter": 8,
 		"location": "fellise",
 		"title": "The Renoux Estate",
-		"description": "Vin travels west to Fellise to begin her cover as Lady Valette Renoux at Lord Renoux's country estate, preparing for infiltration of noble society.",
+		"description": "Vin and Kelsier go over the Luthadel walls into the night wilderness, where Vin encounters a mistwraith for the first time. On the main road, Sazed is waiting with a carriage and takes them to Fellise. On the way, Kelsier offers Vin the three thousand boxings and the chance to leave the crew. She takes the money but stays because she wants to see how things turn out. At Lord Renoux's estate, Renoux proposes that Vin play the part of Lady Valette, a daughter of a favored cousin, to be introduced to the other noble houses.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -57,7 +57,7 @@
 		"chapter": 9,
 		"location": "fellise",
 		"title": "Training with Sazed",
-		"description": "Under Sazed's tutelage at the Renoux estate, Vin learns the etiquette, dance, and deportment necessary to pass as a noblewoman at the great house balls.",
+		"description": "Vin and Kelsier spar in a training match at the Renoux estate. Afterward, Vin gets a haircut and is quizzed over her noble cover by Sazed, who also tells her about Trelagism—the fifth religion he has pitched to her. Kelsier and Sazed later talk in private about Vin's progress, with Kelsier declaring she will attend a ball at Keep Venture at the end of the week.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -68,7 +68,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Return to the Crew",
-		"description": "Vin returns to Luthadel from Fellise, rejoining the crew at Clubs' shop. Kelsier takes her on a nighttime Allomancy run through the city, pushing her training further.",
+		"description": "Vin returns to Luthadel from Fellise to learn about metals from the crew's Mistings, starting with Breeze who teaches her about Soothing. Hammond arrives and debates the morality of overthrowing the Final Empire as they wait for Kelsier to give a speech.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -79,7 +79,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "warehouse-district",
 		"title": "The Warehouse Rally",
-		"description": "Vin attends a secret rally in the warehouse district where Kelsier preaches revolution to gathered skaa workers, building the rebellion's momentum.",
+		"description": "Vin attends a secret rally in the warehouse district where Kelsier preaches revolution to gathered skaa workers, with Breeze and his Soothers and Rioters manipulating the crowd. Afterward, Kelsier holds a progress meeting at Clubs' shop. Vin and Lestibournes talk about Marsh. The meeting ends when one of Hammond's soldiers reports the Steel Ministry has discovered Camon's old lair.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -90,7 +90,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "camons-safehouse",
 		"title": "Camon's Lair Massacre",
-		"description": "Vin and the crew discover the aftermath of a brutal attack on Camon's old lair—the Ministry has killed everyone inside as retribution for the Canton of Finance scam.",
+		"description": "Vin and the crew investigate the destroyed lair, finding corpses throughout. Among them, Vin notices Ulef—someone had ripped his rib cage apart with bare hands. Sazed recites a prayer of the Cazzi religion off to the side. Milev's body is found tied to a chair, clearly tortured. After leaving, Kelsier finds Camon's corpse hung from a hook rammed through his mouth, wrists and ankles bound and body tortured.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -101,7 +101,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "First Ball at Keep Venture",
-		"description": "Vin attends her first ball as Lady Valette Renoux at Keep Venture. Among the nobility she catches a glimpse of her father, and meets Elend Venture reading Trials of Monument alone in a corner.",
+		"description": "Vin heads off to her first ball at Keep Venture, Sazed driving the carriage. Kelsier drops in while the carriage is en route, gives Vin some advice, then jumps back into the mists. Vin arrives and is introduced as Lady Valette Renoux. During dinner she sees her father across the room—Reen had identified him to her when she was younger. She declines dancing invitations from various nobles, then takes a break upstairs on the balcony, where she has her first conversation with Elend Venture, which shocks Sazed when he hears about it.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -110,7 +110,7 @@
 		"chapter": 13,
 		"location": "fellise",
 		"title": "Return to Fellise",
-		"description": "Vin returns to Lord Renoux's estate in Fellise with Kelsier and Sazed, debriefing on the intelligence gathered at her first ball.",
+		"description": "Sazed questions Vin about her interaction with Elend at the Renoux estate. Vin's true personality is beginning to emerge—neither the timid crewmember nor Lady Valette. Kelsier learns that Vin's father was at the ball, then heads out into the mists again.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -120,8 +120,8 @@
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
-		"title": "Scouting Kredik Shaw",
-		"description": "Vin and Kelsier make a daring nighttime reconnaissance of the Lord Ruler's palace, leaping between the Thousand Spires to map its defenses.",
+		"title": "Into Kredik Shaw",
+		"description": "Kelsier leads Vin into Kredik Shaw, and they fight their way toward the building the Lord Ruler visits every three days. Vin kills for the first time. Three Steel Inquisitors close in on them. To defend herself from sharpened metal triangles being Pushed at her, Vin grabs a random leather-bound book. Burning atium, she manages a temporary escape before an Inquisitor impales her in the side with an obsidian-bladed axe. Vin escapes Kredik Shaw still clutching the book, but as she loses consciousness, something distracts the pursuing Inquisitor and takes her into a protective embrace—it wasn't Kelsier.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -132,7 +132,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Wounded",
-		"description": "After being gravely injured during the scouting mission to Kredik Shaw, Vin is brought to Clubs' shop where Sazed performs surgery to save her life.",
+		"description": "The crew argues about Kelsier's decision to take Vin to Kredik Shaw. Before they can go out to search for her, Sazed arrives carrying Vin. She is fed pewter to help her heal from her wounds. Sazed operates on her, stitching her back together, and Ham carries her to a room to recover. Kelsier and Dockson notice the leather-bound book she brought back, and Sazed identifies it as written in Khlenni—the pre-Ascension language of the Lord Ruler's homeland.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -143,7 +143,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Recovery at Clubs' Shop",
-		"description": "Vin wakes up at Clubs' shop, attended by Lestibournes and Kelsier. Despite her injuries from the Kredik Shaw mission, she begins to recover.",
+		"description": "Vin awakens after two weeks of rest at Clubs' shop. Spook has been watching over her and tells her how Kelsier gave him his new nickname. While talking with Dockson, Vin realizes there is something very unusual about Sazed.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -152,7 +152,7 @@
 		"chapter": 16.2,
 		"location": "fellise",
 		"title": "Return to Fellise",
-		"description": "Once recovered enough to travel, Vin returns to the Renoux estate in Fellise from Clubs' shop in Luthadel.",
+		"description": "After a few more days of rest, Vin returns to the Renoux estate in Fellise. She speaks with Sazed, who explains what Keepers are and reveals that all Terrisman stewards are eunuchs.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -161,7 +161,7 @@
 		"chapter": 17,
 		"location": "fellise",
 		"title": "The Garden of Mansion Renoux",
-		"description": "Vin rests in the beautiful garden of Mansion Renoux in Fellise. Kelsier arrives with Breeze, Yeden, and Dockson for a meeting with Lord Renoux and Vin.",
+		"description": "Vin laments a four-week recovery full of boredom at the Renoux estate. Members of the crew arrive to discuss updates. Vin convinces Kelsier to let her attend an upcoming ball. Later, Vin and Kelsier talk about Mare, his motivations, and he explains Snapping—the traumatic event that awakens Allomantic powers.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -172,38 +172,87 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-elariel",
 		"title": "Ball at Keep Elariel",
-		"description": "Vin attends a ball at Keep Elariel with Sazed. Elend Venture joins her at a table, sitting and reading as usual. He compliments her dress, leaving her jaw-dropped. She dances with Lord Liese and asks about Elend, learning about Lady Shan Elariel who has spoken about Vin. Vin tells Liese that Elend is like an older brother showing her around, so not everyone is so intimidated to ask her for a dance. Lady Shan takes an interest in using Vin, but Vin somehow managed to avoid being completly drawn into it by excusing her suddenly that she needs to return to her table because her Terrisman (Sazed) will worry otherwise. Vin, when leaving the ball witnesses that a city guard slits the throat of a young skaa kitchen boy in the mists.",
+		"description": "Vin attends a ball at Keep Elariel with Sazed. Elend Venture joins her at a table, sitting and reading as usual. He compliments her dress, leaving her jaw-dropped. She dances with various nobles and asks about Elend, learning about Lady Shan Elariel who has spoken about Vin. After much dancing, Vin is required to meet with Shan Elariel. During the conversation, Vin realizes that Shan can Soothe. Vin notices Shan's Terrisman poking through Elend's books—left unattended at her table—so she excuses herself and returns. She scans through a small book that is practically treasonous in its content. Elend returns, gathers his books, and leaves, met on the way by two friends. Sazed identifies them as Jastes Lekal and a Hasting—surprising, since Lekal and Hasting are political rivals of Venture. As Vin leaves the ball, she witnesses a city guard slit the throat of a young skaa kitchen boy in the mists.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
 	{
 		"book": "tfe",
 		"chapter": 19,
-		"location": "luthadel",
-		"cityId": "luthadel",
-		"cityLandmark": "keep-venture",
-		"title": "Growing Closer",
-		"description": "At another ball at Keep Venture, Vin's relationship with Elend deepens despite her mission. She dances on the rooftops afterward.",
+		"location": "fellise",
+		"title": "Returning to Fellise",
+		"description": "Kelsier returns to Mansion Renoux via the Spikeway and meets with Vin, Sazed, and Renoux. He lectures Vin about noblemen, insisting they don't care about the skaa and that she should keep away from Elend Venture.",
+		"season": "Late Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 20,
+		"location": "fellise",
+		"title": "Seeking Lessons",
+		"description": "Vin returns from Luthadel to see weapons being crated up in front of Renoux's mansion, to be shipped out for the rebellion. Marsh arrives soon after and teaches her about Seeking—using bronze to sense other Allomancers burning metals—as well as additional details about Allomancy in general.",
 		"season": "Late Summer",
 		"year": "1021 FE"
 	},
 	{
 		"book": "tfe",
 		"chapter": 22,
+		"location": "fellise",
+		"title": "The Logbook",
+		"description": "Vin reads from her copy of the Lord Ruler's logbook at the Renoux estate when Spook arrives. He gives her a handkerchief—Sazed later explains that this is how a young man signals he would like to seriously court a lady. While waiting for Dockson, Vin talks to Sazed about the Terrisman in the journal, and Sazed reveals the secrets of Feruchemy and how the Keepers were formed to remember everything after the Terris religion was lost. Vin then speaks with Dockson, who tells her how a woman he loved was taken by Lord Devinshae and killed the next morning, insisting all noblemen are like that.",
+		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 23,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-hasting",
+		"title": "Ball at Keep Hasting",
+		"description": "Vin attends a ball at Keep Hasting, pleased to hear that Kelsier's efforts at stoking tension among the Houses are working. She also learns that the Inquisitors are tracking down skaa thieves more frequently. Lady Shan approaches and tells Vin to search through Elend's books the next time she sees him and report back. As Vin waits for Sazed, she finds Elend and asks him whether he has ever slept with a skaa woman. Elend confesses that his father forced him to when he was thirteen, and the woman was killed afterward, but he never did it again. Elend gives Vin a handkerchief, signaling his wish to court her. After Elend leaves with his friends, Vin follows them using Allomancy to a tower where they discuss the Lord Ruler's faults and what their generation should do about it. Kelsier appears suddenly and dismisses the group's ideas as typical youthful idealism that changes nothing.",
+		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 24,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
-		"title": "The Logbook",
-		"description": "Back at Clubs' Shop, Vin studies the Lord Ruler's ancient logbook, finding disturbing references to the Deepness and the Hero of Ages prophecy.",
+		"title": "Crew Meeting",
+		"description": "Vin and Kelsier arrive at Clubs' shop where many of the crew are gathered. Kelsier discusses the status of the mission, and Vin realizes how much she loves her new life—no longer hiding in the shadows. Kelsier, Spook, Ham, and Clubs share a late-night drink.",
+		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 24.2,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "luthadel-garrison",
+		"title": "The Garrison Visit",
+		"description": "Vin changes into her urchin clothes and goes out with Ham to visit the Luthadel Garrison to learn about pewter. Ham explains that many of the soldiers are ordinary skaa who just want a normal living. At the garrison, they learn from a guard named Sertes that the Luthadel Garrison is mobilizing—a skaa rebellion has attacked the Holstep Garrison to the north.",
 		"season": "Autumn",
 		"year": "1021 FE"
 	},
 	{
 		"book": "tfe",
 		"chapter": 25,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Urgent News",
+		"description": "At Clubs' shop, Ham returns with news that the Luthadel Garrison is moving north toward Holstep. Kelsier makes Vin swallow five pewter beads so they can run north to warn the rebel army.",
+		"season": "Late Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 25.2,
 		"location": "arguois-caverns",
 		"title": "The Pewter Drag",
-		"description": "When the rebel army at Holstep is massacred by garrison forces, Vin makes a desperate pewter drag—burning pewter continuously for hours—to reach the surviving soldiers hidden in the Arguois Caverns.",
+		"description": "Vin and Kelsier run for sixteen hours, burning pewter continuously in a desperate pewter drag. On the way, they encounter the remains of the rebel army, surrounded and slaughtered by the Valtroux Garrison. Kelsier wants to join and save who he can, but Vin convinces him they are not invincible and instead they hurry on to the Arguois Caverns, where they find 2,000 soldiers still alive thanks to Mennis keeping them prepared to leave at a moment's notice.",
 		"season": "Late Autumn",
 		"year": "1021 FE"
 	},
@@ -214,8 +263,52 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Recovery",
-		"description": "Vin returns to Clubs' Shop exhausted from the pewter drag, recovering while the crew regroups from the devastating loss at Holstep.",
+		"description": "Vin lies in bed at Clubs' shop, exhausted. It took her and Kelsier two weeks to return to Luthadel. Kelsier bursts in, and Breeze blames him for chasing fame and glory, declaring the job dead. Kelsier admits the loss of the rebel army is a setback but refuses to give up.",
 		"season": "Late Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 26.2,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "fountain-square",
+		"title": "The Executions",
+		"description": "Spook announces executions at the Fountain Square. The crew head to the square, bribing someone for rooftop access. Vin identifies her father to Kelsier—an obligator called Tevidian, Lord Prelan and the highest-ranked obligator, even above the Inquisitors. They watch as women and children are dragged from a prison cart and executed, the fountain running red with blood. Kelsier tells the crew: 'This is our enemy. There is no quarter here, no walking away.'",
+		"season": "Late Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 27,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Planning Next Moves",
+		"description": "The crew returns to Clubs' shop. Kelsier, Vin, and the rest—Dockson, Ham, Breeze, Spook—begin replanning how to move forward and start a house war between the nobility. Sazed arrives with a letter from Marsh containing instructions on where to meet.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 27.2,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "the-twists",
+		"title": "Meeting Marsh",
+		"description": "Kelsier and Vin head to an abandoned building in the Twists to meet Marsh. While waiting, Kelsier talks about gold—the ninth Allomantic metal that lets a user see an alternative past version of themselves. Marsh arrives bearing the tattoos of a low-ranked obligator from the Canton of Inquisition. He reveals that the Ministry places Soothers in skaa regions under constant Soothing, hidden by Smokers. Marsh also confirms that Inquisitors can die of old age.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 28,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-lekal",
+		"title": "Ball at Keep Lekal",
+		"description": "Vin attends a ball at Keep Lekal and begins spreading rumors to ignite the House Wars. She talks with Lady Kliss, gossiping that House Hastings are relocating resources to their plantation in the Southern Dominance. Elend surprises her—he says he wants to kiss her, but Vin insists he doesn't truly know her. They take a stroll instead, and Elend reveals that House Venture's fortune comes entirely from mining atium at the Pits of Hathsin, trusting her completely. He also mentions that the Tekiels were killed by House Hasting, and tries to convince Valette to leave Luthadel.",
+		"season": "Winter",
 		"year": "1021 FE"
 	},
 	{

@@ -298,6 +298,10 @@ export const ja: Translation = {
 		symbolBrass: 'スカーの村 · 商店 · 農園',
 		symbolChromium: '水路',
 		symbolElectrum: '支配地 · 広場',
+		specialThanksTitle: '特別な感謝',
+		specialThanksDesc:
+			'Redditユーザー u/participating と r/readalong のコズミア読書会スレッドに心から感謝します。本プロジェクトのキャラクター移動データは、彼らの章ごとの要約と自分自身のメモを組み合わせて作成されました。許可を得て使用しています。',
+		specialThanksReddit: 'r/readalong Cosmere Wiki',
 		copyrightTitle: '著作権表示',
 		copyrightTrademark: 'ミストボーンはDragonsteel Entertainment, LLCの登録商標です',
 		copyrightMap: 'マップ © Isaac Stewart',

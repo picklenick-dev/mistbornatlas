@@ -299,6 +299,10 @@ export const sv: Translation = {
 		symbolBrass: 'Skaa-by · Handlare · Plantage',
 		symbolChromium: 'Vattenväg',
 		symbolElectrum: 'Region · Torg',
+		specialThanksTitle: 'Särskilt tack',
+		specialThanksDesc:
+			'Ett enormt tack till Reddit-användaren u/participating och Cosmere-läsningstråden på r/readalong. Karaktärsrörelsedata i detta projekt byggdes delvis med hjälp av deras kapitelsammanfattningar, kombinerat med mina egna anteckningar. Används med tillstånd.',
+		specialThanksReddit: 'r/readalong Cosmere Wiki',
 		copyrightTitle: 'Upphovsrättsmeddelande',
 		copyrightTrademark:
 			'Mistborn är ett registrerat varumärke tillhörande Dragonsteel Entertainment, LLC',

@@ -333,6 +333,9 @@ export interface TranslationKeys {
 		symbolBrass: string;
 		symbolChromium: string;
 		symbolElectrum: string;
+		specialThanksTitle: string;
+		specialThanksDesc: string;
+		specialThanksReddit: string;
 		copyrightTitle: string;
 		copyrightTrademark: string;
 		copyrightMap: string;

@@ -4,7 +4,7 @@
 		"chapter": 0,
 		"location": "tresting-plantation",
 		"title": "The Survivor Returns",
-		"description": "Kelsier arrives at Lord Tresting's plantation in the Southern Dominance, killing the cruel nobleman—his first strike against the nobility since escaping the Pits.",
+		"description": "Kelsier arrives at Lord Tresting's plantation where the nobleman entertains an obligator sent by Lord Venture, hoping to gain Venture's business partnership. That evening, when a skaa girl is about to be taken to Tresting, Kelsier intervenes—killing Tresting and all his obligators, taskmasters, and soldiers, finally burning the manor to the ground.",
 		"season": "Spring",
 		"year": "1021 FE"
 	},
@@ -26,7 +26,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "camons-safehouse",
 		"title": "Recruiting Vin",
-		"description": "Kelsier rescues Vin from Camon's abuse and offers her a place in his crew, revealing the truth about her abilities as a Mistborn.",
+		"description": "Vin tries to flee Camon's lair but Ulef betrays her. Kelsier intervenes, saving Vin from Camon's beating. He promotes Milev to crewleader, takes the three thousand boxings as payment for dealing with the obligator and Inquisitor, and rents the den for his evening meeting. He then tests Vin and confirms she is a Mistborn.",
 		"season": "Spring",
 		"year": "1021 FE"
 	},
@@ -37,7 +37,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Atium Heist",
-		"description": "Kelsier breaks into Keep Venture's vault to steal atium, funding the rebellion while testing the defenses of the noble houses.",
+		"description": "Kelsier, Dockson, and Vin head to the rooftop. Kelsier gears up and heads off into the mists to break into Keep Venture and steal atium. He gets the safe, but has to fight hazekillers on his way out. He escapes with the atium, funding the rebellion.",
 		"season": "Spring",
 		"year": "1021 FE"
 	},
@@ -48,7 +48,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "The Crew Assembles",
-		"description": "At Clubs' carpentry shop, Kelsier gathers the full crew—Ham, Breeze, Dockson, Clubs, and now Vin—and reveals his plan to overthrow the Lord Ruler.",
+		"description": "At Clubs' carpentry shop, Kelsier and the crew plot the destruction of the Final Empire. Marsh eventually arrives, and everyone leaves so the two brothers can talk alone. Vin returns to eavesdrop outside the door.",
 		"season": "Spring",
 		"year": "1021 FE"
 	},
@@ -59,7 +59,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "steel-gate",
 		"title": "Teaching the Apprentice",
-		"description": "Kelsier takes Vin to the city walls near Steel Gate for Allomancy training, teaching her to Push and Pull on metals while leaping between spires.",
+		"description": "Kelsier takes Vin out for her first night of training, giving her a Mistcloak. He teaches her about the eight basic metals at the Luthadel city walls near Steel Gate.",
 		"season": "Late Spring",
 		"year": "1021 FE"
 	},
@@ -68,7 +68,7 @@
 		"chapter": 8,
 		"location": "fellise",
 		"title": "The Renoux Cover",
-		"description": "Kelsier escorts Vin to Fellise and Lord Renoux's estate, establishing her cover identity as Lady Valette for the infiltration of noble society.",
+		"description": "Kelsier takes Vin over the Luthadel walls into the night wilderness, where they encounter a mistwraith. On the main road, Sazed waits with a carriage and takes them to Fellise. On the way, Kelsier offers Vin the three thousand boxings and the chance to leave the crew if she doesn't trust him. At Lord Renoux's estate, he establishes her cover identity as Lady Valette.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -79,7 +79,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Planning the Revolution",
-		"description": "Back in Luthadel, Kelsier meets with the crew at Clubs' shop to review the rebellion's progress. He takes Vin on a nighttime run through the city to continue her Allomancy training.",
+		"description": "Back in Luthadel, Kelsier holds a progress meeting at Clubs' shop. Before the meeting, he asks Sazed about a religion with power—Sazed tells him about Jaism—and whether any religion includes the slaughter of noblemen as a holy duty. The meeting ends when one of Hammond's soldiers reports the Ministry has found Camon's old lair.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -90,7 +90,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "warehouse-district",
 		"title": "The Warehouse Rally",
-		"description": "Kelsier preaches revolution to gathered skaa workers at a secret rally in the warehouse district, using his legend as the Survivor of Hathsin to inspire the rebellion.",
+		"description": "Kelsier preaches revolution to gathered skaa workers at a secret rally in the warehouse district. Breeze and his Soothers and Rioters manipulate the crowd to be more receptive to the speech, using his legend as the Survivor of Hathsin to inspire the rebellion.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -101,7 +101,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "camons-safehouse",
 		"title": "Camon's Lair Massacre",
-		"description": "Kelsier and the crew discover that the Ministry has slaughtered everyone at Camon's old lair in retaliation for the Canton of Finance scam, hardening their resolve against the Lord Ruler.",
+		"description": "Kelsier and the crew investigate the destroyed lair. After leaving, Kelsier tries to find Camon among the beggars. He finds Camon's corpse hung from a hook rammed through his mouth—wrists and ankles tied, body tortured. This method of execution is reserved for those who abuse Allomancy. Vin had successfully tailed Kelsier, and they speak briefly after the discovery.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -110,7 +110,7 @@
 		"chapter": 13,
 		"location": "fellise",
 		"title": "Planning at Fellise",
-		"description": "Kelsier meets with Vin and Sazed at Lord Renoux's estate in Fellise, reviewing the intelligence from Vin's first ball and preparing the next phase of the plan.",
+		"description": "Kelsier meets with Vin and Sazed at Lord Renoux's estate in Fellise, reviewing the intelligence from Vin's first ball. He learns that Vin's father was at the ball, then heads out into the mists to return to Luthadel.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -121,7 +121,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Palace Reconnaissance",
-		"description": "Kelsier and Vin scout Kredik Shaw at night, mapping the palace defenses and testing the Inquisitors' response capabilities.",
+		"description": "Kelsier leads Vin into Kredik Shaw to scout the building the Lord Ruler visits every three days. They fight their way in, but three Steel Inquisitors converge on them. Kelsier is separated from Vin during the chaos. Vin escapes gravely wounded, clutching a mysterious leather-bound book.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -132,7 +132,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Aftermath of Kredik Shaw",
-		"description": "Kelsier meets with Dockson at Clubs' shop after the Kredik Shaw scouting mission. Dockson is furious about the risk of taking Vin to the Lord Ruler's palace.",
+		"description": "The crew argues about Kelsier's decision to take Vin to Kredik Shaw. Before they can go out to search, Sazed arrives carrying her. Dockson is furious about the risk. Kelsier and Dockson notice the leather-bound book Vin brought back—Sazed identifies it as written in Khlenni, the language of the Lord Ruler's pre-Ascension homeland, and thinks he may be able to translate it.",
 		"season": "Summer",
 		"year": "1021 FE"
 	},
@@ -161,9 +161,38 @@
 		"chapter": 19,
 		"location": "luthadel",
 		"cityId": "luthadel",
-		"cityLandmark": "keep-elariel",
-		"title": "House War Operations",
-		"description": "Kelsier orchestrates attacks between noble houses, assassinating targets and planting evidence to fuel the House War that weakens the nobility.",
+		"cityLandmark": "sootwarrens",
+		"title": "Stoking the House War",
+		"description": "Kelsier sows chaos to build the House War by leaving the obviously-murdered body of Lord Charrs Entrone in the garden of Keep Tekiel, then heads to the Sootwarrens to meet up with Hoid—an informant masquerading as a street contact—to find out what rumors exist regarding House Renoux. From Hoid, he also learns that Lady Shan Elariel is a Soother.",
+		"season": "Late Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 19.2,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "ahlstrom-square",
+		"title": "Meeting Lord Straff",
+		"description": "Kelsier goes to Ahlstrom Square, pretending to be a sickly, lame skaa beggar and street informant to meet Lord Straff Venture, leader of House Venture. He learns that rumors about the Survivor of Hathsin are spreading, and that there is talk of an Eleventh Metal.",
+		"season": "Late Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 19.3,
+		"location": "fellise",
+		"title": "Return to Renoux",
+		"description": "Kelsier returns to Mansion Renoux using the Spikeway, trading intelligence with Vin, Sazed, and Renoux. He lectures Vin about noblemen, insisting they don't care about the skaa and that she should keep away from Elend.",
+		"season": "Late Summer",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 20,
+		"location": "fellise",
+		"title": "Overseeing Supplies",
+		"description": "Kelsier is at the Renoux estate in Fellise, overseeing the weapons and supplies being loaded onto carts to be shipped out for the rebellion.",
 		"season": "Late Summer",
 		"year": "1021 FE"
 	},
@@ -172,16 +201,49 @@
 		"chapter": 21,
 		"location": "arguois-caverns",
 		"title": "The Rebel Army",
-		"description": "Kelsier travels to the Arguois Caverns to inspect the growing rebel army hidden in the mountains, training soldiers who have never held weapons.",
+		"description": "Kelsier reads a translation of the Lord Ruler's logbook as he travels by canal boat to the north. The caravan stops at a lock, and Kelsier, the recruits, and the supplies leave to head to the caves where the rebel army trains. Overcoming memories of the Pits of Hathsin, he enters the Arguois cave complex and inspects the army Ham has been forming. During a dinner, Kelsier Riots Bilg's emotions, intending to use him as an example. Bilg and Demoux duel, with Kelsier using Allomancy to help Demoux—the smaller of the two—win. After the duel, the army's confidence soars as Yeden believes Kelsier can grant his powers to others. Kelsier wants Ham to return to Luthadel with him, handing the army over to Yeden.",
+		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 23,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-hasting",
+		"title": "Shadowing Vin",
+		"description": "Kelsier appears outside the tower window where Vin is eavesdropping on Elend's group at Keep Hasting. He dismisses their idealistic talk about changing the world as typical young nobleman behavior that never leads to real change. They both leave and go their separate ways.",
+		"season": "Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 24,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Crew Status Meeting",
+		"description": "Kelsier arrives at Clubs' shop where many of the crew are gathered. He discusses the status of the mission and shares a late-night drink with Spook, Ham, and Clubs. He asks Ham to go to the Garrison for intelligence.",
 		"season": "Autumn",
 		"year": "1021 FE"
 	},
 	{
 		"book": "tfe",
 		"chapter": 25,
-		"location": "holstep",
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Desperate Decision",
+		"description": "At Clubs' shop, Kelsier learns that the skaa rebellion has attacked the Holstep Garrison and the Luthadel Garrison is moving north. He decides to try to warn the rebel army and makes Vin swallow five pewter beads for a long pewter drag northward.",
+		"season": "Late Autumn",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 25.2,
+		"location": "arguois-caverns",
 		"title": "Disaster at Holstep",
-		"description": "Kelsier pewter-drags to Holstep when the garrison discovers and massacres the rebel army. He arrives to find devastation and must flee south.",
+		"description": "Kelsier and Vin run for sixteen hours, burning pewter continuously. They encounter the remains of the rebel army, surrounded and slaughtered by the Valtroux Garrison. Kelsier wants to join the fight and save who he can, but Vin convinces him they are not invincible. They continue on to the Arguois Caverns, where 2,000 soldiers survived thanks to Mennis keeping them prepared. Mennis tells Kelsier not to be too upset—this was one of the biggest victories the skaa have had against the Lord Ruler in centuries.",
 		"season": "Late Autumn",
 		"year": "1021 FE"
 	},
@@ -192,7 +254,40 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Picking Up the Pieces",
-		"description": "Back at Clubs' Shop, Kelsier regroups after the Holstep disaster, refusing to abandon the revolution even as hope seems lost.",
+		"description": "Back at Clubs' shop after two weeks returning from the caverns, the crew talks about the future of the job—it appears to be a total failure. Breeze blames Kelsier for chasing fame and glory. Kelsier admits it's been a setback but refuses to abandon the revolution.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 26.2,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "fountain-square",
+		"title": "The Executions",
+		"description": "Spook announces executions at Fountain Square. The crew head to the square, bribing someone at a building for rooftop access. They watch many skaa murdered, their blood emptied into the fountain. Kelsier convinces the crew to continue the job, pointing at the atrocity: 'This is our enemy. There is no quarter here, no walking away.'",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 27,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "New Strategy",
+		"description": "The crew returns to Clubs' shop to plan their next moves—starting a house war between the nobility. Sazed delivers a message from Marsh, telling Kelsier where the two can meet in the Twists.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 27.2,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "the-twists",
+		"title": "The Gold Metal",
+		"description": "Kelsier and Vin head out to an abandoned building in the Twists hours before the meeting with Marsh. While waiting, Kelsier talks about gold—the ninth Allomantic metal that lets a user see an alternative past version of themselves. He also explains Feruchemy and gives Vin some gold to burn for her first experience with it. When Marsh arrives, bearing the tattoos of a low-ranked obligator from the Canton of Inquisition, he describes the Soothing stations in Luthadel and reveals that Inquisitors can die of old age.",
 		"season": "Winter",
 		"year": "1021 FE"
 	},
