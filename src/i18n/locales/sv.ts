@@ -322,6 +322,17 @@ export const sv: Translation = {
 		roadmap100: 'Hemlig Historia — tidslinje klar',
 	},
 
+	welcome: {
+		title: 'Välkommen till den interaktiva Mistborn-kartan',
+		description: 'Läser du Mistborn-trilogin just nu? Aktivera medläsningsläget för att utforska kartan utan spoilers.',
+		featureMovements: 'Karaktärernas rörelser visas på kartan allt eftersom du läser varje kapitel',
+		featureTitles: 'Rörelsetitlar är alltid synliga så att du vet vad som hänt',
+		featureSummaries: 'Detaljerade sammanfattningar förblir dolda tills du trycker för att visa dem',
+		enableButton: 'Aktivera medläsningsläge',
+		skipButton: 'Nej tack, visa allt',
+		hint: 'Du kan alltid ändra detta i kontrollmenyn till vänster.',
+	},
+
 	skipLinks: {
 		nav: 'Hoppa till avsnitt',
 		toHeader: 'Hoppa till sidhuvud',

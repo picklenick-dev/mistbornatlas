@@ -462,3 +462,99 @@
 	z-index: 400; // Above Leaflet tiles (200) but below popups (600)
 	overflow: hidden;
 }
+
+// Modal shared styles — backdrop, panel, header, close button
+
+@mixin modal-backdrop {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.7);
+	backdrop-filter: blur(4px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: $z-index-modal;
+	padding: $spacing-4;
+	animation: fadeIn 0.2s ease-out;
+}
+
+@mixin modal-panel($max-width: 500px) {
+	@include glass-panel;
+	width: 100%;
+	max-width: $max-width;
+	display: flex;
+	flex-direction: column;
+	animation: slideUp 0.3s ease-out;
+	position: relative;
+	z-index: $z-index-modal;
+
+	@include md-down {
+		max-height: 90vh;
+	}
+}
+
+@mixin modal-header {
+	@include flex-between;
+	padding: $spacing-4;
+	border-bottom: 1px solid $color-border;
+	flex-shrink: 0;
+}
+
+@mixin modal-title {
+	font-family: $font-heading;
+	font-size: $font-size-xl;
+	color: $color-text-primary;
+}
+
+@mixin modal-close-button {
+	@include button-icon;
+	width: 28px;
+	height: 28px;
+}
+
+@mixin modal-footer {
+	padding: $spacing-3 $spacing-4;
+	border-top: 1px solid $color-border;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+@mixin modal-text-link {
+	background: none;
+	border: none;
+	color: $color-text-muted;
+	font-size: $font-size-xs;
+	cursor: pointer;
+	padding: $spacing-1 $spacing-2;
+	transition: color $transition-fast;
+
+	&:hover {
+		color: $color-text-secondary;
+		text-decoration: underline;
+	}
+}
+
+@mixin modal-content {
+	padding: $spacing-5 $spacing-4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: $spacing-3;
+}
+
+@mixin modal-description {
+	font-size: $font-size-sm;
+	color: $color-text-secondary;
+	line-height: $line-height-relaxed;
+	text-align: center;
+	max-width: 400px;
+	margin: 0;
+}
+
+@mixin modal-hint {
+	font-size: $font-size-xs;
+	color: $color-text-muted;
+	margin: 0;
+}

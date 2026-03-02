@@ -24,6 +24,9 @@ const AboutModal = lazy(() =>
 const DonationModal = lazy(() =>
 	import('@/components/DonationModal').then(m => ({ default: m.DonationModal }))
 );
+const WelcomeModal = lazy(() =>
+	import('@/components/WelcomeModal').then(m => ({ default: m.WelcomeModal }))
+);
 
 // Map view switcher component (needs to be inside MapProvider)
 const MapViewSwitcher: React.FC = () => {
@@ -101,6 +104,9 @@ const App: React.FC = () => {
 							</Suspense>
 							<Suspense fallback={null}>
 								<DonationModal />
+							</Suspense>
+							<Suspense fallback={null}>
+								<WelcomeModal />
 							</Suspense>
 						</footer>
 					</div>

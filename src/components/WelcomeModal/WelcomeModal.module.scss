@@ -1,0 +1,118 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.backdrop {
+	@include modal-backdrop;
+}
+
+.modal {
+	@include modal-panel(460px);
+	text-align: center;
+}
+
+.header {
+	@include modal-header;
+}
+
+.closeButton {
+	@include modal-close-button;
+}
+
+.title {
+	@include modal-title;
+}
+
+.content {
+	@include modal-content;
+}
+
+.iconWrapper {
+	width: 56px;
+	height: 56px;
+	border-radius: $radius-full;
+	background: rgba($color-mist, 0.12);
+	border: 1px solid rgba($color-mist, 0.3);
+	@include flex-center;
+
+	i {
+		font-size: 28px;
+		color: $color-mist;
+	}
+}
+
+.description {
+	@include modal-description;
+}
+
+.features {
+	list-style: none;
+	padding: 0;
+	margin: $spacing-2 0;
+	text-align: left;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: $spacing-2;
+
+	li {
+		display: flex;
+		align-items: flex-start;
+		gap: $spacing-2;
+		font-size: $font-size-sm;
+		color: $color-text-secondary;
+		line-height: $line-height-normal;
+
+		&::before {
+			content: '✦';
+			color: $color-mist;
+			flex-shrink: 0;
+			margin-top: 1px;
+		}
+	}
+}
+
+.actions {
+	display: flex;
+	flex-direction: column;
+	gap: $spacing-2;
+	width: 100%;
+	margin-top: $spacing-2;
+}
+
+.enableButton {
+	@include button-base;
+	width: 100%;
+	padding: $spacing-3 $spacing-4;
+	background: rgba($color-mist, 0.15);
+	color: $color-mist;
+	border: 1px solid rgba($color-mist, 0.5);
+	font-size: $font-size-base;
+	font-weight: $font-weight-semibold;
+	transition: all $transition-normal;
+	gap: $spacing-2;
+
+	i {
+		font-size: 18px;
+	}
+
+	&:hover {
+		background: rgba($color-mist, 0.25);
+		border-color: $color-mist;
+		transform: scale(1.02);
+		box-shadow: 0 4px 16px rgba($color-mist, 0.3);
+	}
+
+	&:active {
+		transform: scale(0.98);
+	}
+}
+
+.skipButton {
+	@include modal-text-link;
+	font-size: $font-size-sm;
+	padding: $spacing-2;
+}
+
+.hint {
+	@include modal-hint;
+}

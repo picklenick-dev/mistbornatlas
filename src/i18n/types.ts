@@ -354,6 +354,18 @@ export interface TranslationKeys {
 		roadmap100: string;
 	};
 
+	// Welcome modal
+	welcome: {
+		title: string;
+		description: string;
+		featureMovements: string;
+		featureTitles: string;
+		featureSummaries: string;
+		enableButton: string;
+		skipButton: string;
+		hint: string;
+	};
+
 	// Skip navigation links
 	skipLinks: {
 		nav: string;

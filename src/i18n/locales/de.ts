@@ -322,6 +322,17 @@ export const de: Translation = {
 		roadmap100: 'Geheime Geschichte — Zeitleiste vollständig',
 	},
 
+	welcome: {
+		title: 'Willkommen bei der interaktiven Mistborn-Karte',
+		description: 'Liest du gerade die Mistborn-Trilogie? Aktiviere den Mitlese-Modus, um die Karte ohne Spoiler zu erkunden.',
+		featureMovements: 'Charakterbewegungen werden auf der Karte angezeigt, während du Kapitel für Kapitel liest',
+		featureTitles: 'Bewegungstitel sind immer sichtbar, damit du weißt, was passiert ist',
+		featureSummaries: 'Detaillierte Zusammenfassungen bleiben verborgen, bis du sie antippst',
+		enableButton: 'Mitlese-Modus aktivieren',
+		skipButton: 'Nein danke, alles anzeigen',
+		hint: 'Du kannst dies jederzeit im Steuerungsmenü links ändern.',
+	},
+
 	skipLinks: {
 		nav: 'Zum Abschnitt springen',
 		toHeader: 'Zur Kopfzeile springen',

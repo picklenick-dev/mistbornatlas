@@ -322,6 +322,17 @@ export const pt: Translation = {
 		roadmap100: 'História Secreta — linha do tempo completa',
 	},
 
+	welcome: {
+		title: 'Bem-vindo ao Mapa Interativo de Mistborn',
+		description: 'Está a ler a trilogia Mistborn? Ative o modo de leitura acompanhada para explorar o mapa sem spoilers.',
+		featureMovements: 'Os movimentos dos personagens são mostrados no mapa à medida que avança em cada capítulo',
+		featureTitles: 'Os títulos dos movimentos estão sempre visíveis para saber o que aconteceu',
+		featureSummaries: 'Os resumos detalhados ficam ocultos até tocar para os revelar',
+		enableButton: 'Ativar modo de leitura',
+		skipButton: 'Não, obrigado — mostrar tudo',
+		hint: 'Pode sempre alterar isto no menu de Controlos à esquerda.',
+	},
+
 	skipLinks: {
 		nav: 'Ir para a seção',
 		toHeader: 'Ir para o cabeçalho',

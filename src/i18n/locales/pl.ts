@@ -323,6 +323,17 @@ export const pl: Translation = {
 		roadmap100: 'Tajna Historia — oś czasu ukończona',
 	},
 
+	welcome: {
+		title: 'Witamy na interaktywnej mapie Mistborn',
+		description: 'Czy aktualnie czytasz trylogię Mistborn? Włącz tryb czytania, aby eksplorować mapę bez spoilerów.',
+		featureMovements: 'Ruchy postaci są wyświetlane na mapie w miarę postępów w kolejnych rozdziałach',
+		featureTitles: 'Tytuły ruchów są zawsze widoczne, abyś wiedział, co się wydarzyło',
+		featureSummaries: 'Szczegółowe podsumowania pozostają ukryte, dopóki ich nie klikniesz',
+		enableButton: 'Włącz tryb czytania',
+		skipButton: 'Nie, dziękuję — pokaż wszystko',
+		hint: 'Możesz to zmienić w dowolnym momencie w menu Sterowanie po lewej stronie.',
+	},
+
 	skipLinks: {
 		nav: 'Przejdź do sekcji',
 		toHeader: 'Przejdź do nagłówka',

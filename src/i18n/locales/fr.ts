@@ -323,6 +323,17 @@ export const fr: Translation = {
 		roadmap100: 'Histoire Secrète — chronologie complète',
 	},
 
+	welcome: {
+		title: 'Bienvenue sur la carte interactive de Mistborn',
+		description: 'Êtes-vous en train de lire la trilogie Mistborn ? Activez le mode lecture accompagnée pour explorer la carte sans spoilers.',
+		featureMovements: 'Les déplacements des personnages apparaissent sur la carte au fil de votre lecture',
+		featureTitles: 'Les titres des déplacements sont toujours visibles pour savoir ce qui s\'est passé',
+		featureSummaries: 'Les résumés détaillés restent cachés jusqu\'à ce que vous appuyiez pour les révéler',
+		enableButton: 'Activer le mode lecture',
+		skipButton: 'Non merci, tout afficher',
+		hint: 'Vous pouvez toujours changer cela dans le menu Contrôles à gauche.',
+	},
+
 	skipLinks: {
 		nav: 'Aller à la section',
 		toHeader: "Aller à l'en-tête",

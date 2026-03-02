@@ -322,6 +322,18 @@ export const en: Translation = {
 		roadmap100: 'Secret History — timeline complete',
 	},
 
+	welcome: {
+		title: 'Welcome to the Mistborn Interactive Map',
+		description:
+			'Are you currently reading the Mistborn trilogy? Enable Read-along Mode to explore the map without spoilers.',
+		featureMovements: 'Character movements are shown on the map as you progress through each chapter',
+		featureTitles: 'Movement titles are always visible so you know what happened',
+		featureSummaries: 'Detailed summaries stay hidden until you tap to reveal them',
+		enableButton: 'Enable Read-along Mode',
+		skipButton: 'No thanks, show everything',
+		hint: 'You can always toggle this in the Controls menu on the left.',
+	},
+
 	skipLinks: {
 		nav: 'Skip to section',
 		toHeader: 'Skip to header',

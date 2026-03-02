@@ -56,58 +56,28 @@
 }
 
 .backdrop {
-	position: fixed;
-	inset: 0;
-	background: rgba(0, 0, 0, 0.7);
-	backdrop-filter: blur(4px);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	z-index: $z-index-modal;
-	padding: $spacing-4;
-	animation: fadeIn 0.2s ease-out;
+	@include modal-backdrop;
 }
 
 .modal {
-	@include glass-panel;
-	width: 100%;
-	max-width: 480px;
-	display: flex;
-	flex-direction: column;
-	animation: slideUp 0.3s ease-out;
-	position: relative;
-	z-index: $z-index-modal;
+	@include modal-panel(480px);
 	text-align: center;
-
-	@include md-down {
-		max-height: 90vh;
-	}
 }
 
 .modalHeader {
-	@include flex-between;
-	padding: $spacing-4;
-	border-bottom: 1px solid $color-border;
-	flex-shrink: 0;
+	@include modal-header;
 }
 
 .modalTitle {
-	font-family: $font-heading;
-	font-size: $font-size-xl;
-	color: $color-text-primary;
+	@include modal-title;
 }
 
 .closeButton {
-	@include button-icon;
-	width: 28px;
-	height: 28px;
+	@include modal-close-button;
 }
 
 .modalContent {
-	padding: $spacing-5 $spacing-4;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	@include modal-content;
 	gap: $spacing-4;
 }
 
@@ -117,11 +87,7 @@
 }
 
 .modalDesc {
-	font-size: $font-size-sm;
-	color: $color-text-secondary;
-	line-height: $line-height-relaxed;
-	text-align: center;
-	max-width: 400px;
+	@include modal-description;
 }
 
 .kofiButton {
@@ -167,12 +133,7 @@
 }
 
 .modalFooter {
-	padding: $spacing-3 $spacing-4;
-	border-top: 1px solid $color-border;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-shrink: 0;
+	@include modal-footer;
 }
 
 .dismissButton {
@@ -193,16 +154,5 @@
 }
 
 .dontAskButton {
-	background: none;
-	border: none;
-	color: $color-text-muted;
-	font-size: $font-size-xs;
-	cursor: pointer;
-	padding: $spacing-1 $spacing-2;
-	transition: color $transition-fast;
-
-	&:hover {
-		color: $color-text-secondary;
-		text-decoration: underline;
-	}
+	@include modal-text-link;
 }

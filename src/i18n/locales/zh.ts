@@ -317,6 +317,17 @@ export const zh: Translation = {
 		roadmap100: '秘密历史 — 时间线完成',
 	},
 
+	welcome: {
+		title: '欢迎来到迷雾之子互动地图',
+		description: '你正在阅读迷雾之子三部曲吗？启用伴读模式，无剧透地探索地图。',
+		featureMovements: '角色的移动会随着你阅读每一章节而显示在地图上',
+		featureTitles: '移动标题始终可见，让你了解发生了什么',
+		featureSummaries: '详细摘要保持隐藏，直到你点击展开',
+		enableButton: '启用伴读模式',
+		skipButton: '不用了，显示全部',
+		hint: '你可以随时在左侧控制菜单中更改此设置。',
+	},
+
 	skipLinks: {
 		nav: '跳转到章节',
 		toHeader: '跳转到页眉',

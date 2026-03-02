@@ -80,9 +80,9 @@ export const MapProvider: React.FC<MapProviderProps> = ({ children }) => {
 	const [hideMovementSpoilers, setHideMovementSpoilers] = useState<boolean>(() => {
 		try {
 			const stored = localStorage.getItem(HIDE_MOVEMENT_SPOILERS_KEY);
-			return stored === null ? true : stored === '1';
+			return stored === null ? false : stored === '1';
 		} catch {
-			return true;
+			return false;
 		}
 	});
 

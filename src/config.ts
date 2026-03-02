@@ -129,6 +129,7 @@ export const DONATION_KEY = 'mistborn-donation';
 export const CITY_PROMPT_SEEN_KEY = 'mistborn-city-prompt-seen';
 export const TIMELINE_KEY = 'mistborn-timeline-collapsed';
 export const HIDE_MOVEMENT_SPOILERS_KEY = 'mistborn-hide-movement-spoilers';
+export const WELCOME_SEEN_KEY = 'mistborn-welcome-seen';
 
 // ── Validation Lists ──────────────────────────────────────────────────────────
 

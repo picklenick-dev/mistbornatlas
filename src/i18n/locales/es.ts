@@ -323,6 +323,17 @@ export const es: Translation = {
 		roadmap100: 'Historia Secreta — línea temporal completa',
 	},
 
+	welcome: {
+		title: 'Bienvenido al Mapa Interactivo de Mistborn',
+		description: '¿Estás leyendo la trilogía de Mistborn? Activa el Modo de Lectura Acompañada para explorar el mapa sin spoilers.',
+		featureMovements: 'Los movimientos de los personajes se muestran en el mapa conforme avanzas en cada capítulo',
+		featureTitles: 'Los títulos de los movimientos siempre son visibles para que sepas qué ocurrió',
+		featureSummaries: 'Los resúmenes detallados permanecen ocultos hasta que pulses para revelarlos',
+		enableButton: 'Activar Modo de Lectura',
+		skipButton: 'No gracias, mostrar todo',
+		hint: 'Siempre puedes cambiarlo en el menú de Controles a la izquierda.',
+	},
+
 	skipLinks: {
 		nav: 'Saltar a la sección',
 		toHeader: 'Saltar al encabezado',

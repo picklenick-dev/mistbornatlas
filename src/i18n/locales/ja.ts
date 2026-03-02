@@ -320,6 +320,17 @@ export const ja: Translation = {
 		roadmap100: '秘密の歴史 — タイムライン完了',
 	},
 
+	welcome: {
+		title: 'ミストボーン・インタラクティブマップへようこそ',
+		description: 'ミストボーン三部作を読書中ですか？リードアロングモードを有効にして、ネタバレなしでマップを探索しましょう。',
+		featureMovements: '各章を進めるごとにキャラクターの移動がマップに表示されます',
+		featureTitles: '移動のタイトルは常に表示され、何が起こったか分かります',
+		featureSummaries: '詳細なあらすじはタップして表示するまで隠されています',
+		enableButton: 'リードアロングモードを有効にする',
+		skipButton: 'いいえ、すべて表示する',
+		hint: 'この設定は左側のコントロールメニューからいつでも変更できます。',
+	},
+
 	skipLinks: {
 		nav: 'セクションへスキップ',
 		toHeader: 'ヘッダーへスキップ',

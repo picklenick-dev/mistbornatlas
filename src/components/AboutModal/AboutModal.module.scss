@@ -74,45 +74,20 @@
 }
 
 .backdrop {
-	position: fixed;
-	inset: 0;
-	background: rgba(0, 0, 0, 0.7);
-	backdrop-filter: blur(4px);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	z-index: $z-index-modal;
-	padding: $spacing-4;
-	animation: fadeIn 0.2s ease-out;
+	@include modal-backdrop;
 }
 
 .modal {
-	@include glass-panel;
-	width: 100%;
-	max-width: 560px;
+	@include modal-panel(560px);
 	max-height: 80vh;
-	display: flex;
-	flex-direction: column;
-	animation: slideUp 0.3s ease-out;
-	position: relative;
-	z-index: $z-index-modal;
-
-	@include md-down {
-		max-height: 90vh;
-	}
 }
 
 .header {
-	@include flex-between;
-	padding: $spacing-4;
-	border-bottom: 1px solid $color-border;
-	flex-shrink: 0;
+	@include modal-header;
 }
 
 .title {
-	font-family: $font-heading;
-	font-size: $font-size-xl;
-	color: $color-text-primary;
+	@include modal-title;
 	display: flex;
 	align-items: center;
 	gap: $spacing-2;
@@ -129,9 +104,7 @@
 }
 
 .closeButton {
-	@include button-icon;
-	width: 28px;
-	height: 28px;
+	@include modal-close-button;
 }
 
 .content {
@@ -331,11 +304,8 @@
 }
 
 .footer {
-	padding: $spacing-3 $spacing-4;
-	border-top: 1px solid $color-border;
-	display: flex;
+	@include modal-footer;
 	justify-content: flex-end;
-	flex-shrink: 0;
 }
 
 .closeButtonAlt {
