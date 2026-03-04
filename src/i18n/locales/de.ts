@@ -90,8 +90,8 @@ export const de: Translation = {
 
 	characterMarker: {
 		characterEvent: 'Charakterereignis',
-		earlier: '← Früher',
-		later: 'Später →',
+		earlier: 'Früher',
+		later: 'Später',
 		current: 'Aktuell',
 		chapterAbbr: 'Kap',
 		showLess: 'Weniger anzeigen',
@@ -106,6 +106,8 @@ export const de: Translation = {
 		enterCity: 'Stadt betreten',
 		stayOnMap: 'Auf Karte bleiben',
 		partOf: 'Teil {part}/{total}',
+		prevPart: 'Vorheriger Teil',
+		nextPart: 'Nächster Teil',
 		revealSpoiler: 'Tippen zum Aufdecken',
 		readAlongNote: 'Mitlese-Modus aktiviert',
 	},
@@ -150,7 +152,8 @@ export const de: Translation = {
 		ashAndMist: 'Asche und Nebel',
 		cityLandmarksNote: 'Stadt-Wahrzeichen sind immer sichtbar',
 		readAlongMode: 'Mitlese-Modus',
-		readAlongModeTitle: 'Bewegungsbeschreibungen verbergen, bis angeklickt — perfekt zum Lesen mit der Karte',
+		readAlongModeTitle:
+			'Bewegungsbeschreibungen verbergen, bis angeklickt — perfekt zum Lesen mit der Karte',
 		statusOn: 'AN',
 		statusOff: 'AUS',
 	},
@@ -316,6 +319,8 @@ export const de: Translation = {
 		versionLabel: 'Version',
 		roadmapTitle: 'Roadmap',
 		roadmapCurrentTag: 'AKTUELL',
+		roadmapCompleteTag: 'FERTIG',
+		roadmap070: 'Kinder des Nebels — Zeitleiste vollständig',
 		roadmapCurrent: 'Kinder des Nebels',
 		roadmap080: 'Krieger des Feuers — Zeitleiste vollständig',
 		roadmap090: 'Herrscher des Lichts — Zeitleiste vollständig',
@@ -324,8 +329,10 @@ export const de: Translation = {
 
 	welcome: {
 		title: 'Willkommen bei der interaktiven Mistborn-Karte',
-		description: 'Liest du gerade die Mistborn-Trilogie? Aktiviere den Mitlese-Modus, um die Karte ohne Spoiler zu erkunden.',
-		featureMovements: 'Charakterbewegungen werden auf der Karte angezeigt, während du Kapitel für Kapitel liest',
+		description:
+			'Liest du gerade die Mistborn-Trilogie? Aktiviere den Mitlese-Modus, um die Karte ohne Spoiler zu erkunden.',
+		featureMovements:
+			'Charakterbewegungen werden auf der Karte angezeigt, während du Kapitel für Kapitel liest',
 		featureTitles: 'Bewegungstitel sind immer sichtbar, damit du weißt, was passiert ist',
 		featureSummaries: 'Detaillierte Zusammenfassungen bleiben verborgen, bis du sie antippst',
 		enableButton: 'Mitlese-Modus aktivieren',

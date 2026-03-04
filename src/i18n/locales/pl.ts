@@ -90,8 +90,8 @@ export const pl: Translation = {
 
 	characterMarker: {
 		characterEvent: 'Wydarzenie postaci',
-		earlier: '← Wcześniej',
-		later: 'Później →',
+		earlier: 'Wcześniej',
+		later: 'Później',
 		current: 'Bieżące',
 		chapterAbbr: 'Roz',
 		showLess: 'Pokaż mniej',
@@ -106,6 +106,8 @@ export const pl: Translation = {
 		enterCity: 'Wejdź do miasta',
 		stayOnMap: 'Zostań na mapie',
 		partOf: 'Część {part}/{total}',
+		prevPart: 'Poprzednia część',
+		nextPart: 'Następna część',
 		revealSpoiler: 'Dotknij, aby odsłonić',
 		readAlongNote: 'Tryb czytania włączony',
 	},
@@ -317,6 +319,8 @@ export const pl: Translation = {
 		versionLabel: 'Wersja',
 		roadmapTitle: 'Plan rozwoju',
 		roadmapCurrentTag: 'BIEŻĄCY',
+		roadmapCompleteTag: 'UKOŃCZONE',
+		roadmap070: 'Ostatnie Imperium — oś czasu ukończona',
 		roadmapCurrent: 'Ostatnie Imperium',
 		roadmap080: 'Studnia Wstąpienia — oś czasu ukończona',
 		roadmap090: 'Bohater Wieków — oś czasu ukończona',
@@ -325,8 +329,10 @@ export const pl: Translation = {
 
 	welcome: {
 		title: 'Witamy na interaktywnej mapie Mistborn',
-		description: 'Czy aktualnie czytasz trylogię Mistborn? Włącz tryb czytania, aby eksplorować mapę bez spoilerów.',
-		featureMovements: 'Ruchy postaci są wyświetlane na mapie w miarę postępów w kolejnych rozdziałach',
+		description:
+			'Czy aktualnie czytasz trylogię Mistborn? Włącz tryb czytania, aby eksplorować mapę bez spoilerów.',
+		featureMovements:
+			'Ruchy postaci są wyświetlane na mapie w miarę postępów w kolejnych rozdziałach',
 		featureTitles: 'Tytuły ruchów są zawsze widoczne, abyś wiedział, co się wydarzyło',
 		featureSummaries: 'Szczegółowe podsumowania pozostają ukryte, dopóki ich nie klikniesz',
 		enableButton: 'Włącz tryb czytania',

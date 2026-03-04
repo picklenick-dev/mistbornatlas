@@ -23,27 +23,15 @@ import {
 	POPUP_AUTO_PAN_PADDING_BOTTOM_RIGHT,
 } from '@/config';
 import type { Character, Movement, CharacterId } from '@/types';
+import { ChevronLeftIcon, ChevronRightIcon } from '@/components/icons';
 import styles from './CharacterMarker.module.scss';
 
 // Detect touch-only devices — path highlighting uses popup open/close instead of mouseover
 const isTouchDevice =
 	typeof window !== 'undefined' && ('ontouchstart' in window || navigator.maxTouchPoints > 0);
 
-// Module-level registry of open multi-part popups so we can close non-siblings
-const openMultiPartPopups = new Map<
-	string,
-	{ marker: L.Marker; characterId: string; baseChapter: number }
->();
-
-/** Close every tracked multi-part popup that isn't a sibling of the given group. */
-const closeNonSiblingPopups = (characterId: string, baseChapter: number) => {
-	openMultiPartPopups.forEach((entry, key) => {
-		if (entry.characterId !== characterId || entry.baseChapter !== baseChapter) {
-			if (entry.marker.isPopupOpen()) entry.marker.closePopup();
-			openMultiPartPopups.delete(key);
-		}
-	});
-};
+// Registry of ALL multi-part markers (mounted, not just open) for part navigation
+const multiPartMarkerRegistry = new Map<string, L.Marker>();
 
 interface CharacterMarkerProps {
 	character: Character;
@@ -137,6 +125,16 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 		return () => registerCharacterMarker(character.id, null);
 	}, [character.id, registerCharacterMarker, positionIndex]);
 
+	// Register multi-part markers for part navigation
+	useEffect(() => {
+		if (!isMultiPart || !markerRef.current || !movement) return;
+		const key = `${character.id}-${movement.chapter}`;
+		multiPartMarkerRegistry.set(key, markerRef.current);
+		return () => {
+			multiPartMarkerRegistry.delete(key);
+		};
+	}, [character.id, movement, isMultiPart]);
+
 	useEffect(() => {
 		if (!markerRef.current) return;
 		if (!isPlaying) return;
@@ -165,6 +163,16 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 	if (!movement) return null;
 
 	const activeMovement = displayMovement || movement;
+
+	const goToPart = (partIdx: number) => {
+		const target = siblingMovements[partIdx];
+		if (!target) return;
+		const key = `${character.id}-${target.chapter}`;
+		const targetMarker = multiPartMarkerRegistry.get(key);
+		if (targetMarker) {
+			targetMarker.openPopup();
+		}
+	};
 
 	let coords: [number, number] | undefined;
 
@@ -304,25 +312,11 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 			eventHandlers={{
 				popupopen: (e: L.LeafletEvent) => {
 					popupEventHandlers.popupopen(e);
-					// Close non-sibling multi-part popups, then register this one
-					if (isMultiPart) {
-						closeNonSiblingPopups(character.id, baseChapter);
-						const key = `${character.id}-${movement!.chapter}`;
-						openMultiPartPopups.set(key, {
-							marker: markerRef.current!,
-							characterId: character.id,
-							baseChapter,
-						});
-					}
 					// On touch devices, show path highlight when popup opens
 					if (isTouchDevice) applyHoverHighlight();
 				},
 				popupclose: () => {
 					popupEventHandlers.popupclose();
-					// Unregister from multi-part tracking
-					if (isMultiPart && movement) {
-						openMultiPartPopups.delete(`${character.id}-${movement.chapter}`);
-					}
 					// On touch devices, clear path highlight when popup closes
 					if (isTouchDevice) clearHoverHighlight();
 				},
@@ -345,8 +339,8 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 				autoPan={true}
 				autoPanPaddingTopLeft={POPUP_AUTO_PAN_PADDING_TOP_LEFT}
 				autoPanPaddingBottomRight={POPUP_AUTO_PAN_PADDING_BOTTOM_RIGHT}
-				autoClose={!isMultiPart}
-				closeOnClick={!isMultiPart}
+				autoClose={true}
+				closeOnClick={true}
 			>
 				<div className="popup-header">
 					<span className="popup-type">
@@ -360,9 +354,7 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 							</span>
 						)}
 					</span>
-					<h3 className="popup-title">
-						{movTrans?.title ?? activeMovement.title}
-					</h3>
+					<h3 className="popup-title">{movTrans?.title ?? activeMovement.title}</h3>
 					{allMovements.length > 1 && (
 						<div className={styles.historyNav}>
 							<button
@@ -373,6 +365,7 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 								disabled={!canGoBack}
 								className={styles.historyButton}
 							>
+								<ChevronLeftIcon className={styles.arrowIcon} />
 								{t.characterMarker.earlier}
 							</button>
 							<span className={styles.historyCounter}>
@@ -391,6 +384,7 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 									className={styles.historyButton}
 								>
 									{t.characterMarker.later}
+									<ChevronRightIcon className={styles.arrowIcon} />
 								</button>
 							)}
 						</div>
@@ -415,7 +409,9 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 							}}
 							aria-label={t.characterMarker.revealSpoiler}
 						>
-							<p className={`popup-description ${styles.redacted}`}><span>{displayDescription}</span></p>
+							<p className={`popup-description ${styles.redacted}`}>
+								<span>{displayDescription}</span>
+							</p>
 							<span className={styles.revealHint}>{t.characterMarker.revealSpoiler}</span>
 							<span className={styles.readAlongNote}>{t.characterMarker.readAlongNote}</span>
 						</div>
@@ -456,6 +452,36 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 							<span className="popup-character-title">{characterTitle}</span>
 						</div>
 					</div>
+					{isMultiPart && (
+						<div className={styles.partNav}>
+							{partNumber > 1 && (
+								<button
+									onClick={e => {
+										e.stopPropagation();
+										goToPart(partNumber - 2);
+									}}
+									className={styles.partButton}
+									style={charColorVars}
+								>
+									<ChevronLeftIcon className={styles.arrowIcon} />
+									{t.characterMarker.prevPart}
+								</button>
+							)}
+							{partNumber < totalParts && (
+								<button
+									onClick={e => {
+										e.stopPropagation();
+										goToPart(partNumber);
+									}}
+									className={styles.partButton}
+									style={charColorVars}
+								>
+									{t.characterMarker.nextPart}
+									<ChevronRightIcon className={styles.arrowIcon} />
+								</button>
+							)}
+						</div>
+					)}
 					{showContinueButton && (
 						<div className={styles.continueSection}>
 							<span className={styles.pausedLabel}>{t.characterMarker.timelinePaused}</span>

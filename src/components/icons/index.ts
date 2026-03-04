@@ -3,6 +3,8 @@ export {
 	BookIcon,
 	BookOpenIcon,
 	ChevronDownIcon,
+	ChevronLeftIcon,
+	ChevronRightIcon,
 	CloseIcon,
 	CoffeeIcon,
 	EarthIcon,

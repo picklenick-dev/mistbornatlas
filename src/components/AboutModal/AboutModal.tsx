@@ -1,6 +1,11 @@
 ﻿import React, { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
-import { APP_VERSION, CHARACTER_COLORS, UNIQUE_SYMBOL_METALS, PORTRAIT_ATTRIBUTIONS } from '@/config';
+import {
+	APP_VERSION,
+	CHARACTER_COLORS,
+	UNIQUE_SYMBOL_METALS,
+	PORTRAIT_ATTRIBUTIONS,
+} from '@/config';
 import { InfoIcon, CloseIcon, WarningIcon } from '@/components/icons';
 import styles from './AboutModal.module.scss';
 
@@ -71,12 +76,13 @@ export const AboutModal: React.FC = () => {
 							<section className={styles.section}>
 								<h3 className={styles.sectionTitle}>{t.about.roadmapTitle}</h3>
 								<ul className={styles.roadmapList}>
-									<li className={styles.roadmapCurrent}>
-										<strong>v0.7.0</strong> — {t.about.roadmapCurrent}
-										<span className={styles.currentTag}>{t.about.roadmapCurrentTag}</span>
+									<li className={styles.roadmapComplete}>
+										<strong>v0.7.0</strong> — {t.about.roadmap070}
+										<span className={styles.completeTag}>{t.about.roadmapCompleteTag}</span>
 									</li>
-									<li>
+									<li className={styles.roadmapCurrent}>
 										<strong>v0.8.0</strong> — {t.about.roadmap080}
+										<span className={styles.currentTag}>{t.about.roadmapCurrentTag}</span>
 									</li>
 									<li>
 										<strong>v0.9.0</strong> — {t.about.roadmap090}

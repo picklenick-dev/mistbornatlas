@@ -132,12 +132,32 @@
 	},
 	{
 		"book": "tfe",
-		"chapter": 34,
+		"chapter": 29,
+		"location": "fellise",
+		"title": "Feruchemy Lessons",
+		"description": "At the Renoux estate, Sazed provides Vin with the last of his translations of the logbook. He explains Feruchemy in more detail, and Vin tries burning one of his pewterminds. Later, Sazed joins the crew as Kelsier goes over a detailed map of Luthadel's defenses provided by Marsh. Unable to sleep that night, Kelsier has Sazed tell him about some of the religions he knows.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 35,
 		"location": "luthadel",
 		"cityId": "luthadel",
-		"cityLandmark": "fountain-square",
-		"title": "Witness to Revolution",
-		"description": "Sazed is in Luthadel during the revolution, watching as the skaa rise and Kelsier falls in Fountain Square.",
+		"cityLandmark": "clubs-shop",
+		"title": "Comforting Vin",
+		"description": "Sazed is at the backup safehouse near Clubs' shop with Vin after Kelsier's death. He offers comforting words as Vin rages that Kelsier abandoned her. He stays behind when the crew goes to the warehouse to see the kandra wearing Kelsier's form.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 37,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "The Feruchemist Unleashed",
+		"description": "Sazed is brought into Vin's prison cell in Kredik Shaw. He appears to deflate, then his muscles swell to twice his size as he unleashes stored Feruchemical strength, slamming the door open.",
 		"season": "Early Spring",
 		"year": "1022 FE"
 	},
@@ -148,7 +168,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "The Fall of the Empire",
-		"description": "Sazed assists the crew in the assault on Kredik Shaw, using his Feruchemy to fight through the Lord Ruler's guards.",
+		"description": "Sazed appears at the final confrontation in Kredik Shaw with a vial of metals for Vin. He witnesses the Lord Ruler's and how Vin pulls on the Lord ruler's bracelet and the Lord Ruler's age increases dramatically and fast.",
 		"season": "Early Spring",
 		"year": "1022 FE"
 	},
@@ -157,9 +177,9 @@
 		"chapter": 39,
 		"location": "luthadel",
 		"cityId": "luthadel",
-		"cityLandmark": "kredik-shaw",
-		"title": "A New Beginning",
-		"description": "In the aftermath, Sazed begins studying Kredik Shaw's records, searching for answers about the Deepness and the Hero of Ages prophecy.",
+		"cityLandmark": "skaa-hovels",
+		"title": "Understanding the Tyrant",
+		"description": "Sazed stands with Vin and Marsh on a building near the edge of the skaa slum. He explains that the Lord Ruler was both a Feruchemist and an Allomancer—the bracelets stored his youth. He speculates this is why all Terrisman stewards were forced to be eunuchs: the Lord Ruler feared someone with both Feruchemical and Allomantic blood could challenge his immortality. Sazed laments that he couldn't fully memorize Elend's tremendous speech to the new leaders—he hadn't had his metals to store it.",
 		"season": "Spring",
 		"year": "1022 FE"
 	},

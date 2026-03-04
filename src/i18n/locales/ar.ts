@@ -90,8 +90,8 @@ export const ar: Translation = {
 
 	characterMarker: {
 		characterEvent: 'حدث الشخصية',
-		earlier: '→ سابقاً',
-		later: '← لاحقاً',
+		earlier: 'سابقاً',
+		later: 'لاحقاً',
 		current: 'الحالي',
 		chapterAbbr: 'فصل',
 		showLess: 'عرض أقل',
@@ -106,6 +106,8 @@ export const ar: Translation = {
 		enterCity: 'دخول المدينة',
 		stayOnMap: 'البقاء على الخريطة',
 		partOf: 'الجزء {part}/{total}',
+		prevPart: 'الجزء السابق',
+		nextPart: 'الجزء التالي',
 		revealSpoiler: 'انقر للكشف',
 		readAlongNote: 'وضع القراءة المتزامنة مفعّل',
 	},
@@ -314,6 +316,8 @@ export const ar: Translation = {
 		versionLabel: 'الإصدار',
 		roadmapTitle: 'خارطة الطريق',
 		roadmapCurrentTag: 'الحالي',
+		roadmapCompleteTag: 'مكتمل',
+		roadmap070: 'الإمبراطورية الأخيرة — الجدول الزمني مكتمل',
 		roadmapCurrent: 'الإمبراطورية الأخيرة',
 		roadmap080: 'بئر الصعود — الجدول الزمني مكتمل',
 		roadmap090: 'بطل العصور — الجدول الزمني مكتمل',
@@ -322,7 +326,8 @@ export const ar: Translation = {
 
 	welcome: {
 		title: 'مرحبًا بكم في خريطة ميستبورن التفاعلية',
-		description: 'هل تقرأ حاليًا ثلاثية ميستبورن؟ فعّل وضع القراءة المصاحبة لاستكشاف الخريطة بدون حرق للأحداث.',
+		description:
+			'هل تقرأ حاليًا ثلاثية ميستبورن؟ فعّل وضع القراءة المصاحبة لاستكشاف الخريطة بدون حرق للأحداث.',
 		featureMovements: 'تُعرض تحركات الشخصيات على الخريطة مع تقدمك في كل فصل',
 		featureTitles: 'عناوين التحركات مرئية دائمًا لتعرف ما حدث',
 		featureSummaries: 'تبقى الملخصات التفصيلية مخفية حتى تنقر لكشفها',

@@ -276,6 +276,19 @@
 }
 
 .roadmapList {
+	.roadmapComplete {
+		color: $color-success;
+
+		&::before {
+			content: '✔';
+			color: $color-success;
+		}
+
+		strong {
+			color: $color-success;
+		}
+	}
+
 	.roadmapCurrent {
 		color: $color-accent;
 
@@ -288,6 +301,19 @@
 			color: $color-accent;
 		}
 	}
+}
+
+.completeTag {
+	font-size: 10px;
+	font-weight: $font-weight-bold;
+	color: $color-text-primary;
+	background: rgba($color-success, 0.15);
+	padding: 0.45rem 0.65rem;
+	border-radius: $radius-sm;
+	border: 1px solid rgba($color-success, 0.3);
+	margin-left: $spacing-1;
+	letter-spacing: 0.5px;
+	vertical-align: middle;
 }
 
 .currentTag {

@@ -88,8 +88,8 @@ export const zh: Translation = {
 
 	characterMarker: {
 		characterEvent: '角色事件',
-		earlier: '← 更早',
-		later: '更晚 →',
+		earlier: '更早',
+		later: '更晚',
 		current: '当前',
 		chapterAbbr: '章',
 		showLess: '收起',
@@ -104,6 +104,8 @@ export const zh: Translation = {
 		enterCity: '进入城市',
 		stayOnMap: '留在地图',
 		partOf: '第 {part}/{total} 部分',
+		prevPart: '上一部分',
+		nextPart: '下一部分',
 		revealSpoiler: '点击揭示',
 		readAlongNote: '伴读模式已启用',
 	},
@@ -311,6 +313,8 @@ export const zh: Translation = {
 		versionLabel: '版本',
 		roadmapTitle: '开发路线图',
 		roadmapCurrentTag: '当前',
+		roadmapCompleteTag: '已完成',
+		roadmap070: '最后帝国 — 时间线完成',
 		roadmapCurrent: '最后帝国',
 		roadmap080: '升华之井 — 时间线完成',
 		roadmap090: '永世英雄 — 时间线完成',

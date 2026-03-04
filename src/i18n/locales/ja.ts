@@ -90,8 +90,8 @@ export const ja: Translation = {
 
 	characterMarker: {
 		characterEvent: 'キャラクターイベント',
-		earlier: '← 前へ',
-		later: '後へ →',
+		earlier: '前へ',
+		later: '後へ',
 		current: '現在',
 		chapterAbbr: '章',
 		showLess: '折りたたむ',
@@ -106,6 +106,8 @@ export const ja: Translation = {
 		enterCity: '都市に入る',
 		stayOnMap: 'マップに留まる',
 		partOf: 'パート {part}/{total}',
+		prevPart: '前のパート',
+		nextPart: '次のパート',
 		revealSpoiler: 'タップで表示',
 		readAlongNote: '読書モード有効',
 	},
@@ -314,6 +316,8 @@ export const ja: Translation = {
 		versionLabel: 'バージョン',
 		roadmapTitle: 'ロードマップ',
 		roadmapCurrentTag: '現在',
+		roadmapCompleteTag: '完了',
+		roadmap070: '霧の帝国 — タイムライン完了',
 		roadmapCurrent: '霧の帝国',
 		roadmap080: '昇華の泉 — タイムライン完了',
 		roadmap090: '永遠の英雄 — タイムライン完了',
@@ -322,7 +326,8 @@ export const ja: Translation = {
 
 	welcome: {
 		title: 'ミストボーン・インタラクティブマップへようこそ',
-		description: 'ミストボーン三部作を読書中ですか？リードアロングモードを有効にして、ネタバレなしでマップを探索しましょう。',
+		description:
+			'ミストボーン三部作を読書中ですか？リードアロングモードを有効にして、ネタバレなしでマップを探索しましょう。',
 		featureMovements: '各章を進めるごとにキャラクターの移動がマップに表示されます',
 		featureTitles: '移動のタイトルは常に表示され、何が起こったか分かります',
 		featureSummaries: '詳細なあらすじはタップして表示するまで隠されています',

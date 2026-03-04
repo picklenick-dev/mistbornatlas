@@ -90,8 +90,8 @@ export const en: Translation = {
 
 	characterMarker: {
 		characterEvent: 'Character Event',
-		earlier: '← Earlier',
-		later: 'Later →',
+		earlier: 'Earlier',
+		later: 'Later',
 		current: 'Current',
 		chapterAbbr: 'Ch',
 		showLess: 'Show less',
@@ -106,6 +106,8 @@ export const en: Translation = {
 		enterCity: 'Enter City',
 		stayOnMap: 'Stay on Map',
 		partOf: 'Part {part}/{total}',
+		prevPart: 'Prev Part',
+		nextPart: 'Next Part',
 		revealSpoiler: 'Tap to reveal',
 		readAlongNote: 'Read-along mode enabled',
 	},
@@ -149,7 +151,8 @@ export const en: Translation = {
 		ashAndMist: 'Ash & Mist',
 		cityLandmarksNote: 'City landmarks are always visible',
 		readAlongMode: 'Read-along Mode',
-		readAlongModeTitle: 'Hide movement descriptions until clicked — perfect for reading the book alongside the map',
+		readAlongModeTitle:
+			'Hide movement descriptions until clicked — perfect for reading the book alongside the map',
 		statusOn: 'ON',
 		statusOff: 'OFF',
 	},
@@ -316,6 +319,8 @@ export const en: Translation = {
 		versionLabel: 'Version',
 		roadmapTitle: 'Roadmap',
 		roadmapCurrentTag: 'CURRENT',
+		roadmapCompleteTag: 'COMPLETE',
+		roadmap070: 'The Final Empire — timeline complete',
 		roadmapCurrent: 'The Final Empire',
 		roadmap080: 'The Well of Ascension — timeline complete',
 		roadmap090: 'The Hero of Ages — timeline complete',
@@ -326,7 +331,8 @@ export const en: Translation = {
 		title: 'Welcome to the Mistborn Interactive Map',
 		description:
 			'Are you currently reading the Mistborn trilogy? Enable Read-along Mode to explore the map without spoilers.',
-		featureMovements: 'Character movements are shown on the map as you progress through each chapter',
+		featureMovements:
+			'Character movements are shown on the map as you progress through each chapter',
 		featureTitles: 'Movement titles are always visible so you know what happened',
 		featureSummaries: 'Detailed summaries stay hidden until you tap to reveal them',
 		enableButton: 'Enable Read-along Mode',

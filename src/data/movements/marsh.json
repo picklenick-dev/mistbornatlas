@@ -46,11 +46,22 @@
 		"chapter": 30,
 		"location": "luthadel",
 		"cityId": "luthadel",
-		"cityLandmark": "kredik-shaw",
+		"cityLandmark": "canton-inquisition",
 		"title": "Vanishing",
 		"description": "Marsh goes silent, his communications ceasing as he disappears into the deepest levels of the Canton of Inquisition. The crew fears the worst.",
 		"season": "Winter",
 		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 32,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "canton-inquisition",
+		"title": "The Body",
+		"description": "Kelsier and Vin find Marsh's body—drained of all blood, a lifeless shell. His letter, found later at Clubs' shop, explains that the Inquisitors would probably find him. The crew mourns. But the mangled corpse they find is not what it seems.",
+		"season": "Winter",
+		"year": "1022 FE"
 	},
 	{
 		"book": "tfe",
@@ -59,8 +70,19 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "The Inquisitor",
-		"description": "Marsh appears during the final assault on Kredik Shaw, still alive but transformed—iron spikes driven through his eyes. He fights for the crew despite his transformation.",
+		"description": "Marsh appears during the final assault on Kredik Shaw—alive, transformed with eleven metal spikes: two through his eyes, eight in his chest, one in the back binding them together. He kills the Inquisitor Kar by pulling a spike from his neck, and reveals he has killed all the other Inquisitors.",
 		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 39,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "skaa-hovels",
+		"title": "Eleven Spikes",
+		"description": "Marsh stands with Sazed and Vin on a building near the skaa slum. He talks about his survival and transformation—eleven spikes, the horrific process, and how he endured. He also tells them about the kandra, creatures evolved from mistwraiths, and that the one who impersonated Lord Renoux now sees Vin as its master.",
+		"season": "Spring",
 		"year": "1022 FE"
 	},
 	{

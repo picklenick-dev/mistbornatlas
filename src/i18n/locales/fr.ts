@@ -90,8 +90,8 @@ export const fr: Translation = {
 
 	characterMarker: {
 		characterEvent: 'Événement du personnage',
-		earlier: '← Plus tôt',
-		later: 'Plus tard →',
+		earlier: 'Plus tôt',
+		later: 'Plus tard',
 		current: 'Actuel',
 		chapterAbbr: 'Ch',
 		showLess: 'Voir moins',
@@ -106,6 +106,8 @@ export const fr: Translation = {
 		enterCity: 'Entrer dans la ville',
 		stayOnMap: 'Rester sur la carte',
 		partOf: 'Partie {part}/{total}',
+		prevPart: 'Partie précédente',
+		nextPart: 'Partie suivante',
 		revealSpoiler: 'Appuyez pour révéler',
 		readAlongNote: 'Mode lecture simultanée activé',
 	},
@@ -150,7 +152,8 @@ export const fr: Translation = {
 		ashAndMist: 'Cendres et Brume',
 		cityLandmarksNote: 'Les points de la ville sont toujours visibles',
 		readAlongMode: 'Mode lecture simultanée',
-		readAlongModeTitle: 'Masquer les descriptions de déplacement jusqu\'au clic — parfait pour lire avec la carte',
+		readAlongModeTitle:
+			"Masquer les descriptions de déplacement jusqu'au clic — parfait pour lire avec la carte",
 		statusOn: 'OUI',
 		statusOff: 'NON',
 	},
@@ -303,7 +306,7 @@ export const fr: Translation = {
 		symbolElectrum: 'Région · Place',
 		specialThanksTitle: 'Remerciements spéciaux',
 		specialThanksDesc:
-			'Un immense merci à l\'utilisateur Reddit u/participating et au fil de lecture commune du Cosmere sur r/readalong. Les données de déplacement des personnages de ce projet ont été en partie élaborées à partir de leurs résumés chapitre par chapitre, combinés avec mes propres notes. Utilisé avec permission.',
+			"Un immense merci à l'utilisateur Reddit u/participating et au fil de lecture commune du Cosmere sur r/readalong. Les données de déplacement des personnages de ce projet ont été en partie élaborées à partir de leurs résumés chapitre par chapitre, combinés avec mes propres notes. Utilisé avec permission.",
 		specialThanksReddit: 'r/readalong Cosmere Wiki',
 		copyrightTitle: "Avis de droit d'auteur",
 		copyrightTrademark: 'Fils-des-brumes est une marque déposée de Dragonsteel Entertainment, LLC',
@@ -317,6 +320,8 @@ export const fr: Translation = {
 		versionLabel: 'Version',
 		roadmapTitle: 'Feuille de route',
 		roadmapCurrentTag: 'EN COURS',
+		roadmapCompleteTag: 'TERMINÉ',
+		roadmap070: "L'Empire Ultime — chronologie complète",
 		roadmapCurrent: "L'Empire Ultime",
 		roadmap080: "Le Puits de l'Ascension — chronologie complète",
 		roadmap090: 'Le Héros des Siècles — chronologie complète',
@@ -325,10 +330,14 @@ export const fr: Translation = {
 
 	welcome: {
 		title: 'Bienvenue sur la carte interactive de Mistborn',
-		description: 'Êtes-vous en train de lire la trilogie Mistborn ? Activez le mode lecture accompagnée pour explorer la carte sans spoilers.',
-		featureMovements: 'Les déplacements des personnages apparaissent sur la carte au fil de votre lecture',
-		featureTitles: 'Les titres des déplacements sont toujours visibles pour savoir ce qui s\'est passé',
-		featureSummaries: 'Les résumés détaillés restent cachés jusqu\'à ce que vous appuyiez pour les révéler',
+		description:
+			'Êtes-vous en train de lire la trilogie Mistborn ? Activez le mode lecture accompagnée pour explorer la carte sans spoilers.',
+		featureMovements:
+			'Les déplacements des personnages apparaissent sur la carte au fil de votre lecture',
+		featureTitles:
+			"Les titres des déplacements sont toujours visibles pour savoir ce qui s'est passé",
+		featureSummaries:
+			"Les résumés détaillés restent cachés jusqu'à ce que vous appuyiez pour les révéler",
 		enableButton: 'Activer le mode lecture',
 		skipButton: 'Non merci, tout afficher',
 		hint: 'Vous pouvez toujours changer cela dans le menu Contrôles à gauche.',

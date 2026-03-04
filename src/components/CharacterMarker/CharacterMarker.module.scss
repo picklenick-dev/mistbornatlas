@@ -11,6 +11,9 @@
 }
 
 .historyButton {
+	display: inline-flex;
+	align-items: center;
+	gap: $spacing-1;
 	padding: $spacing-1 $spacing-2;
 	background-color: $color-bg-tertiary;
 	color: $color-text-primary;
@@ -34,6 +37,30 @@
 .partLabel {
 	opacity: 0.7;
 	font-size: $font-size-xs;
+}
+
+// Part navigation for multi-part events
+.partNav {
+	display: flex;
+	gap: $spacing-2;
+	margin-top: $spacing-3;
+}
+
+.partButton {
+	@extend %actionButton;
+	flex: 1;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: $spacing-1;
+}
+
+// Arrow icon for navigation buttons
+.arrowIcon {
+	width: 14px;
+	height: 14px;
+	flex-shrink: 0;
 }
 
 // Continue / timeline-paused section

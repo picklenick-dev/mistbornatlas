@@ -103,10 +103,7 @@ export const CityPrompt: React.FC = () => {
 					<button className={styles.enterButton} onClick={exitCity}>
 						{t.cityPrompt.worldMap}
 					</button>
-					<button
-						className={styles.dismissButton}
-						onClick={() => setDismissedWorldMapPrompt(true)}
-					>
+					<button className={styles.dismissButton} onClick={() => setDismissedWorldMapPrompt(true)}>
 						{t.cityPrompt.dismiss}
 					</button>
 				</div>

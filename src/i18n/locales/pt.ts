@@ -90,8 +90,8 @@ export const pt: Translation = {
 
 	characterMarker: {
 		characterEvent: 'Evento do personagem',
-		earlier: '← Anterior',
-		later: 'Posterior →',
+		earlier: 'Anterior',
+		later: 'Posterior',
 		current: 'Atual',
 		chapterAbbr: 'Cap',
 		showLess: 'Mostrar menos',
@@ -106,6 +106,8 @@ export const pt: Translation = {
 		enterCity: 'Entrar na cidade',
 		stayOnMap: 'Ficar no mapa',
 		partOf: 'Parte {part}/{total}',
+		prevPart: 'Parte anterior',
+		nextPart: 'Próxima parte',
 		revealSpoiler: 'Toque para revelar',
 		readAlongNote: 'Modo leitura simultânea ativado',
 	},
@@ -150,7 +152,8 @@ export const pt: Translation = {
 		ashAndMist: 'Cinza e Bruma',
 		cityLandmarksNote: 'Os pontos da cidade estão sempre visíveis',
 		readAlongMode: 'Modo leitura simultânea',
-		readAlongModeTitle: 'Ocultar descrições de movimento até clicar — perfeito para ler junto com o mapa',
+		readAlongModeTitle:
+			'Ocultar descrições de movimento até clicar — perfeito para ler junto com o mapa',
 		statusOn: 'SIM',
 		statusOff: 'NÃO',
 	},
@@ -316,6 +319,8 @@ export const pt: Translation = {
 		versionLabel: 'Versão',
 		roadmapTitle: 'Roteiro',
 		roadmapCurrentTag: 'ATUAL',
+		roadmapCompleteTag: 'COMPLETO',
+		roadmap070: 'O Império Final — linha do tempo completa',
 		roadmapCurrent: 'O Império Final',
 		roadmap080: 'O Poço da Ascensão — linha do tempo completa',
 		roadmap090: 'O Herói das Eras — linha do tempo completa',
@@ -324,8 +329,10 @@ export const pt: Translation = {
 
 	welcome: {
 		title: 'Bem-vindo ao Mapa Interativo de Mistborn',
-		description: 'Está a ler a trilogia Mistborn? Ative o modo de leitura acompanhada para explorar o mapa sem spoilers.',
-		featureMovements: 'Os movimentos dos personagens são mostrados no mapa à medida que avança em cada capítulo',
+		description:
+			'Está a ler a trilogia Mistborn? Ative o modo de leitura acompanhada para explorar o mapa sem spoilers.',
+		featureMovements:
+			'Os movimentos dos personagens são mostrados no mapa à medida que avança em cada capítulo',
 		featureTitles: 'Os títulos dos movimentos estão sempre visíveis para saber o que aconteceu',
 		featureSummaries: 'Os resumos detalhados ficam ocultos até tocar para os revelar',
 		enableButton: 'Ativar modo de leitura',

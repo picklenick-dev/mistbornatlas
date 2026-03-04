@@ -90,8 +90,8 @@ export const ru: Translation = {
 
 	characterMarker: {
 		characterEvent: 'Событие персонажа',
-		earlier: '← Ранее',
-		later: 'Позже →',
+		earlier: 'Ранее',
+		later: 'Позже',
 		current: 'Текущее',
 		chapterAbbr: 'Гл',
 		showLess: 'Свернуть',
@@ -106,6 +106,8 @@ export const ru: Translation = {
 		enterCity: 'Войти в город',
 		stayOnMap: 'Остаться на карте',
 		partOf: 'Часть {part}/{total}',
+		prevPart: 'Предыдущая часть',
+		nextPart: 'Следующая часть',
 		revealSpoiler: 'Нажмите, чтобы открыть',
 		readAlongNote: 'Режим чтения включён',
 	},
@@ -150,7 +152,8 @@ export const ru: Translation = {
 		ashAndMist: 'Пепел и туман',
 		cityLandmarksNote: 'Достопримечательности города всегда видны',
 		readAlongMode: 'Режим чтения',
-		readAlongModeTitle: 'Скрывать описания перемещений до нажатия — идеально для чтения вместе с картой',
+		readAlongModeTitle:
+			'Скрывать описания перемещений до нажатия — идеально для чтения вместе с картой',
 		statusOn: 'ВКЛ',
 		statusOff: 'ВЫКЛ',
 	},
@@ -316,6 +319,8 @@ export const ru: Translation = {
 		versionLabel: 'Версия',
 		roadmapTitle: 'Дорожная карта',
 		roadmapCurrentTag: 'ТЕКУЩИЙ',
+		roadmapCompleteTag: 'ЗАВЕРШЕНО',
+		roadmap070: 'Пепел и сталь — хронология завершена',
 		roadmapCurrent: 'Пепел и сталь',
 		roadmap080: 'Источник Вознесения — хронология завершена',
 		roadmap090: 'Герой веков — хронология завершена',
@@ -324,8 +329,10 @@ export const ru: Translation = {
 
 	welcome: {
 		title: 'Добро пожаловать на интерактивную карту Мистборна',
-		description: 'Сейчас читаете трилогию Мистборн? Включите режим чтения, чтобы исследовать карту без спойлеров.',
-		featureMovements: 'Перемещения персонажей отображаются на карте по мере прохождения каждой главы',
+		description:
+			'Сейчас читаете трилогию Мистборн? Включите режим чтения, чтобы исследовать карту без спойлеров.',
+		featureMovements:
+			'Перемещения персонажей отображаются на карте по мере прохождения каждой главы',
 		featureTitles: 'Названия перемещений всегда видны, чтобы вы знали, что произошло',
 		featureSummaries: 'Подробные описания скрыты, пока вы не нажмёте, чтобы их раскрыть',
 		enableButton: 'Включить режим чтения',

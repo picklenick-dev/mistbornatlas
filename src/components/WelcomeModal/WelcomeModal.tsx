@@ -54,11 +54,7 @@ export const WelcomeModal: React.FC = () => {
 			<div className={styles.modal} role="dialog" aria-modal="true">
 				<div className={styles.header}>
 					<h2 className={styles.title}>{t.welcome.title}</h2>
-					<button
-						className={styles.closeButton}
-						onClick={handleSkip}
-						aria-label={t.donation.close}
-					>
+					<button className={styles.closeButton} onClick={handleSkip} aria-label={t.donation.close}>
 						<CloseIcon />
 					</button>
 				</div>

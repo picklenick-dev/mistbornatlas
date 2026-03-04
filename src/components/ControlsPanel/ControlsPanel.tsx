@@ -2,7 +2,14 @@ import React, { useEffect } from 'react';
 import { useMapContext } from '@/context/MapContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { CharacterFilters } from '@/components/CharacterFilters';
-import { HamburgerIcon, CloseIcon, EyeIcon, EyeOffIcon, EyeIrisIcon, BookOpenIcon } from '@/components/icons';
+import {
+	HamburgerIcon,
+	CloseIcon,
+	EyeIcon,
+	EyeOffIcon,
+	EyeIrisIcon,
+	BookOpenIcon,
+} from '@/components/icons';
 import styles from './ControlsPanel.module.scss';
 
 export const ControlsPanel: React.FC = () => {

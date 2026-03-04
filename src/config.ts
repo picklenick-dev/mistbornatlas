@@ -9,9 +9,9 @@ import type { BookId, CharacterId, MapView, CityId } from '@/types';
 import type { LocationType, CityLandmarkType } from '@/types';
 import type { LanguageCode } from '@/i18n/types';
 
-// ── App Version ───────────────────────────────────────────────────────────────
+// ── App Version ──────────────────────────────────────────────s─────────────────
 
-export const APP_VERSION = '0.7.0';
+export const APP_VERSION = '0.8.0';
 
 // ── Timing ────────────────────────────────────────────────────────────────────
 

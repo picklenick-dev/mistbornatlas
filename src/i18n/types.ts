@@ -132,6 +132,8 @@ export interface TranslationKeys {
 		enterCity: string;
 		stayOnMap: string;
 		partOf: string;
+		prevPart: string;
+		nextPart: string;
 		revealSpoiler: string;
 		readAlongNote: string;
 	};
@@ -347,7 +349,9 @@ export interface TranslationKeys {
 		licenseLabel: string;
 		versionLabel: string;
 		roadmapTitle: string;
+		roadmapCompleteTag: string;
 		roadmapCurrentTag: string;
+		roadmap070: string;
 		roadmapCurrent: string;
 		roadmap080: string;
 		roadmap090: string;

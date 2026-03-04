@@ -46,26 +46,24 @@ const getCityLandmark = (cityId: CityId, landmarkId: string): CityLandmark | und
 };
 
 const resolveMovement = (raw: RawMovement): Movement => {
-	const location = locationMap.get(raw.location);
+	const location = raw.location ? locationMap.get(raw.location) : undefined;
 
-	if (!location) {
-		console.warn(`Location "${raw.location}" not found in locations.json`);
-		// Default to Luthadel center if location not found
-		return {
-			book: raw.book,
-			chapter: raw.chapter,
-			location: raw.location,
-			coords: [1274, 777],
-			title: raw.title,
-			description: raw.description,
-			season: raw.season,
-			year: raw.year,
-		};
+	// Resolve base coords: location lookup, then locationCoords fallback, then Luthadel default
+	let baseCoords: [number, number];
+	if (location) {
+		baseCoords = [...location.coords];
+	} else if (raw.locationCoords) {
+		baseCoords = [...raw.locationCoords];
+	} else {
+		if (raw.location) {
+			console.warn(`Location "${raw.location}" not found in locations.json`);
+		}
+		baseCoords = [1274, 777];
 	}
 
 	const coords: [number, number] = raw.offset
-		? [location.coords[0] + raw.offset[0], location.coords[1] + raw.offset[1]]
-		: [...location.coords];
+		? [baseCoords[0] + raw.offset[0], baseCoords[1] + raw.offset[1]]
+		: baseCoords;
 
 	let cityId: CityId | undefined;
 	let cityCoords: [number, number] | undefined;
@@ -97,7 +95,7 @@ const resolveMovement = (raw: RawMovement): Movement => {
 	return {
 		book: raw.book,
 		chapter: raw.chapter,
-		location: raw.location,
+		location: raw.location ?? '',
 		coords,
 		cityId,
 		cityLandmarkId,

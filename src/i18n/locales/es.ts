@@ -90,8 +90,8 @@ export const es: Translation = {
 
 	characterMarker: {
 		characterEvent: 'Evento del personaje',
-		earlier: '← Anterior',
-		later: 'Posterior →',
+		earlier: 'Anterior',
+		later: 'Posterior',
 		current: 'Actual',
 		chapterAbbr: 'Cap',
 		showLess: 'Mostrar menos',
@@ -106,6 +106,8 @@ export const es: Translation = {
 		enterCity: 'Entrar en la ciudad',
 		stayOnMap: 'Quedarse en el mapa',
 		partOf: 'Parte {part}/{total}',
+		prevPart: 'Parte anterior',
+		nextPart: 'Siguiente parte',
 		revealSpoiler: 'Toca para revelar',
 		readAlongNote: 'Modo lectura simultánea activado',
 	},
@@ -150,7 +152,8 @@ export const es: Translation = {
 		ashAndMist: 'Ceniza y Bruma',
 		cityLandmarksNote: 'Los puntos de la ciudad siempre son visibles',
 		readAlongMode: 'Modo lectura simultánea',
-		readAlongModeTitle: 'Ocultar descripciones de movimiento hasta hacer clic — perfecto para leer junto con el mapa',
+		readAlongModeTitle:
+			'Ocultar descripciones de movimiento hasta hacer clic — perfecto para leer junto con el mapa',
 		statusOn: 'SÍ',
 		statusOff: 'NO',
 	},
@@ -317,6 +320,8 @@ export const es: Translation = {
 		versionLabel: 'Versión',
 		roadmapTitle: 'Hoja de ruta',
 		roadmapCurrentTag: 'ACTUAL',
+		roadmapCompleteTag: 'COMPLETO',
+		roadmap070: 'El Imperio Final — línea temporal completa',
 		roadmapCurrent: 'El Imperio Final',
 		roadmap080: 'El Pozo de la Ascensión — línea temporal completa',
 		roadmap090: 'El Héroe de las Eras — línea temporal completa',
@@ -325,10 +330,13 @@ export const es: Translation = {
 
 	welcome: {
 		title: 'Bienvenido al Mapa Interactivo de Mistborn',
-		description: '¿Estás leyendo la trilogía de Mistborn? Activa el Modo de Lectura Acompañada para explorar el mapa sin spoilers.',
-		featureMovements: 'Los movimientos de los personajes se muestran en el mapa conforme avanzas en cada capítulo',
+		description:
+			'¿Estás leyendo la trilogía de Mistborn? Activa el Modo de Lectura Acompañada para explorar el mapa sin spoilers.',
+		featureMovements:
+			'Los movimientos de los personajes se muestran en el mapa conforme avanzas en cada capítulo',
 		featureTitles: 'Los títulos de los movimientos siempre son visibles para que sepas qué ocurrió',
-		featureSummaries: 'Los resúmenes detallados permanecen ocultos hasta que pulses para revelarlos',
+		featureSummaries:
+			'Los resúmenes detallados permanecen ocultos hasta que pulses para revelarlos',
 		enableButton: 'Activar Modo de Lectura',
 		skipButton: 'No gracias, mostrar todo',
 		hint: 'Siempre puedes cambiarlo en el menú de Controles a la izquierda.',

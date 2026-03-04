@@ -293,11 +293,64 @@
 	},
 	{
 		"book": "tfe",
+		"chapter": 29,
+		"location": "fellise",
+		"title": "War Council at Renoux",
+		"description": "Kelsier joins the majority of the crew at Renoux's estate in Fellise, going over a very detailed map of Luthadel's defenses provided by Marsh. While studying the map, they discover that Theron's crew was recently hit by the Ministry. Later at night, unable to sleep, Kelsier has Sazed tell him about some of the religions he knows.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 31,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Scolding the Apprentice",
+		"description": "Kelsier and Vin return to Clubs' shop after Vin killed Lady Shan Elariel—a fully-fledged Mistborn—at Keep Venture. Kelsier scolds Vin for the reckless fight, but she screams back that noblemen and skaa are not so different, and that Elend Venture is a good man worth protecting.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
 		"chapter": 32,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Finding Marsh",
+		"description": "Kelsier and Vin find Marsh's body—drained of all blood, a lifeless shell. Back at Clubs' shop, they discover a letter from Marsh explaining that the Inquisitors would probably find him.",
+		"season": "Winter",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 32.2,
 		"location": "pits-hathsin",
 		"title": "Destroying the Pits",
-		"description": "Kelsier returns to the Pits of Hathsin—the site of his greatest suffering—and destroys the atium crystals, cutting off the Lord Ruler's most valuable resource.",
+		"description": "Kelsier returns to the Pits of Hathsin—the site of his greatest suffering. He kills all the guards and offers a hand to a skaa named Wallin coming out of the cavern. Then he destroys every atium crystal, cutting off the Lord Ruler's most valuable resource in a single night.",
 		"season": "Winter",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 33,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "The Backup Lair",
+		"description": "Kelsier returns to a dank backup cellar safehouse near Clubs' shop—just three rooms. He announces he destroyed all the atium at the Pits of Hathsin.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 33.2,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "fountain-square",
+		"title": "The Inquisitor Fight",
+		"description": "Everyone follows Kelsier to Fountain Square. They spot Spook and Lord Renoux in one of the execution carts. Kelsier fights an Inquisitor in the square—a trap, as he almost certainly knew it would be.",
+		"season": "Early Spring",
 		"year": "1022 FE"
 	},
 	{
@@ -307,7 +360,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "fountain-square",
 		"title": "The Survivor's Last Stand",
-		"description": "Kelsier faces the Lord Ruler in Fountain Square, fighting an impossible battle. He dies with a smile, becoming a martyr whose death ignites the revolution.",
+		"description": "Kelsier fights the Inquisitor in an all-out battle at Fountain Square, both burning atium. He is a master of Push and Pull, moving metal through the air like an expert. He kills the Inquisitor and the skaa begin chanting 'The Survivor of Hathsin.' The Lord Ruler arrives in a black carriage. One of Ham's thugs rams a spear through him—he continues walking. Two spears—still walking. The Lord Ruler slaps Kelsier, pulls a spear from his own body, and rams it through Kelsier. He dies with a smile, becoming a martyr whose death ignites the revolution. Kelsier represents Hope.",
 		"season": "Early Spring",
 		"year": "1022 FE"
 	},
@@ -318,7 +371,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Beyond Death",
-		"description": "Through OreSeur the kandra wearing his bones, Kelsier's final plan unfolds—his death was the spark that set the revolution ablaze across Luthadel.",
+		"description": "At the backup safehouse near Clubs' shop, the crew sees the kandra, earlier Lord Renoux, wearing Kelsier's body and bones - the final plan. Kelsier had left letters to each crew member with instructions for taking the city. His death was the spark that set the revolution ablaze across Luthadel.",
 		"season": "Early Spring",
 		"year": "1022 FE"
 	},

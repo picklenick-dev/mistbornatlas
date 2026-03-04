@@ -63,12 +63,34 @@
 	},
 	{
 		"book": "tfe",
+		"chapter": 32,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Scouting the Rooftops",
+		"description": "Spook scouts from the rooftop above Clubs' shop with Vin, teaching her tricks about using tin. He explains it's not just about enhancing senses but about sorting out what matters and not being distracted by the rest.",
+		"season": "Winter",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 33,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Tineye on Watch",
+		"description": "When the crew goes to Fountain Square, Spook is spotted in one of the execution carts alongside Lord Renoux—captured by the Ministry.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
 		"chapter": 34,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "fountain-square",
 		"title": "Witnessing the Sacrifice",
-		"description": "Spook watches from the crowd as Kelsier dies in Fountain Square, an event that will shape the rest of his life.",
+		"description": "Spook watches from the crowd as Kelsier fights and dies in Fountain Square, an event that will shape the rest of his life. The Survivor's sacrifice transforms Spook's understanding of what it means to serve a cause.",
 		"season": "Early Spring",
 		"year": "1022 FE"
 	},

@@ -1,6 +1,6 @@
 {
 	"name": "mistborn-interactive-map",
-	"version": "0.7.0",
+	"version": "0.8.0",
 	"description": "Interactive chrono-cartographic visualization of the Mistborn Original Trilogy",
 	"private": true,
 	"type": "module",

@@ -129,7 +129,8 @@ export type Season =
 export interface RawMovement {
 	book: BookId;
 	chapter: number;
-	location: string;
+	location?: string;
+	locationCoords?: [number, number]; // Direct map coordinates — use when location is omitted
 	offset?: [number, number];
 	cityId?: CityId;
 	cityLandmark?: string;
