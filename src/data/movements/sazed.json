@@ -219,7 +219,7 @@
 	{
 		"book": "woa",
 		"chapter": 4,
-		"location": "garthwood",
+		"locationCoords": [1605.9, 468.1],
 		"title": "The Traveling Teacher",
 		"description": "Sazed travels through the Eastern Dominance, visiting rural villages to share suppressed religions and knowledge with the newly freed skaa.",
 		"season": "Autumn",
@@ -228,9 +228,19 @@
 	{
 		"book": "woa",
 		"chapter": 7,
+		"locationCoords": [1605.9, 468.1],
+		"title": "Marsh Returns",
+		"description": "Sazed continues teaching suppressed religions to freed skaa in the Eastern Dominance. Marsh appears at the village, having wandered alone since the fall of the Lord Ruler, and offers to guide Sazed to a place of answers—the Conventical of Seran.",
+		"season": "Late Autumn",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 9,
 		"location": "conventical",
-		"title": "The Conventical of Seran",
-		"description": "Guided by Marsh, Sazed discovers the Conventical of Seran—a horrifying Inquisitor stronghold where he finds Kwaan's steel inscription plate.",
+		"offset": [0, 30],
+		"title": "Journey to the Conventical",
+		"description": "Sazed and Marsh travel through the desolate Eastern Dominance toward the Conventical of Seran. Marsh grows increasingly distant and strange during the journey, unsettling Sazed.",
 		"season": "Late Autumn",
 		"year": "1023 FE"
 	},

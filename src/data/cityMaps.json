@@ -234,6 +234,13 @@
 				"description": "The legal trade hub where noble houses negotiated contracts and Ministry factors oversaw the exchange of imperial commodities."
 			},
 			{
+				"id": "kenton-street",
+				"name": "Kenton Street",
+				"type": "district",
+				"coords": [37.7, 75.3],
+				"description": "A busy market street in Luthadel where merchants sell goods ranging from household supplies to exotic animals. Vin purchased a wolfhound here to serve as OreSeur's new body."
+			},
+			{
 				"id": "industrial-district",
 				"name": "Industrial District",
 				"type": "district",

@@ -112,8 +112,30 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Growing Scout",
-		"description": "Spook serves as a scout for Elend's new government, patrolling the city and observing the encircling armies during the siege.",
+		"description": "Spook returns to Luthadel from his scouting mission and rejoins the crew at Keep Venture. He resumes his role patrolling the city and observing the encircling armies.",
 		"season": "Autumn",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 11,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Crew Gathering",
+		"description": "Spook is present at Keep Venture as the crew regroups following the arrival of Cett's second army outside Luthadel.",
+		"season": "Early Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 13,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "War Council",
+		"description": "Spook attends Elend's war council at Keep Venture, where the crew discusses strategy for dealing with two besieging armies and the growing threat beyond the walls.",
+		"season": "Early Winter",
 		"year": "1023 FE"
 	},
 	{

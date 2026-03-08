@@ -402,5 +402,14 @@
 		"dominance": "Central",
 		"coords": [1286, 891],
 		"description": "An industrial waypoint in the Central Dominance known for its large-scale cannery. It served as the primary supply node for Lord Ashweather Cett's army during the Siege of Luthadel, providing the logistical endurance necessary for a long-term military presence."
+	},
+	{
+		"id": "cetts-camp",
+		"name": "Cett's War Camp",
+		"type": "landmark",
+		"dominance": "Central",
+		"coords": [1248, 794],
+		"description": "Lord Ashweather Cett's military encampment northwest of Luthadel during the siege. Cett marched his army from the Western Dominance to contest control of the city, establishing a second siege line that trapped Elend's government between two hostile forces.",
+		"books": ["woa"]
 	}
 ]

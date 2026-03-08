@@ -87,19 +87,20 @@
 	},
 	{
 		"book": "woa",
-		"chapter": 4,
-		"location": "garthwood",
-		"title": "Eastern Wanderer",
-		"description": "Marsh wanders the Eastern Dominance as a lone Inquisitor, seeking to understand his transformation while helping Sazed investigate distant villages.",
-		"season": "Autumn",
+		"chapter": 7,
+		"locationCoords": [1605.9, 468.1],
+		"title": "The Conventical Guide",
+		"description": "Marsh appears at Sazed's village in the Eastern Dominance and offers to guide him to the Conventical of Seran—an Inquisitor stronghold where answers about the Hero of Ages may lie.",
+		"season": "Late Autumn",
 		"year": "1023 FE"
 	},
 	{
 		"book": "woa",
-		"chapter": 7,
+		"chapter": 9,
 		"location": "conventical",
-		"title": "The Conventical Guide",
-		"description": "Marsh leads Sazed to the Conventical of Seran, an Inquisitor stronghold in the remote north, to find the records Sazed seeks.",
+		"offset": [0, 30],
+		"title": "Traveling with Sazed",
+		"description": "Marsh travels with Sazed toward the Conventical of Seran. His behaviour grows more erratic and withdrawn during the journey as Ruin's subtle influence takes hold.",
 		"season": "Late Autumn",
 		"year": "1023 FE"
 	},
