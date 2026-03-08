@@ -4,9 +4,10 @@ import L from 'leaflet';
 import { useMapContext } from '@/context/MapContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { getZoomableCities } from '@/data';
+import { BOOK_COLORS } from '@/data/characterConfig';
 import { usePopupPosition, DESCRIPTION_LIMIT } from '@/hooks';
 import { getLocationTheme, MARKER_SIZE } from '@/utils/locationTheme';
-import type { Location, CityId } from '@/types';
+import type { Location, CityId, BookId } from '@/types';
 
 interface LocationMarkerProps {
 	location: Location;
@@ -14,30 +15,36 @@ interface LocationMarkerProps {
 
 const zoomableCities = getZoomableCities();
 
-const createLocationIcon = (type: string, isExplorable: boolean = false): L.DivIcon => {
+const createLocationIcon = (
+	type: string,
+	isExplorable: boolean = false,
+	bookColor?: string
+): L.DivIcon => {
 	const theme = getLocationTheme(type);
+	const bookStyle = bookColor ? `--book-color: ${bookColor};` : '';
+	const bookClass = bookColor ? ' book-scoped' : '';
 
 	if (isExplorable) {
 		return L.divIcon({
-			className: 'explorable-city-marker allomantic-marker',
+			className: `explorable-city-marker allomantic-marker${bookClass}`,
 			iconSize: [44, 44],
 			iconAnchor: [22, 22],
 			popupAnchor: [0, -24],
-			html: `<div class="explorable-city-icon" style="--marker-color: ${theme.color};"><i class="fa-solid fa-magnifying-glass"></i></div>`,
+			html: `<div class="explorable-city-icon" style="--marker-color: ${theme.color}; ${bookStyle}"><i class="fa-solid fa-magnifying-glass"></i></div>`,
 		});
 	}
 
 	return L.divIcon({
-		className: 'allomantic-marker',
+		className: `allomantic-marker${bookClass}`,
 		iconSize: [MARKER_SIZE, MARKER_SIZE],
 		iconAnchor: [MARKER_SIZE / 2, MARKER_SIZE / 2],
 		popupAnchor: [0, -MARKER_SIZE / 2],
-		html: `<div class="allomantic-marker-inner" style="--marker-color: ${theme.color};" data-dark-glyph="${!!theme.darkGlyph}"><img src="${theme.symbol}" alt="${theme.metal}"/></div>`,
+		html: `<div class="allomantic-marker-inner" style="--marker-color: ${theme.color}; ${bookStyle}" data-dark-glyph="${!!theme.darkGlyph}"><img src="${theme.symbol}" alt="${theme.metal}"/></div>`,
 	});
 };
 
 export const LocationMarker: React.FC<LocationMarkerProps> = ({ location }) => {
-	const { enterCity } = useMapContext();
+	const { enterCity, currentBook } = useMapContext();
 	const { t } = useLanguage();
 	const markerRef = useRef<L.Marker>(null);
 	const [showFullDescription, setShowFullDescription] = useState(false);
@@ -66,7 +73,8 @@ export const LocationMarker: React.FC<LocationMarkerProps> = ({ location }) => {
 			? locDescription.slice(0, DESCRIPTION_LIMIT) + '...'
 			: locDescription;
 
-	const icon = createLocationIcon(location.type, hasCityMap);
+	const bookColor = location.books ? BOOK_COLORS[currentBook as BookId] : undefined;
+	const icon = createLocationIcon(location.type, hasCityMap, bookColor);
 	const theme = getLocationTheme(location.type);
 
 	const handleEnterCity = (e: React.MouseEvent) => {

@@ -1,9 +1,9 @@
 import React from 'react';
 import { useMapContext } from '@/context/MapContext';
 import { useLanguage } from '@/context/LanguageContext';
-import { characters } from '@/data';
-import { getCharacterTitle, hasCharacterDebuted } from '@/utils';
-import { CHARACTER_COLORS, getCharacterPortrait } from '@/data/characterConfig';
+import { characters, movements } from '@/data';
+import { getCharacterTitle, hasCharacterDebuted, isCharacterPresentInBook } from '@/utils';
+import { CHARACTER_COLORS, BOOK_ORDER, getCharacterPortrait } from '@/data/characterConfig';
 import { EyeIcon } from '@/components/icons';
 import type { CharacterId } from '@/types';
 import styles from './CharacterFilters.module.scss';
@@ -37,22 +37,46 @@ export const CharacterFilters: React.FC = () => {
 			{characters.map(character => {
 				const isChecked = visibleCharacters.has(character.id);
 				const color = CHARACTER_COLORS[character.id];
-				const debuted = hasCharacterDebuted(character, currentBook, currentChapter);
-				const isAvailable = debuted || showAllCharacters;
+				const presentInBook = isCharacterPresentInBook(
+					character.id,
+					currentBook,
+					movements,
+					secretHistoryMode
+				);
+				const debuted = presentInBook
+					? hasCharacterDebuted(
+							character,
+							currentBook,
+							currentChapter,
+							movements,
+							secretHistoryMode
+						)
+					: false;
+				const isAvailable = presentInBook && (debuted || showAllCharacters);
 				const isFollowed = followedCharacter === character.id;
 				const charTrans = t.data.characters[character.id];
 				const charName = charTrans?.name ?? character.name;
-				// Always use the chapter-accurate title; show a placeholder for characters not yet introduced
+
+				// Reader already knows this character if they debuted in a prior book
+				const knownFromPriorBook =
+					BOOK_ORDER[character.debutBook] < BOOK_ORDER[currentBook];
+
 				const title = debuted
 					? getCharacterTitle(character, currentBook, currentChapter, secretHistoryMode, charTrans)
-					: showAllCharacters
-						? t.characters.notYetIntroduced
-						: t.characters.hiddenPlaceholder;
+					: knownFromPriorBook
+						? getCharacterTitle(character, currentBook, 0, secretHistoryMode, charTrans)
+						: showAllCharacters
+							? t.characters.notYetIntroduced
+							: t.characters.hiddenPlaceholder;
+
+				// Show name & portrait for characters the reader already knows (from prior books
+				// or debuted in this chapter), hide identity only for truly unseen characters.
+				const showIdentity = isAvailable || knownFromPriorBook;
 
 				return (
 					<div
 						key={character.id}
-						className={`${styles.characterItem} ${!isAvailable ? styles.notDebuted : ''}`}
+						className={`${styles.characterItem} ${!isAvailable ? styles.notDebuted : ''} ${!presentInBook ? styles.notInBook : ''}`}
 						onClick={() => isAvailable && toggleCharacter(character.id)}
 						role="checkbox"
 						aria-checked={isChecked}
@@ -70,10 +94,10 @@ export const CharacterFilters: React.FC = () => {
 							style={{ '--char-color': color } as React.CSSProperties}
 						/>
 						<span
-							className={`${styles.portraitIcon} ${!isAvailable ? styles.portraitHidden : ''}`}
-							style={{ borderColor: isAvailable ? color : undefined }}
+							className={`${styles.portraitIcon} ${!showIdentity ? styles.portraitHidden : ''} ${!presentInBook ? styles.portraitDimmed : ''}`}
+							style={{ borderColor: showIdentity ? color : undefined }}
 						>
-							{isAvailable ? (
+							{showIdentity ? (
 								<img
 									src={getCharacterPortrait(
 										character,
@@ -89,10 +113,10 @@ export const CharacterFilters: React.FC = () => {
 						</span>
 						<div className={styles.characterInfo}>
 							<span className={styles.characterName}>
-								{isAvailable ? charName : t.characters.hiddenPlaceholder}
-							</span>
-							<span className={styles.characterTitle} title={isAvailable ? title : undefined}>
-								{isAvailable ? title : t.characters.hiddenPlaceholder}
+							{showIdentity ? charName : t.characters.hiddenPlaceholder}
+						</span>
+						<span className={styles.characterTitle} title={showIdentity ? title : undefined}>
+							{showIdentity ? title : t.characters.hiddenPlaceholder}
 							</span>
 						</div>
 						<button

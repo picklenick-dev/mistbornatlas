@@ -421,6 +421,26 @@
 	}
 }
 
+// Book-scoped locations: colored border + pulse
+.allomantic-marker.book-scoped .allomantic-marker-inner,
+.explorable-city-marker.book-scoped .explorable-city-icon {
+	border: 2.5px solid var(--book-color, rgba(255, 255, 255, 0.3));
+	box-shadow:
+		0 0 6px color-mix(in srgb, var(--marker-color) 53%, transparent),
+		0 0 12px color-mix(in srgb, var(--marker-color) 27%, transparent),
+		0 0 8px color-mix(in srgb, var(--book-color, transparent) 40%, transparent);
+	animation: marker-pulse 2s ease-in-out infinite;
+
+	&:hover {
+		animation: none;
+	}
+}
+
+.allomantic-marker.book-scoped .allomantic-marker-inner {
+	width: 34px;
+	height: 34px;
+}
+
 // ─── Explorable city marker
 .explorable-city-marker {
 	cursor: pointer;

@@ -10,12 +10,21 @@ import React, {
 } from 'react';
 import type L from 'leaflet';
 import type { BookId, CharacterId, SelectedItem, MapContextType, MapView, CityId } from '@/types';
-import { books, characters } from '@/data';
+import { books, characters, movements } from '@/data';
 import { loadAppState, saveBookState, type PersistedBookState } from '@/services';
 import { HIDE_MOVEMENT_SPOILERS_KEY } from '@/config';
-import { hasCharacterDebuted } from '@/utils/titleProgression';
+import { hasCharacterDebuted, isCharacterPresentInBook } from '@/utils/titleProgression';
 import { isDebugMode } from '@/utils';
 import { DEFAULT_BOOK } from '@/config';
+
+function firstPresentCharacter(bookId: BookId): CharacterId {
+	for (const char of characters) {
+		if (isCharacterPresentInBook(char.id, bookId, movements, false)) {
+			return char.id;
+		}
+	}
+	return characters[0].id;
+}
 
 /** Clamp a chapter to the valid range for a given book */
 function clampChapter(chapter: number, bookId: BookId): number {
@@ -30,7 +39,7 @@ function defaultBookState(bookId: BookId): PersistedBookState {
 	const bookData = books.find(b => b.id === bookId);
 	return {
 		currentChapter: bookData?.hasPrologue ? 0 : 1,
-		visibleCharacters: ['kelsier'],
+		visibleCharacters: [firstPresentCharacter(bookId)],
 		followedCharacter: null,
 		showLocations: true,
 		showAllCharacters: false,
@@ -232,9 +241,24 @@ export const MapProvider: React.FC<MapProviderProps> = ({ children }) => {
 
 	const manuallyHidden = useRef<Set<CharacterId>>(new Set());
 
+	// Auto-add characters when they debut in the current book
 	useEffect(() => {
 		characters.forEach(character => {
-			const debuted = hasCharacterDebuted(character, currentBook, currentChapter);
+			const present = isCharacterPresentInBook(
+				character.id,
+				currentBook,
+				movements,
+				secretHistoryMode
+			);
+			if (!present) return;
+
+			const debuted = hasCharacterDebuted(
+				character,
+				currentBook,
+				currentChapter,
+				movements,
+				secretHistoryMode
+			);
 			if (
 				debuted &&
 				!visibleCharacters.has(character.id) &&
@@ -247,7 +271,25 @@ export const MapProvider: React.FC<MapProviderProps> = ({ children }) => {
 				});
 			}
 		});
-	}, [currentBook, currentChapter]);
+	}, [currentBook, currentChapter, secretHistoryMode]);
+
+	// When Secret History mode is toggled off, remove characters that
+	// are only present via SH movements (e.g. Kelsier in WOA/HOA).
+	const prevSecretHistoryMode = useRef(secretHistoryMode);
+	useEffect(() => {
+		if (prevSecretHistoryMode.current && !secretHistoryMode) {
+			setVisibleCharacters(prev => {
+				const next = new Set(prev);
+				for (const charId of prev) {
+					if (!isCharacterPresentInBook(charId, currentBook, movements, false)) {
+						next.delete(charId);
+					}
+				}
+				return next;
+			});
+		}
+		prevSecretHistoryMode.current = secretHistoryMode;
+	}, [secretHistoryMode, currentBook]);
 
 	const setCurrentChapter = useCallback(
 		(chapterOrFn: number | ((prev: number) => number)) => {

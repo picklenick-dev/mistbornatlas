@@ -48,6 +48,10 @@
 			box-shadow: none;
 		}
 	}
+
+	&.notInBook {
+		opacity: 0.35;
+	}
 }
 
 .checkbox {
@@ -115,6 +119,11 @@
 	&.portraitHidden {
 		border-color: $color-border;
 		background: $color-bg-tertiary;
+	}
+
+	&.portraitDimmed {
+		filter: grayscale(100%);
+		opacity: 0.5;
 	}
 }
 

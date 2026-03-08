@@ -74,6 +74,7 @@ export interface Location {
 	cityMapId?: CityId; // If this location has a detailed city map
 	placementNote?: string; // Note about discrepancies between map placement and source material
 	checked?: boolean; // Whether this location has been verified
+	books?: BookId[]; // If set, location only appears in these books
 }
 
 // Detailed intra-city views

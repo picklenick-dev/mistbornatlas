@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useMapContext } from '@/context/MapContext';
-import { getMovementsForBook, getCharacterById } from '@/data';
+import { getMovementsForBook, getCharacterById, movements as allMovements } from '@/data';
 import { hasCharacterDebuted } from '@/utils';
 import { locations } from '@/data';
 import type { Movement, Character, CharacterId } from '@/types';
@@ -52,8 +52,8 @@ export const useMapData = (): UseMapDataReturn => {
 
 	const visibleLocations = useMemo(() => {
 		if (!showLocations) return [];
-		return locations;
-	}, [showLocations]);
+		return locations.filter(loc => !loc.books || loc.books.includes(currentBook));
+	}, [showLocations, currentBook]);
 
 	const characterPositions = useMemo((): CharacterPosition[] => {
 		const positions: CharacterPosition[] = [];
@@ -63,7 +63,16 @@ export const useMapData = (): UseMapDataReturn => {
 			const character = getCharacterById(charId);
 			if (!character) return;
 
-			if (!showAllCharacters && !hasCharacterDebuted(character, currentBook, currentChapter)) {
+			if (
+				!showAllCharacters &&
+				!hasCharacterDebuted(
+					character,
+					currentBook,
+					currentChapter,
+					allMovements,
+					secretHistoryMode
+				)
+			) {
 				return;
 			}
 
@@ -153,7 +162,7 @@ export const useMapData = (): UseMapDataReturn => {
 		);
 
 		return positions;
-	}, [visibleCharacters, bookMovements, currentChapter, currentBook, showAllCharacters]);
+	}, [visibleCharacters, bookMovements, currentChapter, currentBook, showAllCharacters, secretHistoryMode]);
 
 	const characterPaths = useMemo(() => {
 		const paths: {
@@ -168,7 +177,16 @@ export const useMapData = (): UseMapDataReturn => {
 			if (!character) return;
 
 			// Check if character has debuted (unless override is enabled)
-			if (!showAllCharacters && !hasCharacterDebuted(character, currentBook, currentChapter)) {
+			if (
+				!showAllCharacters &&
+				!hasCharacterDebuted(
+					character,
+					currentBook,
+					currentChapter,
+					allMovements,
+					secretHistoryMode
+				)
+			) {
 				return;
 			}
 
@@ -222,7 +240,7 @@ export const useMapData = (): UseMapDataReturn => {
 		});
 
 		return paths;
-	}, [visibleCharacters, bookMovements, currentChapter, currentBook, showAllCharacters]);
+	}, [visibleCharacters, bookMovements, currentChapter, currentBook, showAllCharacters, secretHistoryMode]);
 
 	return {
 		visibleLocations,

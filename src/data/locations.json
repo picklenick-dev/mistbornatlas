@@ -327,7 +327,8 @@
 		"type": "landmark",
 		"dominance": "Central",
 		"coords": [1267.5, 799.5],
-		"description": "Straff Venture's military encampment south of Luthadel during the siege, positioned outside the Iron Gate. A massive force of fifty thousand soldiers positioned to intimidate the city into surrender, with Straff's command tent at the center surrounded by cavalry pickets."
+		"description": "Straff Venture's military encampment south of Luthadel during the siege, positioned outside the Iron Gate. A massive force of fifty thousand soldiers positioned to intimidate the city into surrender, with Straff's command tent at the center surrounded by cavalry pickets.",
+		"books": ["woa"]
 	},
 	{
 		"id": "koloss-camp",
