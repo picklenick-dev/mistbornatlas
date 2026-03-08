@@ -141,6 +141,39 @@
 	},
 	{
 		"book": "tfe",
+		"chapter": 30,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Guardian at Keep Venture",
+		"description": "Sazed accompanies Vin to the final house ball at Keep Venture. The partygoers are finalizing alliances and Lady Valette receives cold receptions. Sazed departs the ball early, before Vin discovers the assassination plot against Elend and fights Shan Elariel.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 31,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "Tending Vin's Wounds",
+		"description": "Sazed ministers to Vin's wounds at Clubs' shop after she arrives battered from her fight with Shan Elariel and the Elariel assassins. He listens as Vin recounts the events of the evening.",
+		"season": "Winter",
+		"year": "1021 FE"
+	},
+	{
+		"book": "tfe",
+		"chapter": 33,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "clubs-shop",
+		"title": "The Backup Lair",
+		"description": "Sazed is at the backup safehouse near Clubs' shop with the crew after Kelsier destroyed the Pits of Hathsin. Vin talks to Sazed about the Eleventh Metal. Later, when skaa are brought to execution at Fountain Square and Spook is found caged in a prisoner cart, Sazed stays at the lair as Kelsier fights the Inquisitor.",
+		"season": "Early Spring",
+		"year": "1022 FE"
+	},
+	{
+		"book": "tfe",
 		"chapter": 35,
 		"location": "luthadel",
 		"cityId": "luthadel",
