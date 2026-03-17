@@ -564,12 +564,78 @@
 	},
 	{
 		"book": "woa",
+		"chapter": 16,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Logbook Search",
+		"description": "Vin pulls apart Alendi's logbook at Keep Venture, searching for references to the mist spirit and the Deepness. She thinks the creature following her is the same one that followed Alendi centuries ago.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 17,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-hasting",
+		"title": "Dueling the Watcher",
+		"description": "After meeting Straff's messenger—Zane, the Watcher. Vin goes on patrol with OreSeur. She confronts Zane and they end up in a fierce steel-pushing contest at Keep Hasting. Zane tells her that Mistborn belong in the mists, not with nobles.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 20,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "War Council",
+		"description": "Vin observes as Elend, Dockson, Hammond, Clubs and Breeze discuss the plan to parlay with Straff at Keep Venture. She uses bronze to eliminate Breeze as the kandra impostor suspect. Lord Cett's daughter Allrianne arrives seeking asylum and Breeze.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 21,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Allrianne's Arrival",
+		"description": "Allrianne Cett arrives at the palace and embraces Breeze, surprising everyone. Elend offers her hospitality. Dockson proposes using Allrianne as a bargaining chip against Lord Cett.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
 		"chapter": 22,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Political Tensions",
 		"description": "As the siege tightens, Vin watches Elend struggle with the Assembly and the demands of governance while she hunts Zane through the mists.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 24,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Night Watch",
+		"description": "Vin stands guard outside Elend's balcony and burns bronze, detecting the mist spirit and a distant source of Allomantic power. Zane finds her at Keep Venture and challenges her, asking what she would do without repercussions. She answers that she would kill the enemy armies' leaders.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 25,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kenton-street",
+		"title": "Shopping and Skirmish",
+		"description": "Tindwyl takes Vin dress shopping on Kenton Street along with Allrianne, Spook, and OreSeur. Outside the shop, Vin speaks to members of the Church of the Survivor. Warning drums sound. Straff's army launches a feint attack on the city walls and Vin rushes to help defend.",
 		"season": "Winter",
 		"year": "1023 FE"
 	},
@@ -584,12 +650,43 @@
 	},
 	{
 		"book": "woa",
+		"chapter": 27,
+		"location": "straffs-camp",
+		"title": "The Bluff",
+		"description": "While Vin listens from outside the tent, Straff threatens to kill Elend during the parley. Zane appears. Vin and Elend's bluff succeeds. Straff lets them leave. On the road back to Luthadel, Elend receives a note: the Assembly has voted no confidence and he is no longer king.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
 		"chapter": 28,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Return from Parley",
 		"description": "After the tense encounter at Straff's camp, Vin returns to Keep Venture, haunted by Zane's whispers and her growing doubts about her role.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 29,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-hasting",
+		"title": "Insomnia and Insight",
+		"description": "Vin and OreSeur sit at Keep Hasting in the night mists. They discuss Zane's character and Vin's growing insomnia. OreSeur says he does not want to change bodies often. Vin has a flash of insight about the true nature of the Deepness.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 30,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Deepness Theory",
+		"description": "Vin enters Keep Venture through Sazed's window and reads his transcription of the Conventical rubbings. She proposes that the mists are the Deepness - that permanent daytime mists could cause famine. She tells Sazed she has seen the same creature that followed the Hero of Ages.",
 		"season": "Winter",
 		"year": "1024 FE"
 	},

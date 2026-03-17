@@ -188,7 +188,7 @@
 		"type": "landmark",
 		"dominance": "Terris",
 		"coords": [1320, 1420],
-		"description": "A network of Terris settlements that defy traditional mapping, often invisible from the valley floor. To survive harsh winters and Imperial scrutiny, these villages extend underground with small surface footprints (a few stone huts) concealing vast tunnel networks and communal halls dug into mountainsides. The three-dimensional map includes escape routes exiting miles away in hidden ravines\u2014a geography of hiding spots and evasion, not fortifications. This is the psychology of the subjugated Terris: always ready to disappear.",
+		"description": "A network of Terris settlements that defy traditional mapping, often invisible from the valley floor. To survive harsh winters and Imperial scrutiny, these villages extend underground with small surface footprints (a few stone huts) concealing vast tunnel networks and communal halls dug into mountainsides. The three-dimensional map includes escape routes exiting miles away in hidden ravines - a geography of hiding spots and evasion, not fortifications. This is the psychology of the subjugated Terris: always ready to disappear.",
 		"features": ["Tunnel Architecture", "Hidden Entrances", "Mountain Communities"]
 	},
 	{
@@ -197,7 +197,7 @@
 		"type": "landmark",
 		"dominance": "Central",
 		"coords": [1247, 1149],
-		"description": "Not a natural river but an artificial artery cut into the earth by the Lord Ruler's decree. Links Tathingdwen in the north directly to Luthadel, allowing extraction of Terris resources (wool, timber, craftsmanship) and insertion of Imperial soldiers. The canal represents both connection and intrusion\u2014the very infrastructure connecting Tathingdwen to the world became the avenue of its destruction when Koloss armies used the canal road to attack. A monument to imperial engineering and imperial oppression.",
+		"description": "Not a natural river but an artificial artery cut into the earth by the Lord Ruler's decree. Links Tathingdwen in the north directly to Luthadel, allowing extraction of Terris resources (wool, timber, craftsmanship) and insertion of Imperial soldiers. The canal represents both connection and intrusion - the very infrastructure connecting Tathingdwen to the world became the avenue of its destruction when Koloss armies used the canal road to attack. A monument to imperial engineering and imperial oppression.",
 		"features": ["Northern Terminus: Tathingdwen", "Central Hub: Luthadel", "Transport Artery"]
 	},
 	{
@@ -336,7 +336,8 @@
 		"type": "landmark",
 		"dominance": "Central",
 		"coords": [1280.5, 659.8],
-		"description": "The koloss army's encampment north of Luthadel during the siege of 1024 FE, positioned near the Steel Gate. Jastes Lekal's disastrous attempt to buy koloss loyalty with wooden coins led to the creatures turning on the city in a devastating assault."
+		"description": "The koloss army's encampment south of Luthadel during the siege of 1024 FE, positioned near the Steel Gate. Jastes Lekal's disastrous attempt to buy koloss loyalty with wooden coins led to the creatures turning on the city in a devastating assault.",
+		"books": ["woa"]
 	},
 	{
 		"id": "longsfollow",

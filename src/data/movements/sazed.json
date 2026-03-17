@@ -263,6 +263,15 @@
 		"year": "1023 FE"
 	},
 	{
+		"book": "woa",		
+		"chapter": 19,
+		"location": "koloss-camp",
+		"title": "The Koloss Army",
+		"description": "After burning through his steel metalmind to speed his journey, Sazed encounters a twenty-thousand-strong koloss army in the Central Dominance. He is captured and brought before their leader Jastes Lekal, who wants Sazed as his steward. Sazed declines but carries Jastes' offer of alliance back toward Luthadel.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
 		"book": "woa",
 		"chapter": 22,
 		"location": "luthadel",
@@ -272,6 +281,28 @@
 		"description": "Sazed arrives at Luthadel bearing grave news about the altered prophecy, the mist killings, and the steel inscription's true meaning.",
 		"season": "Winter",
 		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 23,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Third Army",
+		"description": "Sazed briefs Elend and the crew at Keep Venture about the twenty thousand koloss under Jastes Lekal. He warns that the mists are killing people and resolves to stay in Luthadel to investigate. Afterward, he encounters Tindwyl in his guest quarters and they share a personal moment.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 30,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Transcribing the Rubbings",
+		"description": "Sazed transcribes the rubbings he took at the Conventical of Seran, realizing the work could take years. Vin enters through his window and proposes that the mists are the Deepness. She tells him she has seen the same creature that followed the Hero of Ages.",
+		"season": "Winter",
+		"year": "1024 FE"
 	},
 	{
 		"book": "woa",

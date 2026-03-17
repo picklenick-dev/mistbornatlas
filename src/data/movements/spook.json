@@ -140,6 +140,39 @@
 	},
 	{
 		"book": "woa",
+		"chapter": 20,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "At the War Council",
+		"description": "Spook is present at Keep Venture as the crew discusses Elend's plan to parlay with Straff Venture and strategy for dealing with the besieging armies.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 23,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Sazed's Return",
+		"description": "Spook is present at Keep Venture as Sazed returns and briefs the crew about the koloss army, the mist killings, and the danger from a third besieging force.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 25,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kenton-street",
+		"title": "Shopping Escort",
+		"description": "Spook accompanies Vin, Tindwyl, Allrianne, and OreSeur on a shopping trip for a dress on Kenton Street. Of course against his own will. Warning drums interrupt the outing as Straff's army launches a feint attack on the city walls.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
 		"chapter": 49,
 		"location": "luthadel",
 		"cityId": "luthadel",

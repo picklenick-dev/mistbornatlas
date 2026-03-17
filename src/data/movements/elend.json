@@ -232,6 +232,50 @@
 	},
 	{
 		"book": "woa",
+		"chapter": 16,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "iron-gate",
+		"title": "A King's Transformation",
+		"description": "Elend stands atop the city walls surveying the besieging armies digging in. Clubs meets him on the wall. Tindwyl sends for him, cuts his hair, gives him a military uniform and a crown - transforming the philosopher into a warrior king.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 17,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Straff's Messenger",
+		"description": "Elend, Vin, and OreSeur go to meet a messenger from Straff Venture who turns out to be Zane. Zane states that Straff would host a meeting in his camp. Elend says he will consider the offer.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 20,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Planning the Parley",
+		"description": "Elend discusses his plan to parlay with Straff with Dockson, Hammond, Clubs, and Breeze at Keep Venture. He intends to play Straff and Cett against each other. Tindwyl lectures him on kingly mannerisms. Lord Cett's daughter Allrianne arrives seeking asylum.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 21,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Allrianne's Asylum",
+		"description": "Allrianne Cett arrives at the palace and embraces Breeze to everyone's surprise. Elend offers her hospitality while the crew debates using her as a bargaining chip against Lord Cett.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
 		"chapter": 22,
 		"location": "luthadel",
 		"cityId": "luthadel",
@@ -243,10 +287,41 @@
 	},
 	{
 		"book": "woa",
+		"chapter": 23,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Sazed's Warning",
+		"description": "Sazed returns to report twenty thousand koloss under Jastes Lekal approaching Luthadel. The crew debates contingency plans for a third besieging force. Sazed warns that the mists themselves may present a grave danger and are killing people.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 25,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "iron-gate",
+		"title": "The Feint Attack",
+		"description": "Straff launches a feint attack against Luthadel's walls to test the city's defenses. Elend's soldiers are ill-prepared, but the attack is called off quickly. The probe reveals weaknesses in the city's readiness.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
 		"chapter": 26,
 		"location": "straffs-camp",
 		"title": "Parley with Father",
 		"description": "Elend rides out to Straff Venture's camp to negotiate, bringing Vin as his protector. The meeting reveals Straff's contempt for his idealistic son.",
+		"season": "Winter",
+		"year": "1023 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 27,
+		"location": "straffs-camp",
+		"title": "Outwitting Straff",
+		"description": "Straff calls for soldiers to kill Elend during the parley, but Elend bluffs that Vin will destroy the camp if he dies. The gambit works - Straff lets them leave. On the return to Luthadel, Elend receives a devastating note: the Assembly has voted no confidence and he is no longer king.",
 		"season": "Winter",
 		"year": "1023 FE"
 	},
