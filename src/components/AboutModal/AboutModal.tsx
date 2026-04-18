@@ -5,6 +5,7 @@ import {
 	CHARACTER_COLORS,
 	UNIQUE_SYMBOL_METALS,
 	PORTRAIT_ATTRIBUTIONS,
+	TRANSLATION_CONTRIBUTORS,
 } from '@/config';
 import { InfoIcon, CloseIcon, WarningIcon } from '@/components/icons';
 import styles from './AboutModal.module.scss';
@@ -233,6 +234,34 @@ export const AboutModal: React.FC = () => {
 									</a>
 								</p>
 							</section>
+
+							{TRANSLATION_CONTRIBUTORS.length > 0 && (
+								<section className={styles.section}>
+									<h3 className={styles.sectionTitle}>
+										{t.about.communityTranslationsTitle}
+									</h3>
+									<p>{t.about.communityTranslationsDesc}</p>
+									<ul className={styles.attributionList}>
+										{TRANSLATION_CONTRIBUTORS.map(({ language, contributors }) => (
+											<li key={language}>
+												<strong>{language}:</strong>{' '}
+												{contributors.map((c, i) => (
+													<React.Fragment key={c.name}>
+														{i > 0 && ', '}
+														<a
+															href={c.url}
+															target="_blank"
+															rel="noopener noreferrer"
+														>
+															{c.name}
+														</a>
+													</React.Fragment>
+												))}
+											</li>
+										))}
+									</ul>
+								</section>
+							)}
 
 							<section className={styles.section}>
 								<h3 className={styles.sectionTitle}>{t.about.copyrightTitle}</h3>

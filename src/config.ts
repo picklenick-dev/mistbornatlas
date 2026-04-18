@@ -59,6 +59,25 @@ export const CITY_MAP_IMAGES: Record<string, string> = {
 	fadrex: '/maps/fadrex.jpg',
 };
 
+// ── Localised Maps ────────────────────────────────────────────────────────────
+
+/** Languages that ship their own translated map images under /maps/i18n/{lang}/ */
+const LANGUAGES_WITH_MAPS: LanguageCode[] = ['tr'];
+
+/** Return the world-map image URL for the given language. */
+export const getLocalizedMapUrl = (lang: LanguageCode): string =>
+	LANGUAGES_WITH_MAPS.includes(lang)
+		? `/maps/i18n/${lang}/map-final-empire.jpg`
+		: MAP_IMAGE_URL;
+
+/** Return city-map image URL for the given city and language. */
+export const getLocalizedCityMapUrl = (cityId: string, lang: LanguageCode): string => {
+	if (LANGUAGES_WITH_MAPS.includes(lang)) {
+		return `/maps/i18n/${lang}/${cityId}.jpg`;
+	}
+	return CITY_MAP_IMAGES[cityId] ?? '';
+};
+
 export const CITY_MAP_BOUNDS: L.LatLngBoundsExpression = [
 	[0, 0],
 	[100, 100],
@@ -172,6 +191,25 @@ export const BOOK_COLORS: Record<BookId, string> = {
 	woa: '#2f4f4f',
 	hoa: '#4a0080',
 };
+
+// ── Translation Contributors ──────────────────────────────────────────────────
+
+export interface TranslationContributor {
+	language: string;
+	contributors: { name: string; url: string }[];
+}
+
+export const TRANSLATION_CONTRIBUTORS: TranslationContributor[] = [
+	{
+		language: 'Türkçe (Turkish)',
+		contributors: [
+			{
+				name: 'u/Ardam_44',
+				url: 'https://www.reddit.com/user/Ardam_44',
+			},
+		],
+	},
+];
 
 // ── Portrait Attributions ─────────────────────────────────────────────────────
 

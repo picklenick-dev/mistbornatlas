@@ -41,6 +41,9 @@ export const loadTranslation = async (lang: LanguageCode): Promise<Translation> 
 		case 'pl':
 			module = await import('./locales/pl');
 			break;
+		case 'tr':
+			module = await import('./locales/tr');
+			break;
 		default:
 			return en;
 	}
@@ -70,6 +73,7 @@ export const languages: LanguageInfo[] = [
 	{ code: 'sv', name: 'Swedish', nativeName: 'Svenska' },
 	{ code: 'de', name: 'German', nativeName: 'Deutsch' },
 	{ code: 'pl', name: 'Polish', nativeName: 'Polski' },
+	{ code: 'tr', name: 'Turkish', nativeName: 'Türkçe' },
 	// { code: 'no', name: 'Norwegian', nativeName: 'Norsk' },
 	// { code: 'da', name: 'Danish', nativeName: 'Dansk' },
 ];

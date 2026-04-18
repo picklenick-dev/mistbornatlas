@@ -307,6 +307,9 @@ export const es: Translation = {
 		specialThanksDesc:
 			'Un enorme agradecimiento al usuario de Reddit u/participating y al hilo de lectura conjunta del Cosmere en r/readalong. Los datos de movimiento de personajes en este proyecto se crearon en parte usando sus resúmenes capítulo por capítulo, combinados con mis propias notas. Usado con permiso.',
 		specialThanksReddit: 'r/readalong Cosmere Wiki',
+		communityTranslationsTitle: 'Traducciones de la Comunidad',
+		communityTranslationsDesc:
+			'Datos de traducción y mapas localizados contribuidos por la comunidad. ¡Gracias!',
 		copyrightTitle: 'Aviso de derechos de autor',
 		copyrightTrademark:
 			'Nacidos de la bruma es una marca registrada de Dragonsteel Entertainment, LLC',

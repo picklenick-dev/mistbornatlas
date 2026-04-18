@@ -304,6 +304,9 @@ export const ar: Translation = {
 		specialThanksDesc:
 			'شكر كبير لمستخدم Reddit u/participating وموضوع قراءة الكوزمير الجماعية على r/readalong. تم بناء بيانات تحركات الشخصيات في هذا المشروع جزئيًا باستخدام ملخصاتهم لكل فصل، بالإضافة إلى ملاحظاتي الخاصة. استُخدمت بإذن.',
 		specialThanksReddit: 'ويكي r/readalong للكوزمير',
+		communityTranslationsTitle: 'ترجمات المجتمع',
+		communityTranslationsDesc:
+			'بيانات الترجمة والخرائط المترجمة مقدمة من المجتمع. شكراً لكم!',
 		copyrightTitle: 'إشعار حقوق النشر',
 		copyrightTrademark: 'مولودي الضباب علامة تجارية مسجلة لـ Dragonsteel Entertainment, LLC',
 		copyrightMap: 'الخريطة © Isaac Stewart',

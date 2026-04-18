@@ -3,6 +3,7 @@ import { MapContainer as LeafletMapContainer, ImageOverlay } from 'react-leaflet
 import L from 'leaflet';
 import { useMapData } from '@/hooks';
 import { useMapContext } from '@/context/MapContext';
+import { useLanguage } from '@/context/LanguageContext';
 import { isDebugMode } from '@/utils';
 import { LocationMarker } from '@/components/LocationMarker';
 import { CharacterMarker } from '@/components/CharacterMarker';
@@ -10,7 +11,7 @@ import { CharacterPath } from '@/components/CharacterPath';
 import { DebugOverlay } from '@/components/DebugOverlay';
 import { ZoomTracker } from '@/components/ZoomTracker';
 import {
-	MAP_IMAGE_URL,
+	getLocalizedMapUrl,
 	MAP_BOUNDS,
 	MAP_MAX_BOUNDS,
 	MAP_CENTER_FIRST_VISIT,
@@ -35,6 +36,9 @@ const MAP_CENTER: L.LatLngExpression = isFirstVisit ? MAP_CENTER_FIRST_VISIT : M
 export const MapContainer: React.FC = () => {
 	const { visibleLocations, characterPositions, characterPaths } = useMapData();
 	const { controlsPanelOpen, showAtmosphere, isEnteringCity, commitEnterCity } = useMapContext();
+	const { language } = useLanguage();
+
+	const mapImageUrl = getLocalizedMapUrl(language);
 
 	return (
 		<div
@@ -63,7 +67,7 @@ export const MapContainer: React.FC = () => {
 				zoomControl={true}
 				attributionControl={false}
 			>
-				<ImageOverlay url={MAP_IMAGE_URL} bounds={MAP_BOUNDS} />
+				<ImageOverlay url={mapImageUrl} bounds={MAP_BOUNDS} />
 
 				<ZoomTracker />
 

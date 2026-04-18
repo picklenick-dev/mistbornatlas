@@ -21,6 +21,7 @@ const getLanguageFromParams = (): LanguageCode => {
 		'sv',
 		'de',
 		'pl',
+		'tr',
 	];
 
 	if (langParam && knownLanguages.includes(langParam as LanguageCode)) {

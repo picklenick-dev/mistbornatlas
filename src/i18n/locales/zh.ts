@@ -301,6 +301,9 @@ export const zh: Translation = {
 		specialThanksDesc:
 			'衷心感谢 Reddit 用户 u/participating 和 r/readalong 的寰宇共读帖。本项目中的角色移动数据部分基于他们的逐章摘要，并结合了我自己的笔记。经许可使用。',
 		specialThanksReddit: 'r/readalong Cosmere Wiki',
+		communityTranslationsTitle: '社区翻译',
+		communityTranslationsDesc:
+			'翻译数据和本地化地图由社区贡献。感谢！',
 		copyrightTitle: '版权声明',
 		copyrightTrademark: '迷雾之子是Dragonsteel Entertainment, LLC的注册商标',
 		copyrightMap: '地图艺术作品 © Isaac Stewart',

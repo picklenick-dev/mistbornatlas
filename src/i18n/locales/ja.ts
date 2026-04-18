@@ -304,6 +304,9 @@ export const ja: Translation = {
 		specialThanksDesc:
 			'Redditユーザー u/participating と r/readalong のコズミア読書会スレッドに心から感謝します。本プロジェクトのキャラクター移動データは、彼らの章ごとの要約と自分自身のメモを組み合わせて作成されました。許可を得て使用しています。',
 		specialThanksReddit: 'r/readalong Cosmere Wiki',
+		communityTranslationsTitle: 'コミュニティ翻訳',
+		communityTranslationsDesc:
+			'翻訳データとローカライズされた地図はコミュニティによって提供されました。ありがとうございます！',
 		copyrightTitle: '著作権表示',
 		copyrightTrademark: 'ミストボーンはDragonsteel Entertainment, LLCの登録商標です',
 		copyrightMap: 'マップ © Isaac Stewart',

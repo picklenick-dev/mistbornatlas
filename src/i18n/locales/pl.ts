@@ -306,6 +306,9 @@ export const pl: Translation = {
 		specialThanksDesc:
 			'Ogromne podziękowania dla użytkownika Reddit u/participating i wątku wspólnego czytania Cosmere na r/readalong. Dane o ruchu postaci w tym projekcie zostały częściowo opracowane na podstawie ich streszczeń rozdziałów, połączonych z moimi własnymi notatkami. Wykorzystano za zgodą.',
 		specialThanksReddit: 'r/readalong Cosmere Wiki',
+		communityTranslationsTitle: 'Tłumaczenia społeczności',
+		communityTranslationsDesc:
+			'Dane tłumaczeń i zlokalizowane mapy dostarczone przez społeczność. Dziękujemy!',
 		copyrightTitle: 'Informacja o prawach autorskich',
 		copyrightTrademark:
 			'Mistborn jest zastrzeżonym znakiem towarowym Dragonsteel Entertainment, LLC',

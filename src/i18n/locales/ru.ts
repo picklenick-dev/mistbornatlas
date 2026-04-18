@@ -306,6 +306,9 @@ export const ru: Translation = {
 		specialThanksDesc:
 			'Огромная благодарность пользователю Reddit u/participating и теме совместного чтения Космера на r/readalong. Данные о перемещениях персонажей в этом проекте частично основаны на их поглавных обзорах в сочетании с моими собственными заметками. Использовано с разрешения.',
 		specialThanksReddit: 'r/readalong Cosmere Wiki',
+		communityTranslationsTitle: 'Переводы сообщества',
+		communityTranslationsDesc:
+			'Данные переводов и локализованные карты предоставлены сообществом. Спасибо!',
 		copyrightTitle: 'Уведомление об авторских правах',
 		copyrightTrademark:
 			'«Рождённые туманом» — зарегистрированная торговая марка Dragonsteel Entertainment, LLC',

@@ -10,7 +10,8 @@ export type LanguageCode =
 	| 'ja' // Japanese
 	| 'sv' // Swedish
 	| 'de' // German
-	| 'pl'; // Polish
+	| 'pl' // Polish
+	| 'tr'; // Turkish
 // | 'no' // Norwegian
 // | 'da'; // Danish
 
@@ -338,6 +339,8 @@ export interface TranslationKeys {
 		specialThanksTitle: string;
 		specialThanksDesc: string;
 		specialThanksReddit: string;
+		communityTranslationsTitle: string;
+		communityTranslationsDesc: string;
 		copyrightTitle: string;
 		copyrightTrademark: string;
 		copyrightMap: string;

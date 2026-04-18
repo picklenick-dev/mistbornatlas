@@ -13,7 +13,7 @@ import { DebugOverlay } from '@/components/DebugOverlay';
 import { ZoomTracker } from '@/components/ZoomTracker';
 import { MapFoldIcon } from '@/components/icons';
 import {
-	CITY_MAP_IMAGES,
+	getLocalizedCityMapUrl,
 	CITY_MAP_BOUNDS,
 	CITY_MAX_BOUNDS,
 	CITY_MAP_CENTER,
@@ -41,7 +41,7 @@ const SetInitialView: React.FC = () => {
 
 export const CityMapContainer: React.FC = () => {
 	const { activeCity, exitCity, controlsPanelOpen, showAtmosphere } = useMapContext();
-	const { t } = useLanguage();
+	const { t, language } = useLanguage();
 	const { characterPositions, characterPaths } = useMapData();
 	const [isExiting, setIsExiting] = useState(false);
 
@@ -54,7 +54,7 @@ export const CityMapContainer: React.FC = () => {
 	const cityMap = getCityMapById(activeCity);
 	if (!cityMap) return null;
 
-	const mapImageUrl = CITY_MAP_IMAGES[activeCity];
+	const mapImageUrl = getLocalizedCityMapUrl(activeCity, language);
 
 	const cityCharacterPositions = characterPositions.filter(
 		({ movement }) => movement?.cityId === activeCity && movement?.cityCoords
