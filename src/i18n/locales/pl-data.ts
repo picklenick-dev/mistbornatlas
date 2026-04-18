@@ -4,8 +4,11 @@
  * Key terminology verified against official print and canonical glossaries.
  */
 import type { DataTranslations } from '../types';
+import { enData } from './en-data';
 
 export const plData: DataTranslations = {
+	...enData,
+
 	books: {
 		tfe: { title: 'Z mgły zrodzony', year: '1021–1022 FE', confidence: 'verified' },
 		woa: { title: 'Studnia wstąpienia', year: '1022–1024 FE', confidence: 'verified' },
@@ -788,1292 +791,157 @@ export const plData: DataTranslations = {
 		},
 	},
 
+
 	movements: {
-		vin: {
-			'tfe-1': {
-				title: 'Uliczna sierota',
-				description:
-					'Vin pracuje jako obserwatorka w złodziejskiej szajce Camona w slumsach Luthadelu, nieświadomie wykorzystując swoje allomantyczne zdolności, by subtelnie wpływać na otoczenie.',
-				season: 'Wiosna',
-				year: '1021 FE',
-			},
-			'tfe-2': {
-				title: 'Oszustwo w Ministerstwie',
-				description:
-					'Vin towarzyszy szajce Camona podczas ryzykownego oszustwa w Kantonie Finansów, gdzie jej allomantyczne impulsy przyciągają uwagę Kelsiera.',
-				season: 'Wiosna',
-				year: '1021 FE',
-			},
-			'tfe-4': {
-				title: 'Rekrutacja',
-				description:
-					'Po tym jak Kelsier ratuje Vin przed pobiciem przez Camona, zostaje zabrana do stolarni Clubsa — kwatery głównej szajki — i zapoznana z planem obalenia Ostatniego Imperatora.',
-				season: 'Wiosna',
-				year: '1021 FE',
-			},
-			'tfe-7': {
-				title: 'Trening Urodzonej z Mgły',
-				description:
-					'Kelsier zabiera Vin pod mury miasta przy Stalowej Bramie na jej pierwszy prawdziwy trening Allomancji, ucząc ją spalania stali i żelaza wśród ciemnych dachów.',
-				season: 'Późna wiosna',
-				year: '1021 FE',
-			},
-			'tfe-8': {
-				title: 'Posiadłość Renoux',
-				description:
-					'Vin podróżuje na zachód do Fellise, by rozpocząć swoją przykrywkę jako Lady Valette Renoux w wiejskiej posiadłości Lorda Renoux, przygotowując się do infiltracji szlacheckiego towarzystwa.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-9': {
-				title: 'Nauka z Sazedem',
-				description:
-					'Pod okiem Sazeda w posiadłości Renoux Vin uczy się etykiety, tańca i zasad zachowania niezbędnych, by uchodzić za szlachciankę na wielkich balach.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-10': {
-				title: 'Powrót do ekipy',
-				description:
-					'Vin wraca do Luthadelu z Fellise, dołączając ponownie do ekipy w warsztacie Clubsa. Kelsier zabiera ją na nocny bieg allomantyczny przez miasto, kontynuując jej trening.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-10.2': {
-				title: 'Wiec w magazynie',
-				description:
-					'Vin uczestniczy w tajnym wiecu, na którym Kelsier głosi rewolucję zebranym robotnikom skaa w ukrytym magazynie.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-11': {
-				title: 'Masakra w Kryjówce Camona',
-				description:
-					'Vin i ekipa odkrywają skutki brutalnego ataku na starą kryjówkę Camona — Ministerstwo zabiło wszystkich w środku w odwecie za oszustwo w Kantonie Finansów.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-13': {
-				title: 'Pierwszy bal w Twierdzy Venture',
-				description:
-					"Vin uczestniczy w swoim pierwszym balu jako Lady Valette Renoux, wkraczając w lśniący świat szlachty. Spotyka Elenda Venture'a czytającego samotnie w kącie.",
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-14': {
-				title: 'Rozpoznanie w Kredik Shaw',
-				description:
-					'Vin i Kelsier podejmują zuchwałą nocną rozpoznanie pałacu Ostatniego Imperatora, skacząc między Tysiącem Iglic, by zmapować jego obrony.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-16': {
-				title: 'Bal w Twierdzy Elariel',
-				description:
-					'Vin uczestniczy w balu w domu Elariel, zbierając informacje o rodach szlacheckich i ich sojuszach, jednocześnie pogłębiając swoją przykrywkę.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-19': {
-				title: 'Rosnąca bliskość',
-				description:
-					'Na kolejnym balu w Twierdzy Venture relacja Vin z Elendem pogłębia się mimo jej misji. Po balu tańczy na dachach.',
-				season: 'Późne lato',
-				year: '1021 FE',
-			},
-			'tfe-22': {
-				title: 'Dziennik',
-				description:
-					'W stolarni Clubsa Vin studiuje starożytny dziennik Ostatniego Imperatora, znajdując niepokojące wzmianki o Głębi i proroctwie Bohatera Wieków.',
-				season: 'Jesień',
-				year: '1021 FE',
-			},
-			'tfe-25': {
-				title: 'Bieg cynowy',
-				description:
-					'Gdy armia rebeliantów pod Holstepem zostaje zmasakrowana przez siły garnizonowe, Vin podejmuje desperacki bieg cynowy — spalając cynę nieprzerwanie przez wiele godzin — by pomóc ratować ocalałych.',
-				season: 'Późna jesień',
-				year: '1021 FE',
-			},
-			'tfe-26': {
-				title: 'Regeneracja',
-				description:
-					'Vin wraca do stolarni Clubsa wyczerpana po biegu cynowym, odpoczywając, gdy szajka zbiera siły po katastrofalnej klęsce pod Holstepem.',
-				season: 'Późna jesień',
-				year: '1021 FE',
-			},
-			'tfe-30': {
-				title: 'Eskalacja wojny domów',
-				description:
-					'Wojna domów nasila się, gdy rody szlacheckie zwracają się przeciwko sobie. Vin zdaje sobie sprawę, że manipulacja szajki działa, ale przemoc ją niepokoi.',
-				season: 'Zima',
-				year: '1021 FE',
-			},
-			'tfe-34': {
-				title: 'Śmierć Ocalałego',
-				description:
-					'Vin bezradnie obserwuje z dachów, jak Kelsier walczy i ginie z rąk Ostatniego Imperatora na Placu Fontann, stając się po śmierci Ocalałym z Hathsin.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'tfe-36': {
-				title: 'Szturm na pałac',
-				description:
-					'Na czele buntu skaa Vin przebija się przez Kredik Shaw, walcząc z Inkwizytorami i strażnikami, by dotrzeć do sali tronowej Ostatniego Imperatora.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'tfe-38': {
-				title: 'Zabójczyni Ostatniego Imperatora',
-				description:
-					'Vin staje naprzeciwko Ostatniego Imperatora w jego sali tronowej, zrywając z niego jego metalumysły i zabijając nieśmiertelnego tyrana. Tysiąc lat ucisku dobiega końca.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'tfe-39': {
-				title: 'Nowa era',
-				description:
-					'W następstwie rewolucji Vin stoi z Elendem w Twierdzy Venture, gdy zaczyna się nowa era. Mgły wciąż płyną, ale Ostatniego Imperatora już nie ma.',
-				season: 'Wiosna',
-				year: '1022 FE',
-			},
-			'woa-1': {
-				title: 'Strażniczka miasta',
-				description:
-					'Vin patroluje mury Luthadelu każdej nocy, wypatrując zagrożeń, podczas gdy trzy armie powoli zbliżają się do nowo wyzwolonego miasta.',
-				season: 'Jesień',
-				year: '1023 FE',
-			},
-			'woa-3': {
-				title: 'Duch mgieł',
-				description:
-					'Podczas nocnego patrolu Vin napotyka tajemniczą postać we mgłach — ducha, który zdaje się ją obserwować, wskazując na coś.',
-				season: 'Jesień',
-				year: '1023 FE',
-			},
-			'woa-8': {
-				title: 'Obrończyni i partnerka',
-				description:
-					'Vin balansuje między podwójną rolą obrończyni i partnerki Elenda w pałacu, rozdarana między miłością do niego a obowiązkiem zapewnienia mu bezpieczeństwa.',
-				season: 'Jesień',
-				year: '1023 FE',
-			},
-			'woa-14': {
-				title: 'Rada szajki',
-				description:
-					"Szajka spotyka się w stolarni Clubsa, by omówić strategię, podczas gdy armia Straffa Venture'a obozuje na północy, a siły Cetta zbliżają się z zachodu.",
-				season: 'Wczesna zima',
-				year: '1023 FE',
-			},
-			'woa-22': {
-				title: 'Napięcia polityczne',
-				description:
-					"Gdy oblężenie się zacieśnia, Vin obserwuje, jak Elend zmaga się ze Zgromadzeniem i wymaganiami rządzenia, podczas gdy ona ściga Zane'a przez mgły.",
-				season: 'Zima',
-				year: '1023 FE',
-			},
-			'woa-26': {
-				title: 'Rokowania ze Straffem',
-				description:
-					"Vin towarzyszy Elendowi do obozu wojennego Straffa Venture'a na północ od miasta, gdzie demonstruje swoją przerażającą moc, by zastraszyć niedoszłego zdobywcę.",
-				season: 'Zima',
-				year: '1023 FE',
-			},
-			'woa-28': {
-				title: 'Powrót z rokowań',
-				description:
-					"Po napiętym spotkaniu w obozie Straffa, Vin wraca do Twierdzy Venture, prześladowana szeptami Zane'a i rosnącymi wątpliwościami co do swojej roli.",
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'woa-35': {
-				title: 'Kryzys Zgromadzenia',
-				description:
-					'Vin obserwuje z galerii, jak Zgromadzenie głosuje za odsunięciem Elenda i zaproszeniem Lorda Penroda do rządzenia, niszcząc demokratyczny eksperyment.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'woa-43': {
-				title: 'Rajd na Cetta',
-				description:
-					'Vin przeprowadza niszczycielski samotny atak na siły Cetta zakwaterowane w Twierdzy Hasting, wypędzając jego armię z miasta w pokazie potęgi Urodzonej z Mgły.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-47': {
-				title: 'Pojedynek z Zanem',
-				description:
-					'W pobliżu Twierdzy Hasting Vin stacza z Zanem Venture brutalny pojedynek Urodzonych z Mgły, ostatecznie zabijając go, by chronić tych, których kocha.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-49': {
-				title: 'Wygnanie',
-				description:
-					'Vin i Elend opuszczają Luthadel przez Cynową Bramę, wygnani przez nowy rząd Penroda, kierując się na północ ku Terris z niewielką eskortą.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-50': {
-				title: 'Exodus na północ',
-				description:
-					'Mała grupa podróżuje w stronę Terris, ale Vin wyczuwa coś, co ciągnie ją z powrotem — Studnia Wstąpienia nie znajduje się wcale w górach.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-52': {
-				title: 'Powrót do bitwy',
-				description:
-					'Vin podejmuje desperacki bieg cynowy z powrotem do Luthadelu, gdy kolosy przełamują mury, docierając na czas, by przejąć kontrolę nad stworzeniami i uratować miasto.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-54': {
-				title: 'Poszukiwanie Studni',
-				description:
-					'Z Luthadelem ocalonym, lecz poturbowanym, Vin przeszukuje podziemia Kredik Shaw w poszukiwaniu Studni Wstąpienia, podążając za wskazówkami ducha mgieł coraz głębiej pod ziemię.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-58': {
-				title: 'Odkrycie Studni',
-				description:
-					'Vin schodzi do starożytnych komnat pod Kredik Shaw i odkrywa Studnię Wstąpienia, której moc pulsuje nagromadzoną energią.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'woa-59': {
-				title: 'Uwolniona moc',
-				description:
-					'Przy Studni Vin przyjmuje ogromną moc — a potem, zwiedziona manipulacją Zagłady na proroctwach, uwalnia ją. Coś strasznego wymyka się ze swego więzienia.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'hoa-1': {
-				title: 'Kampania północna',
-				description:
-					'Vin i Elend prowadzą swoją armię do Vetitanu, miasta zasypanego narastającym opadem popiołu, by zabezpieczyć jedno z ukrytych składów zaopatrzenia Ostatniego Imperatora.',
-				season: 'Wiosna',
-				year: '1026 FE',
-			},
-			'hoa-3': {
-				title: 'Pierwszy skład',
-				description:
-					'Vin otwiera podziemny skład w Vetitanie, znajdując żywność, zaopatrzenie i metalową płytę z tajemniczą wiadomością Ostatniego Imperatora o niebezpieczeństwie, które uwięził.',
-				season: 'Wiosna',
-				year: '1026 FE',
-			},
-			'hoa-8': {
-				title: 'Podział sił',
-				description:
-					'Vin wraca do Luthadelu, gdzie armia się dzieli: Sazed i Breeze ruszają na północ do Urteau, podczas gdy Vin i Elend wyruszą na zachód do Fadrex.',
-				season: 'Lato',
-				year: '1026 FE',
-			},
-			'hoa-10': {
-				title: 'Marsz na zachód',
-				description:
-					'Vin maszeruje na zachód z armią Elenda ku Fadrex, popiół opada coraz gęściej z każdym dniem, a świat wokół nich się rozpada.',
-				season: 'Lato',
-				year: '1026 FE',
-			},
-			'hoa-21': {
-				title: 'Przybycie do Fadrex',
-				description:
-					'Armia dociera pod Fadrex i rozbija obóz oblężniczy na pokrytych popiołem równinach. Obligator Yomen odmawia poddania miasta i wydania składu.',
-				season: 'Jesień',
-				year: '1026 FE',
-			},
-			'hoa-28': {
-				title: 'Szpieg na balu',
-				description:
-					'Vin infiltruje Fadrex przebrana za szlachciankę, uczestnicząc w jednym z bali Yomena w Twierdzy Orielle, by zdobyć informacje i szukać dyplomatycznego rozwiązania.',
-				season: 'Jesień',
-				year: '1026 FE',
-			},
-			'hoa-40': {
-				title: 'Drugi bal',
-				description:
-					'Vin wraca na kolejny z bali Yomena, angażując go bezpośrednio w filozoficzną debatę o dziedzictwie Ostatniego Imperatora i narastającym opadzie popiołu.',
-				season: 'Późna jesień',
-				year: '1026 FE',
-			},
-			'hoa-47': {
-				title: 'Schwytana',
-				description:
-					'Vin zostaje schwytana przez siły Yomena i uwięziona w Kantonie Zasobów, pozbawiona metali. Jest przetrzymywana w celi z zapasem atium, którego nie może dosięgnąć.',
-				season: 'Zima',
-				year: '1026 FE',
-			},
-			'hoa-51': {
-				title: 'W więzieniu',
-				description:
-					'Uwięziona i odcięta od metali, Vin rozmyśla o wpływie Zagłady i naturze mocy, którą uwolniła przy Studni.',
-				season: 'Zima',
-				year: '1026 FE',
-			},
-			'hoa-54': {
-				title: 'Ujawniony skład',
-				description:
-					'Vin odkrywa skład zaopatrzenia we Fadrex i jego kluczową zawartość — żywność, zapasy i wiadomość o prawdziwych przygotowaniach Ostatniego Imperatora.',
-				season: 'Późna zima',
-				year: '1026 FE',
-			},
-			'hoa-56': {
-				title: 'Ucieczka z Fadrex',
-				description:
-					'Gdy kolosy atakują Fadrex, Vin ucieka z miasta, odciągając Inkwizytorów od Elenda i armii, by ich chronić.',
-				season: 'Wczesna wiosna',
-				year: '1027 FE',
-			},
-			'hoa-59': {
-				title: 'Prowadząc pościg',
-				description:
-					'Vin leci na wschód ku Luthadelowi ze sforą Inkwizytorów w pogoni, celowo odciągając sługi Zagłady od Fadrex i Elenda.',
-				season: 'Wiosna',
-				year: '1027 FE',
-			},
-			'hoa-72': {
-				title: 'Powrót do Luthadelu',
-				description:
-					'Vin przybywa do zdewastowanego Luthadelu i niszczy Kredik Shaw, zawalając pałac Ostatniego Imperatora w potężnym pokazie allomantycznej mocy.',
-				season: 'Lato',
-				year: '1027 FE',
-			},
-			'hoa-79': {
-				title: 'Wstąpienie',
-				description:
-					'Vin czerpie z samych mgieł — ciała Przetrwania — wstępując jako naczynie boskiej mocy, by walczyć z Zagładą bezpośrednio.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
-			'hoa-81': {
-				title: 'Ostatnia ofiara',
-				description:
-					'Vin poświęca się, by zniszczyć Zagładę, łącząc moc Przetrwania z własną siłą życiową, by unicestwić boga zniszczenia.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
-			'hoa-83': {
-				title: 'Pole Odrodzenia',
-				description:
-					'Ciało Vin zostaje znalezione na polu kwiatów i zielonej trawy — pierwszych oznak odtworzonego przez Sazeda świata. Spoczywa w pokoju obok Elenda.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
-		},
+		...enData.movements,
 		kelsier: {
-			'tfe-0': {
-				title: 'Powrót Ocalałego',
-				description:
-					'Kelsier przybywa na plantację Lorda Tresting w Południowym Dominium, zabijając okrutnego szlachcica — jego pierwszy cios wymierzony w szlachtę od ucieczki z Czeluści.',
-				season: 'Wiosna',
-				year: '1021 FE',
-			},
-			'tfe-1': {
-				title: 'Ukryty obserwator',
-				description:
-					'Kelsier obserwuje z ukrycia działania szajki Camona, dostrzegając nieświadome użycie Allomancji przez Vin — uliczną sierotę z mocami Urodzonej z Mgły.',
-				season: 'Wiosna',
-				year: '1021 FE',
-			},
-			'tfe-3': {
-				title: 'Rekrutacja Vin',
-				description:
-					'Kelsier ratuje Vin przed przemocą Camona i oferuje jej miejsce w swojej szajce, ujawniając prawdę o jej zdolnościach jako Urodzonej z Mgły.',
-				season: 'Wiosna',
-				year: '1021 FE',
-			},
-			'tfe-5': {
-				title: 'Kradzież atium',
-				description:
-					'Kelsier włamuje się do skarbca Twierdzy Venture, by wykraść atium, finansując rebelię i jednocześnie testując obronę rodów szlacheckich.',
-				season: 'Wiosna',
-				year: '1021 FE',
-			},
-			'tfe-6': {
-				title: 'Szajka w komplecie',
-				description:
-					"W stolarni Clubsa Kelsier gromadzi pełną szajkę — Hama, Breeze'a, Docksona, Clubsa i teraz Vin — i ujawnia swój plan obalenia Ostatniego Imperatora.",
-				season: 'Wiosna',
-				year: '1021 FE',
-			},
-			'tfe-7': {
-				title: 'Nauka uczennicy',
-				description:
-					'Kelsier zabiera Vin pod mury miasta przy Stalowej Bramie na trening Allomancji, ucząc ją Pchania i Ciągnięcia metali podczas skoków między iglicami.',
-				season: 'Późna wiosna',
-				year: '1021 FE',
-			},
-			'tfe-8': {
-				title: 'Przykrywka Renoux',
-				description:
-					'Kelsier eskortuje Vin do Fellise i posiadłości Lorda Renoux, ustanawiając jej fałszywą tożsamość jako Lady Valette na potrzeby infiltracji szlacheckiego towarzystwa.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-10': {
-				title: 'Planowanie rewolucji',
-				description:
-					'Po powrocie do Luthadelu Kelsier spotyka się z ekipą w warsztacie Clubsa, by omówić postępy rebelii. Zabiera Vin na nocny bieg przez miasto, kontynuując jej trening allomantyczny.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-10.2': {
-				title: 'Rebelia rośnie',
-				description:
-					'Kelsier prowadzi wiece w magazynach po slumsach Luthadelu, budując rebelię skaa poprzez swoją legendę jako Ocalały z Hathsin.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-11': {
-				title: 'Masakra w Kryjówce Camona',
-				description:
-					'Kelsier i ekipa odkrywają, że Ministerstwo wymordowało wszystkich w starej kryjówce Camona w odwecie za oszustwo w Kantonie Finansów, umacniając ich determinację przeciwko Lordowi Władcy.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-14': {
-				title: 'Rozpoznanie pałacu',
-				description:
-					'Kelsier i Vin penetrują nocą Kredik Shaw, mapując obronę pałacu i testując zdolności reakcji Inkwizytorów.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-18': {
-				title: 'Operacje wojny domów',
-				description:
-					'Kelsier organizuje ataki między rodami szlacheckimi, skrytobójczo eliminując cele i podrzucając dowody, by podsycać wojnę domów osłabiającą szlachtę.',
-				season: 'Późne lato',
-				year: '1021 FE',
-			},
-			'tfe-21': {
-				title: 'Armia rebeliantów',
-				description:
-					'Kelsier podróżuje do Jaskiń Arguois, by skontrolować rosnącą armię rebeliantów ukrytą w górach, szkolić żołnierzy, którzy nigdy nie trzymali broni.',
-				season: 'Jesień',
-				year: '1021 FE',
-			},
-			'tfe-25': {
-				title: 'Katastrofa pod Holstepem',
-				description:
-					'Kelsier podejmuje bieg cynowy do Holstepu, gdy garnizon odkrywa i masakruje armię rebeliantów. Przybywa, by zastać zniszczenie, i musi uciekać na południe.',
-				season: 'Późna jesień',
-				year: '1021 FE',
-			},
-			'tfe-26': {
-				title: 'Zbieranie sił',
-				description:
-					'W stolarni Clubsa Kelsier zbiera siły po katastrofie pod Holstepem, odmawiając porzucenia rewolucji, nawet gdy nadzieja wydaje się stracona.',
-				season: 'Zima',
-				year: '1021 FE',
-			},
-			'tfe-32': {
-				title: 'Zniszczenie Czeluści',
-				description:
-					'Kelsier wraca do Czeluści Hathsin — miejsca swojego największego cierpienia — i niszczy kryształy atium, odcinając Ostatniego Imperatora od jego najcenniejszego zasobu.',
-				season: 'Zima',
-				year: '1022 FE',
-			},
-			'tfe-34': {
-				title: 'Ostatni bój Ocalałego',
-				description:
-					'Kelsier staje naprzeciwko Ostatniego Imperatora na Placu Fontann, tocząc beznadziejną walkę. Umiera z uśmiechem, stając się męczennikiem, którego śmierć rozpala rewolucję.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'tfe-35': {
-				title: 'Poza śmiercią',
-				description:
-					'Przez OreSeur, kandrę noszącą jego kości, ostatni plan Kelsiera się spełnia — jego śmierć była iskrą, która rozniecała rewolucję w całym Luthadelu.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'woa-1': {
-				title: 'Za zasłoną',
-				description:
-					'Uwięziony w Sferze Poznawczej po śmierci, Kelsier istnieje jako Cień Poznawczy w pobliżu Studni Wstąpienia, obserwując przemiany Luthadelu pod rządami Elenda.',
-				season: 'Jesień',
-				year: '1023 FE',
-			},
-			'woa-59': {
-				title: 'Świadek uwolnienia',
-				description:
-					'Kelsier bezradnie obserwuje ze Sfery Poznawczej, jak Vin przyjmuje moc przy Studni Wstąpienia i uwalnia ją, wypuszczając Zagładę z więzienia.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'sh-4.1': {
-				title: 'Kognitywna podróż na zachód',
-				description:
-					'Istniejąc jako Cień Poznawczy, Kelsier przemierza ocean mgły w kierunku zachodnich Spalonych Ziem, szukając pomocy w twierdzy Ire.',
-				season: 'Wiosna',
-				year: '1025 FE',
-			},
-			'sh-6.1': {
-				title: 'Ostrzeżenie w Fadrex',
-				description:
-					'Kelsier dociera do kognitywnego odbicia Miasta Fadrex, spotykając Hoida i próbując ostrzec Vin o jej hemalurgicznym kolcu.',
-				season: 'Jesień',
-				year: '1026 FE',
-			},
-			'hoa-1': {
-				title: 'Ocalały trwa',
-				description:
-					'W Sferze Poznawczej Kelsier współpracuje z gasnącą mocą Przetrwania, szukając jakiegokolwiek sposobu, by pomóc Sferze Fizycznej oprzeć się rosnącemu wpływowi Zagłady.',
-				season: 'Wiosna',
-				year: '1026 FE',
-			},
-			'hoa-50': {
-				title: 'Dzierżenie Przetrwania',
-				description:
-					'Gdy świadomość Przetrwania gaśnie, Kelsier przejmuje moc Odłamu — dzierżąc ją niedoskonale ze Sfery Poznawczej, kupując czas na ostateczny akt.',
-				season: 'Wiosna',
-				year: '1027 FE',
-			},
-			'hoa-81': {
-				title: 'Przekazanie pochodni',
-				description:
-					'Vin przejmuje moc Przetrwania od Kelsiera, by zniszczyć Zagładę. Ocalały puszcza Odłam — jego rola została spełniona — lecz odmawia przejścia w Zaświaty.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
-			'hoa-83': {
-				title: 'Ocalały żyje dalej',
-				description:
-					'Nawet gdy Harmonia odtwarza świat, Kelsier trwa w Sferze Poznawczej — Ocalały, który odmówił poddania się nawet śmierci.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
+			...enData.movements.kelsier,
+			'tfe-0': { title: 'Powrót Ocalałego', description: 'Kelsier przybywa na plantację lorda Tristinga, gdzie szlachcic gości obligatora wysłanego przez lorda Venture w nadziei na partnerstwo handlowe. Tej nocy, gdy młodą skaa dziewczynę mają przyprowadzić do Tristinga, Kelsier interweniuje: zabija Tristinga oraz wszystkich jego obligatorów, nadzorców i żołnierzy i podpala posiadłość.', season: 'Wiosna', year: '1021 FE' },
+			'tfe-1': { title: 'Ukryty obserwator', description: 'Kelsier obserwuje z cienia działalność gangu Camona, zauważając że Vin nieświadomie używa allomancji: uliczna sierota posiadająca moce Zrodzonej z Mgły.', season: 'Wiosna', year: '1021 FE' },
+			'tfe-3': { title: 'Rekrutacja Vin', description: 'Vin próbuje uciec z kryjówki Camona, ale Ulef ją zdradza. Kelsier interweniuje i ratuje ją od pobicia przez Camona. Awansuje Mileva na lidera, zabiera trzy tysiące boksów jako zapłatę za zajęcie się obligatorem i inkwizytorem. Testuje Vin i potwierdza, że jest Zrodzona z Mgły.', season: 'Wiosna', year: '1021 FE' },
+			'tfe-5': { title: 'Kradzież atium', description: 'Kelsier, Dockson i Vin wspinają się na dachy. Kelsier przygotowuje się i zanurza we mgle, szturmując twierdzę Venture by ukraść atium. Zdobywa sejf, ale musi walczyć z zabójcami mgły w drodze powrotnej. Ucieka z atium i finansuje bunt.', season: 'Wiosna', year: '1021 FE' },
+			'tfe-6': { title: 'Ekipa w komplecie', description: 'W warsztacie stolarskim Clubsa Kelsier i ekipa opracowują plan obalenia Ostatniego Imperium. Marsh w końcu przybywa; wszyscy wychodzą, by bracia mogli porozmawiać na osobności. Vin wraca i podsłuchuje pod drzwiami.', season: 'Wiosna', year: '1021 FE' },
+			'tfe-7': { title: 'Trening uczennicy', description: 'Kelsier zabiera Vin na pierwszy nocny trening i daje jej pelerynę z mgły. Uczy ją ośmiu podstawowych metali wzdłuż murów Luthadelu, blisko Stalowej Bramy.', season: 'Późna wiosna', year: '1021 FE' },
+			'tfe-8': { title: 'Przykrycie Renoux', description: 'Kelsier zabiera Vin poza mury Luthadelu, gdzie napotykają mgłoducha. Sazed czeka z powozem na głównym trakcie i wiezie ich do Fellise. Po drodze Kelsier oferuje Vin trzy tysiące boksów i możliwość odejścia. Na posiadłości lorda Renoux tworzy Vin fałszywą tożsamość lady Valette.', season: 'Lato', year: '1021 FE' },
+			'tfe-10': { title: 'Planowanie rewolucji', description: 'Po powrocie do Luthadelu Kelsier zwołuje spotkanie w sklepie Clubsa. Pyta Sazeda o religię posiadającą prawdziwą moc — Sazed opowiada mu o jaizmie — i o religię, która uważa eksterminację szlachty za świętą. Spotkanie przerywa, gdy jeden z żołnierzy Hammonda donosi, że Ministerstwo znalazło starą kryjówkę Camona.', season: 'Lato', year: '1021 FE' },
+			'tfe-10.2': { title: 'Zgromadzenie w magazynach', description: 'Kelsier przemawia do robotników skaa na tajnym zgromadzeniu w dzielnicy magazynowej. Breeze i jego łagodziciele oraz podżegacze manipulują tłumem, wykorzystując legendę Ocalałego z Hathsin do rozpalania buntu.', season: 'Lato', year: '1021 FE' },
+			'tfe-11': { title: 'Masakra w kryjówce Camona', description: 'Kelsier i ekipa badają zniszczoną kryjówkę. Potem Kelsier szuka Camona wśród żebraków i znajduje jego zwłoki wiszące na haku wbitym w usta, z rękami i nogami związanymi — ciało tortutowane. Ta metoda egzekucji jest zarezerwowana dla nadużywających allomancji. Vin udało się wyśledzić Kelsiera.', season: 'Lato', year: '1021 FE' },
+			'tfe-13': { title: 'Plany w Fellise', description: 'Kelsier spotyka Vin i Sazeda na posiadłości lorda Renoux w Fellise, by omówić informacje z pierwszego balu Vin. Dowiaduje się, że ojciec Vin był na balu, po czym wraca przez mgłę do Luthadelu.', season: 'Lato', year: '1021 FE' },
+			'tfe-14': { title: 'Zwiad pałacowy', description: 'Kelsier prowadzi Vin do Kredik Shaw, by zbadać budynek, który Ostatni Imperator odwiedza co trzy dni. Torują sobie drogę walką, ale trzech stalowych inkwizytorów ich okrąża. Kelsier zostaje oddzielony od Vin w chaosie. Vin ucieka ciężko ranna z tajemniczą skórzaną księgą.', season: 'Lato', year: '1021 FE' },
+			'tfe-15': { title: 'Po Kredik Shaw', description: 'Ekipa kwestionuje decyzję Kelsiera o zabraniu Vin do Kredik Shaw. Sazed przynosi ją na rękach. Dockson jest wściekły z powodu ryzyka. Kelsier i Dockson zauważają skórzaną księgę; Sazed określa ją jako napisaną w khlennium, języku ojczyzny Ostatniego Imperatora sprzed Wstąpienia.', season: 'Lato', year: '1021 FE' },
+			'tfe-16': { title: 'Czuwanie przy Vin', description: 'Kelsier zostaje w sklepie Clubsa czuwając przy Vin, gdy ta dochodzi do siebie po ranach z Kredik Shaw, obecny gdy w końcu się budzi.', season: 'Lato', year: '1021 FE' },
+			'tfe-17': { title: 'Spotkanie na posiadłości Renoux', description: 'Kelsier podróżuje do Fellise z Breeze, Yedenem i Docksonem na spotkanie na posiadłości lorda Renoux w sprawie następnej fazy buntu.', season: 'Lato', year: '1021 FE' },
+			'tfe-19': { title: 'Rozpalanie wojny rodów', description: 'Kelsier sieje chaos, podrzucając ciało lorda Charrsa Entrona do ogrodu twierdzy Tekielów. Potem idzie do dzielnicy sadzy spotkać się z Hoidem — informatorem przebranym za kontakt uliczny — i dowiaduje się, że lady Shan Elariel jest łagodzicielką.', season: 'Późne lato', year: '1021 FE' },
+			'tfe-19.2': { title: 'Spotkanie z lordem Straffem', description: 'Kelsier udaje się na plac Allström przebrany za chorego i niepełnosprawnego żebraka skaa, by spotkać lorda Straffa Venture, głowę rodu Venture. Odkrywa, że plotki o Ocalałym z Hathsin się rozchodzą i mówi się o jedenastym metalu.', season: 'Późne lato', year: '1021 FE' },
+			'tfe-19.3': { title: 'Powrót do Renoux', description: 'Kelsier wraca do dworu Renoux ścieżką ciernistą i wymienia informacje z Vin, Sazedem i Renoux. Robi Vin wykład o szlachcie, twierdząc że nie obchodzą ich skaa i że musi trzymać się z dala od Elenda.', season: 'Późne lato', year: '1021 FE' },
+			'tfe-20': { title: 'Nadzorowanie dostaw', description: 'Kelsier na posiadłości Renoux w Fellise nadzoruje ładowanie broni i zapasów na wozy wysyłane do armii rebeliantów.', season: 'Późne lato', year: '1021 FE' },
+			'tfe-21': { title: 'Armia rebeliantów', description: 'Kelsier czyta tłumaczenie dziennika Ostatniego Imperatora płynąc barką na północ kanałem. Konwój zatrzymuje się na śluzie w Holstep i Kelsier z rekrutami rusza do jaskiń, gdzie trenuje armia rebeliantów. Pokonuje wspomnienia Dołków Hathsin i wchodzi do kompleksu jaskiń Arguois, by obejrzeć armię, którą wytrenował Hammond. Podczas kolacji Kelsier manipuluje Bilgiem na przestrogę. Bilg i Demoux walczą; Kelsier pomaga Demoux allomancją.', season: 'Jesień', year: '1021 FE' },
+			'tfe-23': { title: 'Śledzenie Vin', description: 'Kelsier pojawia się w oknie wieży, gdzie Vin szpieguje grupę Elenda w twierdzy Hastingsów. Drwi z ich idealistycznych rozmów o zmienianiu świata. Rozchodzą się w różne strony.', season: 'Jesień', year: '1021 FE' },
+			'tfe-24': { title: 'Spotkanie statusowe', description: 'Kelsier przybywa do sklepu Clubsa, gdzie zebrała się większość ekipy. Omawia stan misji i dzieli nocnego drinka ze Spookiem, Hammondem i Clubsem. Prosi Hammonda o zbieranie informacji w garnizonie.', season: 'Jesień', year: '1021 FE' },
+			'tfe-25': { title: 'Rozpaczliwa decyzja', description: 'W sklepie Clubsa Kelsier dowiaduje się, że rebelia skaa zaatakowała garnizon Holstepu i że garnizon Luthadelu maszeruje na północ. Postanawia ostrzec armię rebeliantów i każe Vin połknąć pięć cynowych kulek na długi bieg na północ.', season: 'Późna jesień', year: '1021 FE' },
+			'tfe-25.2': { title: 'Katastrofa Holstepu', description: 'Kelsier i Vin biegną szesnaście godzin bez przerwy paląc cynę. Znajdują resztki armii rebeliantów oblężonej i wymordowanej przez garnizon Valtroux. Kelsier chce walczyć, ale Vin przekonuje go, że nie są niezwyciężeni. Docierają do jaskiń Arguois, gdzie dwa tysiące żołnierzy przeżyło dzięki Mennisowi.', season: 'Późna jesień', year: '1021 FE' },
+			'tfe-26': { title: 'Zbieranie okruchów', description: 'Ekipa wraca do sklepu Clubsa po dwutygodniowej podróży z jaskiń. Plan wygląda na totalną porażkę. Breeze oskarża Kelsiera o gonienie za chwałą. Kelsier przyznaje się do porażki, ale odmawia rezygnacji.', season: 'Zima', year: '1021 FE' },
+			'tfe-26.2': { title: 'Egzekucje', description: 'Spook donosi o egzekucjach na placu Fontanny. Ekipa udaje się tam i przekupuje kogoś, by wejść na dach. Oglądają rzeź wielu ludzi skaa, krew spływającą do fontanny. Kelsier przekonuje ekipę by kontynuowali: „To jest nasz wróg. Nie ma odwrotu, nie ma cofnięcia."', season: 'Zima', year: '1021 FE' },
+			'tfe-27': { title: 'Nowa strategia', description: 'Ekipa wraca do sklepu Clubsa, by zaplanować kolejne kroki: rozpętać wojnę między rodami szlacheckimi. Sazed przynosi list od Marsha wskazujący miejsce spotkania na Krętaczkach.', season: 'Zima', year: '1021 FE' },
+			'tfe-27.2': { title: 'Złoty metal', description: 'Kelsier i Vin przychodzą do opuszczonego budynku na Krętaczkach kilka godzin przed spotkaniem z Marshem. Czekając, Kelsier opowiada o złocie — dziewiątym metalu allomantycznym, który pokazuje alternatywną wersję przeszłości. Wyjaśnia też ferochemię i daje Vin złoto do pierwszego spalenia. Marsh przybywa z tatuażem niższego obligatora z wydziału Inkwizycji, opisuje stacje łagodzenia w Luthadelu i ujawnia, że inkwizytorzy mogą umrzeć ze starości.', season: 'Zima', year: '1021 FE' },
+			'tfe-29': { title: 'Rada wojenna na Renoux', description: 'Kelsier spotyka większość ekipy na posiadłości Renoux w Fellise, by zbadać szczegółową mapę obrony Luthadelu dostarczoną przez Marsha. Odkrywają, że gang Therona został niedawno zaatakowany przez Ministerstwo. Tej nocy, nie mogąc zasnąć, Kelsier prosi Sazeda o opowiedzenie kilku religii.', season: 'Zima', year: '1021 FE' },
+			'tfe-31': { title: 'Upomnienie uczennicy', description: 'Kelsier i Vin wracają do sklepu Clubsa po tym, jak Vin zabiła lady Shan Elariel — pełnoprawną Zrodzoną z Mgły — w twierdzy Venture. Kelsier upomina Vin za lekkomyślną walkę, ale ona krzyczy, że szlachta i skaa nie różnią się, że Elend Venture to dobry człowiek warty ochrony.', season: 'Zima', year: '1021 FE' },
+			'tfe-32': { title: 'Znalezienie Marsha', description: 'Kelsier i Vin znajdują ciało Marsha całkowicie pozbawione krwi — pustą skorupę. W sklepie Clubsa znajdują list od Marsha wyjaśniający, że inkwizytorzy prawdopodobnie go odnajdą.', season: 'Zima', year: '1022 FE' },
+			'tfe-32.2': { title: 'Zniszczenie Dołków', description: 'Kelsier wraca do Dołków Hathsin — miejsca swoich największych cierpień. Zabija wszystkich strażników i wyciąga rękę do skaa imieniem Wallin, który wychodzi z jamy. Niszczy wszystkie kryształy atium, odcinając w jedną noc najcenniejszy zasób Ostatniego Imperatora.', season: 'Zima', year: '1022 FE' },
+			'tfe-33': { title: 'Awaryjne schronienie', description: 'Kelsier wraca do wilgotnej zapasowej piwnicy koło sklepu Clubsa — tylko trzy izby. Ogłasza, że zniszczył całe atium w Dołkach Hathsin.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-33.2': { title: 'Walka z inkwizytorem', description: 'Wszyscy podążają za Kelsierem na plac Fontanny. Widzą Spooka i lorda Renoux w wozie egzekucyjnym. Kelsier walczy z inkwizytorem na placu — w pułapkę, o której niemal na pewno wiedział.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-34': { title: 'Ostatnia walka Ocalałego', description: 'Kelsier walczy z inkwizytorem na śmierć i życie na placu Fontanny — obaj palą atium. Jest mistrzem pchania i ciągnięcia, manewrując metalem w powietrzu z genialną biegłością. Zabija inkwizytora i skaa zaczynają skandować „Ocalały z Hathsin". Ostatni Imperator przybywa w czarnym powozie. Jeden z ludzi Hammonda dźga go włócznią — idzie dalej. Dwie włócznie — wciąż stoi. Ostatni Imperator uderza Kelsiera, wyciąga włócznię z własnego ciała i przebija nią Kelsiera. Ten umiera z uśmiechem, stając się męczennikiem, który rozpalił rewolucję.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-35': { title: 'Po śmierci', description: 'W awaryjnym schronieniu koło sklepu Clubsa ekipa widzi kandrę — wcześniej lorda Renoux — w ciele i szkielecie Kelsiera: ostateczny plan. Kelsier zostawił listy każdemu członkowi z instrukcjami przejęcia miasta. Jego śmierć stała się iskrą, która rozpaliła rewolucję w całym Luthadelu.', season: 'Wczesna wiosna', year: '1022 FE' },
+		},
+		vin: {
+			...enData.movements.vin,
+			'tfe-1': { title: 'Uliczna sierota', description: 'Vin zostaje wezwana przed lidera gangu Camona, który traktuje ją brutalnie. Nieświadomie używa swojego szczęścia — formy allomantycznego łagodzenia — by go uspokoić. Camon przebiera się za lorda Jedue i przygotowuje oszustwo na Ministerstwo Stali. Vin używa szczęścia na obligatora, ojca Leida, by nie odrzucił żądań Camona.', season: 'Wiosna', year: '1021 FE' },
+			'tfe-2': { title: 'Oszustwo Ministerstwa', description: 'Camon przebrany za lorda Jedue zabiera Vin do kancelarii finansowej, by oszukać Ministerstwo. Vin używa szczęścia na arcyojca, który wydaje trzy tysiące boksów Camonowi. Kelsier i Dockson w poczekalni wyczuwają allomantyczne impulsy Vin. Potem widzą stalowego inkwizytora śledzącego orszak Camona.', season: 'Wiosna', year: '1021 FE' },
+			'tfe-4': { title: 'Zwerbowana', description: 'Kelsier przedstawia w warsztacie Clubsa plan obalenia Ostatniego Imperium. Ekipa się zgadza, tylko Clubs wychodzi i wraca. Kelsier ujawnia, że Vin jest Zrodzona z Mgły i pokazuje jedenasty metal.', season: 'Wiosna', year: '1021 FE' },
+			'tfe-7': { title: 'Trening Zrodzonej z Mgły', description: 'Kelsier zabiera Vin na pierwszy nocny trening i daje jej pelerynę z mgły. Uczy ją ośmiu podstawowych metali — cyna, cyna stopowa, żelazo, stal, cynk, mosiądz, miedź i brąz — kończąc przy murach Luthadelu.', season: 'Późna wiosna', year: '1021 FE' },
+			'tfe-8': { title: 'Posiadłość Renoux', description: 'Vin i Kelsier przeskakują mury Luthadelu nocą, a Vin po raz pierwszy spotyka mgłoducha. Sazed czeka z powozem na drodze i wiezie ich do Fellise. Kelsier oferuje Vin trzy tysiące boksów i możliwość odejścia. Bierze pieniądze, ale zostaje. Na posiadłości lorda Renoux zaproponowano, by grała lady Valette.', season: 'Lato', year: '1021 FE' },
+			'tfe-9': { title: 'Trening z Sazedem', description: 'Vin i Kelsier sparują na posiadłości Renoux. Vin obcina włosy, Sazed sprawdza jej szlacheckie przebranie i opowiada o trelagizmie. Kelsier i Sazed omawiają postępy Vin na osobności; Kelsier ogłasza, że w weekend pójdą na bal w twierdzy Venture.', season: 'Lato', year: '1021 FE' },
+			'tfe-10': { title: 'Powrót do ekipy', description: 'Vin wraca do Luthadelu z Fellise, by uczyć się o metalach od mgłowców ekipy, zaczynając od Breeze, który uczy ją łagodzenia. Hammond przybywa i dyskutuje o moralności obalania Imperium.', season: 'Lato', year: '1021 FE' },
+			'tfe-10.2': { title: 'Zgromadzenie w magazynach', description: 'Vin uczestniczy w tajnym zgromadzeniu, gdzie Kelsier przemawia do robotników skaa. Potem Kelsier zwołuje spotkanie w sklepie Clubsa. Vin i Lestibournes rozmawiają o Marshu. Spotkanie kończy się, gdy żołnierz Hammonda donosi o odkryciu starej kryjówki Camona przez Ministerstwo.', season: 'Lato', year: '1021 FE' },
+			'tfe-11': { title: 'Masakra w kryjówce Camona', description: 'Vin i ekipa badają zniszczoną kryjówkę; wszędzie trupy. Vin widzi Ulefa — ktoś gołymi rękami wyrwał mu klatkę piersiową. Sazed odmawia modlitwę religii katzi. Ciało Mileva jest przywiązane do krzesła, najwyraźniej torturowane.', season: 'Lato', year: '1021 FE' },
+			'tfe-12': { title: 'Pierwszy bal w twierdzy Venture', description: 'Vin jedzie na swój pierwszy bal w twierdzy Venture z Sazedem jako woźnicą. Kelsier pojawia się po drodze, daje rady i znika we mgle. Vin zostaje przedstawiona jako lady Valette Renoux. Podczas kolacji dostrzega ojca po drugiej stronie sali. Odmawia tańca i wycofuje się na balkon na piętrze, gdzie po raz pierwszy rozmawia z Elendem Venture.', season: 'Lato', year: '1021 FE' },
+			'tfe-13': { title: 'Powrót do Fellise', description: 'Sazed wypytuje Vin o jej kontakt z Elendem na posiadłości Renoux. Prawdziwa osobowość Vin zaczyna się ujawniać. Kelsier dowiaduje się, że ojciec Vin był na balu i wraca we mgle.', season: 'Lato', year: '1021 FE' },
+			'tfe-14': { title: 'Wewnątrz Kredik Shaw', description: 'Kelsier zabiera Vin do Kredik Shaw i torują sobie drogę walką. Vin po raz pierwszy zabija. Trzech stalowych inkwizytorów ich okrąża. Vin chwyta skórzaną księgę do obrony. Pali atium i tymczasowo ucieka, ale inkwizytor wbija jej obsydianowy topór w bok. Ucieka z księgą, ale traci przytomność — coś odwraca uwagę ścigającego inkwizytora i obejmuje ją ochronnie. To nie był Kelsier.', season: 'Lato', year: '1021 FE' },
+			'tfe-15': { title: 'Raniona', description: 'Ekipa kwestionuje decyzję Kelsiera. Sazed przynosi Vin na rękach. Podają jej cynę stopową by pomóc w gojeniu. Sazed operuje, a Hammond zanosi ją do pokoju na odpoczynek. Zauważają księgę; Sazed potwierdza, że jest napisana w khlennium.', season: 'Lato', year: '1021 FE' },
+			'tfe-16': { title: 'Rekonwalescencja w sklepie Clubsa', description: 'Vin budzi się po dwóch tygodniach w sklepie Clubsa. Spook czuwał przy niej i opowiada, jak Kelsier nadał mu przezwisko. W rozmowie z Docksonem Vin uświadamia sobie, że z Sazedem jest coś bardzo niezwykłego.', season: 'Lato', year: '1021 FE' },
+			'tfe-16.2': { title: 'Powrót do Fellise', description: 'Po kolejnych dniach odpoczynku Vin wraca na posiadłość Renoux w Fellise. Rozmawia z Sazedem, który wyjaśnia, czym są Strażnicy, i ujawnia, że wszyscy terriscy służący są kastraci.', season: 'Lato', year: '1021 FE' },
+			'tfe-17': { title: 'Ogród posiadłości Renoux', description: 'Vin narzeka na cztery nudne tygodnie rekonwalescencji na posiadłości Renoux. Członkowie ekipy przybywają, by omówić nowinki. Vin przekonuje Kelsiera, by pozwolił jej pójść na kolejny bal. Później rozmawiają o Mare, motywacjach Kelsiera i „pęknięciu" — traumatycznym wydarzeniu, które budzi allomantyczne moce.', season: 'Lato', year: '1021 FE' },
+			'tfe-18': { title: 'Bal w twierdzy Elariel', description: 'Vin idzie z Sazedem na bal w twierdzy Elariel. Elend siada przy jej stoliku i jak zwykle czyta. Chwali jej suknię, wprawiając ją w osłupienie. Tańczy z kilkoma szlachcicami i wypytuje o Elenda; słyszy o lady Shan Elariel. Zauważa, że Shan jest łagodzicielką. Wychodząc z balu Vin widzi strażnika podcinającego gardło młodego chłopca skaa-kucharza we mgle.', season: 'Lato', year: '1021 FE' },
+			'tfe-19': { title: 'Powrót do Fellise', description: 'Kelsier wraca do dworu Renoux ścieżką ciernistą i spotyka się z Vin, Sazedem i Renoux. Robi Vin wykład o szlachcie, twierdząc że nie obchodzą ich skaa i że musi trzymać się z dala od Elenda Venture.', season: 'Późne lato', year: '1021 FE' },
+			'tfe-20': { title: 'Lekcje szukaczki', description: 'Vin wraca z Luthadelu i widzi skrzynie z bronią przed dworem Renoux, gotowe dla rebeliantów. Marsh przybywa i uczy ją szukania — używania brązu do wykrywania innych allomantów — i dalszych szczegółów allomancji.', season: 'Późne lato', year: '1021 FE' },
+			'tfe-22': { title: 'Dziennik', description: 'Vin czyta swoją kopię dziennika Ostatniego Imperatora na posiadłości Renoux, gdy pojawia się Spook. Mówi, że Dockson przyjechał po więcej broni, po czym czerwienieje, wręcza jej chustkę i ucieka. Sazed wyjaśnia później, że podarowanie chustki przez młodego mężczyznę wyraża poważne intencje zalotów. Czekając na Docksona, Vin rozmawia z Sazedem o Terrisach w dzienniku; Sazed ujawnia tajemnice ferochemii i założenie Strażników. Potem Vin rozmawia z Docksonem, który opowiada, jak lord Devinshae zabrał kobietę, którą kochał, i zabił ją następnego ranka.', season: 'Jesień', year: '1021 FE' },
+			'tfe-23': { title: 'Bal w twierdzy Hastingsów', description: 'Vin idzie na bal w twierdzy Hastingsów. Lady Shan prosi Vin, by następnym razem sprawdziła książki Elenda. Vin znajduje Elenda i pyta, czy był ze skaanką. Przyznaje, że ojciec zmusił go w wieku trzynastu lat, a kobieta została potem zabita. Elend daje jej chustkę. Po odejściu z przyjaciółmi Vin śledzi ich allomantycznie do wieży, gdzie dyskutują o porażkach Ostatniego Imperatora. Kelsier niespodziewanie się pojawia i drwi z ich pomysłów.', season: 'Jesień', year: '1021 FE' },
+			'tfe-24': { title: 'Spotkanie ekipy', description: 'Vin i Kelsier przybywają do sklepu Clubsa, gdzie zebrała się większość ekipy. Kelsier omawia stan misji, a Vin uświadamia sobie, jak bardzo lubi swoje nowe życie. Kelsier, Spook, Hammond i Clubs dzielą nocnego drinka.', season: 'Jesień', year: '1021 FE' },
+			'tfe-24.2': { title: 'Wizyta w garnizonie', description: 'Vin przebiera się za ulicznego chłopaka i idzie z Hammondem do garnizonu Luthadelu, by uczyć się o cynie stopowej. Hammond wyjaśnia, że wielu żołnierzy to zwykli ludzie skaa. Strażnik imieniem Sertts informuje ich, że garnizon jest mobilizowany — rebelia skaa zaatakowała garnizon Holstepu na północy.', season: 'Jesień', year: '1021 FE' },
+			'tfe-25': { title: 'Pilne wiadomości', description: 'W sklepie Clubsa Hammond przynosi wieść, że garnizon Luthadelu wyruszył do Holstepu. Kelsier każe Vin połknąć pięć cynowych kulek, by biec na północ i ostrzec armię rebeliantów.', season: 'Późna jesień', year: '1021 FE' },
+			'tfe-25.2': { title: 'Cynowy bieg', description: 'Vin i Kelsier biegną szesnaście godzin bez przerwy paląc cynę w desperackim biegu. Znajdują resztki armii rebeliantów oblężonej i wymordowanej przez garnizon Valtroux. Kelsier chce walczyć, Vin przekonuje go, że nie są niezwyciężeni. Docierają do jaskiń Arguois, gdzie dwa tysiące żołnierzy przeżyło dzięki Mennisowi.', season: 'Późna jesień', year: '1021 FE' },
+			'tfe-26': { title: 'Regeneracja', description: 'Vin leży wyczerpana w sklepie Clubsa. Powrót do Luthadelu trwał dwa tygodnie. Kelsier wpada; Breeze go oskarża. Kelsier przyznaje się do porażki, ale nie rezygnuje.', season: 'Późna jesień', year: '1021 FE' },
+			'tfe-26.2': { title: 'Egzekucje', description: 'Spook donosi o egzekucjach na placu Fontanny. Ekipa wchodzi na dachy. Vin wskazuje swojego ojca — obligatora imieniem Tevidian, lorda prelata, najwyższego rangą obligatora. Patrzą, jak kobiety i dzieci wyciągane z wozów więziennych są mordowane, a fontanna czerwieni się od krwi.', season: 'Późna jesień', year: '1021 FE' },
+			'tfe-27': { title: 'Planowanie kolejnych kroków', description: 'Ekipa wraca do sklepu Clubsa. Kelsier, Vin i reszta przerabiają plan rozpętania wojny rodów. Sazed przybywa z listem Marsha i instrukcjami spotkania.', season: 'Zima', year: '1021 FE' },
+			'tfe-27.2': { title: 'Spotkanie z Marshem', description: 'Kelsier i Vin idą do opuszczonego budynku na Krętaczkach, by spotkać się z Marshem. Czekając, Kelsier opowiada o złocie. Marsh przybywa z tatuażem niższego obligatora z wydziału Inkwizycji. Ujawnia, że Ministerstwo rozmieszcza łagodzicieli w dzielnicach skaa pod stałym łagodzeniem, ukrytych przez dymiarzy. Potwierdza też, że inkwizytorzy mogą umrzeć ze starości.', season: 'Zima', year: '1021 FE' },
+			'tfe-28': { title: 'Bal w twierdzy Likal', description: 'Vin uczestniczy w balu w twierdzy Likal i zaczyna rozsiewać plotki, by eskalować wojnę rodów. Elend pojawia się — mówi, że chce ją pocałować, ale Vin upiera się, że jej naprawdę nie zna. Podczas spaceru Elend ujawnia, że majątek Venture pochodzi wyłącznie z wydobycia atium w Dołkach Hathsin. Wspomina, że ród Tekiel został wymazany przez ród Hastings i próbuje przekonać Valette do opuszczenia Luthadelu.', season: 'Zima', year: '1021 FE' },
+			'tfe-29': { title: 'Ostatnie tłumaczenie', description: 'Vin czyta ostatnie tłumaczenie dziennika przygotowane przez Sazeda na posiadłości Renoux i jest sfrustrowana, że nie ma więcej. Sazed wyjaśnia ferochemię bardziej szczegółowo, a Vin próbuje spalić jeden z jego cynowych umysłów. Później Kelsier dołącza do ekipy, by zbadać mapę Marsha. Odkrywają, że gang Therona został zaatakowany, a Vin podejrzewa, że inkwizytorzy nadal ją ścigają.', season: 'Zima', year: '1021 FE' },
+			'tfe-30': { title: 'Bal Venture', description: 'Vin i Sazed idą na ostatni bal rodowy w twierdzy Venture. Panna Kliss okazuje się informatorem i próbuje szantażować ród Renoux. Za szafirowy naszyjnik Kliss zdradza Vin, że zabójcy Elariel spróbują dziś wieczorem zabić Elenda. Vin zmusza Kliss allomantycznie do wyznania wszystkiego. Rozbija witraż i ucieka. Na zewnątrz walczy z dwoma osiłkami, dwoma strzelcami monet i dwiema Zrodzonymi z Mgły — jedną z nich jest Shan Elariel. Vin oszukuje Shan, zmuszając ją do wyczerpania atium jako pierwsza, i zabija ją.', season: 'Zima', year: '1021 FE' },
+			'tfe-31': { title: 'Po pojedynku', description: 'Vin wpada do kuchni Clubsa obandażowana i w strzępach. Kelsier upomina ją za ratowanie Elenda, ale Vin krzyczy, że skaa i szlachta się nie różnią — Elend jest dobry. Na dachu Vin mówi, że ród Venture zarządza Dołkami i dzieli się teorią, że inkwizytorzy widzą przez miedziany płaszcz. Kelsier testuje i potwierdza.', season: 'Zima', year: '1021 FE' },
+			'tfe-32': { title: 'Warta na dachu', description: 'Vin i Spook pełnią wartę na dachu sklepu Clubsa. Spook uczy ją sztuczek z cyną: nie tylko wzmacniać zmysły, ale filtrować to, co ważne. Później Kelsier i Vin znajdują ciało Marsha — całkowicie pozbawione krwi. Znajdują list wyjaśniający, że inkwizytorzy prawdopodobnie go znajdą.', season: 'Zima', year: '1021 FE' },
+			'tfe-33': { title: 'Awaryjne schronienie', description: 'Ekipa przenosi się do wilgotnej zapasowej piwnicy koło sklepu Clubsa — trzy izby. Kelsier ogłasza zniszczenie atium w Dołkach. Spook pełni wartę jako cynowy strażnik.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-33.2': { title: 'Walka z inkwizytorem', description: 'Wszyscy podążają za Kelsierem na plac Fontanny. Widzą Spooka i lorda Renoux w wozie egzekucyjnym. Kelsier walczy z inkwizytorem na placu. Elend widzi służących Renoux zamkniętych i woła Valette, ale nie może jej znaleźć.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-34': { title: 'Śmierć Ocalałego', description: 'Kelsier walczy z inkwizytorem w pełnoskalowej walce na placu Fontanny — obaj palą atium. Vin obserwuje z góry: Kelsier jest prawdziwym mistrzem pchania i ciągnięcia. Zabija inkwizytora, skaa skandują „Ocalały z Hathsin". Ostatni Imperator przybywa w czarnym powozie. Kelsier ginie. Vin zeskakuje i tuli go, gdy umiera.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-35': { title: 'Dziedzictwo Ocalałego', description: 'Vin wraca do awaryjnego schronienia. Wściekła, że Kelsier nie był szczery — planował umrzeć i ją zostawić. Sazed pociesza. Na zewnątrz skaa mówią o Władcy mgły. W pobliskim magazynie ekipa widzi kandrę w postaci Kelsiera. Kelsier zostawił listy z instrukcjami przejęcia miasta. List Vin mówi, że nie rozwiązał zagadki jedenastego metalu. Vin postanawia odkryć, co ukrywał Ostatni Imperator.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-36': { title: 'Wewnątrz Kredik Shaw', description: 'Vin cicho zmierza ku Kredik Shaw, zachęcając strażników na zewnątrz, by przyłączyli się do buntu. Wewnątrz zabija dwóch inkwizytorów. W następnej sali na krześle siedzi stary człowiek. Inkwizytor chwyta Vin za szyję — staruszek przemawia, a inkwizytorzy nazywają go Ostatnim Imperatorem. Ale Vin jest zdezorientowana: Imperator na placu Fontanny był młody. Pali jedenasty metal i widzi dwie widmowe postacie obok staruszka.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-37': { title: 'Ratunek i odkrycie', description: 'Inkwizytorzy zmuszają Vin do spalenia metalu, który znosi wszystkie inne metale. Zostaje zaprowadzona przed tron Ostatniego Imperatora — młoda wersja, zabójca Kelsiera. Jej ojciec Tevidian, najwyższy obligator, zostaje stracony przez inkwizytorów. Vin odkrywa, że Reen nigdy jej nie zdradził: zniósł tortury i powiedział inkwizytorom, że umarła z głodu. Sazed zostaje doprowadzony do jej celi i uwalnia ferokemiczną moc, wyłamując drzwi. Elend i sześciu żołnierzy szturmuje. Vin znajduje pelerynę i fiolkę z metalami. Elend wie już, że jest Zrodzona z Mgły. Vin bierze jego twarz w dłonie, całuje go i rusza zabić Ostatniego Imperatora.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-38': { title: 'Pogromczyni Ostatniego Imperatora', description: 'Vin skacze między iglicami Kredik Shaw w górę. Inkwizytor Kar chwyta ją za szyję, ale inny inkwizytor wyciąga metalowy gwóźdź z karku Kara, zabijając go natychmiast. To Marsh — żywy, z jedenastoma gwoździami w ciele. Zabił wszystkich innych inkwizytorów. Prawdziwe imię Ostatniego Imperatora to Rashek: zamordował Bohatera Wieków i zajął jego miejsce. Vin zrywa bransolety Imperatora. Bez ferokemicznej młodości staje się słabym starcem. Sazed pojawia się z fiolką metali. Vin wbija mu włócznię w serce. Tysiąc lat ucisku dobiega końca.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-39': { title: 'Nowa era', description: 'Sazed, Marsh i Vin stoją na dachu budynku koło dzielnicy skaa. Sazed wyjaśnia, że Ostatni Imperator był zarówno ferochemikiem, jak i allomantą — bransolety przechowywały jego młodość. Marsh opisuje swoje przeżycie i przemianę: jedenaście metalowych gwoździ — dwa przez oczy, osiem w klatce piersiowej, jeden w plecach. Opowiada też o kandrach — istotach wyewoluowanych z mgłoduchów — które teraz uznają Vin za swoją panią.', season: 'Wiosna', year: '1022 FE' },
+			'tfe-39.2': { title: 'Vin i Elend', description: 'Vin potajemnie obserwuje Elenda z mgły przed twierdzą Venture. Jego spotkanie z przywódcami skaa i szlachty poszło dobrze — po wspaniałym przemówieniu, którego nawet Sazed bez swoich metali nie mógł w pełni zapamiętać, wszyscy zaakceptowali go jako króla. Elend pisze nowe prawo królestwa. Vin przypomina sobie, że Reen nigdy nie zdradził jej inkwizytorom: są ludzie, którzy naprawdę ją kochają. Z tym wspomnieniem biegnie do Elenda i obejmują się.', season: 'Wiosna', year: '1022 FE' },
 		},
 		sazed: {
-			'tfe-9': {
-				title: 'Terryjski szafarz',
-				description:
-					'Sazed przybywa do posiadłości Lorda Renoux w Fellise jako opiekun Vin, ucząc ją obyczajów szlachty, jednocześnie potajemnie zachowując starożytne religie.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-10.2': {
-				title: 'Wiec w Magazynie',
-				description:
-					'Sazed uczestniczy w tajnym wiecu w dzielnicy magazynowej wraz z Kelsierem i Vin, obserwując jak Ocalały głosi rewolucję zebranym robotnikom skaa.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-13': {
-				title: 'Strażnik na balu',
-				description:
-					'Sazed towarzyszy Vin na jej pierwszym balu jako jej szafarz, czuwając nad nią z kwater służby, podczas gdy ona infiltruje szlacheckie towarzystwo.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-22': {
-				title: 'Praca uczonego',
-				description:
-					'Sazed uczy Vin między balami w posiadłości Renoux, dzieląc się swoją rozległą wiedzą o religiach i studiując wzorce Ostatniego Imperium.',
-				season: 'Jesień',
-				year: '1021 FE',
-			},
-			'tfe-34': {
-				title: 'Świadek rewolucji',
-				description:
-					'Sazed jest w Luthadelu podczas rewolucji, obserwując, jak skaa powstają, a Kelsier ginie na Placu Fontann.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'tfe-38': {
-				title: 'Upadek Imperium',
-				description:
-					'Sazed wspiera szajkę podczas szturmu na Kredik Shaw, wykorzystując swoją Feruchemię do walki ze strażnikami Ostatniego Imperatora.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'tfe-39': {
-				title: 'Nowy początek',
-				description:
-					'W następstwie wydarzeń Sazed zaczyna studiować archiwa Kredik Shaw, szukając odpowiedzi na temat Głębi i proroctwa Bohatera Wieków.',
-				season: 'Wiosna',
-				year: '1022 FE',
-			},
-			'woa-4': {
-				title: 'Wędrowny nauczyciel',
-				description:
-					'Sazed podróżuje po Wschodnim Dominium, odwiedzając wiejskie osady, by dzielić się tłumionymi religiami i wiedzą z nowo wyzwolonymi skaa.',
-				season: 'Jesień',
-				year: '1023 FE',
-			},
-			'woa-7': {
-				title: 'Konwentykl Seran',
-				description:
-					'Prowadzony przez Marsha, Sazed odkrywa Konwentykl Seran — przerażającą twierdzę Inkwizytorów, gdzie znajduje stalową płytę z inskrypcją Kwaana.',
-				season: 'Późna jesień',
-				year: '1023 FE',
-			},
-			'woa-12': {
-				title: 'Odczytanie płyty',
-				description:
-					'Sazed studiuje inskrypcję Kwaana w Konwentyklu, odkrywając desperackie ostrzeżenie terryjskiego Strażnika, że proroctwo Bohatera Wieków zostało zmienione.',
-				season: 'Późna jesień',
-				year: '1023 FE',
-			},
-			'woa-15': {
-				title: 'Śmierć we mgłach',
-				description:
-					'Wracając na zachód przez Urbene, Sazed napotyka wioski, w których ludzie tajemniczo zmarli we mgłach — pierwsze oznaki choroby mgieł.',
-				season: 'Zima',
-				year: '1023 FE',
-			},
-			'woa-22': {
-				title: 'Powrót do Luthadelu',
-				description:
-					'Sazed przybywa do Luthadelu z poważnymi wieściami o zmienionym proroctwie, śmierciach we mgłach i prawdziwym znaczeniu stalowej inskrypcji.',
-				season: 'Zima',
-				year: '1023 FE',
-			},
-			'woa-40': {
-				title: 'Debata o proroctwie',
-				description:
-					'Sazed pracuje z Tindwyl w Twierdzy Venture, porównując oryginalną i zmienioną wersję proroctwa Bohatera Wieków, zbliżając się do niej.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-52': {
-				title: 'Obrona bramy',
-				description:
-					'Gdy kolosy przełamują mury Luthadelu, Sazed wykorzystuje Feruchemię, by samodzielnie utrzymać Cynową Bramę, spalając zgromadzone atrybuty w desperackiej obronie.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-57': {
-				title: 'Walka z Marshem',
-				description:
-					'Sazed walczy z kontrolowanym przez Zagładę Marshem w korytarzach Kredik Shaw, ledwo przeżywając atak Inkwizytora, podczas gdy Vin schodzi do Studni.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'woa-59': {
-				title: 'Śmierć Tindwyl',
-				description:
-					'Sazed odkrywa, że Tindwyl zginęła podczas ataku kolosów. Zdruzgotany, zaczyna swój kryzys wiary, kwestionując każdą religię, którą nosi w sobie.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'hoa-4': {
-				title: 'Dyplomacja na południu',
-				description:
-					"Sazed odwiedza Miasto Lekal z Breeze'em, by wynegocjować traktat, wykorzystując dyplomację, aby przyciągnąć południowego króla do rosnącej koalicji Elenda.",
-				season: 'Lato',
-				year: '1026 FE',
-			},
-			'hoa-8': {
-				title: 'Wyruszenie na północ',
-				description:
-					'Sazed otrzymuje zadanie zabezpieczenia Urteau drogą dyplomatyczną, podczas gdy Elend zabiera armię na zachód. Wyrusza przez północną bramę.',
-				season: 'Lato',
-				year: '1026 FE',
-			},
-			'hoa-14': {
-				title: 'Przybycie do Urteau',
-				description:
-					'Sazed przybywa do Urteau i zastaje je pod opresyjnymi rządami Obywatela Quelliona, zakładając placówkę dyplomatyczną w opuszczonej posiadłości Venture.',
-				season: 'Jesień',
-				year: '1026 FE',
-			},
-			'hoa-25': {
-				title: 'Budowanie zaufania',
-				description:
-					'Sazed stara się zbudować zaufanie mieszkańców Urteau, jednocześnie studiując historię miasta i szukając podziemnego składu pod budynkiem Ministerstwa.',
-				season: 'Wczesna zima',
-				year: '1026 FE',
-			},
-			'hoa-40': {
-				title: 'Śledztwo w Ministerstwie',
-				description:
-					'Sazed bada Kanton Ministerstwa, pracując nad dostępem do podziemnego składu, jednocześnie poruszając się wśród paranoicznego rządu Quelliona.',
-				season: 'Zima',
-				year: '1026 FE',
-			},
-			'hoa-50': {
-				title: 'Odkrycie jaskini',
-				description:
-					'Sazed odkrywa mechanizm zalewania suchego systemu kanałów — Ostatni Imperator osuszył kanały, by ukryć wodę w podziemnym składzie.',
-				season: 'Wczesna wiosna',
-				year: '1027 FE',
-			},
-			'hoa-58': {
-				title: 'Ocalenie Urteau',
-				description:
-					'Gdy pożary szaleją po mieście podczas rewolucji przeciw Quellionowi, Sazed uwalnia zgromadzoną wodę, zalewając kanały i ratując Urteau przed zniszczeniem.',
-				season: 'Wiosna',
-				year: '1027 FE',
-			},
-			'hoa-64': {
-				title: 'Odbudowa',
-				description:
-					'Po odsunięciu Quelliona i ugaszeniu pożarów Sazed pomaga odbudowywać Urteau, rozdzielając zapasy ze składu i studiując wiadomość Ostatniego Imperatora.',
-				season: 'Lato',
-				year: '1027 FE',
-			},
-			'hoa-69': {
-				title: 'Podróż do Hathsin',
-				description:
-					'Sazed podróżuje do Czeluści Hathsin, przyciągany zbiegiem wydarzeń. Jego studia nad religiami i inskrypcją Kwaana doprowadziły go do straszliwego odkrycia.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
-			'hoa-71': {
-				title: 'Ostatnie zgromadzenie',
-				description:
-					'Sazed wraca do Luthadelu, gdy świat umiera wokół niego, popiół opada czarnymi kurtynami. Niesie ze sobą wiedzę o każdej religii i każdym proroctwie.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
-			'hoa-82': {
-				title: 'Bohater Wieków',
-				description:
-					'Po zniszczeniu Vin i Zagłady Sazed uświadamia sobie, że to on jest Bohaterem Wieków. Przejmuje moc zarówno Przetrwania, jak i Zagłady przy Studni Wstąpienia.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
-			'hoa-83': {
-				title: 'Harmonia',
-				description:
-					'Sazed wstępuje jako Harmonia, łącząc Zagładę i Przetrwanie. Odtwarza świat — przesuwa planetę, przywraca zieleń i naprawia tysiąc lat zniszczeń.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
+			...enData.movements.sazed,
+			'tfe-9': { title: 'Terryski sługa', description: 'Sazed przybywa na posiadłość lorda Renoux w Fellise jako nauczyciel i sługa Vin, ucząc ją etykiety, tańca i manier. Przedstawia jej trelagizm — piątą religię, którą proponuje — i przyznaje, że zna jeszcze 562.', season: 'Lato', year: '1021 FE' },
+			'tfe-10.2': { title: 'Zgromadzenie w magazynach', description: 'Sazed uczestniczy w tajnym zgromadzeniu z Kelsierem i Vin, obserwując Ocalałego przemawiającego do robotników skaa.', season: 'Lato', year: '1021 FE' },
+			'tfe-12': { title: 'Strażnik na balu', description: 'Sazed towarzyszy Vin jako sługa na pierwszy bal w twierdzy Venture, pilnując jej podczas infiltracji szlacheckiego towarzystwa.', season: 'Lato', year: '1021 FE' },
+			'tfe-13': { title: 'Odprawa w Fellise', description: 'Sazed wraca na posiadłość Renoux w Fellise z Vin i Kelsierem, by omówić wyniki pierwszego balu Vin i zaplanować kolejne kroki.', season: 'Lato', year: '1021 FE' },
+			'tfe-15': { title: 'Ratowanie Vin', description: 'Sazed przynosi Vin do sklepu Clubsa, ratuje ją i operuje rany z Kredik Shaw. Bada też księgę napisaną w khlennium.', season: 'Lato', year: '1021 FE' },
+			'tfe-16': { title: 'Powrót do Fellise', description: 'Po ustabilizowaniu stanu Vin w sklepie Clubsa Sazed wraca na posiadłość Renoux w Fellise.', season: 'Lato', year: '1021 FE' },
+			'tfe-17': { title: 'Tłumaczenie księgi khlennijskiej', description: 'W bibliotece na posiadłości Renoux w Fellise Sazed pracuje nad tłumaczeniem księgi khlennijskiej, którą Vin przyniosła z Kredik Shaw.', season: 'Lato', year: '1021 FE' },
+			'tfe-18': { title: 'Strażnik w Elariel', description: 'Sazed towarzyszy Vin jako terryski sługa na bal w twierdzy Elariel, pilnując jej wśród szlacheckiego dworu.', season: 'Lato', year: '1021 FE' },
+			'tfe-19': { title: 'Wymiana informacji', description: 'Sazed jest na dworze Renoux, gdy Kelsier wraca ścieżką ciernistą. Wymieniają informacje o rodach szlacheckich i postępach buntu, Kelsier upomina Vin za zbliżanie się do Elenda.', season: 'Późne lato', year: '1021 FE' },
+			'tfe-22': { title: 'Tajemnice ferochemii', description: 'Na posiadłości Renoux Sazed rozmawia z Vin o Terrysach w dzienniku Ostatniego Imperatora. Ujawnia tajemnice ferochemii i wyjaśnia, jak Strażnicy zostali założeni po utracie terryskich religii. Z dziennika dowiaduje się też nowych faktów — że ziemia była kiedyś zielona i żyzna.', season: 'Jesień', year: '1021 FE' },
+			'tfe-23': { title: 'Strażnik w Hastings', description: 'Sazed towarzyszy Vin jako terryski sługa na bal w twierdzy Hastingsów, czekając gdy ona rozsyła plotki i rozmawia ze szlachtą.', season: 'Jesień', year: '1021 FE' },
+			'tfe-27': { title: 'List od Marsha', description: 'Sazed wraca do sklepu Clubsa z listem od Marsha zawierającym wieści i instrukcje spotkania. Przynosi też tłumaczenia dziennika Imperatora.', season: 'Zima', year: '1021 FE' },
+			'tfe-28': { title: 'Strażnik w Likal', description: 'Sazed towarzyszy Vin jako terryski sługa na bal w twierdzy Likal, czekając gdy ona eskaluje wojnę rodów i rozmawia z Elendem.', season: 'Zima', year: '1021 FE' },
+			'tfe-29': { title: 'Lekcje ferochemii', description: 'Na posiadłości Renoux Sazed daje Vin ostatnie tłumaczenie dziennika. Wyjaśnia ferochemię dokładniej, a Vin próbuje spalić jeden z jego cynowych umysłów. Później Sazed dołącza, gdy Kelsier studiuje szczegółową mapę Marsha. Tej nocy Kelsier prosi Sazeda o opowiedzenie kilku religii.', season: 'Zima', year: '1021 FE' },
+			'tfe-30': { title: 'Strażnik w Venture', description: 'Sazed towarzyszy Vin na ostatni bal rodowy w twierdzy Venture. Goście zawierają sojusze, a lady Valette jest chłodno przyjmowana. Sazed opuszcza bal zanim Vin odkryje zamach na Elenda i walczy z Shan Elariel.', season: 'Zima', year: '1021 FE' },
+			'tfe-31': { title: 'Opatrywanie ran Vin', description: 'Sazed opatruje rany Vin w sklepie Clubsa po tym, jak przybywa poraniona z walki z Shan Elariel i zabójcami Elariela. Słucha, gdy Vin relacjonuje wydarzenia wieczoru.', season: 'Zima', year: '1021 FE' },
+			'tfe-33': { title: 'Awaryjne schronienie', description: 'Sazed jest z ekipą w zapasowej piwnicy koło sklepu Clubsa po tym, jak Kelsier zniszczył Dołki Hathsin. Vin rozmawia z Sazedem o jedenastym metalu. Gdy skaa prowadzeni na egzekucję na plac Fontanny i Spook pojawia się w wozie więziennym, Sazed zostaje w schronieniu podczas walki Kelsiera z inkwizytorem.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-35': { title: 'Pocieszanie Vin', description: 'Sazed jest przy Vin w awaryjnym schronieniu po śmierci Kelsiera. Oferuje pocieszające słowa, a Vin jest wściekła, że Kelsier ją zostawił. Zostaje, gdy ekipa idzie do magazynu zobaczyć kandrę w postaci Kelsiera.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-37': { title: 'Uwolniony ferochemik', description: 'Sazed zostaje doprowadzony do celi Vin w Kredik Shaw. Wydaje się kurczyć, a potem jego mięśnie pęcznieją do dwukrotnego rozmiaru — uwalnia zgromadzoną ferokemiczną moc i wyłamuje drzwi.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-38': { title: 'Upadek Imperium', description: 'Sazed pojawia się w ostatecznej konfrontacji w Kredik Shaw z fiolką metali dla Vin. Jest świadkiem upadku Ostatniego Imperatora — gdy Vin zrywa bransolety, gwałtownie się starzeje.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-39': { title: 'Zrozumienie tyrana', description: 'Sazed stoi z Vin i Marshem na dachu budynku koło dzielnicy skaa. Wyjaśnia, że Ostatni Imperator był zarówno ferochemikiem, jak i allomantą — bransolety przechowywały jego młodość. Spekuluje, że dlatego wszyscy terriscy służący byli kastrowani: Imperator bał się, że ktoś z krwią ferokemiczną i allomantyczną rzuci wyzwanie jego nieśmiertelności.', season: 'Wiosna', year: '1022 FE' },
 		},
 		elend: {
-			'tfe-12': {
-				title: 'Czytający szlachcic',
-				description:
-					'Elend Venture zostaje przedstawiony na balu we własnej twierdzy, czytając samotnie, podczas gdy reszta szlachty tańczy i knuje wokół niego.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-13': {
-				title: 'Spotkanie z Lady Valette',
-				description:
-					'Elend poznaje tajemniczą Lady Valette Renoux na balu, zaintrygowany jej niekonwencjonalnym zachowaniem i bystrym dowcipem.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-19': {
-				title: 'Zaloty',
-				description:
-					'Zauroczenie Elenda Lady Valette rośnie, gdy dzielą rozmowy na balach, dyskutując o filozofii i niedostatkach szlachty.',
-				season: 'Późne lato',
-				year: '1021 FE',
-			},
-			'tfe-24': {
-				title: 'Szlachecki konspirator',
-				description:
-					'Elend potajemnie organizuje umiarkowanych szlachciców sprzeciwiających się tyranii Ostatniego Imperatora, spotykając się w prywatnej bibliotece Twierdzy Venture.',
-				season: 'Jesień',
-				year: '1021 FE',
-			},
-			'tfe-34': {
-				title: 'Rewolucja',
-				description:
-					'Elend jest świadkiem chaosu powstania skaa na Placu Fontann i występuje, by chronić zarówno szlachtę, jak i pospólstwo przed przemocą.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'tfe-38': {
-				title: 'Niespodziewany przywódca',
-				description:
-					'W następstwie śmierci Ostatniego Imperatora Elend wyłania się jako jednoczący głos, wzywając do porządku, gdy imperium wali się wokół niego.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'tfe-39': {
-				title: 'Nowy król',
-				description:
-					'Elend Venture zostaje ogłoszony Królem Centralnego Dominium, rozpoczynając trudne zadanie budowania demokratycznego rządu z ruin tyranii.',
-				season: 'Wiosna',
-				year: '1022 FE',
-			},
-			'woa-1': {
-				title: 'Król Luthadelu',
-				description:
-					'Elend niestrudzenie pracuje w Twierdzy Venture nad ustanowieniem rządu konstytucyjnego, redagując prawa i budując Zgromadzenie, podczas gdy armie gromadzą się na zewnątrz.',
-				season: 'Jesień',
-				year: '1023 FE',
-			},
-			'woa-5': {
-				title: 'Zgromadzenie',
-				description:
-					'Elend przemawia do Zgromadzenia, które sam stworzył, opowiadając się za zasadami demokracji, nawet gdy doradcy ostrzegają, że demokracja może nie przetrwać oblężenia.',
-				season: 'Jesień',
-				year: '1023 FE',
-			},
-			'woa-12': {
-				title: 'Obserwacja oblężenia',
-				description:
-					'Elend obserwuje linie oblężenia z murów miasta, patrząc na armię swojego ojca Straffa na północy i siły Cetta zbliżające się z zachodu.',
-				season: 'Wczesna zima',
-				year: '1023 FE',
-			},
-			'woa-22': {
-				title: 'Walka o demokrację',
-				description:
-					'Elend staje w obliczu rosnącej opozycji w Zgromadzeniu, gdy strach przed oblężeniem skłania wielu do szukania silniejszego przywódcy niż król-filozof.',
-				season: 'Zima',
-				year: '1023 FE',
-			},
-			'woa-26': {
-				title: 'Rokowania z ojcem',
-				description:
-					"Elend jedzie do obozu Straffa Venture'a na rokowania, zabierając Vin jako ochronę. Spotkanie ujawnia pogardę Straffa dla jego idealistycznego syna.",
-				season: 'Zima',
-				year: '1023 FE',
-			},
-			'woa-28': {
-				title: 'Dyplomatyczne zabiegi',
-				description:
-					'W Twierdzy Venture Elend próbuje rozgrywać trzy armie przeciw sobie — Straffa, Cetta i zbliżającą się hordę kolosów.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'woa-35': {
-				title: 'Odsunięty',
-				description:
-					'Zgromadzenie głosuje za zastąpieniem Elenda Lordem Penrodem, wykorzystując klauzulę w demokratycznej konstytucji samego Elenda. Jego idealizm okazuje się jego zgubą.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'woa-42': {
-				title: 'Misja do kolosów',
-				description:
-					'Elend opuszcza Luthadel tunelami, by negocjować z Jastesem Lekalem i jego armią kolosów — desperacki zakład o pozyskanie sojusznika.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-46': {
-				title: 'Powrót od kolosów',
-				description:
-					'Elend wraca z obozu kolosów po nieudanych negocjacjach — Jastes stracił kontrolę nad swoimi bestiami. Kolosy i tak zaatakują.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-49': {
-				title: 'Wygnanie z Luthadelu',
-				description:
-					'Elend opuszcza Luthadel z Vin przez Cynową Bramę, wygnany przez rząd Penroda, kierując się na północ ku Terris po pomoc Synodu Strażników.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-50': {
-				title: 'Podróż na północ',
-				description:
-					'Grupa Elenda podąża ku Terris, ale rosnący niepokój skłania ich do przemyślenia planów. Studnia Wstąpienia może nie być tam, gdzie sądzili.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-52': {
-				title: 'Bitwa',
-				description:
-					'Elend wraca, by zastać Luthadel pod atakiem kolosów, walcząc pośród chaosu, gdy mury zostają przełamane i miasto zagrożone upadkiem.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-58': {
-				title: 'Do Studni',
-				description:
-					'Elend schodzi pod Kredik Shaw z Vin, szukając Studni Wstąpienia, podczas gdy Marsh walczy z Sazedem nad nimi.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'woa-59': {
-				title: 'Cesarz Urodzony z Mgły',
-				description:
-					'Dźgnięty i umierający przy Studni, Elend zostaje uratowany, gdy Vin wkłada mu do ust kulkę lerasium, przemieniając go w Urodzonego z Mgły.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'hoa-1': {
-				title: 'Cesarz na wojnie',
-				description:
-					'Elend prowadzi swoje armie do Vetitanu, będąc teraz cesarzem Urodzonym z Mgły kierującym kampaniami wojskowymi w celu zabezpieczenia ukrytych składów Ostatniego Imperatora.',
-				season: 'Wiosna',
-				year: '1026 FE',
-			},
-			'hoa-3': {
-				title: 'Zabezpieczenie składu',
-				description:
-					'Elend zabezpiecza podziemny skład w Vetitanie, znajdując żywność i metalową płytę z ostrzeżeniem o niebezpieczeństwie, które Rashek uwięził.',
-				season: 'Wiosna',
-				year: '1026 FE',
-			},
-			'hoa-8': {
-				title: 'Strategiczny podział',
-				description:
-					'W Luthadelu Elend dzieli swoje siły: wysyłając Sazeda do dyplomatycznego zabezpieczenia Urteau, a sam maszeruje na zachód, by w razie potrzeby zdobyć Fadrex siłą.',
-				season: 'Lato',
-				year: '1026 FE',
-			},
-			'hoa-10': {
-				title: 'Marsz na zachód',
-				description:
-					'Elend prowadzi swoją armię na zachód ku Fadrex, popiół opada coraz gęściej z każdym dniem. Podczas marszu trenuje swoje zdolności Urodzonego z Mgły.',
-				season: 'Lato',
-				year: '1026 FE',
-			},
-			'hoa-21': {
-				title: 'Oblężenie Fadrex',
-				description:
-					'Armia Elenda dociera do Fadrex i rozbija linie oblężnicze na pokrytych popiołem równinach. Yomen odmawia negocjacji i poddania składu.',
-				season: 'Jesień',
-				year: '1026 FE',
-			},
-			'hoa-28': {
-				title: 'Niechętny oblężnik',
-				description:
-					'Elend zmaga się ze swoją rolą zdobywcy, próbując dyplomacji, nawet gdy jego generałowie naciskają na szturm. Opad popiołu codziennie się pogarsza.',
-				season: 'Jesień',
-				year: '1026 FE',
-			},
-			'hoa-47': {
-				title: 'Utrata Vin',
-				description:
-					'Gdy Vin zostaje schwytana we Fadrex, Elend staje przed niemożliwym wyborem między uratowaniem żony a ochroną dziesiątek tysięcy żołnierzy.',
-				season: 'Zima',
-				year: '1026 FE',
-			},
-			'hoa-54': {
-				title: 'Wejście do Fadrex',
-				description:
-					'Atak kolosów wymusza tymczasowy sojusz z Yomenem. Elend wkracza do miasta i uzyskuje dostęp do składu, znajdując ostatnią wiadomość Ostatniego Imperatora.',
-				season: 'Późna zima',
-				year: '1026 FE',
-			},
-			'hoa-58': {
-				title: 'Wymarsz do Hathsin',
-				description:
-					'Ze składem zabezpieczonym i Vin na wschodzie, Elend poznaje ostatnią prawdę: atium musi być w Czeluściach Hathsin. Prowadzi armię na południe.',
-				season: 'Wczesna wiosna',
-				year: '1027 FE',
-			},
-			'hoa-61': {
-				title: 'Marsz do Czeluści',
-				description:
-					'Elend prowadzi swoją wyczerpaną armię do Czeluści Hathsin, pod którymi leży Ojczyzna Kandr. Armia Inkwizytorów Marsha podąża tuż za nimi.',
-				season: 'Wiosna',
-				year: '1027 FE',
-			},
-			'hoa-69': {
-				title: 'Bitwa o Hathsin',
-				description:
-					'Elend spala ostatnie atium w desperackiej walce z Inkwizytorami i kolosami w Czeluściach, wiedząc, że gdy metal się skończy, czeka go śmierć.',
-				season: 'Lato',
-				year: '1027 FE',
-			},
-			'hoa-79': {
-				title: 'Śmierć cesarza',
-				description:
-					'Elend ginie z rąk Marsha w ostatnich chwilach Bitwy o Hathsin, jego atium wyczerpane. Umiera, spaliwszy cały metal, którego szukała Zagłada.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
-			'hoa-83': {
-				title: 'Zjednoczeni w śmierci',
-				description:
-					'Ciało Elenda zostaje znalezione obok Vin na polu kwiatów — pierwszym darze Sazeda dla odtworzonego świata — w spokoju po wszystkich zmaganiach.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
+			...enData.movements.elend,
+			'tfe-12': { title: 'Czytający szlachcic', description: 'Elend Venture zauważa samotną Vin na balkonie podczas balu w swojej twierdzy i podchodzi. Irytuje ją, wyciągając „Próby wstawiennictwa" do czytania, podczas gdy reszta szlachty tańczy i konspiruje.', season: 'Lato', year: '1021 FE' },
+			'tfe-18': { title: 'Wieczór z Valette', description: 'Elend uczestniczy w balu w twierdzy Elariel, siada jak zwykle przy Vin i czyta. Chwali jej suknię, wprawiając ją w osłupienie.', season: 'Lato', year: '1021 FE' },
+			'tfe-23': { title: 'Chustka', description: 'Elend znajduje Vin na balu w twierdzy Hastingsów. Pyta, czy była ze skaanką. Przyznaje, że ojciec zmusił go w wieku trzynastu lat, a kobieta została zabita. Daje Vin chustkę jako znak poważnych zalotów. Po odejściu z przyjaciółmi wspinają się na wieżę, by dyskutować o porażkach Ostatniego Imperatora.', season: 'Jesień', year: '1021 FE' },
+			'tfe-28': { title: 'Bal w twierdzy Likal', description: 'Elend pojawia się przed Vin na balu w twierdzy Likal. Mówi, że chce ją pocałować, ale Vin twierdzi, że jej nie zna. Podczas spaceru ujawnia, że cały majątek Venture pochodzi z wydobycia atium w Dołkach — pełne zaufanie. Wspomina, że ród Tekiel został wymordowany przez Hastingsów i próbuje przekonać Valette do opuszczenia Luthadelu.', season: 'Zima', year: '1021 FE' },
+			'tfe-28.2': { title: 'Wezwanie ojca', description: 'Elend wraca do twierdzy Venture próbując przemknąć obok pokoju ojca. Lord Straff Venture — cynowy mgłowiec, który niczego nie przegapi — woła go. Straff nakazuje kolację z Hastingsami. Później Jastes ujawnia, że śledził powóz Valette — dotarła do Fellise tylko z Terrysem, a Valette zniknęła. Elend uświadamia sobie, że ujawnił tajemnicę atium i proponuje ojcu układ: idzie na kolację w zamian za szpiegów pilnujących Valette.', season: 'Zima', year: '1021 FE' },
+			'tfe-30': { title: 'Bal Venture', description: 'Elend je kolację z ojcem w twierdzy Venture podczas balu. Vin przyciąga jego uwagę i dochodzi do konfrontacji. Gdy Vin dowiaduje się o zamachu na Elenda, wybiega we mgłę. Noc kończy się chaosem, gdy Vin walczy z Shan i zabija ją. Elend wymyka się w zamęcie.', season: 'Zima', year: '1021 FE' },
+			'tfe-31': { title: 'Raporty szpiegów', description: 'Elend i Jastes spotykają Felta, który raportuje wszystko, co szpiedzy Elenda odkryli o sklepie Clubsa i jego mieszkańcach. Następnie straż Venture prowadzi Elenda do ojca Straffa, który ujawnia, że Shan Elariel była Zrodzoną z Mgły wysłaną, by zabić Elenda.', season: 'Zima', year: '1021 FE' },
+			'tfe-33': { title: 'Wozy egzekucyjne', description: 'Elend widzi służących Renoux zamkniętych w wozie egzekucyjnym na placu Fontanny. Woła Valette, ale nie może jej znaleźć w tłumie.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-34': { title: 'Kelsier ratuje Elenda', description: 'Elend dociera do klatki Renoux na placu Fontanny i pyta o Valette. Inkwizytor ląduje na klatce i zamierza go uderzyć toporem, gdy Kelsier atakuje inkwizytora, ratując mu życie. Kelsier krzyczy do Elenda, że Valette jest bezpieczna.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-36': { title: 'Władza rodu Venture', description: 'Ojciec Elenda informuje o wybuchu rebelii skaa i chce uciec z Luthadelu. Elend odmawia. Straff się zgadza — licząc, że Elend zginie — i przekazuje mu władzę nad rodem Venture. Elend nakazuje żołnierzom udać się do twierdzy Likal na wspólną obronę i bierze pięciu najlepszych żołnierzy na spotkanie z przywódcami skaa.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-37': { title: 'Ratowanie Vin', description: 'Elend oferuje złoto skaa, by zaprowadzili go do Docksona i informuje, że ród Venture nie będzie stawiać oporu rebelii — powinni współpracować. Elend i sześciu żołnierzy szturmuje Kredik Shaw, by uratować Vin. Tajemnica wychodzi na jaw — wie, że jest Zrodzona z Mgły. Vin bierze jego twarz w dłonie, całuje go i rusza zabić Ostatniego Imperatora.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-38': { title: 'Król-filozof', description: 'Po śmierci Ostatniego Imperatora Elend wyłania się jako jednoczący głos wzywający do porządku. Zaczyna spotkania z przywódcami skaa i szlachty, by opracować prawo nowego państwa.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-39': { title: 'Nowy król', description: 'Elend Venture zostaje zaakceptowany jako król Centralnej Dominacji po wspaniałym przemówieniu przed przywódcami skaa i szlachty. Siada w twierdzy Venture i pisze nowe prawo królestwa. Vin obserwuje go potajemnie przez okno z mgły, a potem biegnie do niego — i obejmują się.', season: 'Wiosna', year: '1022 FE' },
 		},
 		marsh: {
-			'tfe-7': {
-				title: 'Niechętny brat',
-				description:
-					'Marsh przybywa do stolarni Clubsa, starszy brat Kelsiera i sam przywódca rebeliantów. Niechętnie dołącza do planu szajki.',
-				season: 'Późna wiosna',
-				year: '1021 FE',
-			},
-			'tfe-10.2': {
-				title: 'Wiec w magazynie',
-				description:
-					'Marsh uczestniczy w tajnym wiecu w dzielnicy magazynowej z resztą ekipy, obserwując, jak jego brat Kelsier głosi rewolucję zebranym robotnikom skaa.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-13': {
-				title: 'Spotkanie na Górze Tyrian',
-				description:
-					'Marsh spotyka Kelsiera na Górze Tyrian, kilka kilometrów od Luthadelu, by omówić plan rewolucji z dala od uszu Ministerstwa, zanim rozpocznie niebezpieczną infiltrację.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-20': {
-				title: 'Głębiej pod przykryciem',
-				description:
-					'Marsh wnika głębiej w hierarchię Ministerstwa w Kredik Shaw, poznając mroczne sekrety Hemalurgii, ryzykując odkrycie przez Inkwizytorów.',
-				season: 'Późne lato',
-				year: '1021 FE',
-			},
-			'tfe-30': {
-				title: 'Zniknięcie',
-				description:
-					'Marsh milknie, jego komunikacja ustaje, gdy znika w najgłębszych poziomach Kantonu Inkwizycji. Szajka obawia się najgorszego.',
-				season: 'Zima',
-				year: '1021 FE',
-			},
-			'tfe-38': {
-				title: 'Inkwizytor',
-				description:
-					'Marsh pojawia się podczas ostatniego szturmu na Kredik Shaw, żywy, ale przemieniony — żelazne kolce wbite przez oczy. Walczy po stronie szajki mimo przemiany.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'woa-4': {
-				title: 'Wschodni wędrowiec',
-				description:
-					'Marsh wędruje po Wschodnim Dominium jako samotny Inkwizytor, starając się zrozumieć swoją przemianę i pomagając Sazedowi w badaniu odległych wiosek.',
-				season: 'Jesień',
-				year: '1023 FE',
-			},
-			'woa-7': {
-				title: 'Przewodnik do Konwentyklu',
-				description:
-					'Marsh prowadzi Sazeda do Konwentyklu Seran, twierdzy Inkwizytorów w odległej północy, by znaleźć poszukiwane przez Sazeda zapisy.',
-				season: 'Późna jesień',
-				year: '1023 FE',
-			},
-			'woa-12': {
-				title: 'Porzucenie',
-				description:
-					'Marsh nagle porzuca Sazeda w Konwentyklu i znika w dziczy, gnany siłami, którym coraz bardziej nie może się oprzeć. Wpływ Zagłady rośnie.',
-				season: 'Późna jesień',
-				year: '1023 FE',
-			},
-			'woa-57': {
-				title: 'Marionetka Zagłady',
-				description:
-					'Marsh zjawia się w Kredik Shaw pod pełną kontrolą Zagłady, walcząc z Sazedem w korytarzach, podczas gdy Vin schodzi do Studni Wstąpienia poniżej.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'woa-59': {
-				title: 'Strażnik Studni',
-				description:
-					'Marsh strzeże wejścia do Studni jako marionetka Zagłady, walcząc, by nie dopuścić nikogo do Vin — ani nie pomóc jej podjąć właściwej decyzji.',
-				season: 'Zima',
-				year: '1024 FE',
-			},
-			'hoa-0': {
-				title: 'Tworzenie Inkwizytorów',
-				description:
-					'Pod kontrolą Zagłady Marsh przeprowadza mroczne rytuały Hemalurgii w Tathingdwen, tworząc nowych Inkwizytorów ze schwytanych Feruchemistów i Allomantów.',
-				season: 'Wiosna',
-				year: '1026 FE',
-			},
-			'hoa-6': {
-				title: 'Dowodzenie kolosami',
-				description:
-					'Marsh dowodzi rosnącą armią kolosów w imieniu Zagłady, przemieszczając się po Wschodnim Dominium i gromadząc siły na ostateczną bitwę.',
-				season: 'Lato',
-				year: '1026 FE',
-			},
-			'hoa-22': {
-				title: 'W pobliżu Tyrianu',
-				description:
-					'Marsh operuje w pobliżu Góry Tyrian, tworząc hemalurgiczne kolce ze schwytanych więźniów i budując armię Inkwizytorów Zagłady w cieniu popieliska.',
-				season: 'Zima',
-				year: '1026 FE',
-			},
-			'hoa-38': {
-				title: 'Nabicie Penroda',
-				description:
-					'Marsh infiltruje Luthadel, by nabić króla Penroda kolcem, dając Zagładzie bezpośredni dostęp do rządów stolicy.',
-				season: 'Zima',
-				year: '1026 FE',
-			},
-			'hoa-45': {
-				title: 'Zbieżność na Fadrex',
-				description:
-					'Marsh prowadzi swoich Inkwizytorów ku Fadrex, zbliżając się do oblężenia, gdyż Zagłada szuka odzyskania składu atium ukrytego w środku.',
-				season: 'Zima',
-				year: '1026 FE',
-			},
-			'hoa-59': {
-				title: 'Pościg za Vin',
-				description:
-					'Marsh prowadzi sforę Inkwizytorów ścigających Vin na wschód, gdy ta ucieka z Fadrex ku Luthadelowi, odciągając sługi Zagłady od składu.',
-				season: 'Wiosna',
-				year: '1027 FE',
-			},
-			'hoa-69': {
-				title: 'Bitwa o Hathsin',
-				description:
-					'Marsh przybywa do Czeluści na czele sił Zagłady. W chwili odzyskanej woli wyrywa kolczyk Vin — akt buntu, który zmienia wszystko.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
-			'hoa-79': {
-				title: 'Zabicie Elenda',
-				description:
-					'Marsh, gnany przez Zagładę, zabija cesarza Elenda podczas Bitwy o Hathsin. Ten czyn spełnia plan Zagłady, ale kosztuje Marsha kolejny fragment duszy.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
-			'hoa-83': {
-				title: 'Wreszcie wolny',
-				description:
-					'Po zniszczeniu Zagłady Marsh zostaje wreszcie uwolniony spod kontroli boga. Stoi samotny w odtworzonym świecie, Inkwizytor, który przetrwał koniec wszystkiego.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
+			...enData.movements.marsh,
+			'tfe-7': { title: 'Niechętny brat', description: 'Marsh przybywa do sklepu Clubsa — starszy brat Kelsiera i sam przywódca rebeliantów. Niechętnie dołącza do planu ekipy.', season: 'Późna wiosna', year: '1021 FE' },
+			'tfe-10.2': { title: 'Zgromadzenie w magazynach', description: 'Marsh uczestniczy w tajnym zgromadzeniu z ekipą, obserwując brata Kelsiera przemawiającego do robotników skaa.', season: 'Lato', year: '1021 FE' },
+			'tfe-20': { title: 'Nauczanie Vin', description: 'Marsh przybywa na posiadłość Renoux w Fellise, by uczyć Vin szukania — używania brązu do wykrywania innych allomantów palących metale, identyfikacji typu i rozróżniania mgłowców od Zrodzonych z Mgły. Uczy ją też o miedzi i pracy dymiarzy.', season: 'Późne lato', year: '1021 FE' },
+			'tfe-27': { title: 'Infiltracja Ministerstwa', description: 'Marsh spotyka Kelsiera i Vin w opuszczonym budynku na Krętaczkach z tatuażem niższego obligatora z wydziału Inkwizycji. Rzeczywiście zinfiltrował Ministerstwo. Ujawnia, że Ministerstwo rozmieszcza łagodzicieli w dzielnicach skaa pod stałym łagodzeniem, ukrytych przez dymiarzy. Potwierdza też, że inkwizytorzy mogą umrzeć ze starości.', season: 'Zima', year: '1021 FE' },
+			'tfe-30': { title: 'Zniknięcie', description: 'Marsh milknie i kontakt się urywa, gdy znika w głębinach wydziału Inkwizycji. Ekipa obawia się najgorszego.', season: 'Zima', year: '1021 FE' },
+			'tfe-32': { title: 'Ciało', description: 'Kelsier i Vin znajdują ciało Marsha całkowicie pozbawione krwi — pustą skorupę. List znaleziony później wyjaśnia, że inkwizytorzy prawdopodobnie go znajdą. Ekipa opłakuje stratę. Ale zmasakrowane ciało nie jest tym, czym się wydaje.', season: 'Zima', year: '1022 FE' },
+			'tfe-38': { title: 'Inkwizytor', description: 'Marsh pojawia się podczas ostatniego szturmu na Kredik Shaw — żywy, przemieniony przez jedenaście metalowych gwoździ: dwa przez oczy, osiem w klatce piersiowej i jeden w plecach łączący je. Wyciąga gwóźdź z karku Kara, zabijając go natychmiast, i ujawnia, że zabił wszystkich innych inkwizytorów.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-39': { title: 'Jedenaście gwoździ', description: 'Marsh stoi z Sazedem i Vin na dachu budynku koło dzielnicy skaa. Opowiada o swoim przeżyciu i przemianie — jedenaście gwoździ, przerażający proces i jak to przetrwał. Mówi też o kandrach — istotach wyewoluowanych z mgłoduchów — które grając lorda Renoux teraz uznają Vin za swoją panią.', season: 'Wiosna', year: '1022 FE' },
 		},
 		spook: {
-			'tfe-7': {
-				title: 'Młody Cynawy',
-				description:
-					'Szpieg, młody siostrzeniec Clubsa, pracuje jako obserwator i posłaniec dla szajki w stolarni, mówiąc gęstym wschodnim slangiem ulicznym.',
-				season: 'Późna wiosna',
-				year: '1021 FE',
-			},
-			'tfe-9': {
-				title: 'Wyprawy posłańcze',
-				description:
-					'Szpieg przenosi wiadomości między stolarnią Clubsa w Luthadelu a posiadłością Renoux w Fellise, a jego wyostrzone cyną zmysły czynią go wyjątkowym zwiadowcą.',
-				season: 'Lato',
-				year: '1021 FE',
-			},
-			'tfe-22': {
-				title: 'Wsparcie szajki',
-				description:
-					'Szpieg pozostaje w stolarni Clubsa podczas wojny domów, dostarczając informacji ze swoich dachowych obserwacji i wypraw posłańczych po slumsach.',
-				season: 'Jesień',
-				year: '1021 FE',
-			},
-			'tfe-34': {
-				title: 'Świadek poświęcenia',
-				description:
-					'Szpieg obserwuje z tłumu, jak Kelsier ginie na Placu Fontann, wydarzenie, które ukształtuje resztę jego życia.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'tfe-38': {
-				title: 'Rewolucja',
-				description:
-					'Szpieg walczy z szajką podczas ostatecznej rewolucji, pomagając koordynować powstanie skaa z ulic Luthadelu.',
-				season: 'Wczesna wiosna',
-				year: '1022 FE',
-			},
-			'woa-6': {
-				title: 'Dorastający zwiadowca',
-				description:
-					'Szpieg służy jako zwiadowca nowego rządu Elenda, patrolując miasto i obserwując otaczające armie podczas oblężenia.',
-				season: 'Jesień',
-				year: '1023 FE',
-			},
-			'woa-49': {
-				title: 'Grupa wygnańców',
-				description:
-					'Szpieg opuszcza Luthadel z grupą wygnańców Vin i Elenda przez Cynową Bramę, kierując się na północ ku górom Terris.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'woa-52': {
-				title: 'Przetrwanie bitwy',
-				description:
-					'Po powrocie do Luthadelu podczas ataku kolosów Szpieg przeżywa Bitwę o Luthadel i pomaga zabezpieczyć miasto.',
-				season: 'Późna zima',
-				year: '1024 FE',
-			},
-			'hoa-1': {
-				title: 'Żołnierz kampanii',
-				description:
-					'Szpieg służy w armii Elenda pod Vetitanem, stopniowo zyskując coraz większą odpowiedzialność, gdy siły cesarza zabezpieczają skład zaopatrzenia.',
-				season: 'Wiosna',
-				year: '1026 FE',
-			},
-			'hoa-14': {
-				title: 'Infiltrator',
-				description:
-					'Szpieg przybywa do Urteau przed misją dyplomatyczną Sazeda, infiltrując miasto przez plątaninę suchych kanałów zwaną Rowami.',
-				season: 'Jesień',
-				year: '1026 FE',
-			},
-			'hoa-17': {
-				title: 'Płonący dom',
-				description:
-					'Szpieg zakłada bazę w ukrytym budynku w Rowach, obserwując opresyjny reżim Obywatela i nawiązując kontakty z lokalnym ruchem oporu.',
-				season: 'Jesień',
-				year: '1026 FE',
-			},
-			'hoa-23': {
-				title: 'Obserwacja na rynku',
-				description:
-					'Szpieg obserwuje Obywatela Quelliona przemawiającego na Rynkowej Arenie, studiując jego nawyki i Allomantów, których zmusza do służby przez hemalurgiczne kolce.',
-				season: 'Wczesna zima',
-				year: '1026 FE',
-			},
-			'hoa-30': {
-				title: 'Zbliżenie do Obywatela',
-				description:
-					'Szpieg zbliża się do wewnętrznego kręgu Obywatela, badając kolce używane przez Quelliona do kontrolowania Allomantów i zbierając dowody korupcji.',
-				season: 'Zima',
-				year: '1026 FE',
-			},
-			'hoa-38': {
-				title: 'Planowanie rewolucji',
-				description:
-					'Ze swojej kryjówki Szpieg koordynuje z Sazedem i lokalnymi rebeliantami plan obalenia reżimu Quelliona i zabezpieczenia składu zaopatrzenia.',
-				season: 'Wczesna wiosna',
-				year: '1027 FE',
-			},
-			'hoa-45': {
-				title: 'Głos Kelsiera',
-				description:
-					'Szpieg zaczyna słyszeć coś, co uważa za głos Kelsiera prowadzący go, popychając ku coraz bardziej niebezpiecznym działaniom przeciw Obywatelowi.',
-				season: 'Wiosna',
-				year: '1027 FE',
-			},
-			'hoa-50': {
-				title: 'Płonący budynek',
-				description:
-					'Szpieg zostaje nakolcowany podczas pożaru budynku, zyskując wzmocnione zdolności allomantyczne, ale też stając się podatnym na wpływ Zagłady przez kolec.',
-				season: 'Wiosna',
-				year: '1027 FE',
-			},
-			'hoa-55': {
-				title: 'Objawienie',
-				description:
-					'Szpieg uświadamia sobie, że głos, który słyszał, nie należy do Kelsiera, lecz do Zagłady, manipulującej nim przez hemalurgiczny kolec. Wyrywa kolec w agonii.',
-				season: 'Późna wiosna',
-				year: '1027 FE',
-			},
-			'hoa-58': {
-				title: 'Bohater Urteau',
-				description:
-					'Szpieg prowadzi rewolucję przeciw Quellionowi, ujawniając jego korupcję. Gdy pożary pochłaniają miasto, Sazed zalewa kanały, ratując Urteau przed zniszczeniem.',
-				season: 'Wiosna',
-				year: '1027 FE',
-			},
-			'hoa-64': {
-				title: 'Rekonwalescencja',
-				description:
-					'Ciężko poparzony, ale żywy, Szpieg dochodzi do siebie, gdy Urteau stabilizuje się pod nowym przywództwem i zapasy ze składu są rozdzielane.',
-				season: 'Lato',
-				year: '1027 FE',
-			},
-			'hoa-69': {
-				title: 'Do Czeluści',
-				description:
-					'Szpieg podróżuje do Czeluści Hathsin z siłami z Urteau, dołączając do gromadzących się armii na to, co okaże się ostateczną bitwą.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
-			'hoa-83': {
-				title: 'Nowy świat',
-				description:
-					'Szpieg wychodzi na odtworzony przez Sazeda świat — pole kwiatów i zielonej trawy pod błękitnym niebem. Niesie ostatnie słowa Sazeda dla ocalałych.',
-				season: 'Jesień',
-				year: '1027 FE',
-			},
+			...enData.movements.spook,
+			'tfe-7': { title: 'Młody mgłowiec cyny', description: 'Spook, młody siostrzeniec Clubsa, służy jako wartownik i posłaniec ekipy w warsztacie stolarskim, mówiąc gęstym wschodnim dialektem.', season: 'Późna wiosna', year: '1021 FE' },
+			'tfe-9': { title: 'Bieganie posłańca', description: 'Spook przenosi wiadomości między sklepem Clubsa w Luthadelu a posiadłością Renoux w Fellise; jego wzmożone cyną zmysły czynią go doskonałym zwiadowcą.', season: 'Lato', year: '1021 FE' },
+			'tfe-16': { title: 'Czuwanie przy Vin', description: 'Lestibournes czuwa przy rannej Vin w sklepie Clubsa, obecny gdy budzi się po ranach z wyprawy zwiadowczej do Kredik Shaw. Opowiada, jak Kelsier nadał mu nowe imię: Spook.', season: 'Lato', year: '1021 FE' },
+			'tfe-22': { title: 'Chustka', description: 'Spook odwiedza posiadłość Renoux w Fellise i zastaje Vin czytającą dziennik Ostatniego Imperatora. Mówi, że Dockson przyjechał po broń, potem czerwieni się, wręcza jej chustkę i ucieka. Sazed później wyjaśnia, że podarowanie chustki przez młodego mężczyznę wyraża poważne intencje zalotów.', season: 'Jesień', year: '1021 FE' },
+			'tfe-24': { title: 'Noc w sklepie Clubsa', description: 'Spook dzieli nocnego drinka z Kelsierem, Hammondem i Clubsem w sklepie Clubsa, omawiając stan misji.', season: 'Jesień', year: '1021 FE' },
+			'tfe-26': { title: 'Egzekucje', description: 'Spook wpada do sklepu Clubsa z wieścią o egzekucjach na placu Fontanny. Towarzyszy ekipie na plac, gdzie są świadkami brutalnej publicznej egzekucji kobiet i dzieci skaa, krew spływa do fontanny.', season: 'Późna jesień', year: '1021 FE' },
+			'tfe-32': { title: 'Warta na dachu', description: 'Spook pełni wartę na dachu sklepu Clubsa z Vin, ucząc ją sztuczek z cyną. Wyjaśnia, że nie chodzi tylko o wzmacnianie zmysłów, ale o filtrowanie tego, co ważne, i niepozwalanie sobie na rozpraszanie resztą.', season: 'Zima', year: '1022 FE' },
+			'tfe-33': { title: 'Pojmany wartownik', description: 'Gdy ekipa zmierza na plac Fontanny, Spooka widzą w wozie egzekucyjnym obok lorda Renoux — schwytanego przez Ministerstwo.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-34': { title: 'Świadek poświęcenia', description: 'Spook obserwuje z tłumu walkę i śmierć Kelsiera na placu Fontanny — wydarzenie, które naznaczy resztę jego życia. Poświęcenie Ocalałego zmienia rozumienie Spooka, co znaczy służyć sprawie.', season: 'Wczesna wiosna', year: '1022 FE' },
+			'tfe-38': { title: 'Rewolucja', description: 'Spook walczy u boku ekipy podczas ostatecznej rewolucji, pomagając koordynować powstanie skaa na ulicach Luthadelu.', season: 'Wczesna wiosna', year: '1022 FE' },
 		},
 	},
 
