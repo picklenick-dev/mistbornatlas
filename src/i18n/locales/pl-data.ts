@@ -373,7 +373,7 @@ export const plData: DataTranslations = {
 		},
 		'koloss-camp': {
 			name: 'Obóz Kolosów',
-			description: 'Pozycja armii kolosów na południe od Luthadelu podczas oblężenia.',
+			description: 'Pozycja armii kolosów w pobliżuadelu podczas oblężenia.',
 			confidence: 'probable',
 		},
 		longsfollow: {

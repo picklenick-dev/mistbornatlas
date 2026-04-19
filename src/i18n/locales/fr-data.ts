@@ -382,7 +382,7 @@ export const frData: DataTranslations = {
 		},
 		'koloss-camp': {
 			name: 'Camp des Koloss',
-			description: "Position de l'armée koloss au sud de Luthadel durant le siège.",
+			description: "Position de l'armée koloss prèse Luthadel durant le siège.",
 			confidence: 'probable',
 		},
 		longsfollow: {

@@ -173,6 +173,17 @@
 	},
 	{
 		"book": "woa",
+		"chapter": 44,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "camons-safehouse",
+		"title": "Finding Vin",
+		"description": "Spook joins Elend and Hammond to discuss Vin's devastating solo attack on Cett's forces. OreSeur leads them to Vin at Camon's former lair, where she speaks of leaving Luthadel.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
 		"chapter": 49,
 		"location": "luthadel",
 		"cityId": "luthadel",

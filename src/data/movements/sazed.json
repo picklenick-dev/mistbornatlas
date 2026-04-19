@@ -306,12 +306,67 @@
 	},
 	{
 		"book": "woa",
+		"chapter": 36,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "warehouse-district",
+		"title": "Refuge in the Warehouses",
+		"description": "Sazed offers comfort to newly arrived refugees housed in an arms warehouse. Tindwyl asks to see his rubbing from the Conventical. Breeze soothes everyone—the refugees, Sazed, and Tindwyl—using his allomancy to ease their suffering.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 37,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Deepness Debate",
+		"description": "Sazed and Tindwyl study a fragment of a biography of King Wednegon, who blamed the Deepness for his army running out of food. Sazed tells Tindwyl he believes the Deepness is a change in the mists. They debate his theories and the Synod's authority. Tindwyl expresses her desire for Sazed, and he asks her to stay—she does.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
 		"chapter": 40,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Debating the Prophecy",
 		"description": "Sazed works with Tindwyl at Keep Venture, comparing the original and altered versions of the Hero of Ages prophecy, growing closer to her.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 41,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Altered Prophecy",
+		"description": "Sazed and Tindwyl debate the metal plate at the Conventical and Alendi's logbook, confused about why Kwaan opposed Alendi taking the power from the Well. They realize many will die when Luthadel falls. Elend visits seeking advice, and they applaud him for sticking to his convictions.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 45,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Torn Corners",
+		"description": "Tindwyl discovers several copies of transcriptions with their corners mysteriously ripped off—the same sentence destroyed in each. Vin asks Sazed for advice about love, and shortly after Elend comes seeking similar counsel. Sazed resolves to make sure they are not in Luthadel when it falls.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 46,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Escape Plan",
+		"description": "Sazed secretly gathers Breeze, Clubs, Hammond, and Dockson to discuss the likelihood of Straff withdrawing and the koloss attacking unopposed. They agree to stay and defend the city but plan to send Elend, Vin, Spook, and Tindwyl away before the battle.",
 		"season": "Late Winter",
 		"year": "1024 FE"
 	},

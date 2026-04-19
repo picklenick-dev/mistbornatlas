@@ -368,12 +368,12 @@ export const deData: DataTranslations = {
 		},
 		'straffs-camp': {
 			name: 'Straffs Lager',
-			description: 'Militärlager von Straff Wager südlich von Luthadel während der Belagerung.',
+			description: 'Militärlager von Straff Venture nördlich von Luthadel während der Belagerung.',
 			confidence: 'probable',
 		},
 		'koloss-camp': {
 			name: 'Koloss-Lager',
-			description: 'Position der Koloss-Armee nördlich von Luthadel während der Belagerung.',
+			description: 'Position der Koloss-Armee nahel während der Belagerung.',
 			confidence: 'probable',
 		},
 		longsfollow: {

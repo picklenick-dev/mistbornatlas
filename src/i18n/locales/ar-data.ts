@@ -354,12 +354,12 @@ export const arData: DataTranslations = {
 		},
 		'straffs-camp': {
 			name: 'معسكر ستراف',
-			description: 'معسكر ستراف فنتشر العسكري جنوب لوثادل أثناء الحصار.',
+			description: 'معسكر ستراف فنتشر العسكري شمال لوثادل أثناء الحصار.',
 			confidence: 'probable',
 		},
 		'koloss-camp': {
 			name: 'معسكر الكولوس',
-			description: 'موقع جيش الكولوس شمال لوثادل أثناء الحصار.',
+			description: 'موقع جيش الكولوس بالقرب منرب من لوثادل أثناء الحصار.',
 			confidence: 'probable',
 		},
 		longsfollow: {

@@ -330,12 +330,12 @@ export const trData: DataTranslations = {
 		'straffs-camp': {
 			name: 'Straff\'ın Savaş Kampı',
 			description:
-				'Straff Venture\'ın kuşatma sırasında Luthadel\'in güneyindeki askeri karargâhı, Demir Kapı\'nın dışında konumlanmış. Şehri teslim olmaya sindirmek için konuşlandırılmış elli bin kişilik devasa bir güç.',
+				'Straff Venture\'ın kuşatma sırasında Luthadel\'in kuzeyindeki askeri karargâhı, Urteau\'ya giden kanal yolunu kontrol altında tutuyor. Şehri teslim olmaya sindirmek için konuşlandırılmış elli bin kişilik devasa bir güç.',
 		},
 		'koloss-camp': {
 			name: 'Koloss Kampı',
 			description:
-				'1024 Sİ\'deki Luthadel kuşatması sırasında koloss ordusunun Çelik Kapı yakınındaki karargâhı. Jastes Lekal\'ın koloss sadakatini tahta bozuk paralarla satın alma girişimi, yaratıkların şehre yıkıcı bir saldırı başlatmasına yol açtı.',
+				'1024 Sİ\'deki Luthadel kuşatması sırasında koloss ordusunun Luthadel yakınındaki karargâhı. Jastes Lekal\'ın koloss sadakatini tahta bozuk paralarla satın alma girişimi, yaratıkların şehre yıkıcı bir saldırı başlatmasına yol açtı.',
 		},
 		longsfollow: {
 			name: 'Longsfollow',

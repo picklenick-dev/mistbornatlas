@@ -382,7 +382,7 @@ export const esData: DataTranslations = {
 		},
 		'koloss-camp': {
 			name: 'Campamento Koloss',
-			description: 'Posición del ejército koloss al norte de Luthadel durante el asedio.',
+			description: 'Posición del ejército koloss cerca Luthadel durante el asedio.',
 			confidence: 'probable',
 		},
 		longsfollow: {

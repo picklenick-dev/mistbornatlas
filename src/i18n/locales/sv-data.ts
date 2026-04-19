@@ -330,12 +330,12 @@ export const svData: DataTranslations = {
 		},
 		'straffs-camp': {
 			name: 'Straffs läger',
-			description: 'Straff Ventures militärläger söder om Luthadel under belägringen.',
+			description: 'Straff Ventures militärläger norr om Luthadel under belägringen.',
 			confidence: 'unconfirmed',
 		},
 		'koloss-camp': {
 			name: 'Koloss-lägret',
-			description: 'Koloss-arméns position norr om Luthadel under belägringen.',
+			description: 'Koloss-arméns position närathadel under belägringen.',
 			confidence: 'unconfirmed',
 		},
 		longsfollow: {

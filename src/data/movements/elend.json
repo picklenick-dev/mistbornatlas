@@ -338,13 +338,101 @@
 	},
 	{
 		"book": "woa",
+		"chapter": 31,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "assembly-hall",
+		"title": "Chancellor Penrod",
+		"description": "Elend arrives at the Assembly with his full crew. He nominates Lord Penrod as Assembly Chancellor to preside over meetings in the absence of a king, and addresses the Assembly about his meeting with Straff—invoking Vin's reputation as a deterrent. Nominations for a new king are opened: Penrod, Elend, and Lord Cett, who appears from the crowd.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 32,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "assembly-hall",
+		"title": "Cett's Gambit",
+		"description": "Lord Cett addresses the Assembly, arguing his army and Elend's combined forces can hold off the besiegers and promising rewards to those who support him. The Assembly grants Cett an abandoned keep and one thousand soldiers for protection. Cett's son Gneorndin invites Elend to parlay in one week.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 33,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Poisoned Well",
+		"description": "Elend investigates a case of mass illness and discovers one of the city wells has been poisoned. He dispatches Hammond's soldiers to assist the sick and begins searching for the saboteur.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 34,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Research and Strategy",
+		"description": "Elend works in Keep Venture's library with Hammond, Sazed, Tindwyl, and the former obligator Noorden, planning strategy for the Assembly and how to prevent Cett from being appointed king. Sazed advises him to focus on his own convictions rather than popular opinion.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
 		"chapter": 35,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-hasting",
+		"title": "Dining with Cett",
+		"description": "Elend and Vin go to Keep Hasting to dine with Lord Cett. Over dinner, they discuss Breeze and Allrianne's defection, Cett's plans for Luthadel, and the missing atium cache. Cett offers food in exchange for the atium but Elend says it hasn't been found. Cett lets Elend leave, seeing no value in him as a hostage.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 37,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "iron-gate",
+		"title": "Patrolling the Wall",
+		"description": "Elend and Hammond patrol the city wall, discussing Elend's desire to remain king to protect the people of Luthadel. Elend has an insight on how he can secure enough votes to avoid being replaced by the Assembly.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 38,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "assembly-hall",
 		"title": "Deposed",
-		"description": "The Assembly votes to replace Elend with Lord Penrod, exploiting a clause in Elend's own democratic constitution. His idealism proves his undoing.",
+		"description": "Elend attends the Assembly for the king election, having joined the Church of the Survivor to sway skaa votes. Assassins attack during the proceedings—Vin fights them off but is severely injured. The Assembly reconvenes at Penrod's mansion, where Penrod is elected king with a two-thirds majority. Elend concedes.",
 		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 40,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "At Vin's Bedside",
+		"description": "Elend sits beside Vin's hospital bed at Keep Venture, telling her Penrod is the new king. He flinches involuntarily when she touches him, shaken by the ferocity with which she killed the assassins.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 41,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Seeking Counsel",
+		"description": "Elend visits Sazed and Tindwyl at Keep Venture, deliberating on his failures to protect Luthadel. They debate why he lost his throne, but both applaud him for sticking to his ideals.",
+		"season": "Late Winter",
 		"year": "1024 FE"
 	},
 	{
@@ -352,7 +440,18 @@
 		"chapter": 42,
 		"location": "koloss-camp",
 		"title": "Mission to the Koloss",
-		"description": "Elend leaves Luthadel through the tunnels to negotiate with Jastes Lekal and his koloss army, a desperate gamble to secure an ally.",
+		"description": "Elend and Hammond use a passwall to leave Luthadel. Elend finds Jastes Lekal's koloss army and demands he withdraw, but Jastes insists he is in control. Elend stabs Jastes and uses him as a hostage to escape, then kills a koloss and discovers they carry currency.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 44,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "camons-safehouse",
+		"title": "Finding Vin",
+		"description": "Elend, Hammond, and Spook discuss why Vin attacked Cett's keep. Hammond reveals Vin has been keeping secrets and working with another Mistborn. OreSeur leads Elend to Vin at Camon's former lair, where she speaks of leaving Luthadel for Terris.",
 		"season": "Late Winter",
 		"year": "1024 FE"
 	},

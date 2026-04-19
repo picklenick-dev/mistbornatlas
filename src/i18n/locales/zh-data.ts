@@ -348,12 +348,12 @@ export const zhData: DataTranslations = {
 		},
 		'straffs-camp': {
 			name: '斯特拉夫营地',
-			description: '围城期间斯特拉夫·泛达在陆沙德南方的军营。',
+			description: '围城期间斯特拉夫·泛达在陆沙德北方的军营。',
 			confidence: 'probable',
 		},
 		'koloss-camp': {
 			name: '寇斯营地',
-			description: '围城期间寇斯军队在陆沙德北方的阵地。',
+			description: '围城期间寇斯军队在陆沙德附近的阵地。',
 			confidence: 'probable',
 		},
 		longsfollow: {

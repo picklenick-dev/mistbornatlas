@@ -356,12 +356,12 @@ export const jaData: DataTranslations = {
 		},
 		'straffs-camp': {
 			name: 'ストラフの陣営',
-			description: '包囲戦中、ストラフ・ヴェンチャーがルサデル南方に設けた軍営。',
+			description: '包囲戦中、ストラフ・ヴェンチャーがルサデル北方に設けた軍営。',
 			confidence: 'probable',
 		},
 		'koloss-camp': {
 			name: 'コロスの陣営',
-			description: '包囲戦中、コロス軍がルサデル北方に布陣した位置。',
+			description: '包囲戦中、コロス軍がルサデル付近に布陣した位置。',
 			confidence: 'probable',
 		},
 		longsfollow: {

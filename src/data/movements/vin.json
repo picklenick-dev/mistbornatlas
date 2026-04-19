@@ -692,13 +692,79 @@
 	},
 	{
 		"book": "woa",
-		"chapter": 35,
+		"chapter": 31,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "assembly-hall",
-		"title": "The Assembly Crisis",
-		"description": "Vin watches from the gallery as the Assembly votes to depose Elend and invite Lord Penrod to lead, shattering the democratic experiment.",
+		"title": "Penrod's Nomination",
+		"description": "Vin accompanies Elend and the full crew to the Assembly. Elend nominates Lord Penrod as chancellor and addresses the Assembly, invoking Kelsier's legacy through Vin as a deterrent against Straff. Nominations for a new king are opened—Penrod, Elend, and Lord Cett, who appears from the crowd.",
 		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 33,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Kandra Secrets",
+		"description": "Vin wonders if she is the true Hero of Ages and discusses the vague Terris prophecies with OreSeur. He inadvertently reveals that the kandra have their own religion predating the Lord Ruler's Ascension, speaking of prophecies about humans being of Ruin and kandra of Preservation. Vin investigates Dockson in the palace library to test if he is the kandra impostor, and grows suspicious of Captain Demoux.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 34,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Zane on the Roof",
+		"description": "Vin finds Elend and the crew researching Assembly strategy in Keep Venture's library. She mentions the poisoned well but Elend already knows. Hearing a noise outside, she investigates and finds Zane on the rooftop. He attacks her, revealing he is burning atium. He stops and tells her Straff wants him to kill her, that he is Elend's half-brother, and that the koloss are one day outside Luthadel.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 35,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-hasting",
+		"title": "Dinner with Cett",
+		"description": "Vin tries on her new custom-fitted mistborn gown. She and Elend go to Keep Hasting to dine with Lord Cett. Over dinner, they discuss Breeze and Allrianne's departure from Cett's camp. Cett outlines his plans for Luthadel and offers food in exchange for the atium cache, but Elend says it hasn't been found. Vin wonders why Cett doesn't conceal his allomancers.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 36,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "The Church of the Survivor",
+		"description": "Vin observes Allrianne using allomancy to riot Breeze's emotions at Keep Venture, confirming Clubs isn't a kandra since his coppercloud shields him. She follows Captain Demoux through the palace courtyard and discovers he is secretly leading the Church of the Survivor—preaching that Vin will restore the world and urging skaa to support Elend. She confronts him but promises to keep his secret.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 38,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "assembly-hall",
+		"title": "Election and Assassination",
+		"description": "Vin and Elend attend the Assembly for the king election. Elend reveals he has joined the Church of the Survivor. Vin notices suspicious figures and a man attacks Elend—she fights off six allomancers sent by Straff, severely injured but killing all attackers with OreSeur's help. She falls unconscious as her pewter drains. The Assembly reconvenes at Penrod's mansion and elects Penrod king.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 40,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Recovery",
+		"description": "Vin wakes in a hospital bed at Keep Venture with Elend at her side. He tells her Penrod is now king and flinches when she touches him, haunted by her brutal kills. Zane visits while she sleeps, claiming the assassins were from Cett and that Penrod made a deal with Straff. He leaves her a nugget of atium. OreSeur returns with a new dog body, and Vin discovers she can control kandra with duralumin-enhanced brass.",
+		"season": "Late Winter",
 		"year": "1024 FE"
 	},
 	{
@@ -708,7 +774,40 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-hasting",
 		"title": "Raid on Cett",
-		"description": "Vin launches a devastating solo assault on Cett's forces quartered at Keep Hasting, driving his army from the city in a display of Mistborn power.",
+		"description": "Zane tells Vin that Demoux is betraying Elend at Cett's behest and suggests they attack Cett's forces. Vin and Zane launch a devastating assault on Keep Hasting, killing guards, soldiers, and hazekillers. They reach Cett and his son, but Vin asks for mercy. Zane says she is still controlled and leaves. Cett's army withdraws from Luthadel.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 44,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "camons-safehouse",
+		"title": "Camon's Lair",
+		"description": "After driving Cett's army from the city, Vin hides in Camon's former lair—the abandoned building where her life as a thief began. She speaks of the soldiers she killed and how she got her earring. She tells Elend she must leave Luthadel and go north to Terris, giving OreSeur the bead of atium to hold.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 45,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "keep-venture",
+		"title": "Advice on Love",
+		"description": "Vin visits Sazed to ask for advice about love—whether she should be with Elend or someone more like her. Sazed believes they are meant for each other and resolves to ensure they leave Luthadel before it falls.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 46,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "The Lord Ruler's Chamber",
+		"description": "Vin goes to the secret chamber within Kredik Shaw where the Lord Ruler once spent time alone. She isn't sure why she came, but senses the distant thumping of the Well of Ascension restoring itself to power. She leaves, unsettled.",
 		"season": "Late Winter",
 		"year": "1024 FE"
 	},
@@ -719,7 +818,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-hasting",
 		"title": "Duel with Zane",
-		"description": "Near Keep Hasting, Vin duels Zane Venture in a brutal Mistborn battle, ultimately killing him to protect those she loves.",
+		"description": "Zane tries to convince Vin to leave Luthadel with him, but she chooses Elend's trust over freedom. Enraged, Zane attacks. OreSeur ignores Vin's commands—Zane reveals the kandra is TenSoon, his real master's spy. TenSoon, who has grown to like Vin, cries out about what she knows of kandra—hinting at his own weakness. Vin uses duralumin-brass to seize control of TenSoon, takes the atium bead, and exploits Zane's dependence on atium to feint past his foresight, stabbing him in the neck and killing him.",
 		"season": "Late Winter",
 		"year": "1024 FE"
 	},

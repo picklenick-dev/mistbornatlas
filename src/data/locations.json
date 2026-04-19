@@ -327,7 +327,7 @@
 		"type": "landmark",
 		"dominance": "Central",
 		"coords": [1267.5, 799.5],
-		"description": "Straff Venture's military encampment south of Luthadel during the siege, positioned outside the Iron Gate. A massive force of fifty thousand soldiers positioned to intimidate the city into surrender, with Straff's command tent at the center surrounded by cavalry pickets.",
+		"description": "Straff Venture's military encampment north of Luthadel during the siege, holding the canal route back to Urteau. A massive force of fifty thousand soldiers positioned to intimidate the city into surrender, with Straff's command tent at the center surrounded by cavalry pickets.",
 		"books": ["woa"]
 	},
 	{
@@ -336,7 +336,8 @@
 		"type": "landmark",
 		"dominance": "Central",
 		"coords": [1280.5, 659.8],
-		"description": "The koloss army's encampment south of Luthadel during the siege of 1024 FE, positioned near the Steel Gate. Jastes Lekal's disastrous attempt to buy koloss loyalty with wooden coins led to the creatures turning on the city in a devastating assault.",
+		"description": "The koloss army's encampment near Luthadel during the siege of 1024 FE. Jastes Lekal's disastrous attempt to buy koloss loyalty with wooden coins led to the creatures turning on the city in a devastating assault.",
+		"placementNote": "⚠️ Directional inconsistency in the text. Some references place the koloss army northeast of Luthadel, while others describe it to the south. Placed northeast based on Sazed's approach from the east and the chapter 41 reference.",
 		"books": ["woa"]
 	},
 	{

@@ -375,7 +375,7 @@ export const ptData: DataTranslations = {
 		},
 		'koloss-camp': {
 			name: 'Acampamento dos Koloss',
-			description: 'Posição do exército koloss a sul de Luthadel durante o cerco.',
+			description: 'Posição do exército koloss perto de Luthadel durante o cerco.',
 			confidence: 'probable',
 		},
 		longsfollow: {

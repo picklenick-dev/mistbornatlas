@@ -365,12 +365,12 @@ export const ruData: DataTranslations = {
 		},
 		'straffs-camp': {
 			name: 'Лагерь Страффа',
-			description: 'Военный лагерь Страффа Венчера к югу от Лютадели во время осады.',
+			description: 'Военный лагерь Страффа Венчера к северу от Лютадели во время осады.',
 			confidence: 'probable',
 		},
 		'koloss-camp': {
 			name: 'Лагерь колоссов',
-			description: 'Позиция армии колоссов к северу от Лютадели во время осады.',
+			description: 'Позиция армии колоссов вблизидели во время осады.',
 			confidence: 'probable',
 		},
 		longsfollow: {
