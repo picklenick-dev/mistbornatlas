@@ -7,6 +7,7 @@ import { getZoomableCities } from '@/data';
 import { BOOK_COLORS } from '@/data/characterConfig';
 import { usePopupPosition, DESCRIPTION_LIMIT } from '@/hooks';
 import { getLocationTheme, MARKER_SIZE } from '@/utils/locationTheme';
+import { isPastReadingPoint } from '@/utils';
 import type { Location, CityId, BookId } from '@/types';
 
 interface LocationMarkerProps {
@@ -44,7 +45,7 @@ const createLocationIcon = (
 };
 
 export const LocationMarker: React.FC<LocationMarkerProps> = ({ location }) => {
-	const { enterCity, currentBook } = useMapContext();
+	const { enterCity, currentBook, currentChapter, hideMovementSpoilers } = useMapContext();
 	const { t } = useLanguage();
 	const markerRef = useRef<L.Marker>(null);
 	const [showFullDescription, setShowFullDescription] = useState(false);
@@ -65,8 +66,24 @@ export const LocationMarker: React.FC<LocationMarkerProps> = ({ location }) => {
 
 	const locTrans = t.data.locations[location.id];
 	const locName = locTrans?.name ?? location.name;
-	const locDescription = locTrans?.description ?? location.description;
 	const locPlacementNote = locTrans?.placementNote ?? location.placementNote;
+
+	// Hide spoiler-laden description until the reader reaches the chapter where it
+	// is revealed (unless they have spoilers enabled). The safe description is the
+	// English fallback so we never leak translated spoiler text either.
+	const spoilerHidden =
+		!!location.spoiler &&
+		!!location.safeDescription &&
+		hideMovementSpoilers &&
+		!isPastReadingPoint(
+			location.spoiler.book,
+			location.spoiler.chapter,
+			currentBook,
+			currentChapter
+		);
+	const locDescription = spoilerHidden
+		? (locTrans?.safeDescription ?? (location.safeDescription as string))
+		: (locTrans?.description ?? location.description);
 	const needsTruncation = locDescription.length > DESCRIPTION_LIMIT;
 	const displayDescription =
 		needsTruncation && !showFullDescription

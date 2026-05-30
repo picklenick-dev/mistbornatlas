@@ -197,6 +197,8 @@ export const deData: DataTranslations = {
 			name: 'Gruben von Hathsin',
 			description:
 				'Atium-Minen und Heimat der Kandra. Kelsier war der einzige Gefangene, der je lebend entkam.',
+			safeDescription:
+				'Ein brutales Gefängnisbergwerk nordöstlich von Luthadel, geprägt von schmalen, messerscharfen vertikalen Spalten, die tief in die Erdkruste reichen. Verurteilte Gefangene kriechen durch diese klaustrophobischen Risse auf der Suche nach den seltenen Atium-Geoden — dem kostbarsten Metall des Imperiums. Nur wenige überleben die Arbeit lange.',
 			confidence: 'verified',
 		},
 		fellise: {

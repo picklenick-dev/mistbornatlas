@@ -196,6 +196,8 @@ export const jaData: DataTranslations = {
 		'pits-hathsin': {
 			name: 'ハシンの穴',
 			description: 'アティウム鉱山でありカンドラの故郷。ケルシアーが唯一生きて脱獄した囚人である。',
+			safeDescription:
+				'ルサデルの北東にある過酷な囚人鉱山。地殻深くへと伸びる狭く鋭い垂直の亀裂が特徴。囚人たちはこの閉所的な裂け目を這い回り、帝国で最も貴重な金属である希少なアティウムの晶洞を探す。長く生き延びる者はほとんどいない。',
 			confidence: 'probable',
 		},
 		fellise: {

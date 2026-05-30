@@ -3,6 +3,25 @@ import type { DataCharacterTranslation } from '@/i18n/types';
 import { BOOK_ORDER } from '@/data/characterConfig';
 
 /**
+ * Returns true if the reader's current position (book + chapter) is at or past
+ * the given target position. Used to gate spoiler content (locations, landmarks,
+ * descriptions) behind the chapter where it is revealed in the text.
+ */
+export function isPastReadingPoint(
+	targetBook: BookId,
+	targetChapter: number,
+	currentBook: BookId,
+	currentChapter: number
+): boolean {
+	const currentBookOrder = BOOK_ORDER[currentBook];
+	const targetBookOrder = BOOK_ORDER[targetBook];
+
+	if (currentBookOrder > targetBookOrder) return true;
+	if (currentBookOrder < targetBookOrder) return false;
+	return currentChapter >= targetChapter;
+}
+
+/**
  * Returns the right title for a character at the reader's current position,
  * respecting both book/chapter progression and Secret History mode.
  */

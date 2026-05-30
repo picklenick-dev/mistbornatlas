@@ -197,6 +197,8 @@ export const frData: DataTranslations = {
 			name: 'Les Fosses de Hathsin',
 			description:
 				"Mines d'atium et terre d'origine des kandra. Kelsier fut le seul prisonnier à s'en échapper vivant.",
+			safeDescription:
+				"Une brutale mine-prison au nord-est de Luthadel, définie par d'étroites fissures verticales acérées s'enfonçant dans la croûte. Les prisonniers condamnés rampent dans ces crevasses oppressantes à la recherche des rares géodes d'atium, le métal le plus précieux de l'Empire. Peu y survivent longtemps.",
 			confidence: 'verified',
 		},
 		fellise: {

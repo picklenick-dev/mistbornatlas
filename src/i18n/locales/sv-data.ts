@@ -161,6 +161,8 @@ export const svData: DataTranslations = {
 			name: 'Hathsins gropar',
 			description:
 				'Atiumgruvor och kandras hemland. Kelsier var den enda fången som någonsin flydde levande.',
+			safeDescription:
+				'En brutal fånggruva nordost om Luthadel, full av smala, rakbladsvassa vertikala sprickor som går djupt ner i berggrunden. Dömda fångar kryper genom dessa trånga klyftor på jakt efter de sällsynta atiumgeoderna — imperiets dyrbaraste metall. Få överlever länge.',
 			confidence: 'unconfirmed',
 		},
 		fellise: {

@@ -418,6 +418,7 @@ export interface DataTranslations {
 			name: string;
 			description: string;
 			placementNote?: string;
+			safeDescription?: string;
 		}>
 	>;
 	cities: Record<

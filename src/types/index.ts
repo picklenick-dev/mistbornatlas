@@ -2,6 +2,15 @@ import type L from 'leaflet';
 
 export type BookId = 'tfe' | 'woa' | 'hoa';
 
+/**
+ * Marks a reading position (book + chapter). Used to hide spoiler content
+ * until the reader has reached the point where it is revealed in the text.
+ */
+export interface SpoilerGate {
+	book: BookId;
+	chapter: number;
+}
+
 export interface Book {
 	id: BookId;
 	title: string;
@@ -75,6 +84,9 @@ export interface Location {
 	placementNote?: string; // Note about discrepancies between map placement and source material
 	checked?: boolean; // Whether this location has been verified
 	books?: BookId[]; // If set, location only appears in these books
+	spoiler?: SpoilerGate; // If set, `description` is only revealed once the reader reaches this point
+	safeDescription?: string; // Spoiler-free description shown before the `spoiler` gate is reached
+	safeFeatures?: string[]; // Spoiler-free feature list shown before the `spoiler` gate is reached
 }
 
 // Detailed intra-city views
@@ -99,6 +111,7 @@ export interface CityLandmark {
 	coords: [number, number]; // Relative coordinates within city (0-100 percentage)
 	description: string;
 	worldLocationId?: string; // Links back to world map location if applicable
+	spoiler?: SpoilerGate; // If set, the landmark is hidden until the reader reaches this point
 }
 
 export interface CityMap {

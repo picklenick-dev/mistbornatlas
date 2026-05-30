@@ -4,7 +4,7 @@ import L from 'leaflet';
 import { useMapContext } from '@/context/MapContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { useMapData } from '@/hooks';
-import { isDebugMode } from '@/utils';
+import { isDebugMode, isPastReadingPoint } from '@/utils';
 import { getCityMapById } from '@/data';
 import { CityLandmarkMarker } from '@/components/CityLandmarkMarker';
 import { CharacterMarker } from '@/components/CharacterMarker';
@@ -40,7 +40,8 @@ const SetInitialView: React.FC = () => {
 };
 
 export const CityMapContainer: React.FC = () => {
-	const { activeCity, exitCity, controlsPanelOpen, showAtmosphere } = useMapContext();
+	const { activeCity, exitCity, controlsPanelOpen, showAtmosphere, currentBook, currentChapter, hideMovementSpoilers } =
+		useMapContext();
 	const { t, language } = useLanguage();
 	const { characterPositions, characterPaths } = useMapData();
 	const [isExiting, setIsExiting] = useState(false);
@@ -55,6 +56,20 @@ export const CityMapContainer: React.FC = () => {
 	if (!cityMap) return null;
 
 	const mapImageUrl = getLocalizedCityMapUrl(activeCity, language);
+
+	// Hide spoiler-gated landmarks (e.g. the Well of Ascension) until the reader
+	// reaches the chapter where they are revealed, unless spoilers are enabled.
+	const visibleLandmarks = cityMap.landmarks.filter(
+		landmark =>
+			!landmark.spoiler ||
+			!hideMovementSpoilers ||
+			isPastReadingPoint(
+				landmark.spoiler.book,
+				landmark.spoiler.chapter,
+				currentBook,
+				currentChapter
+			)
+	);
 
 	const cityCharacterPositions = characterPositions.filter(
 		({ movement }) => movement?.cityId === activeCity && movement?.cityCoords
@@ -144,7 +159,7 @@ export const CityMapContainer: React.FC = () => {
 					/>
 				))}
 
-				{cityMap.landmarks.map(landmark => (
+				{visibleLandmarks.map(landmark => (
 					<CityLandmarkMarker key={landmark.id} landmark={landmark} cityId={activeCity} />
 				))}
 

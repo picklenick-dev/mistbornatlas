@@ -27,12 +27,15 @@
 		"dominance": "Central",
 		"coords": [1195, 886],
 		"description": "A Perpendicularity manifesting as jagged fissures in the ground where Atium crystallizes. The map is defined by narrow, razor-sharp vertical cracks twisting deep into the crust. Prisoners crawled through these claustrophobic tunnels seeking geodes. Kelsier discovered the Eleventh Metal (Malatium) in a hidden chamber deep within the unmapped fissure network before destroying the crystals and ending Atium production.",
+		"safeDescription": "A brutal prison mine northeast of Luthadel, defined by narrow, razor-sharp vertical fissures twisting deep into the crust. Condemned prisoners crawl through these claustrophobic cracks in search of the rare Atium geodes that form within — the only known source of the Final Empire's most precious metal. Few survive the labor for long.",
+		"spoiler": { "book": "tfe", "chapter": 21 },
 		"features": [
 			"Atium Geode Mines",
 			"Crystal Fissures",
 			"Kandra Homeland",
 			"Eleventh Metal Chamber"
-		]
+		],
+		"safeFeatures": ["Atium Geode Mines", "Crystal Fissures"]
 	},
 	{
 		"checked": true,
@@ -335,7 +338,7 @@
 		"name": "Koloss Camp",
 		"type": "landmark",
 		"dominance": "Central",
-		"coords": [1280.5, 659.8],
+		"coords": [1300, 740],
 		"description": "The koloss army's encampment near Luthadel during the siege of 1024 FE. Jastes Lekal's disastrous attempt to buy koloss loyalty with wooden coins led to the creatures turning on the city in a devastating assault.",
 		"placementNote": "⚠️ Directional inconsistency in the text. Some references place the koloss army northeast of Luthadel, while others describe it to the south. Placed northeast based on Sazed's approach from the east and the chapter 41 reference.",
 		"books": ["woa"]

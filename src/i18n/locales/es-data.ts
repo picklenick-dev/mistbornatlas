@@ -196,6 +196,8 @@ export const esData: DataTranslations = {
 			name: 'Los Pozos de Hathsin',
 			description:
 				'Mina de atium y hogar de los kandra. Kelsier fue el único prisionero en escapar con vida.',
+			safeDescription:
+				'Una brutal mina-prisión al noreste de Luthadel, definida por estrechas grietas verticales afiladas que se hunden en la corteza. Los prisioneros condenados se arrastran por estas fisuras claustrofóbicas en busca de las raras geodas de atium, el metal más preciado del Imperio. Pocos sobreviven mucho tiempo.',
 			confidence: 'verified',
 		},
 		fellise: {

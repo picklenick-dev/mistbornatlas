@@ -195,6 +195,8 @@ export const plData: DataTranslations = {
 			name: 'Doły Hathsin',
 			description:
 				'Kopalnie atium i ojczyzna kandrów. Kelsier był jedynym więźniem, który stamtąd uciekł.',
+			safeDescription:
+				'Brutalna kopalnia-więzienie na północny wschód od Luthadel, pełna wąskich, ostrych jak brzytwa pionowych szczelin sięgających głęboko w skorupę. Skazańcy pełzają przez te klaustrofobiczne pęknięcia w poszukiwaniu rzadkich geod atium — najcenniejszego metalu Imperium. Niewielu przeżywa tu długo.',
 			confidence: 'verified',
 		},
 		fellise: {

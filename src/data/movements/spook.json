@@ -189,19 +189,70 @@
 		"cityId": "luthadel",
 		"cityLandmark": "tin-gate-north",
 		"title": "Exile Group",
-		"description": "Spook departs Luthadel with Vin and Elend's exile party through the Tin Gate, heading north toward the Terris mountains.",
+		"description": "Spook leaves Luthadel through the Tin Gate with Vin, Elend, and Allrianne, slipping past Straff's army as the party rides north toward the Terris mountains.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 50,
+		"location": "imperial-canal",
+		"offset": [19, -291],
+		"title": "Something in the Mists",
+		"description": "Breaking camp north of the city, Spook is first to sense that something is trailing the party through the mists. Vin tells him it is the mist spirit. Resolving to make the most of his single Allomantic sense, Spook keeps his tin burning as a constant watch.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 51,
+		"location": "imperial-canal",
+		"offset": [16, -249],
+		"title": "Five Men Following",
+		"description": "Spook's enhanced senses pick out five men shadowing the camp—Jastes Lekal's group. After Elend executes Jastes, Spook reveals the secret he overheard: Sazed tricked them into leaving so they would survive the coming attack. The group turns back for Luthadel.",
 		"season": "Late Winter",
 		"year": "1024 FE"
 	},
 	{
 		"book": "woa",
 		"chapter": 52,
+		"location": "imperial-canal",
+		"offset": [18, -277],
+		"title": "Riding Back",
+		"description": "Unable to match Vin's pewter-fueled speed, Spook rides hard alongside Elend toward the besieged city, desperate to reach Luthadel before the koloss destroy everything they left behind.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 56,
+		"location": "imperial-canal",
+		"offset": [12, -200],
+		"title": "The Terris Refugees",
+		"description": "Spook travels with Elend as they meet a column of Terris refugees fleeing Tathingdwen, where Inquisitors killed the Synod. When the mist spirit appears to Elend, Spook's arrival drives it off. Together they escort the refugees toward Luthadel.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 57,
 		"location": "luthadel",
 		"cityId": "luthadel",
-		"cityLandmark": "clubs-shop",
-		"title": "Surviving the Battle",
-		"description": "After returning to Luthadel during the koloss attack, Spook survives the Battle of Luthadel and helps secure the city.",
-		"season": "Late Winter",
+		"cityLandmark": "kredik-shaw",
+		"title": "Into the City",
+		"description": "Spook enters Luthadel among the refugees with Elend and Hammond, walking through the crowded streets to reunite with Vin, who leads them toward Kredik Shaw and the hidden Well.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 58,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "well-of-ascension",
+		"title": "The Cavern",
+		"description": "Spook descends with Vin, Elend, and Hammond into the smoke-filled cavern beneath Kredik Shaw, where the glowing pool of the Well of Ascension waits at the heart of the darkness.",
+		"season": "Winter",
 		"year": "1024 FE"
 	},
 	{

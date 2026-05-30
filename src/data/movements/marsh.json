@@ -120,18 +120,18 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Ruin's Puppet",
-		"description": "Marsh appears at Kredik Shaw under Ruin's full control, fighting Sazed in the corridors while Vin descends to the Well of Ascension below.",
+		"description": "Marsh appears at Kredik Shaw under Ruin's full control. Telling Sazed he wishes he knew why he must kill him, he Allomantically pushes on Sazed's metal bracers and slams the Keeper into the wall as Vin descends toward the Well below.",
 		"season": "Winter",
 		"year": "1024 FE"
 	},
 	{
 		"book": "woa",
-		"chapter": 59,
+		"chapter": 58,
 		"location": "luthadel",
 		"cityId": "luthadel",
-		"cityLandmark": "well-of-ascension",
-		"title": "Guarding the Well",
-		"description": "Marsh guards the entrance to the Well, a puppet of Ruin, fighting to prevent anyone from reaching Vin—or helping her make the right choice.",
+		"cityLandmark": "kredik-shaw",
+		"title": "Struck Down",
+		"description": "Marsh batters Sazed—breaking bones and driving metal rings into his flesh—but Sazed taps those metalminds to fight back. As the Inquisitor moves to finish him, Hammond cracks a dueling cane across Marsh's skull, knocking him unconscious.",
 		"season": "Winter",
 		"year": "1024 FE"
 	},

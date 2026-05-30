@@ -472,30 +472,60 @@
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "tin-gate-north",
-		"title": "Exile from Luthadel",
-		"description": "Elend departs Luthadel with Vin through the Tin Gate, exiled by Penrod's government, heading north toward Terris to seek the Keeper synod's aid.",
+		"title": "Departure Through the Tin Gate",
+		"description": "As Elend prepares to leave for the Well, Tindwyl berates him for abandoning his people and questions his belief in the Well's power. He angrily orders her away but agrees to deliver a package to the Synod in Tathingdwen. With Spook and Allrianne joining them, Elend's party rides out through the Tin Gate, evading Straff's army with Vin's help.",
 		"season": "Late Winter",
 		"year": "1024 FE"
 	},
 	{
 		"book": "woa",
 		"chapter": 50,
-		"location": "luthadel",
-		"offset": [0, 50],
+		"location": "imperial-canal",
+		"offset": [19, -291],
 		"title": "The Journey North",
-		"description": "Elend's party travels toward Terris, but growing unease pushes them to reconsider. The Well of Ascension may not be where they thought.",
+		"description": "Elend, Vin, and Spook break camp a day north of Luthadel, believing they have slipped past Straff's scouts. Spook senses something trailing them, and Vin names it the mist spirit. Their certainty about the Well's location in the mountains begins to waver.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 51,
+		"location": "imperial-canal",
+		"offset": [16, -249],
+		"title": "Executing Jastes",
+		"description": "The five men trailing the party turn out to be Jastes Lekal, who abandoned the koloss when his counterfeit currency burned and he lost control of them. Furious that Jastes left the beasts to ravage Luthadel unchecked, Elend executes his old friend. When Spook reveals that Sazed deceived them into leaving, the group resolves to return.",
 		"season": "Late Winter",
 		"year": "1024 FE"
 	},
 	{
 		"book": "woa",
 		"chapter": 52,
+		"location": "imperial-canal",
+		"offset": [18, -277],
+		"title": "Turning Back",
+		"description": "While Vin races ahead on a pewter drag, Elend and Spook ride hard for Luthadel, unable to match her Allomantic speed but determined to reach the besieged city and aid any survivors of the koloss assault.",
+		"season": "Late Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 56,
+		"location": "imperial-canal",
+		"offset": [12, -200],
+		"title": "Refugees from Tathingdwen",
+		"description": "On the road, Elend encounters the mist spirit, which points north and tries to push him before vanishing. He and Spook meet a group of Terris refugees fleeing Tathingdwen, where Steel Inquisitors slaughtered the Synod. Elend accompanies them toward Luthadel, trusting that Vin has somehow prevailed.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 57,
 		"location": "luthadel",
 		"cityId": "luthadel",
-		"cityLandmark": "tin-gate-north",
-		"title": "The Battle",
-		"description": "Elend returns to find Luthadel under koloss assault, fighting through the chaos as the walls are breached and the city threatens to fall.",
-		"season": "Late Winter",
+		"cityLandmark": "kredik-shaw",
+		"title": "Emperor's Return",
+		"description": "Elend, Hammond, and Spook enter Luthadel among a crowd of refugees and meet Vin, who tells him he is now Emperor. Shedding his misgivings about governing, he follows Vin toward Kredik Shaw, where she believes the Well of Ascension lies hidden.",
+		"season": "Winter",
 		"year": "1024 FE"
 	},
 	{
@@ -505,7 +535,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "well-of-ascension",
 		"title": "To the Well",
-		"description": "Elend descends beneath Kredik Shaw with Vin, seeking the Well of Ascension as Marsh fights Sazed above them.",
+		"description": "Elend descends with Vin, Hammond, and Spook into the caverns beneath Kredik Shaw, finding a storage cache and a metal map of the Final Empire with Statlin City circled. At the glowing Well, he picks up a small bead of metal set in clay—then the mist spirit stabs him through the gut as Marsh battles Sazed above.",
 		"season": "Winter",
 		"year": "1024 FE"
 	},
@@ -516,7 +546,18 @@
 		"cityId": "luthadel",
 		"cityLandmark": "well-of-ascension",
 		"title": "The Mistborn Emperor",
-		"description": "Stabbed and dying at the Well, Elend is saved when Vin forces a bead of lerasium into his mouth, transforming him into a Mistborn.",
+		"description": "Stabbed and dying at the Well, Elend is saved when Vin forces the bead of the Lord Ruler's metal into his mouth, transforming him into a Mistborn.",
+		"season": "Winter",
+		"year": "1024 FE"
+	},
+	{
+		"book": "woa",
+		"chapter": 60,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "tin-gate-north",
+		"title": "On the City Wall",
+		"description": "Newly a Mistborn and confirmed Emperor of the Central Dominance, Elend stands with Vin atop the Luthadel city wall. As she despairs over having freed the thing imprisoned at the Well, he reassures her that they will endure whatever comes—even as the mists begin to linger into daylight, casting a shadow over their hard-won victory.",
 		"season": "Winter",
 		"year": "1024 FE"
 	},

@@ -189,6 +189,8 @@ export const zhData: DataTranslations = {
 		'pits-hathsin': {
 			name: '哈辛深坑',
 			description: '天金矿场和坎得拉的故乡。凯西尔是唯一活着逃出的囚犯。',
+			safeDescription:
+				'陆沙德东北方一处残酷的囚徒矿场，遍布深入地壳、狭窄锋利的垂直裂缝。被判刑的囚犯在这些幽闭的裂隙中爬行，寻找稀有的天金晶洞——帝国最珍贵的金属。少有人能长久存活。',
 			confidence: 'probable',
 		},
 		fellise: {

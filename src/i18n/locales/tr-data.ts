@@ -167,6 +167,8 @@ export const trData: DataTranslations = {
 			name: 'Hathsin Çukurları',
 			description:
 				'Atiumun kristalleştiği, yerde sivri çatlaklar olarak ortaya çıkan bir Dikeygeçit. Harita, yerkabuğunun derinliklerine inen dar, jilet keskinliğinde dikey çatlaklarla tanımlanır. Mahkûmlar geodlar arayarak bu klostrofobik tünellerde sürünürdü. Kelsier, kristalleri yok edip Atium üretimini sona erdirmeden önce haritalanmamış çatlak ağının derinliklerindeki gizli bir odada On Birinci Metali (Malatiumu) keşfetti.',
+			safeDescription:
+				'Luthadel\'in kuzeydoğusunda, yerkabuğunun derinliklerine inen dar, jilet keskinliğinde dikey çatlaklarla tanımlanan acımasız bir hapishane madeni. Mahkûmlar, İmparatorluğun en değerli metali olan nadir atium geodlarını aramak için bu klostrofobik yarıklarda sürünür. Çok azı uzun süre hayatta kalır.',
 		},
 		fellise: {
 			name: 'Fellise',
