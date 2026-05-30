@@ -81,12 +81,13 @@ export const AboutModal: React.FC = () => {
 										<strong>v0.7.0</strong> — {t.about.roadmap070}
 										<span className={styles.completeTag}>{t.about.roadmapCompleteTag}</span>
 									</li>
-									<li className={styles.roadmapCurrent}>
+									<li className={styles.roadmapComplete}>
 										<strong>v0.8.0</strong> — {t.about.roadmap080}
-										<span className={styles.currentTag}>{t.about.roadmapCurrentTag}</span>
+										<span className={styles.completeTag}>{t.about.roadmapCompleteTag}</span>
 									</li>
-									<li>
+									<li className={styles.roadmapCurrent}>
 										<strong>v0.9.0</strong> — {t.about.roadmap090}
+										<span className={styles.currentTag}>{t.about.roadmapCurrentTag}</span>
 									</li>
 									<li>
 										<strong>v1.0.0</strong> — {t.about.roadmap100}

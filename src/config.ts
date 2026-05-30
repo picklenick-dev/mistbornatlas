@@ -11,7 +11,7 @@ import type { LanguageCode } from '@/i18n/types';
 
 // ── App Version ──────────────────────────────────────────────s─────────────────
 
-export const APP_VERSION = '0.8.0';
+export const APP_VERSION = '0.9.0';
 
 // ── Timing ────────────────────────────────────────────────────────────────────
 
