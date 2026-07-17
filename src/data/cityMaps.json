@@ -121,8 +121,6 @@
 				"coords": [40.8, 61.2],
 				"description": "Site of public executions",
 				"safeDescription": "It is here that the Lord Ruler killed Kelsier. Later renamed the Square of the Survivor.",
-				"spoiler": { "book": "tfe", "chapter": 35 }
-				
 			},
 			{
 				"checked": true,
