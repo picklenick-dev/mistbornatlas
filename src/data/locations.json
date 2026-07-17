@@ -160,7 +160,8 @@
 		"type": "stronghold",
 		"dominance": "Northern",
 		"coords": [1642, 193],
-		"description": "A vertical fortress carved into a cliff face near the Northern border. The upper levels function as a standard Ministry temple (chapel, living quarters), but a steep spiraling stairwell descends into the truth: the Hall of Servants (mass graves), Inquisitor dormitories, and the Hemalurgy Chamber with its stone tables, drainage channels, and spike vault. Deep within, Sazed discovered Kwaan's steel plate inscription hidden in a secret alcove. This is where Inquisitors are made.",
+		"description": "A vertical fortress carved into a cliff face near the Northern border. The upper levels function as a standard Ministry temple (chapel, living quarters).",
+		"safeDescription": "A steep spiraling stairwell descends into the truth: the Hall of Servants (mass graves), Inquisitor dormitories, and the Hemalurgy Chamber with its stone tables, drainage channels, and spike vault. Deep within, Sazed discovered Kwaan's steel plate inscription hidden in a secret alcove. This is where Inquisitors are made.",
 		"features": ["Hemalurgy Chamber", "Kwaan's Inscription", "Inquisitor Stronghold"]
 	},
 	{
