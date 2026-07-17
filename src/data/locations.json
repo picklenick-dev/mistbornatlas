@@ -71,7 +71,8 @@
 		"type": "city",
 		"dominance": "Northern",
 		"coords": [1509, 916],
-		"description": "The capital of the Northern Dominance and ancestral seat of House Venture. Famous for its 'streetslots'—canals that were drained by the Lord Ruler to serve as sunken roadways. Stronghold of the Citizen (Quellion) during the Collapse.",
+		"description": "The capital of the Northern Dominance and ancestral seat of House Venture.",
+		"safeDescription": "Famous for its 'streetslots'—canals that were drained by the Lord Ruler to serve as sunken roadways. Stronghold of the Citizen (Quellion) during the Collapse.",
 		"features": ["Streetslots", "Dry Canals", "Storage Cavern"],
 		"cityMapId": "urteau"
 	},
@@ -91,7 +92,8 @@
 		"type": "city",
 		"dominance": "Western",
 		"coords": [881, 803],
-		"description": "A major trade hub that rose to prominence after the death of the Lord Ruler. Relies on natural rock formations ('cremnol' shelves) for defense rather than walls. Houses one of the Lord Ruler's secret Storage Caverns.",
+		"description": "A major trade hub.",
+		"safeDescription": "Rose to prominence after the death of the Lord Ruler. Relies on natural rock formations ('cremnol' shelves) for defense rather than walls. Houses one of the Lord Ruler's secret Storage Caverns.",
 		"features": ["Cremnol Formations", "Storage Cavern", "Natural Fortress"],
 		"cityMapId": "fadrex"
 	},
@@ -138,7 +140,8 @@
 		"type": "city",
 		"dominance": "Northern",
 		"coords": [1162, 508],
-		"description": "A Northern Dominance city built directly atop one of the Lord Ruler's Storage Caverns. The architecture adapted to heavy ashfall with subterranean expansions and Ministry-centric layout. By The Hero of Ages, the city is being consumed by ashdrifts, with citizens living on the upper floors of buildings as the lower levels fill with ash.",
+		"description": "A Northern Dominance city.",
+		"safeDescription": "Built directly atop one of the Lord Ruler's Storage Caverns. The architecture adapted to heavy ashfall with subterranean expansions and Ministry-centric layout. By The Hero of Ages, the city is being consumed by ashdrifts, with citizens living on the upper floors of buildings as the lower levels fill with ash.",
 		"features": ["Storage Cavern", "Ash Drifts", "Subterranean Adaptation"]
 	},
 	{
@@ -175,7 +178,8 @@
 		"type": "landmark",
 		"dominance": "Terris",
 		"coords": [1300, 1450],
-		"description": "A rugged mountain range where the Terris people were subjugated. The location of the original Well of Ascension before the Lord Ruler altered the world's geography."
+		"description": "A rugged mountain range where the Terris people were subjugated.",
+		"safeDescription": "The location of the original Well of Ascension before the Lord Ruler altered the world's geography."
 	},
 	{
 		"id": "tincut-fastness",
@@ -183,7 +187,8 @@
 		"type": "stronghold",
 		"dominance": "Terris",
 		"coords": [1250, 1480],
-		"description": "A hidden stronghold within the Terris mountains where the Synod and refugees retreated during the collapse of the Empire."
+		"description": "A hidden stronghold within the Terris mountains",
+		"safeDescription": "Where the Synod and refugees retreated during the collapse of the Empire."
 	},
 	{
 		"id": "high-villages",
@@ -210,7 +215,8 @@
 		"type": "hideout",
 		"dominance": "Central",
 		"coords": [1206.5, 901.4],
-		"description": "Deep caverns beneath the Pits of Hathsin, home of the kandra people who guard the Lord Ruler's greatest secrets including the Trust."
+		"description": "Deep caverns beneath the Pits of Hathsin, home of the kandra people who guard the Lord Ruler's greatest secrets including the Trust.",
+		"spoiler": { "book": "hoa", "chapter": 60 }
 	},
 	{
 		"checked": true,
@@ -245,7 +251,8 @@
 		"type": "city",
 		"dominance": "Southern",
 		"coords": [1180, 480],
-		"description": "Southern anchor of the Storage Cavern network. Contains Storage Cavern 2 with emergency supplies.",
+		"description": "Southern city",
+		"safeDescription": "Southern anchor of the Storage Cavern network. Contains Storage Cavern 2 with emergency supplies.",
 		"features": ["Storage Cavern 2"]
 	},
 	{
@@ -294,7 +301,7 @@
 		"type": "landmark",
 		"dominance": "None",
 		"coords": [412, 908],
-		"description": "The outermost edge of the Final Empire's inhabited territory—an uninhabitable desert zone on the western edge of the continent, too close to the sun after Rashek's alterations. The Western Dominance borders on these wastes where the 'wasted men' (tribes rebelling against the Final Empire) survive beyond Imperial control."
+		"description": "The outermost edge of the Final Empire's inhabited territory—an uninhabitable desert zone on the western edge of the continent. The Western Dominance borders on these wastes where the 'wasted men' (tribes rebelling against the Final Empire) survive beyond Imperial control.",
 	},
 	{
 		"checked": true,
@@ -312,7 +319,8 @@
 		"type": "hideout",
 		"dominance": "Central",
 		"coords": [1270, 925],
-		"description": "A network of limestone caves in the mountains between Luthadel and the Pits of Hathsin. Used by Kelsier's rebel army as a hidden staging ground, these caverns provided shelter for thousands of skaa soldiers training for the revolution."
+		"description": "A network of limestone caves in the mountains between Luthadel and the Pits of Hathsin.",
+		"safeDescription": "Used by Kelsier's rebel army as a hidden staging ground, these caverns provided shelter for thousands of skaa soldiers training for the revolution."
 	},
 	{
 		"id": "garthwood",
@@ -398,7 +406,8 @@
 		"type": "city",
 		"dominance": "Central",
 		"coords": [1248, 842],
-		"description": "A major garrison city located northwest of Luthadel. It housed a standing army of 5,000 soldiers who intercepted and massacred Yeden's rebellion army near the town of Holstep, demonstrating the Lord Ruler's ability to project rapid military force."
+		"description": "A major garrison city located northwest of Luthadel.",
+		"safeDescription": "It housed a standing army of 5,000 soldiers who intercepted and massacred Yeden's rebellion army near the town of Holstep, demonstrating the Lord Ruler's ability to project rapid military force."
 	},
 	{
 		"id": "haverfrex-cannery-central",
@@ -406,7 +415,8 @@
 		"type": "industrial",
 		"dominance": "Central",
 		"coords": [1286, 891],
-		"description": "An industrial waypoint in the Central Dominance known for its large-scale cannery. It served as the primary supply node for Lord Ashweather Cett's army during the Siege of Luthadel, providing the logistical endurance necessary for a long-term military presence."
+		"description": "An industrial waypoint in the Central Dominance known for its large-scale cannery.",
+		"safeDescription": "It served as the primary supply node for Lord Ashweather Cett's army during the Siege of Luthadel, providing the logistical endurance necessary for a long-term military presence."
 	},
 	{
 		"id": "cetts-camp",
