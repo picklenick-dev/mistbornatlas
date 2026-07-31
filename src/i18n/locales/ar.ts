@@ -152,6 +152,8 @@ export const ar: Translation = {
 		cityLandmarksNote: 'معالم المدينة مرئية دائماً',
 		readAlongMode: 'وضع القراءة المتزامنة',
 		readAlongModeTitle: 'إخفاء أوصاف التنقل حتى النقر عليها — مثالي للقراءة مع الخريطة',
+		readAlongOn: 'قراءة متزامنة',
+		readAlongOff: 'الكل مرئي',
 		statusOn: 'مفعّل',
 		statusOff: 'معطّل',
 	},
@@ -325,6 +327,7 @@ export const ar: Translation = {
 		roadmap080: 'بئر الصعود — الجدول الزمني مكتمل',
 		roadmap090: 'بطل العصور — الجدول الزمني مكتمل',
 		roadmap100: 'التاريخ السري — الجدول الزمني مكتمل',
+		translationNote: 'الترجمات مولدة بالذكاء الاصطناعي ولم يراجعها متحدثون أصليون بعد.',
 	},
 
 	welcome: {

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Marker, Popup, Tooltip } from 'react-leaflet';
 import L from 'leaflet';
 import { useMapContext } from '@/context/MapContext';
@@ -41,8 +41,16 @@ interface CharacterMarkerProps {
 	positionIndex?: number;
 }
 
-const createCharacterIcon = (characterId: CharacterId, imageSrc: string): L.DivIcon => {
+const createCharacterIcon = (
+	characterId: CharacterId,
+	imageSrc: string,
+	partNumber?: number,
+): L.DivIcon => {
 	const color = CHARACTER_COLORS[characterId];
+	const badgeHtml =
+		partNumber && partNumber > 0
+			? `<span class="part-badge" style="background:${color};border-color:${color};color:${isLightColor(color) ? '#1a1a2e' : '#fff'}">${partNumber}</span>`
+			: '';
 
 	return L.divIcon({
 		className: `character-marker-icon ${characterId}`,
@@ -51,7 +59,7 @@ const createCharacterIcon = (characterId: CharacterId, imageSrc: string): L.DivI
 		popupAnchor: CHARACTER_POPUP_ANCHOR,
 		html: `<div class="character-portrait-marker" data-image="${imageSrc.split('/').pop()}" style="border-color: ${color}; box-shadow: 0 0 10px ${color}, 0 0 20px ${color}40;">
       <img src="${imageSrc}" alt="${characterId}" draggable="false" />
-    </div>`,
+    </div>${badgeHtml}`,
 	});
 };
 
@@ -195,7 +203,10 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 		currentChapter,
 		showAllCharacters
 	);
-	const icon = createCharacterIcon(character.id, characterImage);
+	const icon = useMemo(
+		() => createCharacterIcon(character.id, characterImage, partNumber),
+		[character.id, characterImage, partNumber],
+	);
 	const color = CHARACTER_COLORS[character.id];
 	const charColorVars = {
 		'--char-color': color,
@@ -211,6 +222,7 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 	);
 	const movementKey = `${activeMovement.book}-${activeMovement.chapter}`;
 	const movTrans = t.data.movements[character.id]?.[movementKey];
+	const movPlacementNote = movTrans?.placementNote ?? activeMovement.placementNote;
 	const charName = charTrans?.name ?? character.name;
 
 	// Path-highlight helpers (shared between desktop mouseover and mobile popup open/close)
@@ -260,7 +272,11 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 			? movDescription.slice(0, DESCRIPTION_LIMIT) + '...'
 			: movDescription;
 
-	const isSpoilerRedacted = hideMovementSpoilers && !showAllCharacters && !spoilerRevealed;
+	const isSpoilerRedacted =
+		hideMovementSpoilers &&
+		!showAllCharacters &&
+		!spoilerRevealed &&
+		Math.floor(activeMovement.chapter) >= currentChapter;
 
 	// History navigation
 	const canGoBack = displayIdx > 0;
@@ -428,6 +444,7 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 							)}
 						</>
 					)}
+					{(!hideMovementSpoilers || spoilerRevealed) && movPlacementNote && <div className="popup-placement-note">{movPlacementNote}</div>}
 					<div className="popup-metadata">
 						<div className="popup-meta-item">
 							<span className="popup-meta-label">{t.characterMarker.chapter}</span>

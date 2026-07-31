@@ -3,6 +3,8 @@ import { Marker, Tooltip, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import { usePopupPosition, DESCRIPTION_LIMIT } from '@/hooks';
 import { useLanguage } from '@/context/LanguageContext';
+import { useMapContext } from '@/context/MapContext';
+import { isPastReadingPoint } from '@/utils';
 import { getCityLandmarkTheme, MARKER_SIZE } from '@/utils/locationTheme';
 import type { CityLandmark, CityId } from '@/types';
 
@@ -16,10 +18,26 @@ export const CityLandmarkMarker: React.FC<CityLandmarkMarkerProps> = ({ landmark
 	const [showFullDescription, setShowFullDescription] = useState(false);
 	const { isPopupOpen, popupEventHandlers } = usePopupPosition();
 	const { t } = useLanguage();
+	const { currentBook, currentChapter, hideMovementSpoilers } = useMapContext();
 	const theme = getCityLandmarkTheme(landmark.type);
 	const lmTrans = t.data.cityLandmarks[cityId]?.[landmark.id];
 	const lmName = lmTrans?.name ?? landmark.name;
-	const lmDescription = lmTrans?.description ?? landmark.description;
+	const lmPlacementNote = lmTrans?.placementNote ?? landmark.placementNote;
+
+	// Spoiler-gated description: show safe version until reader reaches the chapter
+	const spoilerHidden =
+		!!landmark.spoiler &&
+		!!landmark.safeDescription &&
+		hideMovementSpoilers &&
+		!isPastReadingPoint(
+			landmark.spoiler.book,
+			landmark.spoiler.chapter,
+			currentBook,
+			currentChapter
+		);
+	const lmDescription = spoilerHidden
+		? (lmTrans?.safeDescription ?? (landmark.safeDescription as string))
+		: (lmTrans?.description ?? landmark.description);
 
 	useEffect(() => {
 		const marker = markerRef.current;
@@ -78,6 +96,7 @@ export const CityLandmarkMarker: React.FC<CityLandmarkMarkerProps> = ({ landmark
 							{showFullDescription ? t.cityLandmark.showLess : t.cityLandmark.readMore}
 						</button>
 					)}
+					{lmPlacementNote && <div className="popup-placement-note">{lmPlacementNote}</div>}
 					<div className="popup-metadata">
 						<div className="popup-meta-item">
 							<span className="popup-meta-label">{t.cityLandmark.locationType}</span>

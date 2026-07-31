@@ -153,6 +153,8 @@ export const en: Translation = {
 		readAlongMode: 'Read-along Mode',
 		readAlongModeTitle:
 			'Hide movement descriptions until clicked — perfect for reading the book alongside the map',
+		readAlongOn: 'Read-along',
+		readAlongOff: 'All visible',
 		statusOn: 'ON',
 		statusOff: 'OFF',
 	},
@@ -328,6 +330,7 @@ export const en: Translation = {
 		roadmap080: 'The Well of Ascension — timeline complete',
 		roadmap090: 'The Hero of Ages — timeline complete',
 		roadmap100: 'Secret History — timeline complete',
+		translationNote: 'Translations are AI-generated and not yet reviewed by native speakers.',
 	},
 
 	welcome: {

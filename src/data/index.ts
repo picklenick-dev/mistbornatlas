@@ -8,6 +8,7 @@ import type {
 	CityMap,
 	CityLandmark,
 	CityId,
+	Season,
 } from '@/types';
 
 export {
@@ -23,6 +24,7 @@ import booksData from './books.json';
 import charactersData from './characters.json';
 import locationsData from './locations.json';
 import cityMapsData from './cityMaps.json';
+import chapterSeasons from './chapterSeasons.json';
 
 import vinMovements from './movements/vin.json';
 import kelsierMovements from './movements/kelsier.json';
@@ -92,6 +94,9 @@ const resolveMovement = (raw: RawMovement): Movement => {
 
 	const cityLandmarkId = raw.cityLandmark;
 
+	// Look up season/year from centralized chapterSeasons map
+	const seasonInfo = (chapterSeasons as Record<string, Record<string, { season: string; year: string }>>)[raw.book]?.[String(Math.floor(raw.chapter))];
+
 	return {
 		book: raw.book,
 		chapter: raw.chapter,
@@ -102,9 +107,10 @@ const resolveMovement = (raw: RawMovement): Movement => {
 		cityCoords,
 		title: raw.title,
 		description: raw.description,
-		season: raw.season,
-		year: raw.year,
+		season: (raw.season ?? seasonInfo?.season ?? 'Unknown') as Season,
+		year: raw.year ?? seasonInfo?.year ?? 'Unknown',
 		secretHistory: raw.secretHistory,
+		placementNote: raw.placementNote,
 	};
 };
 

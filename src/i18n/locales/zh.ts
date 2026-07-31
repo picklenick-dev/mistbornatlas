@@ -150,6 +150,8 @@ export const zh: Translation = {
 		cityLandmarksNote: '城市地标始终可见',
 		readAlongMode: '伴读模式',
 		readAlongModeTitle: '点击前隐藏移动描述 — 适合边读边看地图',
+		readAlongOn: '',
+		readAlongOff: '',
 		statusOn: '开启',
 		statusOff: '关闭',
 	},
@@ -322,6 +324,7 @@ export const zh: Translation = {
 		roadmap080: '升华之井 — 时间线完成',
 		roadmap090: '永世英雄 — 时间线完成',
 		roadmap100: '秘密历史 — 时间线完成',
+		translationNote: '翻译由AI生成，尚未经过母语者审核。',
 	},
 
 	welcome: {

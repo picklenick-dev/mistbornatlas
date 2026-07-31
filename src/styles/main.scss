@@ -551,13 +551,31 @@
 	cursor: pointer;
 	transition: transform 0.15s ease;
 
+	.part-badge {
+		position: absolute;
+		bottom: -2px;
+		right: -2px;
+		width: 17px;
+		height: 17px;
+		border-radius: 50%;
+		color: #fff;
+		font-size: 10px;
+		font-weight: 700;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		line-height: 1;
+		pointer-events: none;
+		z-index: 10;
+	}
+
 	&:hover {
 		transform: scale(1.2);
 	}
 }
 
 .character-portrait-marker {
-	@include mixins.portrait-icon(44px, -8%);
+	@include mixins.portrait-icon(48px, -8%);
 	border-width: 3px;
 	background: #1a1a2e;
 	transition:

@@ -154,6 +154,8 @@ export const ru: Translation = {
 		readAlongMode: 'Режим чтения',
 		readAlongModeTitle:
 			'Скрывать описания перемещений до нажатия — идеально для чтения вместе с картой',
+		readAlongOn: '',
+		readAlongOff: '',
 		statusOn: 'ВКЛ',
 		statusOff: 'ВЫКЛ',
 	},
@@ -328,6 +330,7 @@ export const ru: Translation = {
 		roadmap080: 'Источник Вознесения — хронология завершена',
 		roadmap090: 'Герой веков — хронология завершена',
 		roadmap100: 'Тайная история — хронология завершена',
+		translationNote: 'Переводы созданы ИИ и ещё не проверены носителями языка.',
 	},
 
 	welcome: {

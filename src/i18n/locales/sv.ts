@@ -153,6 +153,8 @@ export const sv: Translation = {
 		readAlongMode: 'Medläsningsläge',
 		readAlongModeTitle:
 			'Dölj förflyttningsbeskrivningar tills de klickas — perfekt för att läsa med kartan',
+		readAlongOn: '',
+		readAlongOff: '',
 		statusOn: 'PÅ',
 		statusOff: 'AV',
 	},
@@ -328,6 +330,7 @@ export const sv: Translation = {
 		roadmap080: 'Uppstigningens Brunn — tidslinje klar',
 		roadmap090: 'Evighetens Hjälte — tidslinje klar',
 		roadmap100: 'Hemlig Historia — tidslinje klar',
+		translationNote: 'Översättningarna är AI-genererade och har ännu inte granskats av modersmålstalare.',
 	},
 
 	welcome: {

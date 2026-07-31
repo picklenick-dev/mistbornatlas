@@ -6,9 +6,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "camons-safehouse",
 		"title": "Street Urchin",
-		"description": "Vin is summoned to meet her crewleader Camon, who is rough with her. She unconsciously uses her Luck—a form of Allomantic Soothing—to placate him. Camon pretends to be Lord Jedue, a nobleman desperately seeking new contracts, and prepares to scam the Steel Ministry. Vin uses her Luck on the obligator Prelan Laird so he won't dismiss Camon's pleas.",
-		"season": "Spring",
-		"year": "1021 FE"
+		"description": "Vin is summoned to meet her crewleader Camon, who is rough with her. She unconsciously uses her Luck—a form of Allomantic Soothing—to placate him. Camon pretends to be Lord Jedue, a nobleman desperately seeking new contracts, and prepares to scam the Steel Ministry. Vin uses her Luck on the obligator Prelan Laird so he won't dismiss Camon's pleas."
 	},
 	{
 		"book": "tfe",
@@ -17,9 +15,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "canton-of-finance",
 		"title": "The Ministry Scam",
-		"description": "Camon, as Lord Jedue, takes Vin to the Canton of Finance to scam the Ministry. Vin uses her Luck on the High Prelan, who gives Camon three thousand boxings. Kelsier and Dockson sit in the waiting room and notice Vin's Allomantic pulses. Afterward, they spot a Steel Inquisitor tailing Camon's retinue.",
-		"season": "Spring",
-		"year": "1021 FE"
+		"description": "Camon, as Lord Jedue, takes Vin to the Canton of Finance to scam the Ministry. Vin uses her Luck on the High Prelan, who gives Camon three thousand boxings. Kelsier and Dockson sit in the waiting room and notice Vin's Allomantic pulses. Afterward, they spot a Steel Inquisitor tailing Camon's retinue."
 	},
 	{
 		"book": "tfe",
@@ -28,9 +24,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Recruited",
-		"description": "Kelsier pitches his plan to overthrow the Final Empire to the crew at Clubs' carpentry shop. The crew agrees—except Clubs, who walks out before eventually returning. Kelsier reveals to the others that Vin is a Mistborn, then tells them about and shows them the Eleventh Metal.",
-		"season": "Spring",
-		"year": "1021 FE"
+		"description": "Kelsier pitches his plan to overthrow the Final Empire to the crew at Clubs' carpentry shop. The crew agrees—except Clubs, who walks out before eventually returning. Kelsier reveals to the others that Vin is a Mistborn, then tells them about and shows them the Eleventh Metal."
 	},
 	{
 		"book": "tfe",
@@ -39,27 +33,21 @@
 		"cityId": "luthadel",
 		"cityLandmark": "steel-gate",
 		"title": "Mistborn Training",
-		"description": "Kelsier takes Vin out for her first night of training, giving her a Mistcloak. He teaches her about the eight basic metals—tin, pewter, iron, steel, zinc, brass, copper, and bronze—ending the night at the Luthadel city wall.",
-		"season": "Late Spring",
-		"year": "1021 FE"
+		"description": "Kelsier takes Vin out for her first night of training, giving her a Mistcloak. He teaches her about the eight basic metals—tin, pewter, iron, steel, zinc, brass, copper, and bronze—ending the night at the Luthadel city wall."
 	},
 	{
 		"book": "tfe",
 		"chapter": 8,
 		"location": "fellise",
 		"title": "The Renoux Estate",
-		"description": "Vin and Kelsier go over the Luthadel walls into the night wilderness, where Vin encounters a mistwraith for the first time. On the main road, Sazed is waiting with a carriage and takes them to Fellise. On the way, Kelsier offers Vin the three thousand boxings and the chance to leave the crew. She takes the money but stays because she wants to see how things turn out. At Lord Renoux's estate, Renoux proposes that Vin play the part of Lady Valette, a daughter of a favored cousin, to be introduced to the other noble houses.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Vin and Kelsier go over the Luthadel walls into the night wilderness, where Vin encounters a mistwraith for the first time. On the main road, Sazed is waiting with a carriage and takes them to Fellise. On the way, Kelsier offers Vin the three thousand boxings and the chance to leave the crew. She takes the money but stays because she wants to see how things turn out. At Lord Renoux's estate, Renoux proposes that Vin play the part of Lady Valette, a daughter of a favored cousin, to be introduced to the other noble houses."
 	},
 	{
 		"book": "tfe",
 		"chapter": 9,
 		"location": "fellise",
 		"title": "Training with Sazed",
-		"description": "Vin and Kelsier spar in a training match at the Renoux estate. Afterward, Vin gets a haircut and is quizzed over her noble cover by Sazed, who also tells her about Trelagism—the fifth religion he has pitched to her. Kelsier and Sazed later talk in private about Vin's progress, with Kelsier declaring she will attend a ball at Keep Venture at the end of the week.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Vin and Kelsier spar in a training match at the Renoux estate. Afterward, Vin gets a haircut and is quizzed over her noble cover by Sazed, who also tells her about Trelagism—the fifth religion he has pitched to her. Kelsier and Sazed later talk in private about Vin's progress, with Kelsier declaring she will attend a ball at Keep Venture at the end of the week."
 	},
 	{
 		"book": "tfe",
@@ -68,9 +56,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Return to the Crew",
-		"description": "Vin returns to Luthadel from Fellise to learn about metals from the crew's Mistings, starting with Breeze who teaches her about Soothing. Hammond arrives and debates the morality of overthrowing the Final Empire as they wait for Kelsier to give a speech.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Vin returns to Luthadel from Fellise to learn about metals from the crew's Mistings, starting with Breeze who teaches her about Soothing. Hammond arrives and debates the morality of overthrowing the Final Empire as they wait for Kelsier to give a speech."
 	},
 	{
 		"book": "tfe",
@@ -79,9 +65,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "warehouse-district",
 		"title": "The Warehouse Rally",
-		"description": "Vin attends a secret rally in the warehouse district where Kelsier preaches revolution to gathered skaa workers, with Breeze and his Soothers and Rioters manipulating the crowd. Afterward, Kelsier holds a progress meeting at Clubs' shop. Vin and Lestibournes talk about Marsh. The meeting ends when one of Hammond's soldiers reports the Steel Ministry has discovered Camon's old lair.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Vin attends a secret rally in the warehouse district where Kelsier preaches revolution to gathered skaa workers, with Breeze and his Soothers and Rioters manipulating the crowd. Afterward, Kelsier holds a progress meeting at Clubs' shop. Vin and Lestibournes talk about Marsh. The meeting ends when one of Hammond's soldiers reports the Steel Ministry has discovered Camon's old lair."
 	},
 	{
 		"book": "tfe",
@@ -90,9 +74,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "camons-safehouse",
 		"title": "Camon's Lair Massacre",
-		"description": "Vin and the crew investigate the destroyed lair, finding corpses throughout. Among them, Vin notices Ulef—someone had ripped his rib cage apart with bare hands. Sazed recites a prayer of the Cazzi religion off to the side. Milev's body is found tied to a chair, clearly tortured. After leaving, Kelsier finds Camon's corpse hung from a hook rammed through his mouth, wrists and ankles bound and body tortured.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Vin and the crew investigate the destroyed lair, finding corpses throughout. Among them, Vin notices Ulef—someone had ripped his rib cage apart with bare hands. Sazed recites a prayer of the Cazzi religion off to the side. Milev's body is found tied to a chair, clearly tortured. After leaving, Kelsier finds Camon's corpse hung from a hook rammed through his mouth, wrists and ankles bound and body tortured."
 	},
 	{
 		"book": "tfe",
@@ -101,18 +83,14 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "First Ball at Keep Venture",
-		"description": "Vin heads off to her first ball at Keep Venture, Sazed driving the carriage. Kelsier drops in while the carriage is en route, gives Vin some advice, then jumps back into the mists. Vin arrives and is introduced as Lady Valette Renoux. During dinner she sees her father across the room—Reen had identified him to her when she was younger. She declines dancing invitations from various nobles, then takes a break upstairs on the balcony, where she has her first conversation with Elend Venture, which shocks Sazed when he hears about it.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Vin heads off to her first ball at Keep Venture, Sazed driving the carriage. Kelsier drops in while the carriage is en route, gives Vin some advice, then jumps back into the mists. Vin arrives and is introduced as Lady Valette Renoux. During dinner she sees her father across the room—Reen had identified him to her when she was younger. She declines dancing invitations from various nobles, then takes a break upstairs on the balcony, where she has her first conversation with Elend Venture, which shocks Sazed when he hears about it."
 	},
 	{
 		"book": "tfe",
 		"chapter": 13,
 		"location": "fellise",
 		"title": "Return to Fellise",
-		"description": "Sazed questions Vin about her interaction with Elend at the Renoux estate. Vin's true personality is beginning to emerge—neither the timid crewmember nor Lady Valette. Kelsier learns that Vin's father was at the ball, then heads out into the mists again.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Sazed questions Vin about her interaction with Elend at the Renoux estate. Vin's true personality is beginning to emerge—neither the timid crewmember nor Lady Valette. Kelsier learns that Vin's father was at the ball, then heads out into the mists again."
 	},
 	{
 		"book": "tfe",
@@ -121,9 +99,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Into Kredik Shaw",
-		"description": "Kelsier leads Vin into Kredik Shaw, and they fight their way toward the building the Lord Ruler visits every three days. Vin kills for the first time. Three Steel Inquisitors close in on them. To defend herself from sharpened metal triangles being Pushed at her, Vin grabs a random leather-bound book. Burning atium, she manages a temporary escape before an Inquisitor impales her in the side with an obsidian-bladed axe. Vin escapes Kredik Shaw still clutching the book, but as she loses consciousness, something distracts the pursuing Inquisitor and takes her into a protective embrace—it wasn't Kelsier.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Kelsier leads Vin into Kredik Shaw, and they fight their way toward the building the Lord Ruler visits every three days. Vin kills for the first time. Three Steel Inquisitors close in on them. To defend herself from sharpened metal triangles being Pushed at her, Vin grabs a random leather-bound book. Burning atium, she manages a temporary escape before an Inquisitor impales her in the side with an obsidian-bladed axe. Vin escapes Kredik Shaw still clutching the book, but as she loses consciousness, something distracts the pursuing Inquisitor and takes her into a protective embrace—it wasn't Kelsier."
 	},
 	{
 		"book": "tfe",
@@ -132,9 +108,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Wounded",
-		"description": "The crew argues about Kelsier's decision to take Vin to Kredik Shaw. Before they can go out to search for her, Sazed arrives carrying Vin. She is fed pewter to help her heal from her wounds. Sazed operates on her, stitching her back together, and Ham carries her to a room to recover. Kelsier and Dockson notice the leather-bound book she brought back, and Sazed identifies it as written in Khlenni—the pre-Ascension language of the Lord Ruler's homeland.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "The crew argues about Kelsier's decision to take Vin to Kredik Shaw. Before they can go out to search for her, Sazed arrives carrying Vin. She is fed pewter to help her heal from her wounds. Sazed operates on her, stitching her back together, and Ham carries her to a room to recover. Kelsier and Dockson notice the leather-bound book she brought back, and Sazed identifies it as written in Khlenni—the pre-Ascension language of the Lord Ruler's homeland."
 	},
 	{
 		"book": "tfe",
@@ -143,27 +117,21 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Recovery at Clubs' Shop",
-		"description": "Vin awakens after two weeks of rest at Clubs' shop. Spook has been watching over her and tells her how Kelsier gave him his new nickname. While talking with Dockson, Vin realizes there is something very unusual about Sazed.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Vin awakens after two weeks of rest at Clubs' shop. Spook has been watching over her and tells her how Kelsier gave him his new nickname. While talking with Dockson, Vin realizes there is something very unusual about Sazed."
 	},
 	{
 		"book": "tfe",
 		"chapter": 16.2,
 		"location": "fellise",
 		"title": "Return to Fellise",
-		"description": "After a few more days of rest, Vin returns to the Renoux estate in Fellise. She speaks with Sazed, who explains what Keepers are and reveals that all Terrisman stewards are eunuchs.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "After a few more days of rest, Vin returns to the Renoux estate in Fellise. She speaks with Sazed, who explains what Keepers are and reveals that all Terrisman stewards are eunuchs."
 	},
 	{
 		"book": "tfe",
 		"chapter": 17,
 		"location": "fellise",
 		"title": "The Garden of Mansion Renoux",
-		"description": "Vin laments a four-week recovery full of boredom at the Renoux estate. Members of the crew arrive to discuss updates. Vin convinces Kelsier to let her attend an upcoming ball. Later, Vin and Kelsier talk about Mare, his motivations, and he explains Snapping—the traumatic event that awakens Allomantic powers.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Vin laments a four-week recovery full of boredom at the Renoux estate. Members of the crew arrive to discuss updates. Vin convinces Kelsier to let her attend an upcoming ball. Later, Vin and Kelsier talk about Mare, his motivations, and he explains Snapping—the traumatic event that awakens Allomantic powers."
 	},
 	{
 		"book": "tfe",
@@ -172,36 +140,28 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-elariel",
 		"title": "Ball at Keep Elariel",
-		"description": "Vin attends a ball at Keep Elariel with Sazed. Elend Venture joins her at a table, sitting and reading as usual. He compliments her dress, leaving her jaw-dropped. She dances with various nobles and asks about Elend, learning about Lady Shan Elariel who has spoken about Vin. After much dancing, Vin is required to meet with Shan Elariel. During the conversation, Vin realizes that Shan can Soothe. Vin notices Shan's Terrisman poking through Elend's books—left unattended at her table—so she excuses herself and returns. She scans through a small book that is practically treasonous in its content. Elend returns, gathers his books, and leaves, met on the way by two friends. Sazed identifies them as Jastes Lekal and a Hasting—surprising, since Lekal and Hasting are political rivals of Venture. As Vin leaves the ball, she witnesses a city guard slit the throat of a young skaa kitchen boy in the mists.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Vin attends a ball at Keep Elariel with Sazed. Elend Venture joins her at a table, sitting and reading as usual. He compliments her dress, leaving her jaw-dropped. She dances with various nobles and asks about Elend, learning about Lady Shan Elariel who has spoken about Vin. After much dancing, Vin is required to meet with Shan Elariel. During the conversation, Vin realizes that Shan can Soothe. Vin notices Shan's Terrisman poking through Elend's books—left unattended at her table—so she excuses herself and returns. She scans through a small book that is practically treasonous in its content. Elend returns, gathers his books, and leaves, met on the way by two friends. Sazed identifies them as Jastes Lekal and a Hasting—surprising, since Lekal and Hasting are political rivals of Venture. As Vin leaves the ball, she witnesses a city guard slit the throat of a young skaa kitchen boy in the mists."
 	},
 	{
 		"book": "tfe",
 		"chapter": 19,
 		"location": "fellise",
 		"title": "Returning to Fellise",
-		"description": "Kelsier returns to Mansion Renoux via the Spikeway and meets with Vin, Sazed, and Renoux. He lectures Vin about noblemen, insisting they don't care about the skaa and that she should keep away from Elend Venture.",
-		"season": "Late Summer",
-		"year": "1021 FE"
+		"description": "Kelsier returns to Mansion Renoux via the Spikeway and meets with Vin, Sazed, and Renoux. He lectures Vin about noblemen, insisting they don't care about the skaa and that she should keep away from Elend Venture."
 	},
 	{
 		"book": "tfe",
 		"chapter": 20,
 		"location": "fellise",
 		"title": "Seeking Lessons",
-		"description": "Vin returns from Luthadel to see weapons being crated up in front of Renoux's mansion, to be shipped out for the rebellion. Marsh arrives soon after and teaches her about Seeking—using bronze to sense other Allomancers burning metals—as well as additional details about Allomancy in general.",
-		"season": "Late Summer",
-		"year": "1021 FE"
+		"description": "Vin returns from Luthadel to see weapons being crated up in front of Renoux's mansion, to be shipped out for the rebellion. Marsh arrives soon after and teaches her about Seeking—using bronze to sense other Allomancers burning metals—as well as additional details about Allomancy in general."
 	},
 	{
 		"book": "tfe",
 		"chapter": 22,
 		"location": "fellise",
 		"title": "The Logbook",
-		"description": "Vin reads from her copy of the Lord Ruler's logbook at the Renoux estate when Spook arrives. He gives her a handkerchief—Sazed later explains that this is how a young man signals he would like to seriously court a lady. While waiting for Dockson, Vin talks to Sazed about the Terrisman in the journal, and Sazed reveals the secrets of Feruchemy and how the Keepers were formed to remember everything after the Terris religion was lost. Vin then speaks with Dockson, who tells her how a woman he loved was taken by Lord Devinshae and killed the next morning, insisting all noblemen are like that.",
-		"season": "Autumn",
-		"year": "1021 FE"
+		"description": "Vin reads from her copy of the Lord Ruler's logbook at the Renoux estate when Spook arrives. He gives her a handkerchief—Sazed later explains that this is how a young man signals he would like to seriously court a lady. While waiting for Dockson, Vin talks to Sazed about the Terrisman in the journal, and Sazed reveals the secrets of Feruchemy and how the Keepers were formed to remember everything after the Terris religion was lost. Vin then speaks with Dockson, who tells her how a woman he loved was taken by Lord Devinshae and killed the next morning, insisting all noblemen are like that."
 	},
 	{
 		"book": "tfe",
@@ -210,9 +170,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-hasting",
 		"title": "Ball at Keep Hasting",
-		"description": "Vin attends a ball at Keep Hasting, pleased to hear that Kelsier's efforts at stoking tension among the Houses are working. She also learns that the Inquisitors are tracking down skaa thieves more frequently. Lady Shan approaches and tells Vin to search through Elend's books the next time she sees him and report back. As Vin waits for Sazed, she finds Elend and asks him whether he has ever slept with a skaa woman. Elend confesses that his father forced him to when he was thirteen, and the woman was killed afterward, but he never did it again. Elend gives Vin a handkerchief, signaling his wish to court her. After Elend leaves with his friends, Vin follows them using Allomancy to a tower where they discuss the Lord Ruler's faults and what their generation should do about it. Kelsier appears suddenly and dismisses the group's ideas as typical youthful idealism that changes nothing.",
-		"season": "Autumn",
-		"year": "1021 FE"
+		"description": "Vin attends a ball at Keep Hasting, pleased to hear that Kelsier's efforts at stoking tension among the Houses are working. She also learns that the Inquisitors are tracking down skaa thieves more frequently. Lady Shan approaches and tells Vin to search through Elend's books the next time she sees him and report back. As Vin waits for Sazed, she finds Elend and asks him whether he has ever slept with a skaa woman. Elend confesses that his father forced him to when he was thirteen, and the woman was killed afterward, but he never did it again. Elend gives Vin a handkerchief, signaling his wish to court her. After Elend leaves with his friends, Vin follows them using Allomancy to a tower where they discuss the Lord Ruler's faults and what their generation should do about it. Kelsier appears suddenly and dismisses the group's ideas as typical youthful idealism that changes nothing."
 	},
 	{
 		"book": "tfe",
@@ -221,9 +179,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Crew Meeting",
-		"description": "Vin and Kelsier arrive at Clubs' shop where many of the crew are gathered. Kelsier discusses the status of the mission, and Vin realizes how much she loves her new life—no longer hiding in the shadows. Kelsier, Spook, Ham, and Clubs share a late-night drink.",
-		"season": "Autumn",
-		"year": "1021 FE"
+		"description": "Vin and Kelsier arrive at Clubs' shop where many of the crew are gathered. Kelsier discusses the status of the mission, and Vin realizes how much she loves her new life—no longer hiding in the shadows. Kelsier, Spook, Ham, and Clubs share a late-night drink."
 	},
 	{
 		"book": "tfe",
@@ -232,9 +188,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "luthadel-garrison",
 		"title": "The Garrison Visit",
-		"description": "Vin changes into her urchin clothes and goes out with Ham to visit the Luthadel Garrison to learn about pewter. Ham explains that many of the soldiers are ordinary skaa who just want a normal living. At the garrison, they learn from a guard named Sertes that the Luthadel Garrison is mobilizing—a skaa rebellion has attacked the Holstep Garrison to the north.",
-		"season": "Autumn",
-		"year": "1021 FE"
+		"description": "Vin changes into her urchin clothes and goes out with Ham to visit the Luthadel Garrison to learn about pewter. Ham explains that many of the soldiers are ordinary skaa who just want a normal living. At the garrison, they learn from a guard named Sertes that the Luthadel Garrison is mobilizing—a skaa rebellion has attacked the Holstep Garrison to the north."
 	},
 	{
 		"book": "tfe",
@@ -243,18 +197,14 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Urgent News",
-		"description": "At Clubs' shop, Ham returns with news that the Luthadel Garrison is moving north toward Holstep. Kelsier makes Vin swallow five pewter beads so they can run north to warn the rebel army.",
-		"season": "Late Autumn",
-		"year": "1021 FE"
+		"description": "At Clubs' shop, Ham returns with news that the Luthadel Garrison is moving north toward Holstep. Kelsier makes Vin swallow five pewter beads so they can run north to warn the rebel army."
 	},
 	{
 		"book": "tfe",
 		"chapter": 25.2,
 		"location": "arguois-caverns",
 		"title": "The Pewter Drag",
-		"description": "Vin and Kelsier run for sixteen hours, burning pewter continuously in a desperate pewter drag. On the way, they encounter the remains of the rebel army, surrounded and slaughtered by the Valtroux Garrison. Kelsier wants to join and save who he can, but Vin convinces him they are not invincible and instead they hurry on to the Arguois Caverns, where they find 2,000 soldiers still alive thanks to Mennis keeping them prepared to leave at a moment's notice.",
-		"season": "Late Autumn",
-		"year": "1021 FE"
+		"description": "Vin and Kelsier run for sixteen hours, burning pewter continuously in a desperate pewter drag. On the way, they encounter the remains of the rebel army, surrounded and slaughtered by the Valtroux Garrison. Kelsier wants to join and save who he can, but Vin convinces him they are not invincible and instead they hurry on to the Arguois Caverns, where they find 2,000 soldiers still alive thanks to Mennis keeping them prepared to leave at a moment's notice."
 	},
 	{
 		"book": "tfe",
@@ -263,9 +213,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Recovery",
-		"description": "Vin lies in bed at Clubs' shop, exhausted. It took her and Kelsier two weeks to return to Luthadel. Kelsier bursts in, and Breeze blames him for chasing fame and glory, declaring the job dead. Kelsier admits the loss of the rebel army is a setback but refuses to give up.",
-		"season": "Late Autumn",
-		"year": "1021 FE"
+		"description": "Vin lies in bed at Clubs' shop, exhausted. It took her and Kelsier two weeks to return to Luthadel. Kelsier bursts in, and Breeze blames him for chasing fame and glory, declaring the job dead. Kelsier admits the loss of the rebel army is a setback but refuses to give up."
 	},
 	{
 		"book": "tfe",
@@ -274,9 +222,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "fountain-square",
 		"title": "The Executions",
-		"description": "Spook announces executions at the Fountain Square. The crew head to the square, bribing someone for rooftop access. Vin identifies her father to Kelsier—an obligator called Tevidian, Lord Prelan and the highest-ranked obligator, even above the Inquisitors. They watch as women and children are dragged from a prison cart and executed, the fountain running red with blood. Kelsier tells the crew: 'This is our enemy. There is no quarter here, no walking away.'",
-		"season": "Late Autumn",
-		"year": "1021 FE"
+		"description": "Spook announces executions at the Fountain Square. The crew head to the square, bribing someone for rooftop access. Vin identifies her father to Kelsier—an obligator called Tevidian, Lord Prelan and the highest-ranked obligator, even above the Inquisitors. They watch as women and children are dragged from a prison cart and executed, the fountain running red with blood. Kelsier tells the crew: 'This is our enemy. There is no quarter here, no walking away.'"
 	},
 	{
 		"book": "tfe",
@@ -285,9 +231,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Planning Next Moves",
-		"description": "The crew returns to Clubs' shop. Kelsier, Vin, and the rest—Dockson, Ham, Breeze, Spook—begin replanning how to move forward and start a house war between the nobility. Sazed arrives with a letter from Marsh containing instructions on where to meet.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "The crew returns to Clubs' shop. Kelsier, Vin, and the rest—Dockson, Ham, Breeze, Spook—begin replanning how to move forward and start a house war between the nobility. Sazed arrives with a letter from Marsh containing instructions on where to meet."
 	},
 	{
 		"book": "tfe",
@@ -296,9 +240,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "the-twists",
 		"title": "Meeting Marsh",
-		"description": "Kelsier and Vin head to an abandoned building in the Twists to meet Marsh. While waiting, Kelsier talks about gold—the ninth Allomantic metal that lets a user see an alternative past version of themselves. Marsh arrives bearing the tattoos of a low-ranked obligator from the Canton of Inquisition. He reveals that the Ministry places Soothers in skaa regions under constant Soothing, hidden by Smokers. Marsh also confirms that Inquisitors can die of old age.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Kelsier and Vin head to an abandoned building in the Twists to meet Marsh. While waiting, Kelsier talks about gold—the ninth Allomantic metal that lets a user see an alternative past version of themselves. Marsh arrives bearing the tattoos of a low-ranked obligator from the Canton of Inquisition. He reveals that the Ministry places Soothers in skaa regions under constant Soothing, hidden by Smokers. Marsh also confirms that Inquisitors can die of old age."
 	},
 	{
 		"book": "tfe",
@@ -307,18 +249,14 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-lekal",
 		"title": "Ball at Keep Lekal",
-		"description": "Vin attends a ball at Keep Lekal and begins spreading rumors to ignite the House Wars. She talks with Lady Kliss, gossiping that House Hastings are relocating resources to their plantation in the Southern Dominance. Elend surprises her—he says he wants to kiss her, but Vin insists he doesn't truly know her. They take a stroll instead, and Elend reveals that House Venture's fortune comes entirely from mining atium at the Pits of Hathsin, trusting her completely. He also mentions that the Tekiels were killed by House Hasting, and tries to convince Valette to leave Luthadel.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Vin attends a ball at Keep Lekal and begins spreading rumors to ignite the House Wars. She talks with Lady Kliss, gossiping that House Hastings are relocating resources to their plantation in the Southern Dominance. Elend surprises her—he says he wants to kiss her, but Vin insists he doesn't truly know her. They take a stroll instead, and Elend reveals that House Venture's fortune comes entirely from mining atium at the Pits of Hathsin, trusting her completely. He also mentions that the Tekiels were killed by House Hasting, and tries to convince Valette to leave Luthadel."
 	},
 	{
 		"book": "tfe",
 		"chapter": 29,
 		"location": "fellise",
 		"title": "The Last Translation",
-		"description": "Vin reads the last of Sazed's translations of the logbook at Mansion Renoux and is disappointed there isn't any more. Sazed explains Feruchemy to her in more detail, and she tries burning one of his pewterminds. Later, Kelsier joins the crew at Renoux's estate to go over a detailed map provided by Marsh. They discover that Theron's crew was recently hit by the Ministry, and Vin suspects the Inquisitors are still on her trail.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Vin reads the last of Sazed's translations of the logbook at Mansion Renoux and is disappointed there isn't any more. Sazed explains Feruchemy to her in more detail, and she tries burning one of his pewterminds. Later, Kelsier joins the crew at Renoux's estate to go over a detailed map provided by Marsh. They discover that Theron's crew was recently hit by the Ministry, and Vin suspects the Inquisitors are still on her trail."
 	},
 	{
 		"book": "tfe",
@@ -327,9 +265,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Venture Ball",
-		"description": "Vin attends the last house ball at Keep Venture with Sazed. The partygoers are finalizing alliances—Lady Valette is considered too neutral. Lady Kliss reveals herself as an informant and tries to blackmail House Renoux. In exchange for a sapphire necklace, Kliss tells Vin that Elariel assassins will try to kill Elend that evening, and that Straff has reduced the guards around Elend's room. Using emotional Allomancy, Vin forces Kliss to reveal the full plan. She destroys a stained glass window to escape the keep. Outside, she fights off two Thugs, two Coinshots, and two Mistborn—one of whom is Shan Elariel. Vin tricks Shan by extinguishing her atium early and kills her.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Vin attends the last house ball at Keep Venture with Sazed. The partygoers are finalizing alliances—Lady Valette is considered too neutral. Lady Kliss reveals herself as an informant and tries to blackmail House Renoux. In exchange for a sapphire necklace, Kliss tells Vin that Elariel assassins will try to kill Elend that evening, and that Straff has reduced the guards around Elend's room. Using emotional Allomancy, Vin forces Kliss to reveal the full plan. She destroys a stained glass window to escape the keep. Outside, she fights off two Thugs, two Coinshots, and two Mistborn—one of whom is Shan Elariel. Vin tricks Shan by extinguishing her atium early and kills her."
 	},
 	{
 		"book": "tfe",
@@ -338,9 +274,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Aftermath of the Duel",
-		"description": "Vin bursts into Clubs' kitchen bandaged and in tatters. Kelsier scolds her for saving Elend, but Vin screams back that skaa and noblemen are no different—Elend is a good man. On the rooftop afterward, Vin tells Kelsier about House Venture's administration of the Pits and shares her belief that Inquisitors can see through copperclouds. Kelsier tests her theory and proves her correct—a major discovery.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Vin bursts into Clubs' kitchen bandaged and in tatters. Kelsier scolds her for saving Elend, but Vin screams back that skaa and noblemen are no different—Elend is a good man. On the rooftop afterward, Vin tells Kelsier about House Venture's administration of the Pits and shares her belief that Inquisitors can see through copperclouds. Kelsier tests her theory and proves her correct—a major discovery."
 	},
 	{
 		"book": "tfe",
@@ -349,9 +283,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Scouting the Rooftops",
-		"description": "Vin and Spook scout from the rooftop above Clubs' shop. Spook teaches Vin tricks about using tin—it's not just about enhancing senses but about sorting out distractions. Later, Kelsier and Vin find Marsh's body, drained of all blood—a lifeless shell. Back at Clubs' shop, they discover a letter from Marsh explaining that the Inquisitors would probably find him.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Vin and Spook scout from the rooftop above Clubs' shop. Spook teaches Vin tricks about using tin—it's not just about enhancing senses but about sorting out distractions. Later, Kelsier and Vin find Marsh's body, drained of all blood—a lifeless shell. Back at Clubs' shop, they discover a letter from Marsh explaining that the Inquisitors would probably find him."
 	},
 	{
 		"book": "tfe",
@@ -360,9 +292,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "The Backup Lair",
-		"description": "The crew relocates to a dank backup cellar safehouse near Clubs' shop, just three rooms. Kelsier returns and announces he destroyed all the atium at the Pits of Hathsin. Spook is keeping watch as a Tineye.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "The crew relocates to a dank backup cellar safehouse near Clubs' shop, just three rooms. Kelsier returns and announces he destroyed all the atium at the Pits of Hathsin. Spook is keeping watch as a Tineye."
 	},
 	{
 		"book": "tfe",
@@ -371,9 +301,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "fountain-square",
 		"title": "The Inquisitor Fight",
-		"description": "Everyone follows Kelsier to Fountain Square. They spot Spook and Lord Renoux in one of the carts being taken to execution. Kelsier fights an Inquisitor in the square. Elend sees the Renoux servants caged and screams after Valette, but cannot find her.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Everyone follows Kelsier to Fountain Square. They spot Spook and Lord Renoux in one of the carts being taken to execution. Kelsier fights an Inquisitor in the square. Elend sees the Renoux servants caged and screams after Valette, but cannot find her."
 	},
 	{
 		"book": "tfe",
@@ -382,9 +310,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "fountain-square",
 		"title": "The Survivor's Death",
-		"description": "Kelsier fights the Inquisitor in an all-out battle at Fountain Square, both burning atium. Vin observes from above—Kelsier is truly a master of Push and Pull, moving metal objects through the air like an expert. He kills the Inquisitor and the surrounding skaa begin chanting 'The Survivor of Hathsin.' The Lord Ruler arrives in a black carriage. One of Ham's thugs rams a spear through the Lord Ruler—he continues walking. Two spears—still walking. The Lord Ruler slaps Kelsier, pulls a spear from his own body, and rams it through Kelsier. Vin jumps down from above and holds Kelsier as he dies.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Kelsier fights the Inquisitor in an all-out battle at Fountain Square, both burning atium. Vin observes from above—Kelsier is truly a master of Push and Pull, moving metal objects through the air like an expert. He kills the Inquisitor and the surrounding skaa begin chanting 'The Survivor of Hathsin.' The Lord Ruler arrives in a black carriage. One of Ham's thugs rams a spear through the Lord Ruler—he continues walking. Two spears—still walking. The Lord Ruler slaps Kelsier, pulls a spear from his own body, and rams it through Kelsier. Vin jumps down from above and holds Kelsier as he dies."
 	},
 	{
 		"book": "tfe",
@@ -393,9 +319,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "The Survivor's Legacy",
-		"description": "Vin returns to the backup safehouse near Clubs' shop. She is furious that Kelsier wasn't truthful—he had planned to die and abandon her. Sazed offers comforting words. Outside, skaa gather and speak of the Lord of the Mists. At a nearby warehouse, the crew sees the kandra that has taken Kelsier's form. Kelsier left letters to each crew member with instructions for taking the city. Vin's letter says he never figured out the Eleventh Metal. She decides she will find out what the Lord Ruler is hiding.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Vin returns to the backup safehouse near Clubs' shop. She is furious that Kelsier wasn't truthful—he had planned to die and abandon her. Sazed offers comforting words. Outside, skaa gather and speak of the Lord of the Mists. At a nearby warehouse, the crew sees the kandra that has taken Kelsier's form. Kelsier left letters to each crew member with instructions for taking the city. Vin's letter says he never figured out the Eleventh Metal. She decides she will find out what the Lord Ruler is hiding."
 	},
 	{
 		"book": "tfe",
@@ -404,9 +328,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Into Kredik Shaw",
-		"description": "Vin walks quietly toward Kredik Shaw, encouraging the guards outside to join the rebellion. Inside, she kills two Inquisitors guarding an inner entrance, discovering that pewter dust disrupts their vision. In the chamber beyond sits an old man in a chair. An Inquisitor grabs Vin by the neck—the old man speaks, and the Inquisitors address him as the Lord Ruler. But Vin is confused: the Lord Ruler at Fountain Square was a young man. She burns the Eleventh Metal and sees two ghostly shapes beside the old man—one resembles the young Lord Ruler, but slightly older.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Vin walks quietly toward Kredik Shaw, encouraging the guards outside to join the rebellion. Inside, she kills two Inquisitors guarding an inner entrance, discovering that pewter dust disrupts their vision. In the chamber beyond sits an old man in a chair. An Inquisitor grabs Vin by the neck—the old man speaks, and the Inquisitors address him as the Lord Ruler. But Vin is confused: the Lord Ruler at Fountain Square was a young man. She burns the Eleventh Metal and sees two ghostly shapes beside the old man—one resembles the young Lord Ruler, but slightly older."
 	},
 	{
 		"book": "tfe",
@@ -415,9 +337,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Rescue and Revelation",
-		"description": "The Inquisitors force Vin to burn a metal that strips away all her other metals. She is brought before the Lord Ruler on his elevated throne—the young version, the man who killed Kelsier. Vin is questioned about her father. Tevidian, Vin's father and highest-ranked obligator, is killed by the Inquisitors when the Lord Ruler learns the truth. Vin discovers that Reen never sold her out—he endured torture and told the Inquisitors she had died of starvation long ago. Sazed is brought to her cell, then unleashes stored Feruchemical strength to burst the door open. Elend and six soldiers charge in. Vin finds her Mistcloak and a vial of metals in a trunk, swallows them, and kills the remaining guard. The secret is out—Elend now knows Vin is a Mistborn. She grabs his head and kisses him, then turns to go kill the Lord Ruler.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "The Inquisitors force Vin to burn a metal that strips away all her other metals. She is brought before the Lord Ruler on his elevated throne—the young version, the man who killed Kelsier. Vin is questioned about her father. Tevidian, Vin's father and highest-ranked obligator, is killed by the Inquisitors when the Lord Ruler learns the truth. Vin discovers that Reen never sold her out—he endured torture and told the Inquisitors she had died of starvation long ago. Sazed is brought to her cell, then unleashes stored Feruchemical strength to burst the door open. Elend and six soldiers charge in. Vin finds her Mistcloak and a vial of metals in a trunk, swallows them, and kills the remaining guard. The secret is out—Elend now knows Vin is a Mistborn. She grabs his head and kisses him, then turns to go kill the Lord Ruler."
 	},
 	{
 		"book": "tfe",
@@ -426,9 +346,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Slayer of the Lord Ruler",
-		"description": "Vin jumps through the spires of Kredik Shaw to the top. The Inquisitor Kar grabs her by the neck, but a second Inquisitor approaches and pulls a metal spike from Kar's neck, killing him instantly. The second Inquisitor is Marsh—alive, with eleven spikes in his body. He has killed all the other Inquisitors. The Lord Ruler's true name is Rashek—he murdered the Hero of Ages and took his place. Vin pulls on the Lord Ruler's metal bracelets and they drop. Without his Feruchemical youth he becomes a weak, pathetic old man. Sazed appears with a vial of metals. Vin rams a spear directly through the Lord Ruler's heart. A thousand years of oppression end.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Vin jumps through the spires of Kredik Shaw to the top. The Inquisitor Kar grabs her by the neck, but a second Inquisitor approaches and pulls a metal spike from Kar's neck, killing him instantly. The second Inquisitor is Marsh—alive, with eleven spikes in his body. He has killed all the other Inquisitors. The Lord Ruler's true name is Rashek—he murdered the Hero of Ages and took his place. Vin pulls on the Lord Ruler's metal bracelets and they drop. Without his Feruchemical youth he becomes a weak, pathetic old man. Sazed appears with a vial of metals. Vin rams a spear directly through the Lord Ruler's heart. A thousand years of oppression end."
 	},
 	{
 		"book": "tfe",
@@ -437,9 +355,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "skaa-hovels",
 		"title": "A New Era",
-		"description": "Sazed, Marsh, and Vin stand on a building near the edge of the skaa slum. Sazed explains that the Lord Ruler was both a Feruchemist and an Allomancer—the bracelets stored his youth. Marsh describes his survival and transformation: eleven metal spikes, two through his eyes, eight in his chest, one in the back binding them together. The process to create an Inquisitor is messy. He also speaks of the kandra—creatures evolved from mistwraiths, who now see Vin as their master.",
-		"season": "Spring",
-		"year": "1022 FE"
+		"description": "Sazed, Marsh, and Vin stand on a building near the edge of the skaa slum. Sazed explains that the Lord Ruler was both a Feruchemist and an Allomancer—the bracelets stored his youth. Marsh describes his survival and transformation: eleven metal spikes, two through his eyes, eight in his chest, one in the back binding them together. The process to create an Inquisitor is messy. He also speaks of the kandra—creatures evolved from mistwraiths, who now see Vin as their master."
 	},
 	{
 		"book": "tfe",
@@ -448,9 +364,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Vin and Elend",
-		"description": "Vin secretly watches Elend from the mists outside Keep Venture. His meeting with skaa and noble leaders went well—everyone has accepted him as king after a tremendous speech that even Sazed couldn't memorize in full without his metals. Elend sits writing the new code of law for the kingdom. Vin almost decides not to go to him, but remembers that Reen never gave her up to the Inquisitors—there are people who truly love her. With that memory she dashes toward Elend and they hold each other.",
-		"season": "Spring",
-		"year": "1022 FE"
+		"description": "Vin secretly watches Elend from the mists outside Keep Venture. His meeting with skaa and noble leaders went well—everyone has accepted him as king after a tremendous speech that even Sazed couldn't memorize in full without his metals. Elend sits writing the new code of law for the kingdom. Vin almost decides not to go to him, but remembers that Reen never gave her up to the Inquisitors—there are people who truly love her. With that memory she dashes toward Elend and they hold each other."
 	},
 	{
 		"book": "woa",
@@ -459,9 +373,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "iron-gate",
 		"title": "City Guardian",
-		"description": "Vin patrols the walls of Luthadel each night, watching for threats as three armies slowly converge on the newly free city.",
-		"season": "Autumn",
-		"year": "1023 FE"
+		"description": "Vin patrols the walls of Luthadel each night, watching for threats as three armies slowly converge on the newly free city."
 	},
 	{
 		"book": "woa",
@@ -470,9 +382,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Ambush in the Mists",
-		"description": "Vin is ambushed by eight Allomancers south of Keep Venture near Kredik Shaw. A mysterious Mistborn—the Watcher—intervenes and helps her kill or scatter them. She suspects the assassins were sent by one of the besieging armies.",
-		"season": "Autumn",
-		"year": "1023 FE"
+		"description": "Vin is ambushed by eight Allomancers south of Keep Venture near Kredik Shaw. A mysterious Mistborn—the Watcher—intervenes and helps her kill or scatter them. She suspects the assassins were sent by one of the besieging armies."
 	},
 	{
 		"book": "woa",
@@ -481,9 +391,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Mist Spirit",
-		"description": "Vin watches Keep Venture from a rooftop and encounters the mist spirit—a translucent figure that points toward something unseen. She returns to Elend's study, where Ham arrives with news that the assassins were likely sent by King Cett.",
-		"season": "Autumn",
-		"year": "1023 FE"
+		"description": "Vin watches Keep Venture from a rooftop and encounters the mist spirit—a translucent figure that points toward something unseen. She returns to Elend's study, where Ham arrives with news that the assassins were likely sent by King Cett."
 	},
 	{
 		"book": "woa",
@@ -492,9 +400,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kenton-street",
 		"title": "OreSeur Reborn",
-		"description": "Vin walks through Luthadel's Kenton Street market and buys a wolfhound, which she gives to OreSeur the kandra as his new body. She discovers a new Allomantic metal—duralumin—and returns to Keep Venture to test its power.",
-		"season": "Autumn",
-		"year": "1023 FE"
+		"description": "Vin walks through Luthadel's Kenton Street market and buys a wolfhound, which she gives to OreSeur the kandra as his new body. She discovers a new Allomantic metal—duralumin—and returns to Keep Venture to test its power."
 	},
 	{
 		"book": "woa",
@@ -503,9 +409,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Sparring in the Yard",
-		"description": "Vin spars with Ham in Keep Venture's courtyard, testing her combat skills while OreSeur watches in his new wolfhound form. Spook returns to the crew from his scouting mission.",
-		"season": "Autumn",
-		"year": "1023 FE"
+		"description": "Vin spars with Ham in Keep Venture's courtyard, testing her combat skills while OreSeur watches in his new wolfhound form. Spook returns to the crew from his scouting mission."
 	},
 	{
 		"book": "woa",
@@ -514,9 +418,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "fountain-square",
 		"title": "Chasing the Watcher",
-		"description": "Vin patrols Luthadel and chases the Watcher—the mysterious Mistborn—across the city's rooftops. The pursuit ends near Fountain Square, where she experiments with burning duralumin and discovers its devastating enhancing effect.",
-		"season": "Autumn",
-		"year": "1023 FE"
+		"description": "Vin patrols Luthadel and chases the Watcher—the mysterious Mistborn—across the city's rooftops. The pursuit ends near Fountain Square, where she experiments with burning duralumin and discovers its devastating enhancing effect."
 	},
 	{
 		"book": "woa",
@@ -525,9 +427,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "assembly-hall",
 		"title": "Guarding the Assembly",
-		"description": "Vin and Ham guard Elend as he addresses the Assembly. An unknown Terriswoman is in the audience. During the meeting, news arrives that a second army—King Cett's forces—has appeared outside Luthadel.",
-		"season": "Autumn",
-		"year": "1023 FE"
+		"description": "Vin and Ham guard Elend as he addresses the Assembly. An unknown Terriswoman is in the audience. During the meeting, news arrives that a second army—King Cett's forces—has appeared outside Luthadel."
 	},
 	{
 		"book": "woa",
@@ -536,9 +436,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "iron-gate",
 		"title": "Saving Breeze",
-		"description": "Vin joins Elend and Clubs on the city wall to scout Cett's army. When Breeze is endangered below, Vin uses a duralumin-enhanced Steelpush to save him—launching a coin with terrifying force. Back at Keep Venture, the crew discovers kandra bones, raising fears of an impostor.",
-		"season": "Early Winter",
-		"year": "1023 FE"
+		"description": "Vin joins Elend and Clubs on the city wall to scout Cett's army. When Breeze is endangered below, Vin uses a duralumin-enhanced Steelpush to save him—launching a coin with terrifying force. Back at Keep Venture, the crew discovers kandra bones, raising fears of an impostor."
 	},
 	{
 		"book": "woa",
@@ -547,9 +445,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Spirit Returns",
-		"description": "Vin notices the mists arriving earlier each evening and searches for the mist spirit, finding it in an abandoned apartment block. She falls from a window during the encounter. Later, Elend gathers the crew at Keep Venture for a war council, and Tindwyl requests a private audience with him.",
-		"season": "Early Winter",
-		"year": "1023 FE"
+		"description": "Vin notices the mists arriving earlier each evening and searches for the mist spirit, finding it in an abandoned apartment block. She falls from a window during the encounter. Later, Elend gathers the crew at Keep Venture for a war council, and Tindwyl requests a private audience with him."
 	},
 	{
 		"book": "woa",
@@ -558,9 +454,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Tindwyl Arrives",
-		"description": "Tindwyl begins tutoring Elend in kingship at Keep Venture. Vin distrusts the forceful Terriswoman but watches Elend slowly begin to change under her guidance.",
-		"season": "Early Winter",
-		"year": "1023 FE"
+		"description": "Tindwyl begins tutoring Elend in kingship at Keep Venture. Vin distrusts the forceful Terriswoman but watches Elend slowly begin to change under her guidance."
 	},
 	{
 		"book": "woa",
@@ -569,9 +463,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Logbook Search",
-		"description": "Vin pulls apart Alendi's logbook at Keep Venture, searching for references to the mist spirit and the Deepness. She thinks the creature following her is the same one that followed Alendi centuries ago.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Vin pulls apart Alendi's logbook at Keep Venture, searching for references to the mist spirit and the Deepness. She thinks the creature following her is the same one that followed Alendi centuries ago."
 	},
 	{
 		"book": "woa",
@@ -580,9 +472,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-hasting",
 		"title": "Dueling the Watcher",
-		"description": "After meeting Straff's messenger—Zane, the Watcher. Vin goes on patrol with OreSeur. She confronts Zane and they end up in a fierce steel-pushing contest at Keep Hasting. Zane tells her that Mistborn belong in the mists, not with nobles.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "After meeting Straff's messenger—Zane, the Watcher. Vin goes on patrol with OreSeur. She confronts Zane and they end up in a fierce steel-pushing contest at Keep Hasting. Zane tells her that Mistborn belong in the mists, not with nobles."
 	},
 	{
 		"book": "woa",
@@ -591,9 +481,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "War Council",
-		"description": "Vin observes as Elend, Dockson, Hammond, Clubs and Breeze discuss the plan to parlay with Straff at Keep Venture. She uses bronze to eliminate Breeze as the kandra impostor suspect. Lord Cett's daughter Allrianne arrives seeking asylum and Breeze.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Vin observes as Elend, Dockson, Hammond, Clubs and Breeze discuss the plan to parlay with Straff at Keep Venture. She uses bronze to eliminate Breeze as the kandra impostor suspect. Lord Cett's daughter Allrianne arrives seeking asylum and Breeze."
 	},
 	{
 		"book": "woa",
@@ -602,9 +490,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Allrianne's Arrival",
-		"description": "Allrianne Cett arrives at the palace and embraces Breeze, surprising everyone. Elend offers her hospitality. Dockson proposes using Allrianne as a bargaining chip against Lord Cett.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Allrianne Cett arrives at the palace and embraces Breeze, surprising everyone. Elend offers her hospitality. Dockson proposes using Allrianne as a bargaining chip against Lord Cett."
 	},
 	{
 		"book": "woa",
@@ -613,9 +499,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Political Tensions",
-		"description": "As the siege tightens, Vin watches Elend struggle with the Assembly and the demands of governance while she hunts Zane through the mists.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "As the siege tightens, Vin watches Elend struggle with the Assembly and the demands of governance while she hunts Zane through the mists."
 	},
 	{
 		"book": "woa",
@@ -624,9 +508,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Night Watch",
-		"description": "Vin stands guard outside Elend's balcony and burns bronze, detecting the mist spirit and a distant source of Allomantic power. Zane finds her at Keep Venture and challenges her, asking what she would do without repercussions. She answers that she would kill the enemy armies' leaders.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Vin stands guard outside Elend's balcony and burns bronze, detecting the mist spirit and a distant source of Allomantic power. Zane finds her at Keep Venture and challenges her, asking what she would do without repercussions. She answers that she would kill the enemy armies' leaders."
 	},
 	{
 		"book": "woa",
@@ -635,27 +517,21 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kenton-street",
 		"title": "Shopping and Skirmish",
-		"description": "Tindwyl takes Vin dress shopping on Kenton Street along with Allrianne, Spook, and OreSeur. Outside the shop, Vin speaks to members of the Church of the Survivor. Warning drums sound. Straff's army launches a feint attack on the city walls and Vin rushes to help defend.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Tindwyl takes Vin dress shopping on Kenton Street along with Allrianne, Spook, and OreSeur. Outside the shop, Vin speaks to members of the Church of the Survivor. Warning drums sound. Straff's army launches a feint attack on the city walls and Vin rushes to help defend."
 	},
 	{
 		"book": "woa",
 		"chapter": 26,
 		"location": "straffs-camp",
 		"title": "Parley with Straff",
-		"description": "Vin accompanies Elend to Straff Venture's war camp north of the city, where she demonstrates her terrifying power to intimidate the would-be conqueror.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Vin accompanies Elend to Straff Venture's war camp north of the city, where she demonstrates her terrifying power to intimidate the would-be conqueror."
 	},
 	{
 		"book": "woa",
 		"chapter": 27,
 		"location": "straffs-camp",
 		"title": "The Bluff",
-		"description": "While Vin listens from outside the tent, Straff threatens to kill Elend during the parley. Zane appears. Vin and Elend's bluff succeeds. Straff lets them leave. On the road back to Luthadel, Elend receives a note: the Assembly has voted no confidence and he is no longer king.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "While Vin listens from outside the tent, Straff threatens to kill Elend during the parley. Zane appears. Vin and Elend's bluff succeeds. Straff lets them leave. On the road back to Luthadel, Elend receives a note: the Assembly has voted no confidence and he is no longer king."
 	},
 	{
 		"book": "woa",
@@ -664,9 +540,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Return from Parley",
-		"description": "After the tense encounter at Straff's camp, Vin returns to Keep Venture, haunted by Zane's whispers and her growing doubts about her role.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "After the tense encounter at Straff's camp, Vin returns to Keep Venture, haunted by Zane's whispers and her growing doubts about her role."
 	},
 	{
 		"book": "woa",
@@ -675,9 +549,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-hasting",
 		"title": "Insomnia and Insight",
-		"description": "Vin and OreSeur sit at Keep Hasting in the night mists. They discuss Zane's character and Vin's growing insomnia. OreSeur says he does not want to change bodies often. Vin has a flash of insight about the true nature of the Deepness.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Vin and OreSeur sit at Keep Hasting in the night mists. They discuss Zane's character and Vin's growing insomnia. OreSeur says he does not want to change bodies often. Vin has a flash of insight about the true nature of the Deepness."
 	},
 	{
 		"book": "woa",
@@ -686,9 +558,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Deepness Theory",
-		"description": "Vin enters Keep Venture through Sazed's window and reads his transcription of the Conventical rubbings. She proposes that the mists are the Deepness - that permanent daytime mists could cause famine. She tells Sazed she has seen the same creature that followed the Hero of Ages.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Vin enters Keep Venture through Sazed's window and reads his transcription of the Conventical rubbings. She proposes that the mists are the Deepness - that permanent daytime mists could cause famine. She tells Sazed she has seen the same creature that followed the Hero of Ages."
 	},
 	{
 		"book": "woa",
@@ -697,9 +567,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "assembly-hall",
 		"title": "Penrod's Nomination",
-		"description": "Vin accompanies Elend and the full crew to the Assembly. Elend nominates Lord Penrod as chancellor and addresses the Assembly, invoking Kelsier's legacy through Vin as a deterrent against Straff. Nominations for a new king are opened—Penrod, Elend, and Lord Cett, who appears from the crowd.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Vin accompanies Elend and the full crew to the Assembly. Elend nominates Lord Penrod as chancellor and addresses the Assembly, invoking Kelsier's legacy through Vin as a deterrent against Straff. Nominations for a new king are opened—Penrod, Elend, and Lord Cett, who appears from the crowd."
 	},
 	{
 		"book": "woa",
@@ -708,9 +576,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Kandra Secrets",
-		"description": "Vin wonders if she is the true Hero of Ages and discusses the vague Terris prophecies with OreSeur. He inadvertently reveals that the kandra have their own religion predating the Lord Ruler's Ascension, speaking of prophecies about humans being of Ruin and kandra of Preservation. Vin investigates Dockson in the palace library to test if he is the kandra impostor, and grows suspicious of Captain Demoux.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Vin wonders if she is the true Hero of Ages and discusses the vague Terris prophecies with OreSeur. He inadvertently reveals that the kandra have their own religion predating the Lord Ruler's Ascension, speaking of prophecies about humans being of Ruin and kandra of Preservation. Vin investigates Dockson in the palace library to test if he is the kandra impostor, and grows suspicious of Captain Demoux."
 	},
 	{
 		"book": "woa",
@@ -719,9 +585,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Zane on the Roof",
-		"description": "Vin finds Elend and the crew researching Assembly strategy in Keep Venture's library. She mentions the poisoned well but Elend already knows. Hearing a noise outside, she investigates and finds Zane on the rooftop. He attacks her, revealing he is burning atium. He stops and tells her Straff wants him to kill her, that he is Elend's half-brother, and that the koloss are one day outside Luthadel.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Vin finds Elend and the crew researching Assembly strategy in Keep Venture's library. She mentions the poisoned well but Elend already knows. Hearing a noise outside, she investigates and finds Zane on the rooftop. He attacks her, revealing he is burning atium. He stops and tells her Straff wants him to kill her, that he is Elend's half-brother, and that the koloss are one day outside Luthadel."
 	},
 	{
 		"book": "woa",
@@ -730,9 +594,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-hasting",
 		"title": "Dinner with Cett",
-		"description": "Vin tries on her new custom-fitted mistborn gown. She and Elend go to Keep Hasting to dine with Lord Cett. Over dinner, they discuss Breeze and Allrianne's departure from Cett's camp. Cett outlines his plans for Luthadel and offers food in exchange for the atium cache, but Elend says it hasn't been found. Vin wonders why Cett doesn't conceal his allomancers.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Vin tries on her new custom-fitted mistborn gown. She and Elend go to Keep Hasting to dine with Lord Cett. Over dinner, they discuss Breeze and Allrianne's departure from Cett's camp. Cett outlines his plans for Luthadel and offers food in exchange for the atium cache, but Elend says it hasn't been found. Vin wonders why Cett doesn't conceal his allomancers."
 	},
 	{
 		"book": "woa",
@@ -741,9 +603,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Church of the Survivor",
-		"description": "Vin observes Allrianne using allomancy to riot Breeze's emotions at Keep Venture, confirming Clubs isn't a kandra since his coppercloud shields him. She follows Captain Demoux through the palace courtyard and discovers he is secretly leading the Church of the Survivor—preaching that Vin will restore the world and urging skaa to support Elend. She confronts him but promises to keep his secret.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Vin observes Allrianne using allomancy to riot Breeze's emotions at Keep Venture, confirming Clubs isn't a kandra since his coppercloud shields him. She follows Captain Demoux through the palace courtyard and discovers he is secretly leading the Church of the Survivor—preaching that Vin will restore the world and urging skaa to support Elend. She confronts him but promises to keep his secret."
 	},
 	{
 		"book": "woa",
@@ -752,9 +612,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "assembly-hall",
 		"title": "Election and Assassination",
-		"description": "Vin and Elend attend the Assembly for the king election. Elend reveals he has joined the Church of the Survivor. Vin notices suspicious figures and a man attacks Elend—she fights off six allomancers sent by Straff, severely injured but killing all attackers with OreSeur's help. She falls unconscious as her pewter drains. The Assembly reconvenes at Penrod's mansion and elects Penrod king.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Vin and Elend attend the Assembly for the king election. Elend reveals he has joined the Church of the Survivor. Vin notices suspicious figures and a man attacks Elend—she fights off six allomancers sent by Straff, severely injured but killing all attackers with OreSeur's help. She falls unconscious as her pewter drains. The Assembly reconvenes at Penrod's mansion and elects Penrod king."
 	},
 	{
 		"book": "woa",
@@ -763,9 +621,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Recovery",
-		"description": "Vin wakes in a hospital bed at Keep Venture with Elend at her side. He tells her Penrod is now king and flinches when she touches him, haunted by her brutal kills. Zane visits while she sleeps, claiming the assassins were from Cett and that Penrod made a deal with Straff. He leaves her a nugget of atium. OreSeur returns with a new dog body, and Vin discovers she can control kandra with duralumin-enhanced brass.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Vin wakes in a hospital bed at Keep Venture with Elend at her side. He tells her Penrod is now king and flinches when she touches him, haunted by her brutal kills. Zane visits while she sleeps, claiming the assassins were from Cett and that Penrod made a deal with Straff. He leaves her a nugget of atium. OreSeur returns with a new dog body, and Vin discovers she can control kandra with duralumin-enhanced brass."
 	},
 	{
 		"book": "woa",
@@ -774,9 +630,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-hasting",
 		"title": "Raid on Cett",
-		"description": "Zane tells Vin that Demoux is betraying Elend at Cett's behest and suggests they attack Cett's forces. Vin and Zane launch a devastating assault on Keep Hasting, killing guards, soldiers, and hazekillers. They reach Cett and his son, but Vin asks for mercy. Zane says she is still controlled and leaves. Cett's army withdraws from Luthadel.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Zane tells Vin that Demoux is betraying Elend at Cett's behest and suggests they attack Cett's forces. Vin and Zane launch a devastating assault on Keep Hasting, killing guards, soldiers, and hazekillers. They reach Cett and his son, but Vin asks for mercy. Zane says she is still controlled and leaves. Cett's army withdraws from Luthadel."
 	},
 	{
 		"book": "woa",
@@ -785,9 +639,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "camons-safehouse",
 		"title": "Camon's Lair",
-		"description": "After driving Cett's army from the city, Vin hides in Camon's former lair—the abandoned building where her life as a thief began. She speaks of the soldiers she killed and how she got her earring. She tells Elend she must leave Luthadel and go north to Terris, giving OreSeur the bead of atium to hold.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "After driving Cett's army from the city, Vin hides in Camon's former lair—the abandoned building where her life as a thief began. She speaks of the soldiers she killed and how she got her earring. She tells Elend she must leave Luthadel and go north to Terris, giving OreSeur the bead of atium to hold."
 	},
 	{
 		"book": "woa",
@@ -796,9 +648,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Advice on Love",
-		"description": "Vin visits Sazed to ask for advice about love—whether she should be with Elend or someone more like her. Sazed believes they are meant for each other and resolves to ensure they leave Luthadel before it falls.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Vin visits Sazed to ask for advice about love—whether she should be with Elend or someone more like her. Sazed believes they are meant for each other and resolves to ensure they leave Luthadel before it falls."
 	},
 	{
 		"book": "woa",
@@ -807,9 +657,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "The Lord Ruler's Chamber",
-		"description": "Vin goes to the secret chamber within Kredik Shaw where the Lord Ruler once spent time alone. She isn't sure why she came, but senses the distant thumping of the Well of Ascension restoring itself to power. She leaves, unsettled.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Vin goes to the secret chamber within Kredik Shaw where the Lord Ruler once spent time alone. She isn't sure why she came, but senses the distant thumping of the Well of Ascension restoring itself to power. She leaves, unsettled."
 	},
 	{
 		"book": "woa",
@@ -818,9 +666,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-hasting",
 		"title": "Duel with Zane",
-		"description": "Zane tries to convince Vin to leave Luthadel with him, but she chooses Elend's trust over freedom. Enraged, Zane attacks. OreSeur ignores Vin's commands—Zane reveals the kandra is TenSoon, his real master's spy. TenSoon, who has grown to like Vin, cries out about what she knows of kandra—hinting at his own weakness. Vin uses duralumin-brass to seize control of TenSoon, takes the atium bead, and exploits Zane's dependence on atium to feint past his foresight, stabbing him in the neck and killing him.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Zane tries to convince Vin to leave Luthadel with him, but she chooses Elend's trust over freedom. Enraged, Zane attacks. OreSeur ignores Vin's commands—Zane reveals the kandra is TenSoon, his real master's spy. TenSoon, who has grown to like Vin, cries out about what she knows of kandra—hinting at his own weakness. Vin uses duralumin-brass to seize control of TenSoon, takes the atium bead, and exploits Zane's dependence on atium to feint past his foresight, stabbing him in the neck and killing him."
 	},
 	{
 		"book": "woa",
@@ -829,39 +675,40 @@
 		"cityId": "luthadel",
 		"cityLandmark": "tin-gate-north",
 		"title": "Escape Through the Tin Gate",
-		"description": "Vin, Elend, and Spook leave Luthadel through the Tin Gate, telling the guards they ride for help and will return. Allrianne talks her way into the party. Outside the walls, a group of Straff's archers tries to intercept them, but Vin fights them off in the mists before Allrianne parts ways to find her father's army.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Vin, Elend, and Spook leave Luthadel through the Tin Gate, telling the guards they ride for help and will return. Allrianne talks her way into the party. Outside the walls, a group of Straff's archers tries to intercept them, but Vin fights them off in the mists before Allrianne parts ways to find her father's army."
 	},
 	{
 		"book": "woa",
 		"chapter": 50,
 		"location": "imperial-canal",
-		"offset": [19, -291],
+		"offset": [
+			19,
+			-291
+		],
 		"title": "Breaking Camp",
-		"description": "A day north of Luthadel, Vin, Elend, and Spook break camp, confident they have eluded Straff's scouts. Spook senses something following them through the mists, and Vin recognizes it as the mysterious mist spirit that has shadowed her for months.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "A day north of Luthadel, Vin, Elend, and Spook break camp, confident they have eluded Straff's scouts. Spook senses something following them through the mists, and Vin recognizes it as the mysterious mist spirit that has shadowed her for months."
 	},
 	{
 		"book": "woa",
 		"chapter": 51,
 		"location": "imperial-canal",
-		"offset": [16, -249],
+		"offset": [
+			16,
+			-249
+		],
 		"title": "Jastes and the Truth",
-		"description": "Vin wakes to find the mist spirit hovering over Elend and stabs at it, striking something before it vanishes. Spook reports five men following them—Jastes Lekal, who abandoned the koloss. Elend executes his old friend for leaving the beasts leaderless. Spook reveals that Sazed tricked them into leaving, and Vin realizes the Well of Ascension is in Luthadel. They turn back to save their friends.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Vin wakes to find the mist spirit hovering over Elend and stabs at it, striking something before it vanishes. Spook reports five men following them—Jastes Lekal, who abandoned the koloss. Elend executes his old friend for leaving the beasts leaderless. Spook reveals that Sazed tricked them into leaving, and Vin realizes the Well of Ascension is in Luthadel. They turn back to save their friends."
 	},
 	{
 		"book": "woa",
 		"chapter": 52,
 		"location": "imperial-canal",
-		"offset": [18, -277],
+		"offset": [
+			18,
+			-277
+		],
 		"title": "The Pewter Drag",
-		"description": "Vin races back toward Luthadel alone on a desperate pewter drag, burning her metals to the limit and terrified she will arrive too late as the koloss assault the city.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Vin races back toward Luthadel alone on a desperate pewter drag, burning her metals to the limit and terrified she will arrive too late as the koloss assault the city."
 	},
 	{
 		"book": "woa",
@@ -870,9 +717,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "steel-gate",
 		"title": "Vin Saves Sazed",
-		"description": "Vin reaches Luthadel after gathering horseshoes in an outlying village for an impromptu Mistborn spikeway. She arrives just as Sazed is about to be overwhelmed at the gate, and the watching skaa begin to chant as she shatters the surrounding koloss with a single allomantic blast.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Vin reaches Luthadel after gathering horseshoes in an outlying village for an impromptu Mistborn spikeway. She arrives just as Sazed is about to be overwhelmed at the gate, and the watching skaa begin to chant as she shatters the surrounding koloss with a single allomantic blast."
 	},
 	{
 		"book": "woa",
@@ -881,18 +726,14 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-hasting",
 		"title": "Controlling the Koloss",
-		"description": "Nearly out of pewter and unable to defeat the koloss alone, Vin makes a last-resort duralumin push and discovers she can seize control of the creatures—the weakness the Lord Ruler built into them. She brings her controlled koloss to Keep Hasting, orders Lord Penrod to send soldiers to protect the citizens, and takes fresh pewter from Hammond before heading to Keep Venture.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Nearly out of pewter and unable to defeat the koloss alone, Vin makes a last-resort duralumin push and discovers she can seize control of the creatures—the weakness the Lord Ruler built into them. She brings her controlled koloss to Keep Hasting, orders Lord Penrod to send soldiers to protect the citizens, and takes fresh pewter from Hammond before heading to Keep Venture."
 	},
 	{
 		"book": "woa",
 		"chapter": 55,
 		"location": "straffs-camp",
 		"title": "Defeating Straff",
-		"description": "Vin hurtles from the city on a duralumin steelpush, striking down Straff and his horse before cutting through his officers. With Cett's army joining the battle, she forces Penrod, Cett, and General Janarle to accept Elend as Emperor, then leaves Sazed in charge and withdraws to rest.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Vin hurtles from the city on a duralumin steelpush, striking down Straff and his horse before cutting through his officers. With Cett's army joining the battle, she forces Penrod, Cett, and General Janarle to accept Elend as Emperor, then leaves Sazed in charge and withdraws to rest."
 	},
 	{
 		"book": "woa",
@@ -901,9 +742,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "The Secret Door",
-		"description": "Vin tells Sazed the Well of Ascension is in Luthadel and that she can feel it pulling on her. After Elend returns and is named Emperor, she leads him, Hammond, and Spook to Kredik Shaw, where she opens a hidden allomantic door with a duralumin pull and begins the descent.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Vin tells Sazed the Well of Ascension is in Luthadel and that she can feel it pulling on her. After Elend returns and is named Emperor, she leads him, Hammond, and Spook to Kredik Shaw, where she opens a hidden allomantic door with a duralumin pull and begins the descent."
 	},
 	{
 		"book": "woa",
@@ -912,9 +751,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "well-of-ascension",
 		"title": "The Well Discovered",
-		"description": "Vin, Elend, Hammond, and Spook descend into a vast cavern beneath Kredik Shaw and find a glowing white pool—the Well of Ascension, pulsing at full strength. As Vin hesitates over whether she can wield the power wisely, the mist spirit appears and stabs Elend through the gut, mortally wounding him.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Vin, Elend, Hammond, and Spook descend into a vast cavern beneath Kredik Shaw and find a glowing white pool—the Well of Ascension, pulsing at full strength. As Vin hesitates over whether she can wield the power wisely, the mist spirit appears and stabs Elend through the gut, mortally wounding him."
 	},
 	{
 		"book": "woa",
@@ -923,9 +760,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "well-of-ascension",
 		"title": "The Power Released",
-		"description": "With Elend dying beside her, Vin walks into the glowing pool and takes up the immense power of the Well. A Voice tells her the killing mists are the returned Deepness. Deceived by Ruin's manipulation of the prophecies into believing she must give the power up to save the world, she releases it—and a triumphant voice proclaims, \"I am FREE!\"",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "With Elend dying beside her, Vin walks into the glowing pool and takes up the immense power of the Well. A Voice tells her the killing mists are the returned Deepness. Deceived by Ruin's manipulation of the prophecies into believing she must give the power up to save the world, she releases it—and a triumphant voice proclaims, \"I am FREE!\""
 	},
 	{
 		"book": "woa",
@@ -934,135 +769,246 @@
 		"cityId": "luthadel",
 		"cityLandmark": "tin-gate-north",
 		"title": "On the City Wall",
-		"description": "Vin stands with the newly restored Elend atop the Luthadel city wall. She confesses that by releasing the power at the Well she made a catastrophic mistake—freeing the creature imprisoned there, something that may prove worse than anything the Lord Ruler ever did. Elend reassures her that, whatever comes, they will survive it together.",
-		"season": "Winter",
-		"year": "1024 FE"
-	},
-	{
-		"book": "hoa",
-		"chapter": 1,
-		"location": "vetitan",
-		"title": "The Northern Campaign",
-		"description": "Vin and Elend lead their army to Vetitan, a city being buried by escalating ashfall, to secure one of the Lord Ruler's hidden storage caches.",
-		"season": "Spring",
-		"year": "1026 FE"
+		"description": "Vin stands with the newly restored Elend atop the Luthadel city wall. She confesses that by releasing the power at the Well she made a catastrophic mistake—freeing the creature imprisoned there, something that may prove worse than anything the Lord Ruler ever did. Elend reassures her that, whatever comes, they will survive it together."
 	},
 	{
 		"book": "hoa",
 		"chapter": 3,
 		"location": "vetitan",
 		"title": "The First Cache",
-		"description": "Vin opens the Vetitan storage cavern, finding food, supplies, and a metal plate with a cryptic message from the Lord Ruler about the danger he imprisoned.",
-		"season": "Spring",
-		"year": "1026 FE"
+		"description": "Vin opens the Vetitan storage cavern, finding food, supplies, and a metal plate with a cryptic message from the Lord Ruler about the danger he imprisoned and the location of the next cache in Fadrex City."
 	},
 	{
 		"book": "hoa",
 		"chapter": 8,
 		"location": "luthadel",
-		"cityId": "luthadel",
-		"cityLandmark": "tin-gate-north",
-		"title": "Dividing Forces",
-		"description": "Vin returns to Luthadel where the army splits: Sazed and Breeze head north to Urteau, while Vin and Elend will march west to Fadrex City.",
-		"season": "Summer",
-		"year": "1026 FE"
+		"offset": [
+			-80,
+			-100
+		],
+		"title": "The Mist Sickness",
+		"description": "Vin watches as the mists attack refugees from Vetitan, sickening a predictable number. Fatren disbelieves, but Elend argues exposure is necessary for inoculation. Vin interrogates her koloss Human about reproduction. She and Elend lead the refugees to a canal where Demoux's soldiers are bivouacked.",
+		"placementNote": "⚠️ Placed south west of Luthadel — the chapter places them at a canal between Vetitan and Luthadel, not within the city itself."
 	},
 	{
 		"book": "hoa",
 		"chapter": 10,
 		"location": "luthadel",
-		"offset": [-150, 20],
-		"title": "Marching West",
-		"description": "Vin marches west with Elend's army toward Fadrex City, the ash falling heavier each day as the world deteriorates around them.",
-		"season": "Summer",
-		"year": "1026 FE"
+		"offset": [
+			-80,
+			-100
+		],
+		"title": "The Army Reunited",
+		"description": "Vin is with Elend's army south west of Luthadel on the march toward Fadrex when Sazed, Breeze, Goradel, and Allrianne catch up. Sazed shares his crisis of faith with Vin, who gives him Mare's flower drawing for comfort.",
+		"placementNote": "⚠️ Placed south west of Luthadel on the route toward Fadrex as a best guess — the chapter only says they meet up with the army, not the exact location."
+	},
+	{
+		"book": "hoa",
+		"chapter": 12,
+		"location": "luthadel",
+		"offset": [
+			-80,
+			-100
+		],
+		"title": "The War Council",
+		"description": "Vin and Elend discuss how Kelsier's crew are losing hope. Elend convenes a council with Vin, Cett, Breeze, Allrianne, Hammond, Demoux, and Sazed. They debate the encroaching mists, growing food, and plans to capture the caches in Urteau and Fadrex. Elend considers exposing his army to the mists despite the risks and asks the crew: 'What would Kelsier do?' to motivate them.",
+		"placementNote": "⚠️ Placed south west of Luthadel on the march toward Fadrex — the army council is held en route, not in any city."
+	},
+	{
+		"book": "hoa",
+		"chapter": 15,
+		"location": "luthadel",
+		"offset": [
+			-240,
+			-80
+		],
+		"title": "Enemy in the Mists",
+		"description": "Vin wonders why the mists feel different — she no longer feels sheltered by them. As soldiers emerge from their tents for the day's march, Elend and Hammond debate whether to expose the troops. Elend tells Vin that Human is causing a disturbance. The koloss says the mists hate him, and that they hate Vin as well. To her surprise, she agrees — the mists are now her enemy.",
+		"placementNote": "⚠️ Placed south west of Luthadel on the march toward Fadrex — the army remains en route."
 	},
 	{
 		"book": "hoa",
 		"chapter": 21,
+		"location": "luthadel",
+		"offset": [
+			-270,
+			-70
+		],
+		"title": "The Sixteen Percent",
+		"description": "Vin reads Alendi's logbook, puzzling on how to fight Ruin since he cannot read thoughts — she realizes he is powerful but not omnipotent, subject to consequences. Elend fears he is becoming ruthless like the Lord Ruler for exposing soldiers to the mists, and second-guesses outlawing the noble practice of beating children to Snap them. Noorden presents mist sickness data; Vin makes him recalculate using only previously unexposed soldiers. The result: exactly sixteen percent. When four separate samples all produce the same ratio with no margin of error, Elend concedes the pattern is too precise to be coincidence."
+	},
+	{
+		"book": "hoa",
+		"chapter": 25,
 		"location": "fadrex-city",
 		"cityId": "fadrex",
 		"cityLandmark": "ash-mounds",
-		"title": "Arrival at Fadrex",
-		"description": "The army arrives outside Fadrex City and establishes a siege camp on the ash-covered plains. Obligator Yomen refuses to surrender the city or its cache.",
-		"season": "Autumn",
-		"year": "1026 FE"
+		"title": "Departing to Scout",
+		"description": "Elend's army reaches Fadrex City. Vin notes the natural rock formations and canyon-like entrance that will make conquest difficult. During the strategy council, Elend offers to join her on the scouting mission — she tells him he isn't good enough. Cett provides a list of informants, and Vin departs into the evening to infiltrate the city alone."
+	},
+	{
+		"book": "hoa",
+		"chapter": 27,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "slowshifts-house",
+		"title": "The Informant Slowswift",
+		"description": "Vin sneaks into Fadrex and visits Slowswift, an informant recommended by Cett. He praises Yomen's rule — stability, familiarity — and reveals a ball is being held that evening despite the siege, but refuses to help at the cost of his soul. Vin counters that the ash and killer mists will end any stability. Slowswift relents, sharing Yomen's weaknesses before she departs."
+	},
+	{
+		"book": "hoa",
+		"chapter": 27.2,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "canton-of-resource",
+		"title": "Scouting the Canton",
+		"description": "Vin seeks a second informant — a beggar known to hum to himself — but an instinctive unease drives her away. She scouts the Canton of Resource, Yomen's palace, and senses Allomantic pulses indicating a possible Mistborn — but they vanish before she can pinpoint the source. She returns to the army with word that a ball is being held that evening."
 	},
 	{
 		"book": "hoa",
 		"chapter": 28,
 		"location": "fadrex-city",
 		"cityId": "fadrex",
+		"cityLandmark": "ash-mounds",
+		"title": "Trust and a Bold Plan",
+		"description": "Vin returns from her scouting mission and tells Elend she sensed the Mist Spirit inside Fadrex — a weaker force opposing Ruin, unrelated to the mist sickness. She speaks of her destiny as the Hero of Ages, but Elend warns the prophecies may have been altered by their enemy. Vin urges him to quietly investigate the sixteen-percent statistical anomaly. Elend vows to use the army only as a last resort. Vin counters with a bolder idea: they should crash one of Yomen's balls and confront him face to face."
+	},
+	{
+		"book": "hoa",
+		"chapter": 30,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
 		"cityLandmark": "keep-orielle",
-		"title": "The Spy at the Ball",
-		"description": "Vin infiltrates Fadrex disguised as a noblewoman, attending one of Yomen's balls at Keep Orielle to gather intelligence and seek a diplomatic solution.",
-		"season": "Autumn",
-		"year": "1026 FE"
+		"title": "Lady Patresen",
+		"description": "Elend and Vin travel to the ball at Keep Orielle — the plan they set in motion is now real. They are announced and split up to mingle. Vin challenges Lady Patresen, playing on the fears of her followers and warning that things will not go well for anyone who opposes them once they take the city. After Vin leaves the table, Patresen's sycophants follow her, eager to introduce her to the other partygoers."
+	},
+	{
+		"book": "hoa",
+		"chapter": 37,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "ash-mounds",
+		"title": "The Making of Koloss",
+		"description": "Vin fights off Yomen's raiders — using tent spikes as allomantic missiles — and chases a mysterious Mistborn into Fadrex, but loses them in the darkened streets. She returns to learn the raid was a diversion: half their koloss army lies dead. Elend transfers control of a thousand survivors to her. In the koloss camp, Human asks for help creating more koloss. She follows him and watches aghast as he skins a dead koloss, removes four spikes from the corpse, and reaches toward an unconscious soldier in the sick tent. Vin stops him — but the horrific truth is now seared into her mind. Koloss are made from humans."
 	},
 	{
 		"book": "hoa",
 		"chapter": 40,
 		"location": "fadrex-city",
 		"cityId": "fadrex",
-		"cityLandmark": "keep-orielle",
-		"title": "Second Ball",
-		"description": "Vin returns to another of Yomen's balls, engaging him directly in philosophical debate about the Lord Ruler's legacy and the growing ashfall.",
-		"season": "Late Autumn",
-		"year": "1026 FE"
+		"cityLandmark": "ash-mounds",
+		"title": "The Third Art",
+		"description": "Vin watches as Elend, Hammond, Cett, Noorden, and Demoux piece together the truth: Hemalurgy—the third metallic art—uses spikes to steal Allomantic and Feruchemical powers. She realizes Ruin controls the koloss and Inquisitors through the same emotional Allomancy weakness she exploits. Demoux reports the mistfallen soldiers are being ostracized, and Elend orders them formed into a new division. Conrad arrives from Luthadel with news that Penrod is begging for aid amid riots and pillaging. Vin pleads to the mists for help as they once aided her against the Lord Ruler — but is met with silence."
 	},
 	{
 		"book": "hoa",
-		"chapter": 47,
+		"chapter": 43,
 		"location": "fadrex-city",
 		"cityId": "fadrex",
 		"cityLandmark": "canton-of-resource",
-		"title": "Captured",
-		"description": "Vin is captured by Yomen's forces and imprisoned in the Canton of Resource, her metals stripped. She is held in a cell with an atium stash she cannot reach.",
-		"season": "Winter",
-		"year": "1026 FE"
+		"title": "The Second Ball",
+		"description": "Vin and Elend travel to the second ball at the Canton of Resource, ignoring the mysterious Mistborn that shadows them. At the party, Vin detects a Smoker and a Tineye tailing her. She finds Slowswift and asks for two men to help her. Waiting on the patio for Elend's pre-arranged distraction, she strikes the moment it comes — using a duralumin brass push to overwhelm the spies, then knocking them unconscious. Slowswift's men conceal the bodies. Vin changes into stealthier clothing and slips away into the building to find the storage cache."
 	},
 	{
 		"book": "hoa",
-		"chapter": 51,
+		"chapter": 44,
 		"location": "fadrex-city",
 		"cityId": "fadrex",
-		"cityLandmark": "canton-of-resource",
-		"title": "In the Prison",
-		"description": "Imprisoned and cut off from her metals, Vin contemplates Ruin's influence and the nature of the power she released at the Well.",
-		"season": "Winter",
-		"year": "1026 FE"
+		"cityLandmark": "storage-cache",
+		"title": "Into the Cache",
+		"description": "Vin descends below ground, using emotional Allomancy to distract guards as she navigates the corridors beneath the Canton of Resource. She reaches the storage cache — but the stone door seals behind her. It has been sabotaged: all metal has been removed so she cannot Push it open. She is trapped in the darkness. Footsteps approach, and she senses an Allomancer in the cavern with her. Ruin stands before her, wearing her brother Reen's face."
+	},
+	{
+		"book": "hoa",
+		"chapter": 45,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "storage-cache",
+		"title": "Ruin Revealed",
+		"description": "Vin confronts the creature wearing Reen's face. She strikes with a duralumin zinc blast — nothing happens, proving it is not a kandra. She attacks, but it only backs away, refusing to fight. The lights go out and her swings find only air. In the darkness, she focuses on its Allomantic pulses and recognizes them from the Well of Ascension. This is Ruin. He tells her all things must end and that he is not her enemy. Then the deeper horror: he claims he has always been with her — even when she couldn't see him — since she was a child."
+	},
+	{
+		"book": "hoa",
+		"chapter": 48,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "storage-cache",
+		"title": "The Lord Ruler's Final Words",
+		"description": "Trapped in absolute darkness, Vin gropes through the storage cache, piecing together everything she knows about Ruin. Her fingers find the metal plate and she reads it by touch: the Lord Ruler's final confession. Ruin spoke in his mind. He tried to be a good ruler. He hid Ruin's body well. And he cared — despite knowing that if anyone read these words, he was already dead. Startled, she hears the stone door open."
+	},
+	{
+		"book": "hoa",
+		"chapter": 50,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "storage-cache",
+		"title": "Drugged Wine",
+		"description": "The stone door opens. Vin uses her last Allomantic vial and steps into the corridor past several guards, then attempts a desperate Steelpush through the ceiling trapdoor — but it is weighted shut from above. The first man through the door is Telden Hasting, Elend's old friend from the ball, now dressed as a noble informant for Yomen. He offers her freedom in exchange for drinking drugged wine. Vin tries to bluff him with threats of what Elend will do, but Telden doesn't fall for it. She drinks the wine and collapses into unconsciousness."
 	},
 	{
 		"book": "hoa",
 		"chapter": 54,
 		"location": "fadrex-city",
 		"cityId": "fadrex",
-		"cityLandmark": "storage-cache",
-		"title": "The Cache Revealed",
-		"description": "Vin discovers the Fadrex storage cache and its critical contents—food, supplies, and a message about the Lord Ruler's true preparations.",
-		"season": "Late Winter",
-		"year": "1026 FE"
+		"cityLandmark": "canton-of-resource",
+		"title": "Prisoner of Yomen",
+		"description": "Vin awakens in chains with no metals to burn. Yomen has taken every precaution — she faces execution for the murder of the Lord Ruler, though he will allow her to speak in her own defense. He returns her earring: a simple silver-and-bronze piece he dismisses as useless to an Allomancer. Vin puts it back in place, unsettled. One of Elend's soldiers is brought in to verify she is alive and not a kandra impostor. Ruin whispers for her to kill Yomen — but she resists."
 	},
 	{
 		"book": "hoa",
-		"chapter": 56,
+		"chapter": 57,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "canton-of-resource",
+		"title": "The Nature of Ruin",
+		"description": "Ruin speaks to Vin in her cell, teaching her about entropy — that all things must end, himself included. His influence, she realizes, works like emotional Allomancy: not mind control, but a whisper that amplifies what is already there. Ruin tells her Preservation is dead, that the bargain between them is complete, and that the world will end in days. But Vin senses something unexpected beneath his gloating — human emotion, and therefore weakness. He says she and Elend are valuable precisely because they are so good at destroying things. Vin realizes Ruin came to her cell because her imprisonment is the cornerstone of his victory — which means she must escape soon to foil him."
+	},
+	{
+		"book": "hoa",
+		"chapter": 60,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "canton-of-resource",
+		"title": "Before the Obligator's Court",
+		"description": "Vin is brought before Yomen for her trial, making a mock escape attempt — she downs four guards but twenty overwhelm her. Shackled to a bench, she secretly greases her wrists and slips free, hurling silver screws at the guards as a distraction. She lunges for Yomen but he burns atium and evades effortlessly. Unperturbed, he tells her to sit — unshackled. Ruin paces the room, calling Yomen a disappointment. Obligators join and Yomen questions her: why is her army here? She speaks of needing supplies and Cett wanting his kingdom. Yomen asks about her role in the Church of the Survivor, questioning faith in an unseen god. Vin counters that Yomen does the same — believing the Lord Ruler is still alive and guiding events. She recounts slaying the Lord Ruler in detail, omitting only her draw upon the mists. Yomen dismisses it as a ploy; Vin turns his logic against him — she cannot be tried for murdering a god Yomen insists is still alive. She reveals the army's true purpose: the atium. Yomen calls it worthless and ends the session, still trying to discern what the Lord Ruler wants him to do next."
+	},
+	{
+		"book": "hoa",
+		"chapter": 63,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "canton-of-resource",
+		"title": "The Atium Misting",
+		"description": "Ruin gloats to Vin about his pending victory, but she listens carefully to his ramblings — searching for any clue that might help her defeat him. She calls her guards and tells them she wants to make a deal with Yomen. The obligator arrives looking tired, and Vin has a breakthrough: he is not a Mistborn at all. He is an atium Misting — a Seer — which explains why he fled her at Keep Orielle rather than pressing his advantage. She explains how emotional Allomancy combined with duralumin can seize control of koloss when Yomen asks about Elend's power. Yomen muses that Vin is part of the Lord Ruler's plans, and she plays along — claiming the Lord Ruler wanted her to meet Yomen through the hunt for the storage caches. Maps are brought in and Vin marks the locations of the remaining caches across the empire, noticing they all sit near mines or mineral deposits — a pattern. In a flash of clarity she understands: Ruin has been using her and Elend to find the storage caches. Worse — he was manipulating her specifically to locate the atium cache. Before she can dwell on this, Marsh arrives. He smiles at her, bows to Ruin, and tells Yomen an attack is imminent — he is not here to protect Fadrex but to take the atium. Yomen reveals the truth: there was no great cache, only seven beads. He had been bluffing. Ruin screams in frustration. Yomen pleads for Marsh's help but is coldly refused — the Lord Ruler is dead and was an unprofitable servant. Vin seizes the opening: Elend will not attack, she says. She offers Yomen an alliance now that Marsh has abandoned him. Marsh scoffs — Elend would never attack the city to save her. Vin's answer is quiet steel: Elend is a better man than that."
+	},
+	{
+		"book": "hoa",
+		"chapter": 65,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "canton-of-resource",
+		"title": "Breaking Free",
+		"description": "Vin bluffs Ruin from her cell in the Canton of Resource, claiming she and Elend knew his plan all along and have already hidden the atium cache. Marsh grabs her and demands the atium's location, but she refuses. Marsh orders Yomen to attack Elend's army and reveals the Lord Ruler created the koloss and Inquisitors as a force Ruin would one day seize. As Marsh shakes her, Vin steals a metal vial from his sash and ingests it. She removes her earring — the Hemalurgic spike Ruin used to whisper to her — and duralumin-pushes it into Marsh's forehead. When Marsh recovers, grows in size using Feruchemical strength, and chokes her, Vin draws upon the mists and Pushes on his emotions, breaking Ruin's control. Marsh flees. Vin reaches the battlefield and orders a desperate retreat into Fadrex City, forging a temporary alliance with Yomen."
+	},
+	{
+		"book": "hoa",
+		"chapter": 67,
 		"location": "fadrex-city",
 		"cityId": "fadrex",
 		"cityLandmark": "main-gate",
-		"title": "Escape from Fadrex",
-		"description": "As koloss attack Fadrex, Vin escapes the city, drawing the Inquisitors away from Elend and the army to protect them.",
-		"season": "Early Spring",
-		"year": "1027 FE"
+		"title": "The Gathering Storm",
+		"description": "Vin stands with Elend and Yomen inside Fadrex as an enormous army of koloss gathers outside the city walls. A gigantic earthquake rocks the city, causing great damage. Unable to access the mists — her earring still in place — Vin ponders how to bluff Ruin and make the mists help her again. She tells Elend she must reach the atium cache and bring it back."
 	},
 	{
 		"book": "hoa",
-		"chapter": 59,
+		"chapter": 67.2,
 		"location": "fadrex-city",
-		"offset": [200, -20],
-		"title": "Leading the Hunt",
-		"description": "Vin flies eastward toward Luthadel with a pack of Inquisitors pursuing her, deliberately drawing Ruin's servants away from Fadrex and Elend.",
-		"season": "Spring",
-		"year": "1027 FE"
+		"offset": [
+			80,
+			-50
+		],
+		"title": "Leaving for Luthadel",
+		"description": "Vin leaves Fadrex for Luthadel, flying eastward and deliberately drawing the Inquisitors away from Elend and his army. She gambles that she can outrace a god, hoping to force Ruin to tip his hand by making him chase her instead of destroying those she loves."
 	},
 	{
 		"book": "hoa",
@@ -1070,42 +1016,65 @@
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
-		"title": "Return to Luthadel",
-		"description": "Vin arrives in a devastated Luthadel and destroys Kredik Shaw, collapsing the Lord Ruler's palace in a massive display of Allomantic power.",
-		"season": "Summer",
-		"year": "1027 FE"
+		"title": "The Earring",
+		"description": "Vin reaches Luthadel with a dozen Inquisitors chasing her. At Kredik Shaw, Ruin demands the atium's location — his minions already search the palace. She refuses, and thirteen Inquisitors attack. She fights brilliantly, even spotting one using Feruchemical speed from extra spikes, but is eventually overpowered. She pleads for the mists to aid her — nothing happens. Ruin orders Marsh to finish the torture. Marsh breaks her arms, her legs, her fingers one by one, demanding the atium's location. A small part of him resists, thinking of how Kelsier treated Vin as the daughter he and Mare never had. He notices her earring, remembers Spook's steel warning about metal piercing the body — and without thought, rips it from her ear. Ruin's voice cuts off instantly. The mists rush into Vin, healing her injuries and filling her with power. She rises to grapple with Marsh."
+	},
+	{
+		"book": "hoa",
+		"chapter": 73,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "Ascension",
+		"description": "Fueled by the mists as if burning duralumin with an endless metal reserve, Vin turns on the twelve remaining Inquisitors. She kills them all with terrifying ease — her ordinary Steelpushes now carry godlike force. She demolishes Kredik Shaw itself with a single Push, collapsing the Lord Ruler's thousand-year-old palace into rubble. Only Marsh remains. In a moment of mercy — or recognition — she pulls one of his eye spikes free instead of killing him. As the last of the mists flows into her, she coughs once and vanishes, leaving Marsh alive and Ruin raging in the back of his mind."
+	},
+	{
+		"book": "hoa",
+		"chapter": 76,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "Welcome to Godhood",
+		"description": "Vin floats above Luthadel, filled with the power of Preservation. Ruin greets her — a cloud of shifting black smoke — and mockingly says welcome to godhood. Her awareness expands to see the entire planet dying, though many have found shelter in the storage caverns. She tries to help: she blocks the Ashmounts and cleans the air, but the sudden sunlight overheats the world. Every fix creates a new catastrophe as Ruin laughs, blocking her from stopping a tidal wave. He explains the balance between them — like Allomantic pushes and pulls, every action has a consequence — and reveals Preservation created humanity intentionally imbalanced, giving more of himself to them. Vin understands: she and Ruin are evenly matched now, but if he finds the hidden part of his body, the balance breaks. She sees Elend heading toward Luthadel below."
 	},
 	{
 		"book": "hoa",
 		"chapter": 79,
-		"location": "luthadel",
-		"cityId": "luthadel",
-		"cityLandmark": "well-of-ascension",
-		"title": "Ascending",
-		"description": "Vin draws upon the mists themselves—Preservation's body—ascending to become a vessel of divine power to fight Ruin directly.",
-		"season": "Autumn",
-		"year": "1027 FE"
+		"location": "pits-hathsin",
+		"title": "Following Ruin",
+		"description": "Vin senses a change and follows Ruin to the Pits of Hathsin. She sees the refugee camp and the kandra moving the atium, gaining a new appreciation for the Lord Ruler's elaborate concealment. Ruin seizes control of KanPaar and demands the atium's location."
+	},
+	{
+		"book": "hoa",
+		"chapter": 80,
+		"location": "pits-hathsin",
+		"title": "The Wind's Guidance",
+		"description": "Vin, as Preservation, watches the hundreds of thousands of refugees gathered at the Pits of Hathsin. She whispers Elend's name on the wind, guiding him through the camp toward the kandra Homeland where Sazed fights alone to protect the atium. Ruin continues to taunt her — but she cannot answer, can only watch, guide, and hope."
 	},
 	{
 		"book": "hoa",
 		"chapter": 81,
-		"location": "luthadel",
-		"cityId": "luthadel",
-		"cityLandmark": "kredik-shaw",
-		"title": "The Last Sacrifice",
-		"description": "Vin sacrifices herself to destroy Ruin, combining Preservation's power with her own life force to annihilate the god of destruction.",
-		"season": "Autumn",
-		"year": "1027 FE"
+		"location": "pits-hathsin",
+		"title": "Watching the Battle",
+		"description": "Vin watches as Elend gives a speech to his Seers and leads the atium mistings charging into the koloss army. She tries to tell him not to fight — he cannot hear her. She sees Sazed standing at the cave entrance, resupplying soldiers. For hours she watches Elend burn through a fortune of atium, fighting with impossible precision. Then Marsh appears, also burning atium, and Vin sees the dark force of Ruin guiding her brother's axe. She watches Elend burn duralumin and atium together in a final flash of godlike insight — and drive his sword into Marsh's neck as the axe takes him in the chest. Elend dies smiling."
+	},
+	{
+		"book": "hoa",
+		"chapter": 81.2,
+		"location": "pits-hathsin",
+		"title": "The Final Attack",
+		"description": "Ruin gloats over Elend's corpse as Marsh decapitates him. But Vin has watched the man she loves sacrifice everything — and she will not let it be for nothing. Ignoring the agony that comes from using Preservation's power to destroy, she attacks Ruin directly. The force of opposites — Preservation striking Ruin — is something neither Shard was ever meant to survive. The attack kills both Ati and Vin. Her body falls beside Elend's in the ash.",
+		"status": "deceased"
 	},
 	{
 		"book": "hoa",
 		"chapter": 83,
-		"location": "luthadel",
-		"cityId": "luthadel",
-		"cityLandmark": "fountain-square",
 		"title": "The Field of Rebirth",
 		"description": "Vin's body is found in a field of flowers and green grass—the first signs of Sazed's remade world. She lies at peace beside Elend.",
-		"season": "Autumn",
-		"year": "1027 FE"
+		"locationCoords": [
+			1392,
+			905
+		],
+		"placementNote": "⚠️ Approximate placement — after the Catacendre, the world has been completely remade. Old landmarks no longer exist. This is the field of flowers and green grass where Vin and Elend are found."
 	}
 ]

@@ -41,19 +41,31 @@ export const CityPrompt: React.FC = () => {
 
 	const worldMapCharacters = useMemo(() => {
 		if (mapView !== 'city' || !activeCity) return [];
+		const seen = new Set<string>();
 		return debutedPositions
 			.filter(({ movement }) => {
 				if (!movement) return false;
 				return movement.cityId !== activeCity;
 			})
-			.map(({ character }) => t.data.characters[character.id]?.name ?? character.name);
+			.map(({ character }) => t.data.characters[character.id]?.name ?? character.name)
+			.filter(name => {
+				if (seen.has(name)) return false;
+				seen.add(name);
+				return true;
+			});
 	}, [debutedPositions, mapView, activeCity, t]);
 
 	const cityCharacters = useMemo(() => {
 		if (!citySuggestion || mapView === 'city') return [];
+		const seen = new Set<string>();
 		return debutedPositions
 			.filter(({ movement }) => movement?.cityId === citySuggestion.cityId && movement?.cityCoords)
-			.map(({ character }) => t.data.characters[character.id]?.name ?? character.name);
+			.map(({ character }) => t.data.characters[character.id]?.name ?? character.name)
+			.filter(name => {
+				if (seen.has(name)) return false;
+				seen.add(name);
+				return true;
+			});
 	}, [debutedPositions, citySuggestion, mapView, t]);
 
 	const [dismissedWorldMapPrompt, setDismissedWorldMapPrompt] = useState(false);

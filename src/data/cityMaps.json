@@ -15,7 +15,9 @@
 				"name": "Kredik Shaw",
 				"type": "palace",
 				"coords": [65.6, 50.4],
-				"description": "The Lord Ruler's palace, 'Hill of a Thousand Spires'. Its piecemeal construction suggests the city was not perfectly planned from the beginning.",
+				"description": "The Lord Ruler's palace, 'Hill of a Thousand Spires'. Vin destroyed it in a massive display of mist-fueled Allomantic power, collapsing the entire structure to rubble during her confrontation with Ruin's Inquisitors.",
+				"safeDescription": "The Lord Ruler's palace, 'Hill of a Thousand Spires'. Its piecemeal construction suggests the city was not perfectly planned from the beginning.",
+				"spoiler": { "book": "hoa", "chapter": 72 },
 				"worldLocationId": "kredik-shaw"
 			},
 			{
@@ -119,8 +121,9 @@
 				"name": "Fountain Square",
 				"type": "plaza",
 				"coords": [40.8, 61.2],
-				"description": "Site of public executions",
-				"safeDescription": "It is here that the Lord Ruler killed Kelsier. Later renamed the Square of the Survivor.",
+				"description": "It is here that the Lord Ruler killed Kelsier. Later renamed the Square of the Survivor.",
+				"safeDescription": "Site of public executions",
+				"spoiler": { "book": "tfe", "chapter": 34 }
 			},
 			{
 				"checked": true,
@@ -154,8 +157,10 @@
 				"type": "landmark",
 				"coords": [62.8, 50.6],
 				"description": "The hidden power source beneath Kredik Shaw",
+				"safeDescription": "A mysterious underground chamber beneath Kredik Shaw, whose true nature remained hidden for a thousand years.",
 				"worldLocationId": "well-ascension",
-				"spoiler": { "book": "woa", "chapter": 51 }
+				"spoiler": { "book": "woa", "chapter": 51 },
+				"books": [{ "book": "woa", "chapter": 51 }]
 			},
 			{
 				"id": "tin-gate-north",
@@ -169,8 +174,8 @@
 				"name": "Assembly Hall",
 				"type": "plaza",
 				"coords": [49.2, 38.5],
-				"description": "The Assembly building",
-				"safeDescription": "The Assembly building is where Elend's democratic parliament convened during the siege of Luthadel. Site of his deposition and the political drama of the new government.",
+				"description": "Where Elend's democratic parliament convened during the siege of Luthadel. Site of his deposition and the political drama of the new government.",
+				"safeDescription": "The Assembly building",
 				"spoiler": { "book": "woa", "chapter": 10 }
 			},
 			{
@@ -186,16 +191,18 @@
 				"name": "Luthadel Garrison",
 				"type": "district",
 				"coords": [22.1, 77.5],
-				"description": "The city's military training ground and barracks.",
-				"safeDescription": "Ham and Vin visited here to assess the Lord Ruler's military strength and recruit sympathetic soldiers."
+				"description": "Ham and Vin visited here to assess the Lord Ruler's military strength and recruit sympathetic soldiers.",
+				"safeDescription": "The city's military training ground and barracks.",
+				"spoiler": { "book": "tfe", "chapter": 24 }
 			},
 			{
 				"id": "warehouse-district",
 				"name": "Warehouse District",
 				"type": "district",
 				"coords": [81.2, 40.1],
-				"description": "The industrial district near the western canals.",
-				"safeDescription": "It is where Kelsier's crew stockpiled weapons and held secret rallies for the skaa rebellion."
+				"description": "It is where Kelsier's crew stockpiled weapons and held secret rallies for the skaa rebellion.",
+				"safeDescription": "The industrial district near the western canals.",
+				"spoiler": { "book": "tfe", "chapter": 10 }
 			},
 			{
 				"id": "canton-inquisition",
@@ -319,8 +326,9 @@
 				"name": "Canton of Inquisition",
 				"type": "ministry",
 				"coords": [66.6, 56.7],
-				"description": "The Steel Ministry headquarters",
-				"safeDescription": "It is built directly over the third storage cavern, which contains a massive underground lake—the Source from which the canal network was originally fed. Houses the flood gate mechanism that Sazed built to release the reservoir during the fires."
+				"description": "It is built directly over the third storage cavern, which contains a massive underground lake—the Source from which the canal network was originally fed. Houses the flood gate mechanism that Sazed built to release the reservoir during the fires.",
+				"safeDescription": "The Steel Ministry headquarters",
+				"spoiler": { "book": "hoa", "chapter": 31 }
 			},
 			{
 				"checked": true,
@@ -334,17 +342,12 @@
 				"id": "spooks-hideout",
 				"name": "Spook's Hideout",
 				"type": "safehouse",
-				"coords": [24.3, 66.2],
+				"coords": [48, 34],
 				"description": "The 'Burning House' used by Spook's crew during the uprising.",
-				"spoiler": { "book": "hoa", "chapter": 10 }
-			},
-			{
-				"id": "citizens-estate",
-				"name": "Citizen's Estate",
-				"type": "palace",
-				"coords": [40.0, 63.0],
-				"description": "Quellion's appropriated noble mansion, serving as his seat of power.",
-				"spoiler": { "book": "hoa", "chapter": 10 }
+				"safeDescription": "An abandoned building in the Harrows district of Urteau.",
+				"spoiler": { "book": "hoa", "chapter": 10 },
+				"books": [{ "book": "hoa", "chapter": 10 }],
+				"placementNote": "⚠️ Approximate — the exact position of Spook's hideout within the Harrows is not specified in the text."
 			},
 			{
 				"id": "luthadel-gate",
@@ -364,22 +367,25 @@
 				"id": "burning-district",
 				"name": "The Burning District",
 				"type": "district",
-				"coords": [30.0, 70.0],
+				"coords": [45, 62],
 				"description": "Approximately one-third of the city destroyed by fires during Spook's rebellion against Quellion. The fire spread during riots when Spook exposed the Citizen's use of Hemalurgic spikes to blackmail Allomancers.",
-				"spoiler": { "book": "hoa", "chapter": 40 }
+				"safeDescription": "A residential district in Urteau.",
+				"spoiler": { "book": "hoa", "chapter": 40 },
+				"books": [{ "book": "hoa", "chapter": 40 }],
+				"placementNote": "⚠️ Approximate — the extent of the fires is not precisely mapped in the text."
 			},
 			{
 				"id": "skaa-slums",
 				"name": "Skaa Slums",
 				"type": "district",
-				"coords": [25.0, 55.0],
+				"coords": [56.1, 71],
 				"description": "The impoverished districts where revolutionaries gather in the dry canal beds."
 			},
 			{
 				"id": "the-harrows",
 				"name": "The Harrows",
 				"type": "district",
-				"coords": [28.0, 35.0],
+				"coords": [45, 31.9],
 				"description": "A tangled maze of narrow, interconnected canals in the southern section of the city. The dense, chaotic network makes navigation difficult."
 			},
 			{
@@ -401,16 +407,21 @@
 				"name": "The White Streets",
 				"type": "district",
 				"coords": [52.5, 63],
-				"description": "An affluent district where the cobblestones were kept meticulously clean of ash.",
-				"safeDescription": "Following the revolution, many of the wooden noble houses in this area were burned by the Citizen's regime."
+				"description": "Following the revolution, many of the wooden noble houses in this area were burned by the Citizen's regime.",
+				"safeDescription": "An affluent district where the cobblestones were kept meticulously clean of ash.",
+				"spoiler": { "book": "hoa", "chapter": 58 },
+				"books": [{ "book": "hoa", "chapter": 58 }]
 			},
 			{
 				"id": "citizens-home",
 				"name": "The Citizen's Home",
 				"type": "palace",
-				"coords": [55.9, 71],
+				"coords": [56.1, 71],
 				"description": "The headquarters of Quellion, a skaa who seized power after the Lord Ruler's fall. His regime turned the noble mansions of Urteau into communal dwellings or sites of execution.",
-				"spoiler": { "book": "hoa", "chapter": 20 }
+				"safeDescription": "A building in the White Streets district of Urteau.",
+				"spoiler": { "book": "hoa", "chapter": 20 },
+				"books": [{ "book": "hoa", "chapter": 20 }],
+				"placementNote": "⚠️ Approximate — the specific building Quellion used as his headquarters is not specified in the text."
 			},
 			{
 				"id": "interchange-building",
@@ -424,8 +435,9 @@
 				"name": "Old City Square",
 				"type": "plaza",
 				"coords": [56.6, 54.1],
-				"description": "The historic center of Urteau.",
-				"safeDescription": "The historic center of Urteau, which became a site of radical political upheaval and public burnings during the Citizen's reign."
+				"description": "The heart of Urteau, which became a site of radical political upheaval and public burnings during the Citizen's reign.",
+				"safeDescription": "The historic center of Urteau.",
+				"spoiler": { "book": "hoa", "chapter": 58 }
 			},
 			{
 				"id": "canton-orthodoxy-urteau",
@@ -452,16 +464,20 @@
 				"name": "Keep Orielle",
 				"type": "keep",
 				"coords": [36.8, 46.7],
-				"description": "The primary keep of House Orielle, sitting on elevated ground on the rock shelf.",
-				"safeDescription": "Used by Obligator Aradan Yomen as his palace after he seized control. Site of noble balls where Yomen reestablished Final Empire social structures."
+				"description": "Used by Obligator Aradan Yomen as his palace after he seized control. Site of noble balls where Yomen reestablished Final Empire social structures.",
+				"safeDescription": "The primary keep of House Orielle, sitting on elevated ground on the rock shelf.",
+				"spoiler": { "book": "hoa", "chapter": 28 }
 			},
 			{
 				"id": "storage-cache",
 				"name": "Storage Cavern",
 				"type": "landmark",
-				"coords": [22.4, 61.5],
+				"coords": [46.5, 43],
 				"description": "The secret cache containing food and electrum, hidden within the northern rock formations near Keep Orielle. The strategic goal of Elend's siege.",
-				"spoiler": { "book": "hoa", "chapter": 40 }
+				"safeDescription": "",
+				"spoiler": { "book": "hoa", "chapter": 44 },
+				"books": [{ "book": "hoa", "chapter": 44 }],
+				"placementNote": "⚠️ Approximate location — the storage cache is accessed via the Canton of Resource, but its exact underground position relative to the surface is not specified."
 			},
 			{
 				"id": "cetts-base",
@@ -469,6 +485,7 @@
 				"type": "keep",
 				"coords": [40.0, 45.0],
 				"description": "Ashweather Cett's fortified compound before he moved to Luthadel.",
+				"safeDescription": "A fortified compound in Fadrex City.",
 				"spoiler": { "book": "hoa", "chapter": 35 }
 			},
 			{
@@ -491,6 +508,7 @@
 				"type": "palace",
 				"coords": [46.9, 55.2],
 				"description": "The administrative seat of Aradan Yomen, the Obligator who controls the city.",
+				"safeDescription": "An administrative building in Fadrex City.",
 				"spoiler": { "book": "hoa", "chapter": 10 }
 			},
 			{
@@ -520,15 +538,19 @@
 				"type": "landmark",
 				"coords": [77.4, 25.4],
 				"description": "The ash-covered plains outside the city walls to the southeast, where Elend's besieging army established their encampment.",
-				"spoiler": { "book": "hoa", "chapter": 50 }
+				"safeDescription": "Ash-covered plains outside the city walls.",
+				"spoiler": { "book": "hoa", "chapter": 25 },
+				"books": [{ "book": "hoa", "chapter": 25 }]
 			},
 			{
 				"id": "canton-of-resource",
 				"name": "Canton of Resource",
 				"type": "ministry",
 				"coords": [46.5, 41.3],
-				"description": "The Steel Ministry's Canton of Resource in Fadrex, used by Yomen as a prison for Vin. Contains a hidden connection to the storage cache beneath the city.",
-				"spoiler": { "book": "hoa", "chapter": 50 }
+				"description": "The administrative heart of Fadrex City, used by Obligator Yomen as a prison for Vin. Contains a hidden connection to the storage cache beneath the city.",
+				"safeDescription": "The Steel Ministry's Canton of Resource building in Fadrex City.",
+				"spoiler": { "book": "hoa", "chapter": 27 },
+				"books": [{ "book": "hoa", "chapter": 27 }]
 			},
 			{
 				"id": "slowshifts-house",
@@ -536,7 +558,9 @@
 				"type": "landmark",
 				"coords": [24.4, 48.5],
 				"description": "The residence of an elderly, experienced informant who possessed deep knowledge of the city's secrets and the Ministry's local operations.",
-				"spoiler": { "book": "hoa", "chapter": 30 }
+				"safeDescription": "A private residence in Fadrex City.",
+				"spoiler": { "book": "hoa", "chapter": 27 },
+				"books": [{ "book": "hoa", "chapter": 27 }]
 			},
 			{
 				"id": "the-wells",
@@ -550,8 +574,9 @@
 				"name": "Infirmary",
 				"type": "landmark",
 				"coords": [68.6, 61.9],
-				"description": "A Ministry-run medical facility that, while ostensibly for healing",
-				"safeDescription": "It also served as a site for the observation of 'mist-sick' patients and other anomalies."
+				"description": "A Ministry-run medical facility where Elend made his pivotal discovery—watching a mist-sick boy in agony, he realized the mists were not killing people but Snapping them into Allomancers.",
+				"safeDescription": "A Ministry-run medical facility serving the citizens of Fadrex.",
+				"spoiler": { "book": "hoa", "chapter": 70 }
 			}
 		]
 	}

@@ -11,7 +11,7 @@ import type { LanguageCode } from '@/i18n/types';
 
 // ── App Version ──────────────────────────────────────────────s─────────────────
 
-export const APP_VERSION = '0.9.0';
+export const APP_VERSION = '1.0.0';
 
 // ── Timing ────────────────────────────────────────────────────────────────────
 
@@ -99,7 +99,7 @@ export const CITY_MAX_ZOOM = 6;
 export const MARKER_SIZE = 28;
 
 /** Character portrait icon dimensions [width, height] */
-export const CHARACTER_ICON_SIZE: [number, number] = [44, 44];
+export const CHARACTER_ICON_SIZE: [number, number] = [48, 48];
 
 /** Character icon anchor point [x, y] */
 export const CHARACTER_ICON_ANCHOR: [number, number] = [22, 44];
@@ -179,9 +179,9 @@ export const CHARACTER_IMAGES: Record<CharacterId, string> = {
 	vin: '/characters/vin_1.jpg',
 	kelsier: '/characters/kelsier.jpg',
 	sazed: '/characters/sazed.jpg',
-	elend: '/characters/elend.jpg',
+	elend: '/characters/elend_young.jpg',
 	marsh: '/characters/marsh_1.jpg',
-	spook: '/characters/spook.png',
+	spook: '/characters/spook_young.jpg',
 };
 
 export const BOOK_ORDER: Record<BookId, number> = { tfe: 1, woa: 2, hoa: 3 };
@@ -253,8 +253,8 @@ export const PORTRAIT_ATTRIBUTIONS: PortraitAttribution[] = [
 		image: '/characters/sazed.jpg',
 		alt: 'Sazed',
 		labelKey: 'portraitSazed',
-		artistName: 'Diego López',
-		artistUrl: 'https://www.instagram.com/diegolopez_artist/',
+		artistName: 'Kit Buss',
+		artistUrl: 'https://anemoneink.tumblr.com/',
 	},
 	{
 		characterId: 'elend',

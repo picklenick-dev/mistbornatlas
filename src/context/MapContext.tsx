@@ -228,6 +228,13 @@ export const MapProvider: React.FC<MapProviderProps> = ({ children }) => {
 		}
 	}, [hideMovementSpoilers]);
 
+	// When Read Along Mode is disabled, reveal all character portraits
+	// (non-debuted characters show "Not yet introduced" instead of being hidden).
+	// When enabled, hide non-debuted characters.
+	useEffect(() => {
+		setShowAllCharacters(!hideMovementSpoilers);
+	}, [hideMovementSpoilers]);
+
 	const isInitialMount = useRef(true);
 	useEffect(() => {
 		if (isInitialMount.current) {

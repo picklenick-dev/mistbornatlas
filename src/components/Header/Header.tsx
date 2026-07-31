@@ -151,7 +151,7 @@ export const Header: React.FC = () => {
 			</header>
 
 			{/* WIP ribbon */}
-			<div className={styles.wipRibbon} ref={wipRef}>
+			{/* <div className={styles.wipRibbon} ref={wipRef}>
 				<button
 					className={styles.wipBadge}
 					onClick={() => setWipOpen(o => !o)}
@@ -191,7 +191,7 @@ export const Header: React.FC = () => {
 						</a>
 					</div>
 				)}
-			</div>
+			</div> */}
 		</>
 	);
 };

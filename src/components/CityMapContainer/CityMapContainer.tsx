@@ -4,7 +4,7 @@ import L from 'leaflet';
 import { useMapContext } from '@/context/MapContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { useMapData } from '@/hooks';
-import { isDebugMode, isPastReadingPoint } from '@/utils';
+import { isDebugMode } from '@/utils';
 import { getCityMapById } from '@/data';
 import { CityLandmarkMarker } from '@/components/CityLandmarkMarker';
 import { CharacterMarker } from '@/components/CharacterMarker';
@@ -57,19 +57,17 @@ export const CityMapContainer: React.FC = () => {
 
 	const mapImageUrl = getLocalizedCityMapUrl(activeCity, language);
 
-	// Hide spoiler-gated landmarks (e.g. the Well of Ascension) until the reader
-	// reaches the chapter where they are revealed, unless spoilers are enabled.
-	const visibleLandmarks = cityMap.landmarks.filter(
-		landmark =>
-			!landmark.spoiler ||
-			!hideMovementSpoilers ||
-			isPastReadingPoint(
-				landmark.spoiler.book,
-				landmark.spoiler.chapter,
-				currentBook,
-				currentChapter
-			)
-	);
+	// Filter landmarks by books (visibility). Book-level gates always respected;
+	// chapter-level gates only enforced when read-along is ON.
+	const visibleLandmarks = cityMap.landmarks.filter(landmark => {
+		if (!landmark.books) return true;
+		return landmark.books.some(entry => {
+			if (typeof entry === 'string') return entry === currentBook;
+			if (entry.book !== currentBook) return false;
+			if (!hideMovementSpoilers) return true;
+			return currentChapter >= entry.chapter;
+		});
+	});
 
 	const cityCharacterPositions = characterPositions.filter(
 		({ movement }) => movement?.cityId === activeCity && movement?.cityCoords

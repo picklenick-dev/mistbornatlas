@@ -9,6 +9,8 @@ export type BookId = 'tfe' | 'woa' | 'hoa';
 export interface SpoilerGate {
 	book: BookId;
 	chapter: number;
+	/** If true, this gate only passes when Secret History mode is active */
+	secretHistory?: boolean;
 }
 
 export interface Book {
@@ -83,10 +85,12 @@ export interface Location {
 	cityMapId?: CityId; // If this location has a detailed city map
 	placementNote?: string; // Note about discrepancies between map placement and source material
 	checked?: boolean; // Whether this location has been verified
-	books?: BookId[]; // If set, location only appears in these books
+	books?: (BookId | SpoilerGate)[]; // If set, location only appears in these books (or after a specific chapter when a SpoilerGate is used)
 	spoiler?: SpoilerGate; // If set, `description` is only revealed once the reader reaches this point
 	safeDescription?: string; // Spoiler-free description shown before the `spoiler` gate is reached
 	safeFeatures?: string[]; // Spoiler-free feature list shown before the `spoiler` gate is reached
+	/** If true, this location only appears when Secret History mode is active */
+	secretHistory?: boolean;
 }
 
 // Detailed intra-city views
@@ -111,7 +115,12 @@ export interface CityLandmark {
 	coords: [number, number]; // Relative coordinates within city (0-100 percentage)
 	description: string;
 	worldLocationId?: string; // Links back to world map location if applicable
-	spoiler?: SpoilerGate; // If set, the landmark is hidden until the reader reaches this point
+	checked?: boolean;
+	spoiler?: SpoilerGate; // If set, description text is gated until this chapter
+	safeDescription?: string; // Spoiler-free description shown before the spoiler gate
+	safeFeatures?: string[]; // Spoiler-free feature list
+	books?: (BookId | SpoilerGate)[]; // Controls visibility: hide landmark until book/chapter
+	placementNote?: string; // Note about approximate or uncertain placement
 }
 
 export interface CityMap {
@@ -151,9 +160,10 @@ export interface RawMovement {
 	cityOffset?: [number, number];
 	title: string;
 	description: string;
-	season: Season;
-	year: string;
+	season?: Season;
+	year?: string;
 	secretHistory?: boolean; // If true, only shown when Secret History mode is enabled
+	placementNote?: string; // Note about approximate or uncertain placement
 }
 
 // Resolved movement with computed coordinates
@@ -171,6 +181,7 @@ export interface Movement {
 	season: Season;
 	year: string;
 	secretHistory?: boolean; // If true, only shown when Secret History mode is enabled
+	placementNote?: string; // Note about approximate or uncertain placement
 }
 
 export type DominanceId = 'central' | 'northern' | 'southern' | 'eastern' | 'western' | 'farmost';

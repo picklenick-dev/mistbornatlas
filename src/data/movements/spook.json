@@ -6,18 +6,14 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "The Young Tineye",
-		"description": "Spook, Clubs' young nephew, works as a lookout and messenger for the crew at the carpentry shop, speaking in thick Eastern street slang.",
-		"season": "Late Spring",
-		"year": "1021 FE"
+		"description": "Spook, Clubs' young nephew, works as a lookout and messenger for the crew at the carpentry shop, speaking in thick Eastern street slang."
 	},
 	{
 		"book": "tfe",
 		"chapter": 9,
 		"location": "fellise",
 		"title": "Messenger Runs",
-		"description": "Spook runs messages between Clubs' Shop in Luthadel and the Renoux estate in Fellise, his tin-enhanced senses making him an exceptional scout.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Spook runs messages between Clubs' Shop in Luthadel and the Renoux estate in Fellise, his tin-enhanced senses making him an exceptional scout."
 	},
 	{
 		"book": "tfe",
@@ -26,18 +22,14 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Watching Over Vin",
-		"description": "Lestibournes watches over the injured Vin at Clubs' shop, present when she wakes up from her injuries sustained during the Kredik Shaw scouting mission. He now tells that he got a new name from Kelsier; Spook.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Lestibournes watches over the injured Vin at Clubs' shop, present when she wakes up from her injuries sustained during the Kredik Shaw scouting mission. He now tells that he got a new name from Kelsier; Spook."
 	},
 	{
 		"book": "tfe",
 		"chapter": 22,
 		"location": "fellise",
 		"title": "The Handkerchief",
-		"description": "Spook visits the Renoux estate in Fellise and finds Vin reading the Lord Ruler's logbook. He tells her that Dockson came to get more weapons, and—flushed and nervous—gives her a handkerchief before dashing away. Sazed later explains to Vin that this is how a young man signals he would like to seriously court a lady.",
-		"season": "Autumn",
-		"year": "1021 FE"
+		"description": "Spook visits the Renoux estate in Fellise and finds Vin reading the Lord Ruler's logbook. He tells her that Dockson came to get more weapons, and—flushed and nervous—gives her a handkerchief before dashing away. Sazed later explains to Vin that this is how a young man signals he would like to seriously court a lady."
 	},
 	{
 		"book": "tfe",
@@ -46,9 +38,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Late Night at Clubs'",
-		"description": "Spook shares a late-night drink at Clubs' shop with Kelsier, Ham, and Clubs while the crew discusses the status of the mission.",
-		"season": "Autumn",
-		"year": "1021 FE"
+		"description": "Spook shares a late-night drink at Clubs' shop with Kelsier, Ham, and Clubs while the crew discusses the status of the mission."
 	},
 	{
 		"book": "tfe",
@@ -57,9 +47,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "fountain-square",
 		"title": "The Executions",
-		"description": "Spook bursts into Clubs' shop to announce executions at Fountain Square. He joins the crew as they head to the square and witness the brutal public execution of skaa women and children, their blood emptied into the fountain.",
-		"season": "Late Autumn",
-		"year": "1021 FE"
+		"description": "Spook bursts into Clubs' shop to announce executions at Fountain Square. He joins the crew as they head to the square and witness the brutal public execution of skaa women and children, their blood emptied into the fountain."
 	},
 	{
 		"book": "tfe",
@@ -68,9 +56,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Scouting the Rooftops",
-		"description": "Spook scouts from the rooftop above Clubs' shop with Vin, teaching her tricks about using tin. He explains it's not just about enhancing senses but about sorting out what matters and not being distracted by the rest.",
-		"season": "Winter",
-		"year": "1022 FE"
+		"description": "Spook scouts from the rooftop above Clubs' shop with Vin, teaching her tricks about using tin. He explains it's not just about enhancing senses but about sorting out what matters and not being distracted by the rest."
 	},
 	{
 		"book": "tfe",
@@ -79,9 +65,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Tineye on Watch",
-		"description": "When the crew goes to Fountain Square, Spook is spotted in one of the execution carts alongside Lord Renoux—captured by the Ministry.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "When the crew goes to Fountain Square, Spook is spotted in one of the execution carts alongside Lord Renoux—captured by the Ministry."
 	},
 	{
 		"book": "tfe",
@@ -90,9 +74,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "fountain-square",
 		"title": "Witnessing the Sacrifice",
-		"description": "Spook watches from the crowd as Kelsier fights and dies in Fountain Square, an event that will shape the rest of his life. The Survivor's sacrifice transforms Spook's understanding of what it means to serve a cause.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Spook watches from the crowd as Kelsier fights and dies in Fountain Square, an event that will shape the rest of his life. The Survivor's sacrifice transforms Spook's understanding of what it means to serve a cause."
 	},
 	{
 		"book": "tfe",
@@ -101,9 +83,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "The Revolution",
-		"description": "Spook fights with the crew during the final revolution, helping coordinate the skaa uprising from the streets of Luthadel.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Spook fights with the crew during the final revolution, helping coordinate the skaa uprising from the streets of Luthadel."
 	},
 	{
 		"book": "woa",
@@ -112,9 +92,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Growing Scout",
-		"description": "Spook returns to Luthadel from his scouting mission and rejoins the crew at Keep Venture. He resumes his role patrolling the city and observing the encircling armies.",
-		"season": "Autumn",
-		"year": "1023 FE"
+		"description": "Spook returns to Luthadel from his scouting mission and rejoins the crew at Keep Venture. He resumes his role patrolling the city and observing the encircling armies."
 	},
 	{
 		"book": "woa",
@@ -123,9 +101,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Crew Gathering",
-		"description": "Spook is present at Keep Venture as the crew regroups following the arrival of Cett's second army outside Luthadel.",
-		"season": "Early Winter",
-		"year": "1023 FE"
+		"description": "Spook is present at Keep Venture as the crew regroups following the arrival of Cett's second army outside Luthadel."
 	},
 	{
 		"book": "woa",
@@ -134,9 +110,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "War Council",
-		"description": "Spook attends Elend's war council at Keep Venture, where the crew discusses strategy for dealing with two besieging armies and the growing threat beyond the walls.",
-		"season": "Early Winter",
-		"year": "1023 FE"
+		"description": "Spook attends Elend's war council at Keep Venture, where the crew discusses strategy for dealing with two besieging armies and the growing threat beyond the walls."
 	},
 	{
 		"book": "woa",
@@ -145,9 +119,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "At the War Council",
-		"description": "Spook is present at Keep Venture as the crew discusses Elend's plan to parlay with Straff Venture and strategy for dealing with the besieging armies.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Spook is present at Keep Venture as the crew discusses Elend's plan to parlay with Straff Venture and strategy for dealing with the besieging armies."
 	},
 	{
 		"book": "woa",
@@ -156,9 +128,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Sazed's Return",
-		"description": "Spook is present at Keep Venture as Sazed returns and briefs the crew about the koloss army, the mist killings, and the danger from a third besieging force.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Spook is present at Keep Venture as Sazed returns and briefs the crew about the koloss army, the mist killings, and the danger from a third besieging force."
 	},
 	{
 		"book": "woa",
@@ -167,9 +137,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kenton-street",
 		"title": "Shopping Escort",
-		"description": "Spook accompanies Vin, Tindwyl, Allrianne, and OreSeur on a shopping trip for a dress on Kenton Street. Of course against his own will. Warning drums interrupt the outing as Straff's army launches a feint attack on the city walls.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Spook accompanies Vin, Tindwyl, Allrianne, and OreSeur on a shopping trip for a dress on Kenton Street. Of course against his own will. Warning drums interrupt the outing as Straff's army launches a feint attack on the city walls."
 	},
 	{
 		"book": "woa",
@@ -178,9 +146,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "camons-safehouse",
 		"title": "Finding Vin",
-		"description": "Spook joins Elend and Hammond to discuss Vin's devastating solo attack on Cett's forces. OreSeur leads them to Vin at Camon's former lair, where she speaks of leaving Luthadel.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Spook joins Elend and Hammond to discuss Vin's devastating solo attack on Cett's forces. OreSeur leads them to Vin at Camon's former lair, where she speaks of leaving Luthadel."
 	},
 	{
 		"book": "woa",
@@ -189,49 +155,51 @@
 		"cityId": "luthadel",
 		"cityLandmark": "tin-gate-north",
 		"title": "Exile Group",
-		"description": "Spook leaves Luthadel through the Tin Gate with Vin, Elend, and Allrianne, slipping past Straff's army as the party rides north toward the Terris mountains.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Spook leaves Luthadel through the Tin Gate with Vin, Elend, and Allrianne, slipping past Straff's army as the party rides north toward the Terris mountains."
 	},
 	{
 		"book": "woa",
 		"chapter": 50,
 		"location": "imperial-canal",
-		"offset": [19, -291],
+		"offset": [
+			19,
+			-291
+		],
 		"title": "Something in the Mists",
-		"description": "Breaking camp north of the city, Spook is first to sense that something is trailing the party through the mists. Vin tells him it is the mist spirit. Resolving to make the most of his single Allomantic sense, Spook keeps his tin burning as a constant watch.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Breaking camp north of the city, Spook is first to sense that something is trailing the party through the mists. Vin tells him it is the mist spirit. Resolving to make the most of his single Allomantic sense, Spook keeps his tin burning as a constant watch."
 	},
 	{
 		"book": "woa",
 		"chapter": 51,
 		"location": "imperial-canal",
-		"offset": [16, -249],
+		"offset": [
+			16,
+			-249
+		],
 		"title": "Five Men Following",
-		"description": "Spook's enhanced senses pick out five men shadowing the camp—Jastes Lekal's group. After Elend executes Jastes, Spook reveals the secret he overheard: Sazed tricked them into leaving so they would survive the coming attack. The group turns back for Luthadel.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Spook's enhanced senses pick out five men shadowing the camp—Jastes Lekal's group. After Elend executes Jastes, Spook reveals the secret he overheard: Sazed tricked them into leaving so they would survive the coming attack. The group turns back for Luthadel."
 	},
 	{
 		"book": "woa",
 		"chapter": 52,
 		"location": "imperial-canal",
-		"offset": [18, -277],
+		"offset": [
+			18,
+			-277
+		],
 		"title": "Riding Back",
-		"description": "Unable to match Vin's pewter-fueled speed, Spook rides hard alongside Elend toward the besieged city, desperate to reach Luthadel before the koloss destroy everything they left behind.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Unable to match Vin's pewter-fueled speed, Spook rides hard alongside Elend toward the besieged city, desperate to reach Luthadel before the koloss destroy everything they left behind."
 	},
 	{
 		"book": "woa",
 		"chapter": 56,
 		"location": "imperial-canal",
-		"offset": [12, -200],
+		"offset": [
+			12,
+			-200
+		],
 		"title": "The Terris Refugees",
-		"description": "Spook travels with Elend as they meet a column of Terris refugees fleeing Tathingdwen, where Inquisitors killed the Synod. When the mist spirit appears to Elend, Spook's arrival drives it off. Together they escort the refugees toward Luthadel.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Spook travels with Elend as they meet a column of Terris refugees fleeing Tathingdwen, where Inquisitors killed the Synod. When the mist spirit appears to Elend, Spook's arrival drives it off. Together they escort the refugees toward Luthadel."
 	},
 	{
 		"book": "woa",
@@ -240,9 +208,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Into the City",
-		"description": "Spook enters Luthadel among the refugees with Elend and Hammond, walking through the crowded streets to reunite with Vin, who leads them toward Kredik Shaw and the hidden Well.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Spook enters Luthadel among the refugees with Elend and Hammond, walking through the crowded streets to reunite with Vin, who leads them toward Kredik Shaw and the hidden Well."
 	},
 	{
 		"book": "woa",
@@ -251,106 +217,169 @@
 		"cityId": "luthadel",
 		"cityLandmark": "well-of-ascension",
 		"title": "The Cavern",
-		"description": "Spook descends with Vin, Elend, and Hammond into the smoke-filled cavern beneath Kredik Shaw, where the glowing pool of the Well of Ascension waits at the heart of the darkness.",
-		"season": "Winter",
-		"year": "1024 FE"
-	},
-	{
-		"book": "hoa",
-		"chapter": 1,
-		"location": "vetitan",
-		"title": "Campaign Soldier",
-		"description": "Spook serves in Elend's army at Vetitan, gradually earning more responsibility as the emperor's forces secure the storage cache.",
-		"season": "Spring",
-		"year": "1026 FE"
+		"description": "Spook descends with Vin, Elend, and Hammond into the smoke-filled cavern beneath Kredik Shaw, where the glowing pool of the Well of Ascension waits at the heart of the darkness."
 	},
 	{
 		"book": "hoa",
 		"chapter": 14,
 		"location": "urteau",
 		"cityId": "urteau",
-		"cityLandmark": "the-harrows",
-		"title": "The Infiltrator",
-		"description": "Spook arrives in Urteau ahead of Sazed's diplomatic mission, infiltrating the city through the tangle of dry canals known as the Harrows.",
-		"season": "Autumn",
-		"year": "1026 FE"
+		"cityLandmark": "luthadel-gate",
+		"title": "Eyes of Tin",
+		"description": "Spook flares tin constantly despite the dangers, driven by guilt over Clubs' death and a desire to follow Vin's example. Skulking through Urteau's dry streetslots at night, his enhanced senses let him see by starlight as if in daylight, feel every pebble and gust of wind against his skin, and hear ambient noises through walls. He wishes to prove himself valuable to the crew."
 	},
 	{
 		"book": "hoa",
-		"chapter": 17,
+		"chapter": 14.2,
 		"location": "urteau",
 		"cityId": "urteau",
-		"cityLandmark": "spooks-hideout",
-		"title": "The Burning House",
-		"description": "Spook establishes a base in a hidden building within the Harrows, watching the Citizen's oppressive regime and making contact with local resistance.",
-		"season": "Autumn",
-		"year": "1026 FE"
+		"cityLandmark": "citizens-home",
+		"title": "The Citizen's Council",
+		"description": "Spook takes the initiative to spy on Quellion the Citizen's meetings at his appropriated mansion, and secretly watches Beldre, the Citizen's sister. He observes as Quellion and his council discuss Elend's conquests, the ambassador being sent to negotiate, and new laws against the nobility."
+	},
+	{
+		"book": "hoa",
+		"chapter": 16,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "marketpit",
+		"title": "Witness to Atrocity",
+		"description": "Wearing a cloth over his eyes to tolerate sunlight, Spook loiters by a streetslot in the busy market posing as a blind beggar. He watches Quellion's guards lock nobles who refused to leave Urteau into a building and set it aflame. Durn, an informant, tells Spook to keep close watch — then says he's there to count the skulls, and leaves."
+	},
+	{
+		"book": "hoa",
+		"chapter": 16.2,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "marketpit",
+		"title": "Stabbed in the Crowd",
+		"description": "Spook follows the Citizen as he leaves to address the townsfolk, maneuvering through the crowd to reach Quellion and Beldre. He speaks to Beldre without being seen, condemning her brother's murders and swearing the Citizen will die. Discovered, he fights off three Allomancer guards — including a Thug and a Coinshot — before a sword drives through him and he loses consciousness."
+	},
+	{
+		"book": "hoa",
+		"chapter": 19,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "burning-district",
+		"title": "A Voice in the Flames",
+		"description": "Spook regains consciousness trapped in a burning building. A voice—claiming to be Kelsier—guides him to Allomantic vials. He drinks and discovers he can now burn pewter, gaining the strength to escape the flames."
 	},
 	{
 		"book": "hoa",
 		"chapter": 23,
 		"location": "urteau",
 		"cityId": "urteau",
-		"cityLandmark": "marketpit",
-		"title": "Market Observation",
-		"description": "Spook observes Quellion the Citizen giving speeches in the Marketpit, studying his patterns and the Allomancers he forces to serve through Hemalurgic spikes.",
-		"season": "Early Winter",
-		"year": "1026 FE"
+		"cityLandmark": "spooks-hideout",
+		"title": "Fever Dreams",
+		"description": "Spook lies in his hideout, feverish from his wounds, reliving the day Clubs took him in as a child. The fever-dream blurs past and present as he recovers from the stabbing."
 	},
 	{
 		"book": "hoa",
-		"chapter": 30,
+		"chapter": 26,
 		"location": "urteau",
 		"cityId": "urteau",
-		"cityLandmark": "citizens-estate",
-		"title": "Approaching the Citizen",
-		"description": "Spook gets closer to the Citizen's inner circle, investigating the spikes Quellion uses to control Allomancers and gathering evidence of corruption.",
-		"season": "Winter",
-		"year": "1026 FE"
+		"cityLandmark": "spooks-hideout",
+		"title": "Rumors in the Night",
+		"description": "Marveling at his survival and new Thug ability, Spook notices a metal sliver in his skin—'Kelsier' tells him to leave it. He visits a tavern where he overhears people talking about him as a member of Kelsier's crew. Wishing to avoid attention, he slips away."
+	},
+	{
+		"book": "hoa",
+		"chapter": 29,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "The Hidden Lake",
+		"description": "Spook meets Sazed's carriage in the streets of Urteau, dressed as a soldier. He leads Sazed, Breeze, Allrianne, and Goradel to the unused Canton of Inquisition building as their new base of operations. Beneath it, he reveals the Lord Ruler's supply cache — and the hidden underground lake that explains why the city's canals have stood dry for a hundred years."
+	},
+	{
+		"book": "hoa",
+		"chapter": 31,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "A Question of Faith",
+		"description": "Spook joins Sazed and Breeze in the Canton of Inquisition to discuss the water diversion and how to depose Quellion. After the strategic talk, he tells Sazed he believes Kelsier is watching over them — and asks if there is any religion that supports such a thing. Sazed says there is but declines to preach. Spook counters that Kelsier's own faith is the true one, and pointedly suggests Sazed stopped preaching because that is what Tindwyl would have wanted. Sazed is left shaken, and Spook leaves him to resume his religious research."
+	},
+	{
+		"book": "hoa",
+		"chapter": 35,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "the-harrows",
+		"title": "Confronting Durn",
+		"description": "Spook breaks into Durn's lair in the Harrows and confronts the informant about rumors being spread. Durn reveals he is trying to undermine the Citizen by showing Quellion tried to kill a member of Kelsier's crew. Kelsier's voice urges Spook to go after Quellion before he harms Sazed and Breeze, but Spook dismisses the threat. A henchman begs Spook to help rescue his sister from execution, and Spook agrees — for a price."
 	},
 	{
 		"book": "hoa",
 		"chapter": 38,
 		"location": "urteau",
 		"cityId": "urteau",
-		"cityLandmark": "spooks-hideout",
-		"title": "Planning the Revolution",
-		"description": "Working from his hideout, Spook coordinates with Sazed and local rebels to plan the overthrow of Quellion's regime and secure the storage cache.",
-		"season": "Early Spring",
-		"year": "1027 FE"
+		"cityLandmark": "burning-district",
+		"title": "The Secret Exits",
+		"description": "Spook watches skaa excavate a burned building and finds only nine skulls among the debris of ten prisoners. He realizes there are secret exits from the buildings—knowledge that could save lives during the coming revolution."
 	},
 	{
 		"book": "hoa",
-		"chapter": 45,
-		"location": "urteau",
-		"cityId": "urteau",
-		"cityLandmark": "the-harrows",
-		"title": "Kelsier's Voice",
-		"description": "Spook begins hearing what he believes is Kelsier's voice guiding him, driving him toward increasingly dangerous actions against the Citizen.",
-		"season": "Spring",
-		"year": "1027 FE"
-	},
-	{
-		"book": "hoa",
-		"chapter": 50,
+		"chapter": 41,
 		"location": "urteau",
 		"cityId": "urteau",
 		"cityLandmark": "burning-district",
-		"title": "The Burning Building",
-		"description": "Spook is spiked during a building fire, gaining enhanced Allomantic abilities but also becoming vulnerable to Ruin's influence through the spike.",
-		"season": "Spring",
-		"year": "1027 FE"
+		"title": "Survivor of the Flames",
+		"description": "Kelsier's voice urges Spook to kill the guards and save the prisoners from execution. Using his knowledge of the secret exits, Spook finds a bolt-hole where Quellion's soldiers are moving a prisoner, attacks and kills them, but becomes trapped in the burning building with a young girl. He escapes through the flames carrying her as Allrianne Riots the watching crowd into rushing the remaining guards. The people of Urteau begin calling him the 'Survivor of the Flames'."
 	},
 	{
 		"book": "hoa",
-		"chapter": 55,
+		"chapter": 46,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "citizens-home",
+		"title": "Beldre's Garden",
+		"description": "Spook visits Beldre in her garden, telling her why she always seems sad and that he is a member of Kelsier's crew who will depose the Citizen. He asks her to leave with him. Kelsier's voice commands him to kill Quellion and his sister — but Spook refuses, unwilling to spill innocent blood. Beldre screams for the guards and Spook withdraws, ignoring the voice's increasingly insistent demands."
+	},
+	{
+		"book": "hoa",
+		"chapter": 46.2,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "Restoring the Canals",
+		"description": "Spook returns to the Canton of Inquisition after an earthquake shakes the city. He tells Sazed and Breeze to spread rumors about the Allomancers Quellion is gathering, undermining the Citizen's rule. He asks Sazed to get water flowing through the canals again — a request that would require the Keeper to resume wearing his metalminds and use his scholarship once more. When pressed about how he survived a two-story drop, Spook declines to explain for now, asking Sazed to trust him without question."
+	},
+	{
+		"book": "hoa",
+		"chapter": 49,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "Beldre's Plea",
+		"description": "Spook tells Sazed and Breeze that Quellion's silence feels wrong — the Citizen hasn't attacked their base. He explains how Quellion rose to power: sending people into the mists and declaring those who lived as pure, while killing nobles in the Survivor's name — all while hiding the fact that no nobles ever died from mist sickness. Sazed announces he is ready to build the canal-diversion structures. Goradel brings urgent news: Beldre has arrived asking to speak with Spook. She pleads with him not to kill her brother. Spook confers privately with Sazed and Breeze, and they reach a cold decision: hold Beldre hostage and spread rumors that she has defected from Quellion — tightening the noose around the Citizen."
+	},
+	{
+		"book": "hoa",
+		"chapter": 53,
 		"location": "urteau",
 		"cityId": "urteau",
 		"cityLandmark": "spooks-hideout",
-		"title": "Revelation",
-		"description": "Spook realizes the voice he has been hearing is not Kelsier but Ruin, manipulating him through the Hemalurgic spike. He tears out the spike in agony.",
-		"season": "Late Spring",
-		"year": "1027 FE"
+		"title": "Promises and Plans",
+		"description": "Spook talks with Beldre, who reveals she is half-skaa and was saved from execution when the Final Empire fell. She tells him he is just like her brother — Spook denies it, but the accusation stings. He speaks of his life in Kelsier's crew, of Sazed and Breeze allowing him to give orders even though he feels like he's not truly in charge, and of Vin and Elend. He promises to save the city and not harm Quellion. Then he leaves for the streets."
+	},
+	{
+		"book": "hoa",
+		"chapter": 53.2,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "marketpit",
+		"title": "The Tavern Circuit",
+		"description": "Spook promises Durn trade contracts and a title in exchange for clearing debris from the canals before they are refilled — he can't let people drown when the water returns. Together they visit taverns across Urteau, where Spook meets with townsfolk and burnishes his reputation as the Survivor of the Flames, building public support against the Citizen."
+	},
+	{
+		"book": "hoa",
+		"chapter": 56,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "citizens-home",
+		"title": "The Final Plan",
+		"description": "Spook works on a plan to expose Quellion's secret Allomantic abilities to the people. He discusses it with Beldre, who asks to write a letter to her brother begging him to stand down, and Spook grants permission. When Goradel reports the Citizen's soldiers have left the Canton building, Spook sends scouts to investigate — but first he finds Sazed at the canal works and tells him of riots stirring in the city. Sensing the Keeper's doubt, Spook says he has faith that even if he fails, someone watches over them and will make things right."
 	},
 	{
 		"book": "hoa",
@@ -359,9 +388,16 @@
 		"cityId": "urteau",
 		"cityLandmark": "ministry-canton",
 		"title": "Hero of Urteau",
-		"description": "Spook leads the revolution against Quellion, exposing his corruption. As fires consume the city, Sazed floods the canals, saving Urteau from destruction.",
-		"season": "Spring",
-		"year": "1027 FE"
+		"description": "Sazed instructs Spook on how to activate the water-diversion mechanism and verifies the canals are clear. Beldre begs for more time for Quellion, but her letter was met with cold silence — Spook refuses. At the Citizen's evening speech, Durn warns that Quellion plans to denounce Spook and attack the Canton building. Spook's men start a riot and Goradel's soldiers rush the stage. Kelsier's voice urges Spook to kill Quellion — but Beldre screams for her brother's life, then is struck by a coin and revealed as a Coinshot. The crowd roughs her up and pushes her to the stage. Kelsier commands Spook to kill her with a metal spike and take her power. Spook freezes — then sees Quellion also reacting to Kelsier's voice. In a moment of terrible clarity, Spook understands: Kelsier is Ruin, the spikes are Hemalurgy, and Quellion has been manipulated just as he has. He tears a bronze spike from Quellion's arm and removes his own metal splinter — his Thug ability and Ruin's voice both vanish. As fires spread, Spook arranges the canal flood despite Beldre's interference, but the Canton building is engulfed. He overcomes his terror of flames and rushes inside, activates the mechanism, and collapses — saving Urteau."
+	},
+	{
+		"book": "hoa",
+		"chapter": 62,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "marketpit",
+		"title": "The Cost of Victory",
+		"description": "Spook lies unconscious in hospital, badly burned and slowly recovering. Sazed watches over him and gave him pewter, but it does not speed his healing. Beldre stays at his bedside, speaking of how her brother was changed by power and that Spook — the Survivor of the Flames — is a hero to the city."
 	},
 	{
 		"book": "hoa",
@@ -369,29 +405,26 @@
 		"location": "urteau",
 		"cityId": "urteau",
 		"cityLandmark": "marketpit",
-		"title": "Recovery",
-		"description": "Badly burned but alive, Spook recovers as Urteau stabilizes under new leadership and supplies from the storage cache are distributed.",
-		"season": "Summer",
-		"year": "1027 FE"
+		"title": "The Message in Steel",
+		"description": "Still recovering from his burns, Spook hears a voice telling him to send a warning to Vin. He writes the message in steel—the only medium Ruin cannot alter—and entrusts it to Captain Goradel, who departs Urteau immediately."
 	},
 	{
 		"book": "hoa",
-		"chapter": 69,
-		"location": "pits-hathsin",
-		"title": "To the Pits",
-		"description": "Spook travels to the Pits of Hathsin with the Urteau forces, joining the gathering armies for what will be the final battle.",
-		"season": "Autumn",
-		"year": "1027 FE"
+		"chapter": 73,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "marketpit",
+		"title": "Into the Caverns",
+		"description": "Allrianne alerts Breeze to strange behavior in the mists — instead of swirling chaotically, they are flowing in unison toward Luthadel. Spook sees it too and understands something is happening. He tells Breeze to have everyone in Urteau gather immediately in the storage caverns for protection against whatever is coming."
 	},
 	{
 		"book": "hoa",
 		"chapter": 83,
-		"location": "luthadel",
-		"cityId": "luthadel",
-		"cityLandmark": "fountain-square",
+		"locationCoords": [
+			1392,
+			905
+		],
 		"title": "A New World",
-		"description": "Spook emerges into Sazed's remade world—a field of flowers and green grass beneath a blue sky. He carries Sazed's final words for the survivors.",
-		"season": "Autumn",
-		"year": "1027 FE"
+		"description": "Spook emerges from the caverns into Sazed's remade world—a field of flowers and green grass beneath a blue sky. He finds the bodies of Vin and Elend, and a book written by Sazed explaining all that transpired, including that Sazed made Spook a Mistborn at Kelsier's request."
 	}
 ]

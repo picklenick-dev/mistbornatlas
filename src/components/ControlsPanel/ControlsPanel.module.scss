@@ -340,6 +340,12 @@
 		border-color: rgba($color-mist, 0.6);
 		color: $color-mist;
 	}
+
+	&.spoilersShown {
+		background: rgba($color-gold, 0.08);
+		border-color: rgba($color-gold, 0.4);
+		color: $color-gold;
+	}
 }
 
 .statusBadge {

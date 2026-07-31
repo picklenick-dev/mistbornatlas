@@ -5,8 +5,6 @@ import { CharacterFilters } from '@/components/CharacterFilters';
 import {
 	HamburgerIcon,
 	CloseIcon,
-	EyeIcon,
-	EyeOffIcon,
 	EyeIrisIcon,
 	BookOpenIcon,
 } from '@/components/icons';
@@ -16,8 +14,6 @@ export const ControlsPanel: React.FC = () => {
 	const {
 		showLocations,
 		setShowLocations,
-		showAllCharacters,
-		setShowAllCharacters,
 		secretHistoryMode,
 		setSecretHistoryMode,
 		hideMovementSpoilers,
@@ -73,19 +69,18 @@ export const ControlsPanel: React.FC = () => {
 
 				<div className={styles.content}>
 					<section className={styles.section}>
-						<h3 className={styles.sectionTitle}>{t.characters.title}</h3>
 						<button
-							className={`${styles.overrideButton} ${showAllCharacters ? styles.active : ''}`}
-							onClick={() => setShowAllCharacters(!showAllCharacters)}
-							title={t.characters.showAll}
+							className={`${styles.readAlongButton} ${hideMovementSpoilers ? styles.active : ''}`}
+							onClick={() => setHideMovementSpoilers(!hideMovementSpoilers)}
+							title={t.controls.readAlongModeTitle}
 						>
-							{showAllCharacters ? <EyeIcon /> : <EyeOffIcon />}
-							<span>{t.characters.showAll}</span>
-							<span className={`${styles.statusBadge} ${styles.statusBadgeWarning}`}>
-								{showAllCharacters ? t.controls.statusOn : t.controls.statusOff}
+							<BookOpenIcon />
+							<span>{t.controls.readAlongMode}</span>
+							<span className={`${styles.statusBadge} ${styles.statusBadgeMist}`}>
+								{hideMovementSpoilers ? t.controls.statusOn : t.controls.statusOff}
 							</span>
 						</button>
-						{showAllCharacters && (
+						{!hideMovementSpoilers && (
 							<button
 								className={`${styles.secretHistoryButton} ${secretHistoryMode ? styles.active : ''}`}
 								onClick={() => setSecretHistoryMode(!secretHistoryMode)}
@@ -98,17 +93,10 @@ export const ControlsPanel: React.FC = () => {
 								</span>
 							</button>
 						)}
-						<button
-							className={`${styles.readAlongButton} ${hideMovementSpoilers ? styles.active : ''}`}
-							onClick={() => setHideMovementSpoilers(!hideMovementSpoilers)}
-							title={t.controls.readAlongModeTitle}
-						>
-							<BookOpenIcon />
-							<span>{t.controls.readAlongMode}</span>
-							<span className={`${styles.statusBadge} ${styles.statusBadgeMist}`}>
-								{hideMovementSpoilers ? t.controls.statusOn : t.controls.statusOff}
-							</span>
-						</button>
+					</section>
+
+					<section className={styles.section}>
+						<h3 className={styles.sectionTitle}>{t.characters.title}</h3>
 						<CharacterFilters />
 					</section>
 

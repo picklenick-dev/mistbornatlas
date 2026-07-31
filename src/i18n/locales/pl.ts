@@ -152,6 +152,8 @@ export const pl: Translation = {
 		cityLandmarksNote: 'Zabytki miejskie są zawsze widoczne',
 		readAlongMode: 'Tryb czytania',
 		readAlongModeTitle: 'Ukryj opisy ruchów do kliknięcia — idealne do czytania z mapą',
+		readAlongOn: '',
+		readAlongOff: '',
 		statusOn: 'WŁ.',
 		statusOff: 'WYŁ.',
 	},
@@ -328,6 +330,7 @@ export const pl: Translation = {
 		roadmap080: 'Studnia Wstąpienia — oś czasu ukończona',
 		roadmap090: 'Bohater Wieków — oś czasu ukończona',
 		roadmap100: 'Tajna Historia — oś czasu ukończona',
+		translationNote: 'Tłumaczenia są generowane przez AI i nie zostały jeszcze sprawdzone przez rodzimych użytkowników.',
 	},
 
 	welcome: {

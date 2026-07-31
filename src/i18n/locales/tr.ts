@@ -153,6 +153,8 @@ export const tr: Translation = {
 		readAlongMode: 'Birlikte Okuma Modu',
 		readAlongModeTitle:
 			'Hareket açıklamalarını tıklanana kadar gizle — kitapla birlikte haritayı takip etmek için ideal',
+		readAlongOn: 'Birlikte Okuma',
+		readAlongOff: 'Tümü Görünür',
 		statusOn: 'AÇIK',
 		statusOff: 'KAPALI',
 	},
@@ -328,6 +330,7 @@ export const tr: Translation = {
 		roadmap080: 'Yükseliş Kuyusu — zaman çizelgesi tamamlandı',
 		roadmap090: 'Çağların Kahramanı — zaman çizelgesi tamamlandı',
 		roadmap100: 'Gizli Tarih — zaman çizelgesi tamamlandı',
+		translationNote: 'Çeviriler yapay zeka tarafından oluşturulmuştur ve henüz anadili konuşanlar tarafından incelenmemiştir.',
 	},
 
 	welcome: {

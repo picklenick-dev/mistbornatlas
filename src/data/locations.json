@@ -27,13 +27,14 @@
 		"dominance": "Central",
 		"coords": [1195, 886],
 		"description": "A Perpendicularity manifesting as jagged fissures in the ground where Atium crystallizes. The map is defined by narrow, razor-sharp vertical cracks twisting deep into the crust. Prisoners crawled through these claustrophobic tunnels seeking geodes. Kelsier discovered the Eleventh Metal (Malatium) in a hidden chamber deep within the unmapped fissure network before destroying the crystals and ending Atium production.",
-		"safeDescription": "A brutal prison mine northeast of Luthadel, defined by narrow, razor-sharp vertical fissures twisting deep into the crust. Condemned prisoners crawl through these claustrophobic cracks in search of the rare Atium geodes that form within — the only known source of the Final Empire's most precious metal. Few survive the labor for long.",
+		"safeDescription": "A brutal prison mine northeast of Luthadel, defined by narrow, razor-sharp vertical fissures twisting deep into the crust. Condemned prisoners crawl through these claustrophobic cracks in search of the rare Atium geodes that form within. Few survive the labor for long.",
 		"spoiler": { "book": "tfe", "chapter": 21 },
 		"features": [
 			"Atium Geode Mines",
 			"Crystal Fissures",
 			"Kandra Homeland",
-			"Eleventh Metal Chamber"
+			"Eleventh Metal Chamber",
+			"Terris Refugee Settlement"
 		],
 		"safeFeatures": ["Atium Geode Mines", "Crystal Fissures"]
 	},
@@ -62,7 +63,9 @@
 		"type": "ashmount",
 		"dominance": "Central",
 		"coords": [1135, 786],
-		"description": "The closest Ashmount to Luthadel, visible from the city walls. Its constant eruptions cloak the Central Dominance in the thickest layers of ash, necessitating constant cleanup crews."
+		"description": "During Ruin's rise, Marsh witnessed a massive lava eruption from its slopes after creating a Hemalurgic spike nearby, and its ever-thickening ashfall signaled the world's accelerating deterioration.",
+		"safeDescription": "The closest Ashmount to Luthadel, visible from the city walls. Its constant eruptions cloak the Central Dominance in the thickest layers of ash, necessitating constant cleanup crews.",
+		"spoiler": { "book": "hoa", "chapter": 34 }
 	},
 	{
 		"checked": true,
@@ -71,8 +74,9 @@
 		"type": "city",
 		"dominance": "Northern",
 		"coords": [1509, 916],
-		"description": "The capital of the Northern Dominance and ancestral seat of House Venture.",
-		"safeDescription": "Famous for its 'streetslots'—canals that were drained by the Lord Ruler to serve as sunken roadways. Stronghold of the Citizen (Quellion) during the Collapse.",
+		"description": "Famous for its 'streetslots'—canals that were drained by the Lord Ruler to serve as sunken roadways. Stronghold of the Citizen (Quellion) during the Collapse.",
+		"safeDescription": "The capital of the Northern Dominance and ancestral seat of House Venture.",
+		"spoiler": { "book": "hoa", "chapter": 14 },
 		"features": ["Streetslots", "Dry Canals", "Storage Cavern"],
 		"cityMapId": "urteau"
 	},
@@ -92,8 +96,9 @@
 		"type": "city",
 		"dominance": "Western",
 		"coords": [881, 803],
-		"description": "A major trade hub.",
-		"safeDescription": "Rose to prominence after the death of the Lord Ruler. Relies on natural rock formations ('cremnol' shelves) for defense rather than walls. Houses one of the Lord Ruler's secret Storage Caverns.",
+		"description": "Rose to prominence after the death of the Lord Ruler. Relies on natural rock formations ('cremnol' shelves) for defense rather than walls. Houses one of the Lord Ruler's secret Storage Caverns.",
+		"safeDescription": "A major trade hub in the Western Dominance, fortified by natural rock formations.",
+		"spoiler": { "book": "hoa", "chapter": 5 },
 		"features": ["Cremnol Formations", "Storage Cavern", "Natural Fortress"],
 		"cityMapId": "fadrex"
 	},
@@ -140,8 +145,9 @@
 		"type": "city",
 		"dominance": "Northern",
 		"coords": [1162, 508],
-		"description": "A Northern Dominance city.",
-		"safeDescription": "Built directly atop one of the Lord Ruler's Storage Caverns. The architecture adapted to heavy ashfall with subterranean expansions and Ministry-centric layout. By The Hero of Ages, the city is being consumed by ashdrifts, with citizens living on the upper floors of buildings as the lower levels fill with ash.",
+		"description": "Built directly atop one of the Lord Ruler's Storage Caverns. The architecture adapted to heavy ashfall with subterranean expansions and Ministry-centric layout. By The Hero of Ages, the city is being consumed by ashdrifts, with citizens living on the upper floors of buildings as the lower levels fill with ash.",
+		"safeDescription": "A Northern Dominance city with architecture adapted to heavy ashfall.",
+		"spoiler": { "book": "hoa", "chapter": 1 },
 		"features": ["Storage Cavern", "Ash Drifts", "Subterranean Adaptation"]
 	},
 	{
@@ -160,8 +166,9 @@
 		"type": "stronghold",
 		"dominance": "Northern",
 		"coords": [1642, 193],
-		"description": "A vertical fortress carved into a cliff face near the Northern border. The upper levels function as a standard Ministry temple (chapel, living quarters).",
-		"safeDescription": "A steep spiraling stairwell descends into the truth: the Hall of Servants (mass graves), Inquisitor dormitories, and the Hemalurgy Chamber with its stone tables, drainage channels, and spike vault. Deep within, Sazed discovered Kwaan's steel plate inscription hidden in a secret alcove. This is where Inquisitors are made.",
+		"description": "A steep spiraling stairwell descends into the truth: the Hall of Servants (mass graves), Inquisitor dormitories, and the Hemalurgy Chamber with its stone tables, drainage channels, and spike vault. Deep within, Sazed discovered Kwaan's steel plate inscription hidden in a secret alcove. This is where Inquisitors are made.",
+		"safeDescription": "A vertical fortress carved into a cliff face near the Northern border. The upper levels function as a standard Ministry temple (chapel, living quarters).",
+		"spoiler": { "book": "woa", "chapter": 9 },
 		"features": ["Hemalurgy Chamber", "Kwaan's Inscription", "Inquisitor Stronghold"]
 	},
 	{
@@ -179,8 +186,9 @@
 		"type": "landmark",
 		"dominance": "Terris",
 		"coords": [1300, 1450],
-		"description": "A rugged mountain range where the Terris people were subjugated.",
-		"safeDescription": "The location of the original Well of Ascension before the Lord Ruler altered the world's geography."
+		"description": "The location of the original Well of Ascension before the Lord Ruler altered the world's geography.",
+		"safeDescription": "A rugged mountain range where the Terris people were subjugated.",
+		"spoiler": { "book": "woa", "chapter": 50 }
 	},
 	{
 		"id": "tincut-fastness",
@@ -188,8 +196,10 @@
 		"type": "stronghold",
 		"dominance": "Terris",
 		"coords": [1250, 1480],
-		"description": "A hidden stronghold within the Terris mountains",
-		"safeDescription": "Where the Synod and refugees retreated during the collapse of the Empire."
+		"description": "Where the Synod and refugees retreated during the collapse of the Empire.",
+		"safeDescription": "A hidden stronghold within the Terris mountains.",
+		"spoiler": { "book": "hoa", "chapter": 6 },
+		"books": [{ "book": "hoa", "chapter": 6 }]
 	},
 	{
 		"id": "high-villages",
@@ -206,7 +216,9 @@
 		"type": "landmark",
 		"dominance": "Central",
 		"coords": [1247, 1149],
-		"description": "Not a natural river but an artificial artery cut into the earth by the Lord Ruler's decree. Links Tathingdwen in the north directly to Luthadel, allowing extraction of Terris resources (wool, timber, craftsmanship) and insertion of Imperial soldiers. The canal represents both connection and intrusion - the very infrastructure connecting Tathingdwen to the world became the avenue of its destruction when Koloss armies used the canal road to attack. A monument to imperial engineering and imperial oppression.",
+		"description": "An artificial artery cut into the earth by the Lord Ruler's decree, linking Tathingdwen to Luthadel for the extraction of Terris resources and insertion of Imperial soldiers. The very infrastructure that connected the empire became the avenue of its destruction when Koloss armies used the canal road to attack—a monument to both imperial engineering and imperial oppression.",
+		"safeDescription": "Not a natural river but an artificial artery cut into the earth by the Lord Ruler's decree. Links Tathingdwen in the north directly to Luthadel, allowing trade and transport across the empire. A monument to imperial engineering.",
+		"spoiler": { "book": "woa", "chapter": 19 },
 		"features": ["Northern Terminus: Tathingdwen", "Central Hub: Luthadel", "Transport Artery"]
 	},
 	{
@@ -217,7 +229,10 @@
 		"dominance": "Central",
 		"coords": [1206.5, 901.4],
 		"description": "Deep caverns beneath the Pits of Hathsin, home of the kandra people who guard the Lord Ruler's greatest secrets including the Trust.",
-		"spoiler": { "book": "hoa", "chapter": 60 }
+		"safeDescription": "A hidden underground complex beneath the Pits of Hathsin. Its true nature and purpose are unknown to the outside world.",
+		"spoiler": { "book": "hoa", "chapter": 60 },
+		"books": [{ "book": "hoa", "chapter": 60 }],
+		"features": ["The Trustwarren", "The Trust (Atium Hoard)", "First Generation Chamber"]
 	},
 	{
 		"checked": true,
@@ -252,8 +267,9 @@
 		"type": "city",
 		"dominance": "Southern",
 		"coords": [1180, 480],
-		"description": "Southern city",
-		"safeDescription": "Southern anchor of the Storage Cavern network. Contains Storage Cavern 2 with emergency supplies.",
+		"description": "Southern anchor of the Storage Cavern network. Contains Storage Cavern 2 with emergency supplies.",
+		"safeDescription": "A city in the Southern Dominance.",
+		"spoiler": { "book": "hoa", "chapter": 5 },
 		"features": ["Storage Cavern 2"]
 	},
 	{
@@ -301,7 +317,7 @@
 		"name": "Western Burnlands",
 		"type": "landmark",
 		"dominance": "None",
-		"coords": [412, 908],
+		"coords": [1093, 1261],
 		"description": "The outermost edge of the Final Empire's inhabited territory—an uninhabitable desert zone on the western edge of the continent. The Western Dominance borders on these wastes where the 'wasted men' (tribes rebelling against the Final Empire) survive beyond Imperial control."
 	},
 	{
@@ -320,8 +336,9 @@
 		"type": "hideout",
 		"dominance": "Central",
 		"coords": [1270, 925],
-		"description": "A network of limestone caves in the mountains between Luthadel and the Pits of Hathsin.",
-		"safeDescription": "Used by Kelsier's rebel army as a hidden staging ground, these caverns provided shelter for thousands of skaa soldiers training for the revolution."
+		"description": "Used by Kelsier's rebel army as a hidden staging ground, these caverns provided shelter for thousands of skaa soldiers training for the revolution.",
+		"safeDescription": "A network of limestone caves in the mountains between Luthadel and the Pits of Hathsin.",
+		"spoiler": { "book": "tfe", "chapter": 21 }
 	},
 	{
 		"id": "garthwood",
@@ -329,7 +346,9 @@
 		"type": "city",
 		"dominance": "Eastern",
 		"coords": [1188, 494.9],
-		"description": "A settlement in the Eastern Dominance where Sazed traveled to teach freed skaa about suppressed religions. The surrounding villages were among the first to experience the mist sickness that would later spread across the empire.",
+		"description": "A settlement in the Eastern Dominance whose surrounding villages were among the first to experience the mist sickness that would later spread across the empire—an early sign of the pattern that Elend and Vin would uncover.",
+		"safeDescription": "A settlement in the Eastern Dominance where Sazed traveled to teach freed skaa about suppressed religions.",
+		"spoiler": { "book": "hoa", "chapter": 4 },
 		"placementNote": "⚠️ Dominance assignment uncertain. Some sources place Garthwood in the Central Dominance as an agricultural/logistical node for grain processing, while others identify it in the Eastern Dominance. May be near a dominance border or there may be multiple settlements with this name."
 	},
 	{
@@ -349,6 +368,8 @@
 		"dominance": "Central",
 		"coords": [1300, 740],
 		"description": "The koloss army's encampment near Luthadel during the siege of 1024 FE. Jastes Lekal's disastrous attempt to buy koloss loyalty with wooden coins led to the creatures turning on the city in a devastating assault.",
+		"safeDescription": "A large encampment of koloss forces near Luthadel, their presence a constant threat during the siege.",
+		"spoiler": { "book": "woa", "chapter": 19 },
 		"placementNote": "⚠️ Directional inconsistency in the text. Some references place the koloss army northeast of Luthadel, while others describe it to the south. Placed northeast based on Sazed's approach from the east and the chapter 41 reference.",
 		"books": ["woa"]
 	},
@@ -407,8 +428,9 @@
 		"type": "city",
 		"dominance": "Central",
 		"coords": [1248, 842],
-		"description": "A major garrison city located northwest of Luthadel.",
-		"safeDescription": "It housed a standing army of 5,000 soldiers who intercepted and massacred Yeden's rebellion army near the town of Holstep, demonstrating the Lord Ruler's ability to project rapid military force."
+		"description": "It housed a standing army of 5,000 soldiers who intercepted and massacred Yeden's rebellion army near the town of Holstep, demonstrating the Lord Ruler's ability to project rapid military force.",
+		"safeDescription": "A major garrison city located northwest of Luthadel.",
+		"spoiler": { "book": "tfe", "chapter": 25 }
 	},
 	{
 		"id": "haverfrex-cannery-central",
@@ -416,8 +438,9 @@
 		"type": "industrial",
 		"dominance": "Central",
 		"coords": [1286, 891],
-		"description": "An industrial waypoint in the Central Dominance known for its large-scale cannery.",
-		"safeDescription": "It served as the primary supply node for Lord Ashweather Cett's army during the Siege of Luthadel, providing the logistical endurance necessary for a long-term military presence."
+		"description": "It served as the primary supply node for Lord Ashweather Cett's army during the Siege of Luthadel, providing the logistical endurance necessary for a long-term military presence.",
+		"safeDescription": "An industrial waypoint in the Central Dominance known for its large-scale cannery.",
+		"spoiler": { "book": "woa", "chapter": 1 }
 	},
 	{
 		"id": "cetts-camp",
@@ -427,5 +450,27 @@
 		"coords": [1249, 764.5],
 		"description": "Lord Ashweather Cett's military encampment northwest of Luthadel during the siege. Cett marched his army from the Western Dominance to contest control of the city, establishing a second siege line that trapped Elend's government between two hostile forces.",
 		"books": ["woa"]
+	},
+	{
+		"id": "western-coast",
+		"name": "Western Coast",
+		"type": "landmark",
+		"dominance": "Western",
+		"coords": [412, 908],
+		"description": "The western coastline of the Final Empire where the inhabited lands give way to an endless grey Cognitive Realm ocean. Kelsier reached this desolate shore after weeks of running westward, only to find Ruin waiting for him. From here, the Cognitive Realm stretches across a dark sea toward distant lands beyond Scadrial's border.",
+		"safeDescription": "The desolate western edge of the Final Empire where the continent ends and the ocean begins. Sparsely inhabited and rarely visited, its shores mark the boundary of the known world."
+	},
+	{
+		"id": "ire-fortress",
+		"name": "Ire Fortress",
+		"type": "stronghold",
+		"dominance": "None",
+		"coords": [250, 870],
+		"description": "A towering, glowing fortress of the Ire built in the Cognitive Realm far beyond Scadrial's western edge. Constructed from white stone that pulses with an inner light, it is surrounded by strange glass-like trees and powered by a conduit of raw Investiture. Within its vaults, the Ire guard an orb capable of capturing a dying Shard's power—the key to Ascension. Kelsier infiltrated the fortress, eavesdropped on the ancient Elantrians' plans, and stole the orb by terrorizing their expedition party.",
+		"safeDescription": "A mysterious fortress glimpsed in tales of the world beyond death, its nature and purpose unknown to the living.",
+		"spoiler": { "book": "hoa", "chapter": 24 },
+		"secretHistory": true,
+		"features": ["Glowing Stone Walls", "Investiture Conduit", "Orb Vault", "Glass-Tree Grove"],
+		"safeFeatures": ["Unknown Fortress"]
 	}
 ]

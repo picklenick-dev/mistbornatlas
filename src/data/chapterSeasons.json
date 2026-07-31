@@ -1,0 +1,700 @@
+{
+	"tfe": {
+		"0": {
+			"season": "Spring",
+			"year": "1021 FE"
+		},
+		"1": {
+			"season": "Spring",
+			"year": "1021 FE"
+		},
+		"2": {
+			"season": "Spring",
+			"year": "1021 FE"
+		},
+		"3": {
+			"season": "Spring",
+			"year": "1021 FE"
+		},
+		"4": {
+			"season": "Spring",
+			"year": "1021 FE"
+		},
+		"5": {
+			"season": "Spring",
+			"year": "1021 FE"
+		},
+		"6": {
+			"season": "Spring",
+			"year": "1021 FE"
+		},
+		"7": {
+			"season": "Late Spring",
+			"year": "1021 FE"
+		},
+		"8": {
+			"season": "Summer",
+			"year": "1021 FE"
+		},
+		"9": {
+			"season": "Summer",
+			"year": "1021 FE"
+		},
+		"10": {
+			"season": "Summer",
+			"year": "1021 FE"
+		},
+		"11": {
+			"season": "Summer",
+			"year": "1021 FE"
+		},
+		"12": {
+			"season": "Summer",
+			"year": "1021 FE"
+		},
+		"13": {
+			"season": "Summer",
+			"year": "1021 FE"
+		},
+		"14": {
+			"season": "Summer",
+			"year": "1021 FE"
+		},
+		"15": {
+			"season": "Summer",
+			"year": "1021 FE"
+		},
+		"16": {
+			"season": "Summer",
+			"year": "1021 FE"
+		},
+		"17": {
+			"season": "Summer",
+			"year": "1021 FE"
+		},
+		"18": {
+			"season": "Summer",
+			"year": "1021 FE"
+		},
+		"19": {
+			"season": "Late Summer",
+			"year": "1021 FE"
+		},
+		"20": {
+			"season": "Late Summer",
+			"year": "1021 FE"
+		},
+		"21": {
+			"season": "Autumn",
+			"year": "1021 FE"
+		},
+		"22": {
+			"season": "Autumn",
+			"year": "1021 FE"
+		},
+		"23": {
+			"season": "Autumn",
+			"year": "1021 FE"
+		},
+		"24": {
+			"season": "Autumn",
+			"year": "1021 FE"
+		},
+		"25": {
+			"season": "Late Autumn",
+			"year": "1021 FE"
+		},
+		"26": {
+			"season": "Late Autumn",
+			"year": "1021 FE"
+		},
+		"27": {
+			"season": "Winter",
+			"year": "1021 FE"
+		},
+		"28": {
+			"season": "Winter",
+			"year": "1021 FE"
+		},
+		"29": {
+			"season": "Winter",
+			"year": "1021 FE"
+		},
+		"30": {
+			"season": "Winter",
+			"year": "1021 FE"
+		},
+		"31": {
+			"season": "Winter",
+			"year": "1021 FE"
+		},
+		"32": {
+			"season": "Winter",
+			"year": "1022 FE"
+		},
+		"33": {
+			"season": "Early Spring",
+			"year": "1022 FE"
+		},
+		"34": {
+			"season": "Early Spring",
+			"year": "1022 FE"
+		},
+		"35": {
+			"season": "Early Spring",
+			"year": "1022 FE"
+		},
+		"36": {
+			"season": "Early Spring",
+			"year": "1022 FE"
+		},
+		"37": {
+			"season": "Early Spring",
+			"year": "1022 FE"
+		},
+		"38": {
+			"season": "Early Spring",
+			"year": "1022 FE"
+		},
+		"39": {
+			"season": "Spring",
+			"year": "1022 FE"
+		}
+	},
+	"woa": {
+		"1": {
+			"season": "Autumn",
+			"year": "1023 FE"
+		},
+		"2": {
+			"season": "Autumn",
+			"year": "1023 FE"
+		},
+		"3": {
+			"season": "Autumn",
+			"year": "1023 FE"
+		},
+		"4": {
+			"season": "Autumn",
+			"year": "1023 FE"
+		},
+		"5": {
+			"season": "Autumn",
+			"year": "1023 FE"
+		},
+		"6": {
+			"season": "Autumn",
+			"year": "1023 FE"
+		},
+		"7": {
+			"season": "Late Autumn",
+			"year": "1023 FE"
+		},
+		"8": {
+			"season": "Autumn",
+			"year": "1023 FE"
+		},
+		"9": {
+			"season": "Late Autumn",
+			"year": "1023 FE"
+		},
+		"10": {
+			"season": "Autumn",
+			"year": "1023 FE"
+		},
+		"11": {
+			"season": "Early Winter",
+			"year": "1023 FE"
+		},
+		"12": {
+			"season": "Late Autumn",
+			"year": "1023 FE"
+		},
+		"13": {
+			"season": "Early Winter",
+			"year": "1023 FE"
+		},
+		"14": {
+			"season": "Early Winter",
+			"year": "1023 FE"
+		},
+		"15": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"16": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"17": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"19": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"20": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"21": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"22": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"23": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"24": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"25": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"26": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"27": {
+			"season": "Winter",
+			"year": "1023 FE"
+		},
+		"28": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"29": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"30": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"31": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"32": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"33": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"34": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"35": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"36": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"37": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"38": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"40": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"41": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"42": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"43": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"44": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"45": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"46": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"47": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"49": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"50": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"51": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"52": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"53": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"54": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"55": {
+			"season": "Late Winter",
+			"year": "1024 FE"
+		},
+		"56": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"57": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"58": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"59": {
+			"season": "Winter",
+			"year": "1024 FE"
+		},
+		"60": {
+			"season": "Winter",
+			"year": "1024 FE"
+		}
+	},
+	"hoa": {
+		"0": {
+			"season": "Spring",
+			"year": "1026 FE"
+		},
+		"1": {
+			"season": "Spring",
+			"year": "1026 FE"
+		},
+		"3": {
+			"season": "Spring",
+			"year": "1026 FE"
+		},
+		"4": {
+			"season": "Summer",
+			"year": "1026 FE"
+		},
+		"5": {
+			"season": "Summer",
+			"year": "1026 FE"
+		},
+		"6": {
+			"season": "Summer",
+			"year": "1026 FE"
+		},
+		"8": {
+			"season": "Summer",
+			"year": "1026 FE"
+		},
+		"10": {
+			"season": "Summer",
+			"year": "1026 FE"
+		},
+		"12": {
+			"season": "Summer",
+			"year": "1026 FE"
+		},
+		"13": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"14": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"15": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"16": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"17": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"18": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"19": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"21": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"22": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"23": {
+			"season": "Early Winter",
+			"year": "1026 FE"
+		},
+		"24": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"25": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"26": {
+			"season": "Early Winter",
+			"year": "1026 FE"
+		},
+		"27": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"28": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"29": {
+			"season": "Early Winter",
+			"year": "1026 FE"
+		},
+		"30": {
+			"season": "Autumn",
+			"year": "1026 FE"
+		},
+		"31": {
+			"season": "Early Winter",
+			"year": "1026 FE"
+		},
+		"34": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"35": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"36": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"37": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"38": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"40": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"41": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"42": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"43": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"44": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"45": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"46": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"47": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"48": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"49": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"50": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"51": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"53": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"54": {
+			"season": "Late Winter",
+			"year": "1026 FE"
+		},
+		"55": {
+			"season": "Late Winter",
+			"year": "1026 FE"
+		},
+		"56": {
+			"season": "Winter",
+			"year": "1026 FE"
+		},
+		"57": {
+			"season": "Late Winter",
+			"year": "1026 FE"
+		},
+		"58": {
+			"season": "Spring",
+			"year": "1027 FE"
+		},
+		"59": {
+			"season": "Spring",
+			"year": "1027 FE"
+		},
+		"60": {
+			"season": "Late Winter",
+			"year": "1026 FE"
+		},
+		"61": {
+			"season": "Late Winter",
+			"year": "1026 FE"
+		},
+		"62": {
+			"season": "Summer",
+			"year": "1027 FE"
+		},
+		"63": {
+			"season": "Late Winter",
+			"year": "1026 FE"
+		},
+		"64": {
+			"season": "Summer",
+			"year": "1027 FE"
+		},
+		"65": {
+			"season": "Late Winter",
+			"year": "1026 FE"
+		},
+		"66": {
+			"season": "Summer",
+			"year": "1027 FE"
+		},
+		"67": {
+			"season": "Spring",
+			"year": "1027 FE"
+		},
+		"68": {
+			"season": "Spring",
+			"year": "1027 FE"
+		},
+		"69": {
+			"season": "Summer",
+			"year": "1027 FE"
+		},
+		"70": {
+			"season": "Spring",
+			"year": "1027 FE"
+		},
+		"71": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		},
+		"72": {
+			"season": "Summer",
+			"year": "1027 FE"
+		},
+		"73": {
+			"season": "Summer",
+			"year": "1027 FE"
+		},
+		"74": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		},
+		"75": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		},
+		"76": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		},
+		"77": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		},
+		"78": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		},
+		"79": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		},
+		"80": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		},
+		"81": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		},
+		"82": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		},
+		"83": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		},
+		"84": {
+			"season": "Autumn",
+			"year": "1027 FE"
+		}
+	}
+}

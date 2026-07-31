@@ -154,6 +154,8 @@ export const de: Translation = {
 		readAlongMode: 'Mitlese-Modus',
 		readAlongModeTitle:
 			'Bewegungsbeschreibungen verbergen, bis angeklickt — perfekt zum Lesen mit der Karte',
+		readAlongOn: '',
+		readAlongOff: '',
 		statusOn: 'AN',
 		statusOff: 'AUS',
 	},
@@ -328,6 +330,7 @@ export const de: Translation = {
 		roadmap080: 'Krieger des Feuers — Zeitleiste vollständig',
 		roadmap090: 'Herrscher des Lichts — Zeitleiste vollständig',
 		roadmap100: 'Geheime Geschichte — Zeitleiste vollständig',
+		translationNote: 'Übersetzungen sind KI-generiert und noch nicht von Muttersprachlern geprüft.',
 	},
 
 	welcome: {

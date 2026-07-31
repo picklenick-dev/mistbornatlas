@@ -14,8 +14,8 @@ An interactive timeline map for Brandon Sanderson's Mistborn Original Trilogy, t
 |---------|-----------|--------|
 | **v0.7.0** | The Final Empire — timeline complete | **COMPLETE** |
 | **v0.8.0** | The Well of Ascension — timeline complete | **COMPLETE** |
-| **v0.9.0** | The Hero of Ages — timeline complete | **← in progress**  |
-| **v1.0.0** | Secret History — timeline complete | |
+| **v0.9.0** | The Hero of Ages — timeline complete | **COMPLETE** |
+| **v1.0.0** | Secret History — timeline complete | **COMPLETE** |
 
 ## Features
 

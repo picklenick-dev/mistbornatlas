@@ -6,9 +6,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "The Reluctant Brother",
-		"description": "Marsh arrives at Clubs' Shop, Kelsier's older brother and a rebel leader in his own right. He grudgingly joins the crew's plan.",
-		"season": "Late Spring",
-		"year": "1021 FE"
+		"description": "Marsh arrives at Clubs' Shop, Kelsier's older brother and a rebel leader in his own right. He grudgingly joins the crew's plan."
 	},
 	{
 		"book": "tfe",
@@ -17,18 +15,14 @@
 		"cityId": "luthadel",
 		"cityLandmark": "warehouse-district",
 		"title": "The Warehouse Rally",
-		"description": "Marsh attends the secret warehouse rally with the crew, watching his brother Kelsier preach revolution to the gathered skaa workers.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Marsh attends the secret warehouse rally with the crew, watching his brother Kelsier preach revolution to the gathered skaa workers."
 	},
 	{
 		"book": "tfe",
 		"chapter": 20,
 		"location": "fellise",
 		"title": "Teaching Vin",
-		"description": "Marsh arrives at the Renoux estate in Fellise to teach Vin about Seeking—using bronze to sense other Allomancers burning metals, what type, and how to identify Mistlings or Mistborn—as well as additional details about Allomancy in general. He also teaches her about copper and how Smokers can hide Allomantic pulses.",
-		"season": "Late Summer",
-		"year": "1021 FE"
+		"description": "Marsh arrives at the Renoux estate in Fellise to teach Vin about Seeking—using bronze to sense other Allomancers burning metals, what type, and how to identify Mistlings or Mistborn—as well as additional details about Allomancy in general. He also teaches her about copper and how Smokers can hide Allomantic pulses."
 	},
 	{
 		"book": "tfe",
@@ -37,9 +31,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "the-twists",
 		"title": "The Ministry Infiltration",
-		"description": "Marsh meets Kelsier and Vin at an abandoned building in the Twists, bearing the tattoos of a low-ranked obligator from the Canton of Inquisition. He has truly infiltrated the Ministry. He reveals that the Ministry places Soothers in skaa regions under constant Soothing, hidden by Smokers. He also confirms that Inquisitors can die of old age.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Marsh meets Kelsier and Vin at an abandoned building in the Twists, bearing the tattoos of a low-ranked obligator from the Canton of Inquisition. He has truly infiltrated the Ministry. He reveals that the Ministry places Soothers in skaa regions under constant Soothing, hidden by Smokers. He also confirms that Inquisitors can die of old age."
 	},
 	{
 		"book": "tfe",
@@ -48,9 +40,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "canton-inquisition",
 		"title": "Vanishing",
-		"description": "Marsh goes silent, his communications ceasing as he disappears into the deepest levels of the Canton of Inquisition. The crew fears the worst.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Marsh goes silent, his communications ceasing as he disappears into the deepest levels of the Canton of Inquisition. The crew fears the worst."
 	},
 	{
 		"book": "tfe",
@@ -59,9 +49,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "canton-inquisition",
 		"title": "The Body",
-		"description": "Kelsier and Vin find Marsh's body—drained of all blood, a lifeless shell. His letter, found later at Clubs' shop, explains that the Inquisitors would probably find him. The crew mourns. But the mangled corpse they find is not what it seems.",
-		"season": "Winter",
-		"year": "1022 FE"
+		"description": "Kelsier and Vin find Marsh's body—drained of all blood, a lifeless shell. His letter, found later at Clubs' shop, explains that the Inquisitors would probably find him. The crew mourns. But the mangled corpse they find is not what it seems."
 	},
 	{
 		"book": "tfe",
@@ -70,9 +58,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "The Inquisitor",
-		"description": "Marsh appears during the final assault on Kredik Shaw—alive, transformed with eleven metal spikes: two through his eyes, eight in his chest, one in the back binding them together. He kills the Inquisitor Kar by pulling a spike from his neck, and reveals he has killed all the other Inquisitors.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Marsh appears during the final assault on Kredik Shaw—alive, transformed with eleven metal spikes: two through his eyes, eight in his chest, one in the back binding them together. He kills the Inquisitor Kar by pulling a spike from his neck, and reveals he has killed all the other Inquisitors."
 	},
 	{
 		"book": "tfe",
@@ -81,37 +67,35 @@
 		"cityId": "luthadel",
 		"cityLandmark": "skaa-hovels",
 		"title": "Eleven Spikes",
-		"description": "Marsh stands with Sazed and Vin on a building near the skaa slum. He talks about his survival and transformation—eleven spikes, the horrific process, and how he endured. He also tells them about the kandra, creatures evolved from mistwraiths, and that the one who impersonated Lord Renoux now sees Vin as its master.",
-		"season": "Spring",
-		"year": "1022 FE"
+		"description": "Marsh stands with Sazed and Vin on a building near the skaa slum. He talks about his survival and transformation—eleven spikes, the horrific process, and how he endured. He also tells them about the kandra, creatures evolved from mistwraiths, and that the one who impersonated Lord Renoux now sees Vin as its master."
 	},
 	{
 		"book": "woa",
 		"chapter": 7,
-		"locationCoords": [1605.9, 468.1],
+		"locationCoords": [
+			1605.9,
+			468.1
+		],
 		"title": "The Conventical Guide",
-		"description": "Marsh appears at Sazed's village in the Eastern Dominance and offers to guide him to the Conventical of Seran—an Inquisitor stronghold where answers about the Hero of Ages may lie.",
-		"season": "Late Autumn",
-		"year": "1023 FE"
+		"description": "Marsh appears at Sazed's village in the Eastern Dominance and offers to guide him to the Conventical of Seran—an Inquisitor stronghold where answers about the Hero of Ages may lie."
 	},
 	{
 		"book": "woa",
 		"chapter": 9,
 		"location": "conventical",
-		"offset": [0, 30],
+		"offset": [
+			0,
+			30
+		],
 		"title": "Traveling with Sazed",
-		"description": "Marsh travels with Sazed toward the Conventical of Seran. His behaviour grows more erratic and withdrawn during the journey as Ruin's subtle influence takes hold.",
-		"season": "Late Autumn",
-		"year": "1023 FE"
+		"description": "Marsh travels with Sazed toward the Conventical of Seran. His behaviour grows more erratic and withdrawn during the journey as Ruin's subtle influence takes hold."
 	},
 	{
 		"book": "woa",
 		"chapter": 12,
 		"location": "conventical",
 		"title": "Abandonment",
-		"description": "Marsh abruptly abandons Sazed at the Conventical and vanishes into the wilderness, driven by forces he increasingly cannot resist. Ruin's influence grows.",
-		"season": "Late Autumn",
-		"year": "1023 FE"
+		"description": "Marsh abruptly abandons Sazed at the Conventical and vanishes into the wilderness, driven by forces he increasingly cannot resist. Ruin's influence grows."
 	},
 	{
 		"book": "woa",
@@ -120,9 +104,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Ruin's Puppet",
-		"description": "Marsh appears at Kredik Shaw under Ruin's full control. Telling Sazed he wishes he knew why he must kill him, he Allomantically pushes on Sazed's metal bracers and slams the Keeper into the wall as Vin descends toward the Well below.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Marsh appears at Kredik Shaw under Ruin's full control. Telling Sazed he wishes he knew why he must kill him, he Allomantically pushes on Sazed's metal bracers and slams the Keeper into the wall as Vin descends toward the Well below."
 	},
 	{
 		"book": "woa",
@@ -131,9 +113,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Struck Down",
-		"description": "Marsh batters Sazed—breaking bones and driving metal rings into his flesh—but Sazed taps those metalminds to fight back. As the Inquisitor moves to finish him, Hammond cracks a dueling cane across Marsh's skull, knocking him unconscious.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Marsh batters Sazed—breaking bones and driving metal rings into his flesh—but Sazed taps those metalminds to fight back. As the Inquisitor moves to finish him, Hammond cracks a dueling cane across Marsh's skull, knocking him unconscious."
 	},
 	{
 		"book": "hoa",
@@ -141,87 +121,109 @@
 		"location": "tathingdwen",
 		"title": "Creating Inquisitors",
 		"description": "Under Ruin's control, Marsh performs dark Hemalurgic rituals in Tathingdwen, creating new Inquisitors from captured Feruchemists and Allomancers.",
-		"season": "Spring",
-		"year": "1026 FE"
+		"placementNote": "⚠️ Marsh's exact location within Tathingdwen is never specified in the book. Placed at the Terris capital as a best guess—the prologue only mentions he is performing dark rituals on captured Terris people for an unknown purpose."
 	},
 	{
 		"book": "hoa",
 		"chapter": 6,
-		"location": "luthadel",
-		"offset": [200, 100],
+		"location": "imperial-canal",
+		"offset": [
+			100,
+			0
+		],
 		"title": "Leading Koloss",
-		"description": "Marsh commands a growing army of koloss on behalf of Ruin, moving through the Eastern Dominance and gathering forces for the final battle.",
-		"season": "Summer",
-		"year": "1026 FE"
+		"description": "Marsh commands a growing army of koloss on behalf of Ruin, gathering forces for the final battle.",
+		"placementNote": "⚠️ Marsh's exact location during this chapter is never specified in the book. Placed east of Luthadel as a best guess—he was last seen creating Inquisitors in Tathingdwen (HOA ch 0) and is gathering koloss forces for Ruin's endgame."
 	},
 	{
 		"book": "hoa",
-		"chapter": 22,
-		"location": "luthadel",
-		"offset": [-140, 35],
+		"chapter": 13,
+		"location": "imperial-canal",
+		"offset": [
+			100,
+			0
+		],
+		"title": "Ruin's Pawn",
+		"description": "Marsh sits unmoving in a koloss camp, deliberating about Kelsier and his role in Ruin's plans. He decides to cease his futile struggles and feign compliance, hoping to lull Ruin into a false sense of security and foil his plans at a critical moment."
+	},
+	{
+		"book": "hoa",
+		"chapter": 34,
+		"location": "ashmount-tyrian",
 		"title": "Near Tyrian",
-		"description": "Marsh operates near Mount Tyrian, creating Hemalurgic spikes from captured prisoners and building Ruin's army of Inquisitors in the shadow of the ashmount.",
-		"season": "Winter",
-		"year": "1026 FE"
+		"description": "Marsh operates near Mount Tyrian, creating Hemalurgic spikes from captured prisoners and building Ruin's army of Inquisitors in the shadow of the ashmount. He walks through a starving town and creates a bronze spike by stabbing a Smoker through the heart."
 	},
 	{
 		"book": "hoa",
-		"chapter": 38,
+		"chapter": 42,
 		"location": "luthadel",
 		"cityId": "luthadel",
-		"cityLandmark": "keep-hasting",
+		"cityLandmark": "keep-venture",
 		"title": "The Spiking of Penrod",
-		"description": "Marsh infiltrates Luthadel to spike King Penrod, granting Ruin a direct conduit into the governance of the capital.",
-		"season": "Winter",
-		"year": "1026 FE"
+		"description": "Marsh infiltrates Luthadel stealthily, reflecting on his own horrific transformation into an Inquisitor as he prepares a bronze Hemalurgic spike. Ruin seizes control of his body and he attacks King Penrod in Keep Venture, stabbing him through the heart and leaving the spike embedded in his chest — granting Ruin a direct conduit into the governance of the capital. Marsh remains hidden afterward, watching as surgeons examine Penrod and decide to leave the spike in place: they cannot safely remove it, and the king seems to be in remarkable health. All goes exactly as Ruin planned."
 	},
 	{
 		"book": "hoa",
-		"chapter": 45,
+		"chapter": 63,
 		"location": "fadrex-city",
-		"offset": [-20, 20],
-		"title": "Converging on Fadrex",
-		"description": "Marsh leads his Inquisitors toward Fadrex City, converging on the siege as Ruin seeks to recover the atium cache hidden within.",
-		"season": "Winter",
-		"year": "1026 FE"
+		"cityId": "fadrex",
+		"cityLandmark": "canton-of-resource",
+		"title": "Confronting Vin",
+		"description": "Marsh arrives at the Canton of Resource to find Vin captive and Yomen interrogating her. He bows to Ruin and announces he is not there to protect Fadrex — only to seize the atium cache. When Yomen reveals the cache contains a mere seven beads, Ruin screams in rage. Yomen begs Marsh for aid against Elend's army, but Marsh coldly refuses: the Lord Ruler is dead, and he was an unprofitable servant. Marsh scoffs when Vin claims Elend would not attack to save her — but Vin answers that Elend is a better man than he thinks."
 	},
 	{
 		"book": "hoa",
-		"chapter": 59,
+		"chapter": 65,
 		"location": "fadrex-city",
-		"offset": [200, -20],
-		"title": "Pursuing Vin",
-		"description": "Marsh leads the Inquisitor pack chasing Vin eastward as she flees from Fadrex toward Luthadel, drawing Ruin's servants away from the cache.",
-		"season": "Spring",
-		"year": "1027 FE"
+		"cityId": "fadrex",
+		"cityLandmark": "canton-of-resource",
+		"title": "The Atium Demand",
+		"description": "Marsh arrives at the Canton of Resource to find Vin captive. He grabs her and demands the atium's location, but she refuses. Marsh orders Yomen to attack Elend's army and reveals the Lord Ruler's plan: the koloss and Inquisitors were made as a force Ruin would one day seize. As Marsh shakes Vin, she steals a metal vial from his sash and removes her earring — a Hemalurgic spike — duralumin-pushing it into his forehead. Marsh drops."
+	},
+	{
+		"book": "hoa",
+		"chapter": 65.2,
+		"location": "fadrex-city",
+		"cityId": "fadrex",
+		"cityLandmark": "canton-of-resource",
+		"title": "The Emperor's Brother",
+		"description": "Marsh recovers from the spike to his forehead. Vin hits him with a duralumin-enhanced Soothing, but Marsh resists — growing in size using Feruchemical strength and choking her. Vin draws upon the mists and Pushes on his emotions, briefly seeing through his eyes. Overwhelmed, Marsh flees as Vin breaks Ruin's control."
 	},
 	{
 		"book": "hoa",
 		"chapter": 69,
-		"location": "pits-hathsin",
-		"title": "The Battle of Hathsin",
-		"description": "Marsh arrives at the Pits leading Ruin's forces. In a moment of recovered will, he tears Vin's earring free—an act of defiance that changes everything.",
-		"season": "Autumn",
-		"year": "1027 FE"
+		"location": "imperial-canal",
+		"offset": [
+			-150,
+			-180
+		],
+		"title": "The Messenger's Fate",
+		"description": "Marsh intercepts and kills Captain Goradel, who was carrying Spook's urgent message to Vin. He reads the note — a warning written in steel that Ruin cannot alter, warning of the danger of metal piercing the body. Troubled, Marsh departs for Luthadel to confront Vin at Kredik Shaw.",
+		"placementNote": "⚠️ The book never specifies where Marsh intercepts Goradel — only that he departs for Luthadel afterward. Placed along the imperial canal route between Urteau and Luthadel as a best guess."
 	},
 	{
 		"book": "hoa",
-		"chapter": 79,
-		"location": "pits-hathsin",
-		"title": "Killing Elend",
-		"description": "Marsh, driven by Ruin, kills Emperor Elend during the Battle of Hathsin. The act fulfills Ruin's plan but costs Marsh another piece of his soul.",
-		"season": "Autumn",
-		"year": "1027 FE"
-	},
-	{
-		"book": "hoa",
-		"chapter": 83,
+		"chapter": 72,
 		"location": "luthadel",
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
-		"title": "Freedom at Last",
-		"description": "With Ruin destroyed, Marsh is finally freed from the god's control. He stands alone in the remade world, an Inquisitor who survived the end of everything.",
-		"season": "Autumn",
-		"year": "1027 FE"
+		"title": "The Earring",
+		"description": "Marsh watches as thirteen Inquisitors attack Vin at Kredik Shaw — Ruin's full might unleashed. One of them uses Feruchemical speed from extra spikes. When Vin is overpowered, Ruin forces Marsh to take over the torture. He breaks her arms and legs, then her fingers one by one, demanding the atium's location. But a sliver of his mind resists, thinking of how Kelsier treated her as the daughter he and Mare never had, and of his own surrender before the rebellion succeeded. He notices her earring — remembering both her story of its origin and Spook's warning about metal piercing the body. Without thought, beyond Ruin's control, Marsh rips the earring from her ear. Ruin's voice cuts off. The mists rush into Vin. In his last conscious moment before she rises, Marsh knows that whatever happens next, he did not surrender."
+	},
+	{
+		"book": "hoa",
+		"chapter": 73,
+		"location": "luthadel",
+		"cityId": "luthadel",
+		"cityLandmark": "kredik-shaw",
+		"title": "Not Surrendering",
+		"description": "Marsh watches as Vin — fueled by the mists like an endless metal reserve — slaughters the twelve remaining Inquisitors with terrifying ease. Her ordinary Steelpushes carry godlike force; she demolishes Kredik Shaw itself, collapsing the Lord Ruler's thousand-year-old palace into rubble. Only Marsh remains. He feels no fear — only a fierce, quiet pride. Whatever he did worked. Ruin rages impotently in the back of his mind, and Marsh knows that when it mattered most, he did not surrender. Vin pulls one of his eye spikes free but does not kill him. She coughs and vanishes before she can finish him, leaving Marsh alive in the ruins."
+	},
+	{
+		"book": "hoa",
+		"chapter": 81,
+		"location": "pits-hathsin",
+		"title": "Killing Elend",
+		"description": "Marsh, driven by Ruin, attacks Elend during the Battle of Hathsin. Both burn atium in a furious duel. Elend burns duralumin and atium together in a final flash of godlike insight, driving his sword into Marsh's neck as Marsh's axe takes him in the chest. Marsh heals and decapitates the emperor—but Elend dies smiling, having burned all the atium Ruin sought. When Vin sacrifices herself to destroy Ruin moments later, the force controlling Marsh for years simply vanishes. He collapses among the dead, his body his own again for the first time since the Conventical."
 	}
 ]

@@ -70,6 +70,7 @@
 		"title": "Emperor",
 		"debutBook": "tfe",
 		"debutChapter": 12,
+		"portraitChanges": [{ "book": "woa", "chapter": 16, "image": "/characters/elend.jpg" }],
 		"titleProgression": {
 			"tfe-12": "Noble Philosopher",
 			"tfe-24": "Dissenting Noble",
@@ -110,6 +111,7 @@
 		"title": "Tineye",
 		"debutBook": "tfe",
 		"debutChapter": 7,
+		"portraitChanges": [{ "book": "hoa", "chapter": 16, "image": "/characters/spook.png" }],
 		"titleProgression": {
 			"tfe-7": "Young Tineye",
 			"woa-1": "Scout",

@@ -71,6 +71,8 @@ export const LocationMarker: React.FC<LocationMarkerProps> = ({ location }) => {
 	// Hide spoiler-laden description until the reader reaches the chapter where it
 	// is revealed (unless they have spoilers enabled). The safe description is the
 	// English fallback so we never leak translated spoiler text either.
+	// Note: the spoiler gate only controls the *description text*, not visibility.
+	// Use the `books` field with a chapter-gated entry to hide the marker entirely.
 	const spoilerHidden =
 		!!location.spoiler &&
 		!!location.safeDescription &&

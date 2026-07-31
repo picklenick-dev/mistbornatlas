@@ -31,8 +31,8 @@ export const useMapData = (): UseMapDataReturn => {
 		currentChapter,
 		visibleCharacters,
 		showLocations,
-		showAllCharacters,
 		secretHistoryMode,
+		hideMovementSpoilers,
 	} = useMapContext();
 
 	const bookMovements = useMemo(() => {
@@ -52,8 +52,25 @@ export const useMapData = (): UseMapDataReturn => {
 
 	const visibleLocations = useMemo(() => {
 		if (!showLocations) return [];
-		return locations.filter(loc => !loc.books || loc.books.includes(currentBook));
-	}, [showLocations, currentBook]);
+		return locations.filter(loc => {
+			// Gate by secret history mode — location only visible when SH is active
+			if (loc.secretHistory && !secretHistoryMode) return false;
+			if (!loc.books) return true;
+			return loc.books.some(entry => {
+				if (typeof entry === 'string') {
+					// Plain BookId — location only visible in that book, always respected
+					return entry === currentBook;
+				}
+				// Chapter-gated entry — only enforced when read-along is ON;
+				// when read-along is OFF, show for the entire matching book.
+				if (entry.book !== currentBook) return false;
+				// Gate by secret history mode on the book entry
+				if (entry.secretHistory && !secretHistoryMode) return false;
+				if (!hideMovementSpoilers) return true; // skip chapter check
+				return currentChapter >= entry.chapter;
+			});
+		});
+	}, [showLocations, currentBook, currentChapter, hideMovementSpoilers, secretHistoryMode]);
 
 	const characterPositions = useMemo((): CharacterPosition[] => {
 		const positions: CharacterPosition[] = [];
@@ -64,7 +81,7 @@ export const useMapData = (): UseMapDataReturn => {
 			if (!character) return;
 
 			if (
-				!showAllCharacters &&
+				hideMovementSpoilers &&
 				!hasCharacterDebuted(
 					character,
 					currentBook,
@@ -93,7 +110,7 @@ export const useMapData = (): UseMapDataReturn => {
 				currentMovements = charMovements.filter(m => Math.floor(m.chapter) === maxBaseChapter);
 			}
 
-			if (currentMovements.length === 0 && showAllCharacters && charMovements.length > 0) {
+			if (currentMovements.length === 0 && !hideMovementSpoilers && charMovements.length > 0) {
 				const earliest = charMovements.reduce(
 					(e, m) => (!e || m.chapter < e.chapter ? m : e),
 					null as Movement | null
@@ -162,7 +179,7 @@ export const useMapData = (): UseMapDataReturn => {
 		);
 
 		return positions;
-	}, [visibleCharacters, bookMovements, currentChapter, currentBook, showAllCharacters, secretHistoryMode]);
+	}, [visibleCharacters, bookMovements, currentChapter, currentBook, hideMovementSpoilers, secretHistoryMode]);
 
 	const characterPaths = useMemo(() => {
 		const paths: {
@@ -178,7 +195,7 @@ export const useMapData = (): UseMapDataReturn => {
 
 			// Check if character has debuted (unless override is enabled)
 			if (
-				!showAllCharacters &&
+				hideMovementSpoilers &&
 				!hasCharacterDebuted(
 					character,
 					currentBook,
@@ -197,7 +214,7 @@ export const useMapData = (): UseMapDataReturn => {
 				.filter((m: Movement) => Math.floor(m.chapter) <= currentChapter)
 				.sort((a: Movement, b: Movement) => a.chapter - b.chapter);
 
-			if (pathMovements.length === 0 && showAllCharacters && charMovements.length > 0) {
+			if (pathMovements.length === 0 && !hideMovementSpoilers && charMovements.length > 0) {
 				const earliest = charMovements.reduce(
 					(e, m) => (!e || m.chapter < e.chapter ? m : e),
 					null as Movement | null
@@ -240,7 +257,7 @@ export const useMapData = (): UseMapDataReturn => {
 		});
 
 		return paths;
-	}, [visibleCharacters, bookMovements, currentChapter, currentBook, showAllCharacters, secretHistoryMode]);
+	}, [visibleCharacters, bookMovements, currentChapter, currentBook, hideMovementSpoilers, secretHistoryMode]);
 
 	return {
 		visibleLocations,

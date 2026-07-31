@@ -184,6 +184,8 @@ export interface TranslationKeys {
 		cityLandmarksNote: string;
 		readAlongMode: string;
 		readAlongModeTitle: string;
+		readAlongOn: string;
+		readAlongOff: string;
 		statusOn: string;
 		statusOff: string;
 	};
@@ -359,6 +361,7 @@ export interface TranslationKeys {
 		roadmap080: string;
 		roadmap090: string;
 		roadmap100: string;
+		translationNote: string;
 	};
 
 	// Welcome modal
@@ -435,6 +438,8 @@ export interface DataTranslations {
 			Confident<{
 				name: string;
 				description: string;
+				safeDescription?: string;
+				placementNote?: string;
 			}>
 		>
 	>;
@@ -448,6 +453,7 @@ export interface DataTranslations {
 				description: string;
 				season: string;
 				year: string;
+				placementNote?: string;
 			}>
 		>
 	>;

@@ -4,9 +4,7 @@
 		"chapter": 9,
 		"location": "fellise",
 		"title": "The Terris Steward",
-		"description": "Sazed arrives at Lord Renoux's estate in Fellise to serve as Vin's tutor and steward, teaching her etiquette, dance, and deportment. He tells Vin about Trelagism—the fifth religion he has pitched to her—and when questioned, admits to knowing about 562 more.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Sazed arrives at Lord Renoux's estate in Fellise to serve as Vin's tutor and steward, teaching her etiquette, dance, and deportment. He tells Vin about Trelagism—the fifth religion he has pitched to her—and when questioned, admits to knowing about 562 more."
 	},
 	{
 		"book": "tfe",
@@ -15,9 +13,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "warehouse-district",
 		"title": "The Warehouse Rally",
-		"description": "Sazed attends the secret warehouse rally alongside Kelsier and Vin, observing as the Survivor preaches revolution to the gathered skaa workers.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Sazed attends the secret warehouse rally alongside Kelsier and Vin, observing as the Survivor preaches revolution to the gathered skaa workers."
 	},
 	{
 		"book": "tfe",
@@ -26,18 +22,14 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Guardian at the Ball",
-		"description": "Sazed accompanies Vin to her first ball at Keep Venture as her steward, watching over her while she infiltrates noble society.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Sazed accompanies Vin to her first ball at Keep Venture as her steward, watching over her while she infiltrates noble society."
 	},
 	{
 		"book": "tfe",
 		"chapter": 13,
 		"location": "fellise",
 		"title": "Debriefing at Fellise",
-		"description": "Sazed returns to Lord Renoux's estate in Fellise with Vin and Kelsier, reviewing the results of Vin's first ball and planning next steps.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Sazed returns to Lord Renoux's estate in Fellise with Vin and Kelsier, reviewing the results of Vin's first ball and planning next steps."
 	},
 	{
 		"book": "tfe",
@@ -46,27 +38,21 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Saving Vin",
-		"description": "Sazed takes Vin to Clubs' shop to save her and perform surgery after her injury at Kredik Shaw. He also examines a book written in Khlenni (the Lord Ruler's language) recovered during the scouting mission.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Sazed takes Vin to Clubs' shop to save her and perform surgery after her injury at Kredik Shaw. He also examines a book written in Khlenni (the Lord Ruler's language) recovered during the scouting mission."
 	},
 	{
 		"book": "tfe",
 		"chapter": 16,
 		"location": "fellise",
 		"title": "Return to Fellise",
-		"description": "After stabilizing Vin at Clubs' shop, Sazed returns to the Renoux estate in Fellise.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "After stabilizing Vin at Clubs' shop, Sazed returns to the Renoux estate in Fellise."
 	},
 	{
 		"book": "tfe",
 		"chapter": 17,
 		"location": "fellise",
 		"title": "Translating the Khlenni Book",
-		"description": "At the Renoux estate library in Fellise, Sazed works to translate the book written in Khlenni that Vin recovered during the scouting mission to Kredik Shaw.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "At the Renoux estate library in Fellise, Sazed works to translate the book written in Khlenni that Vin recovered during the scouting mission to Kredik Shaw."
 	},
 	{
 		"book": "tfe",
@@ -75,27 +61,21 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-elariel",
 		"title": "Guardian at Keep Elariel",
-		"description": "Sazed accompanies Vin to the ball at Keep Elariel as her Terris steward, watching over her while she navigates the noble court.",
-		"season": "Summer",
-		"year": "1021 FE"
+		"description": "Sazed accompanies Vin to the ball at Keep Elariel as her Terris steward, watching over her while she navigates the noble court."
 	},
 	{
 		"book": "tfe",
 		"chapter": 19,
 		"location": "fellise",
 		"title": "Intelligence Exchange",
-		"description": "Sazed is at Mansion Renoux when Kelsier returns via the Spikeway. They trade intelligence about the noble houses and the rebellion's progress, with Kelsier lecturing Vin about staying away from Elend.",
-		"season": "Late Summer",
-		"year": "1021 FE"
+		"description": "Sazed is at Mansion Renoux when Kelsier returns via the Spikeway. They trade intelligence about the noble houses and the rebellion's progress, with Kelsier lecturing Vin about staying away from Elend."
 	},
 	{
 		"book": "tfe",
 		"chapter": 22,
 		"location": "fellise",
 		"title": "Secrets of Feruchemy",
-		"description": "At the Renoux estate, Sazed talks with Vin about the Terrisman in the Lord Ruler's logbook. He reveals the secrets of Feruchemy and explains how the Keepers were formed for the purpose of remembering everything after the Terris religion was lost. He also learns new things about his people from the logbook—how the land was once green and fertile, not a tundra of frozen dirt.",
-		"season": "Autumn",
-		"year": "1021 FE"
+		"description": "At the Renoux estate, Sazed talks with Vin about the Terrisman in the Lord Ruler's logbook. He reveals the secrets of Feruchemy and explains how the Keepers were formed for the purpose of remembering everything after the Terris religion was lost. He also learns new things about his people from the logbook—how the land was once green and fertile, not a tundra of frozen dirt."
 	},
 	{
 		"book": "tfe",
@@ -104,9 +84,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-hasting",
 		"title": "Guardian at Keep Hasting",
-		"description": "Sazed accompanies Vin to the ball at Keep Hasting as her Terris steward. He waits while she spreads rumors and talks to nobles, ever watchful as her guardian.",
-		"season": "Autumn",
-		"year": "1021 FE"
+		"description": "Sazed accompanies Vin to the ball at Keep Hasting as her Terris steward. He waits while she spreads rumors and talks to nobles, ever watchful as her guardian."
 	},
 	{
 		"book": "tfe",
@@ -115,9 +93,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Marsh's Message",
-		"description": "Sazed returns to Clubs' shop bearing a letter from Marsh with news and instructions on where to meet. He also delivers translations of the Lord Ruler's logbook.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Sazed returns to Clubs' shop bearing a letter from Marsh with news and instructions on where to meet. He also delivers translations of the Lord Ruler's logbook."
 	},
 	{
 		"book": "tfe",
@@ -126,18 +102,14 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-lekal",
 		"title": "Guardian at Keep Lekal",
-		"description": "Sazed accompanies Vin to the ball at Keep Lekal as her Terris steward. He waits for her as she works to ignite the House Wars and talks with Elend.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Sazed accompanies Vin to the ball at Keep Lekal as her Terris steward. He waits for her as she works to ignite the House Wars and talks with Elend."
 	},
 	{
 		"book": "tfe",
 		"chapter": 29,
 		"location": "fellise",
 		"title": "Feruchemy Lessons",
-		"description": "At the Renoux estate, Sazed provides Vin with the last of his translations of the logbook. He explains Feruchemy in more detail, and Vin tries burning one of his pewterminds. Later, Sazed joins the crew as Kelsier goes over a detailed map of Luthadel's defenses provided by Marsh. Unable to sleep that night, Kelsier has Sazed tell him about some of the religions he knows.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "At the Renoux estate, Sazed provides Vin with the last of his translations of the logbook. He explains Feruchemy in more detail, and Vin tries burning one of his pewterminds. Later, Sazed joins the crew as Kelsier goes over a detailed map of Luthadel's defenses provided by Marsh. Unable to sleep that night, Kelsier has Sazed tell him about some of the religions he knows."
 	},
 	{
 		"book": "tfe",
@@ -146,9 +118,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Guardian at Keep Venture",
-		"description": "Sazed accompanies Vin to the final house ball at Keep Venture. The partygoers are finalizing alliances and Lady Valette receives cold receptions. Sazed departs the ball early, before Vin discovers the assassination plot against Elend and fights Shan Elariel.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Sazed accompanies Vin to the final house ball at Keep Venture. The partygoers are finalizing alliances and Lady Valette receives cold receptions. Sazed departs the ball early, before Vin discovers the assassination plot against Elend and fights Shan Elariel."
 	},
 	{
 		"book": "tfe",
@@ -157,9 +127,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Tending Vin's Wounds",
-		"description": "Sazed ministers to Vin's wounds at Clubs' shop after she arrives battered from her fight with Shan Elariel and the Elariel assassins. He listens as Vin recounts the events of the evening.",
-		"season": "Winter",
-		"year": "1021 FE"
+		"description": "Sazed ministers to Vin's wounds at Clubs' shop after she arrives battered from her fight with Shan Elariel and the Elariel assassins. He listens as Vin recounts the events of the evening."
 	},
 	{
 		"book": "tfe",
@@ -168,9 +136,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "The Backup Lair",
-		"description": "Sazed is at the backup safehouse near Clubs' shop with the crew after Kelsier destroyed the Pits of Hathsin. Vin talks to Sazed about the Eleventh Metal. Later, when skaa are brought to execution at Fountain Square and Spook is found caged in a prisoner cart, Sazed stays at the lair as Kelsier fights the Inquisitor.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Sazed is at the backup safehouse near Clubs' shop with the crew after Kelsier destroyed the Pits of Hathsin. Vin talks to Sazed about the Eleventh Metal. Later, when skaa are brought to execution at Fountain Square and Spook is found caged in a prisoner cart, Sazed stays at the lair as Kelsier fights the Inquisitor."
 	},
 	{
 		"book": "tfe",
@@ -179,9 +145,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "clubs-shop",
 		"title": "Comforting Vin",
-		"description": "Sazed is at the backup safehouse near Clubs' shop with Vin after Kelsier's death. He offers comforting words as Vin rages that Kelsier abandoned her. He stays behind when the crew goes to the warehouse to see the kandra wearing Kelsier's form.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Sazed is at the backup safehouse near Clubs' shop with Vin after Kelsier's death. He offers comforting words as Vin rages that Kelsier abandoned her. He stays behind when the crew goes to the warehouse to see the kandra wearing Kelsier's form."
 	},
 	{
 		"book": "tfe",
@@ -190,9 +154,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "The Feruchemist Unleashed",
-		"description": "Sazed is brought into Vin's prison cell in Kredik Shaw. He appears to deflate, then his muscles swell to twice his size as he unleashes stored Feruchemical strength, slamming the door open.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Sazed is brought into Vin's prison cell in Kredik Shaw. He appears to deflate, then his muscles swell to twice his size as he unleashes stored Feruchemical strength, slamming the door open."
 	},
 	{
 		"book": "tfe",
@@ -201,9 +163,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "The Fall of the Empire",
-		"description": "Sazed appears at the final confrontation in Kredik Shaw with a vial of metals for Vin. He witnesses the Lord Ruler's and how Vin pulls on the Lord ruler's bracelet and the Lord Ruler's age increases dramatically and fast.",
-		"season": "Early Spring",
-		"year": "1022 FE"
+		"description": "Sazed appears at the final confrontation in Kredik Shaw with a vial of metals for Vin. He witnesses the Lord Ruler's and how Vin pulls on the Lord ruler's bracelet and the Lord Ruler's age increases dramatically and fast."
 	},
 	{
 		"book": "tfe",
@@ -212,64 +172,59 @@
 		"cityId": "luthadel",
 		"cityLandmark": "skaa-hovels",
 		"title": "Understanding the Tyrant",
-		"description": "Sazed stands with Vin and Marsh on a building near the edge of the skaa slum. He explains that the Lord Ruler was both a Feruchemist and an Allomancer—the bracelets stored his youth. He speculates this is why all Terrisman stewards were forced to be eunuchs: the Lord Ruler feared someone with both Feruchemical and Allomantic blood could challenge his immortality. Sazed laments that he couldn't fully memorize Elend's tremendous speech to the new leaders—he hadn't had his metals to store it.",
-		"season": "Spring",
-		"year": "1022 FE"
+		"description": "Sazed stands with Vin and Marsh on a building near the edge of the skaa slum. He explains that the Lord Ruler was both a Feruchemist and an Allomancer—the bracelets stored his youth. He speculates this is why all Terrisman stewards were forced to be eunuchs: the Lord Ruler feared someone with both Feruchemical and Allomantic blood could challenge his immortality. Sazed laments that he couldn't fully memorize Elend's tremendous speech to the new leaders—he hadn't had his metals to store it."
 	},
 	{
 		"book": "woa",
 		"chapter": 4,
-		"locationCoords": [1605.9, 468.1],
+		"locationCoords": [
+			1605.9,
+			468.1
+		],
 		"title": "The Traveling Teacher",
-		"description": "Sazed travels through the Eastern Dominance, visiting rural villages to share suppressed religions and knowledge with the newly freed skaa.",
-		"season": "Autumn",
-		"year": "1023 FE"
+		"description": "Sazed travels through the Eastern Dominance, visiting rural villages to share suppressed religions and knowledge with the newly freed skaa."
 	},
 	{
 		"book": "woa",
 		"chapter": 7,
-		"locationCoords": [1605.9, 468.1],
+		"locationCoords": [
+			1605.9,
+			468.1
+		],
 		"title": "Marsh Returns",
-		"description": "Sazed continues teaching suppressed religions to freed skaa in the Eastern Dominance. Marsh appears at the village, having wandered alone since the fall of the Lord Ruler, and offers to guide Sazed to a place of answers—the Conventical of Seran.",
-		"season": "Late Autumn",
-		"year": "1023 FE"
+		"description": "Sazed continues teaching suppressed religions to freed skaa in the Eastern Dominance. Marsh appears at the village, having wandered alone since the fall of the Lord Ruler, and offers to guide Sazed to a place of answers—the Conventical of Seran."
 	},
 	{
 		"book": "woa",
 		"chapter": 9,
 		"location": "conventical",
-		"offset": [0, 30],
+		"offset": [
+			0,
+			30
+		],
 		"title": "Journey to the Conventical",
-		"description": "Sazed and Marsh travel through the desolate Eastern Dominance toward the Conventical of Seran. Marsh grows increasingly distant and strange during the journey, unsettling Sazed.",
-		"season": "Late Autumn",
-		"year": "1023 FE"
+		"description": "Sazed and Marsh travel through the desolate Eastern Dominance toward the Conventical of Seran. Marsh grows increasingly distant and strange during the journey, unsettling Sazed."
 	},
 	{
 		"book": "woa",
 		"chapter": 12,
 		"location": "conventical",
 		"title": "Deciphering the Plate",
-		"description": "Sazed studies Kwaan's inscription in the Conventical, uncovering the Terris Keeper's desperate warning that the Hero of Ages prophecy was altered.",
-		"season": "Late Autumn",
-		"year": "1023 FE"
+		"description": "Sazed studies Kwaan's inscription in the Conventical, uncovering the Terris Keeper's desperate warning that the Hero of Ages prophecy was altered."
 	},
 	{
 		"book": "woa",
 		"chapter": 15,
 		"location": "urbene",
 		"title": "The Mist Killings",
-		"description": "Returning westward through Urbene, Sazed encounters villages where people have mysteriously died in the mists—the first signs of the mist sickness.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Returning westward through Urbene, Sazed encounters villages where people have mysteriously died in the mists—the first signs of the mist sickness."
 	},
 	{
-		"book": "woa",		
+		"book": "woa",
 		"chapter": 19,
 		"location": "koloss-camp",
 		"title": "The Koloss Army",
-		"description": "After burning through his steel metalmind to speed his journey, Sazed encounters a twenty-thousand-strong koloss army in the Central Dominance. He is captured and brought before their leader Jastes Lekal, who wants Sazed as his steward. Sazed declines but carries Jastes' offer of alliance back toward Luthadel.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "After burning through his steel metalmind to speed his journey, Sazed encounters a twenty-thousand-strong koloss army in the Central Dominance. He is captured and brought before their leader Jastes Lekal, who wants Sazed as his steward. Sazed declines but carries Jastes' offer of alliance back toward Luthadel."
 	},
 	{
 		"book": "woa",
@@ -278,9 +233,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Return to Luthadel",
-		"description": "Sazed arrives at Luthadel bearing grave news about the altered prophecy, the mist killings, and the steel inscription's true meaning.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Sazed arrives at Luthadel bearing grave news about the altered prophecy, the mist killings, and the steel inscription's true meaning."
 	},
 	{
 		"book": "woa",
@@ -289,9 +242,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Third Army",
-		"description": "Sazed briefs Elend and the crew at Keep Venture about the twenty thousand koloss under Jastes Lekal. He warns that the mists are killing people and resolves to stay in Luthadel to investigate. Afterward, he encounters Tindwyl in his guest quarters and they share a personal moment.",
-		"season": "Winter",
-		"year": "1023 FE"
+		"description": "Sazed briefs Elend and the crew at Keep Venture about the twenty thousand koloss under Jastes Lekal. He warns that the mists are killing people and resolves to stay in Luthadel to investigate. Afterward, he encounters Tindwyl in his guest quarters and they share a personal moment."
 	},
 	{
 		"book": "woa",
@@ -300,9 +251,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Transcribing the Rubbings",
-		"description": "Sazed transcribes the rubbings he took at the Conventical of Seran, realizing the work could take years. Vin enters through his window and proposes that the mists are the Deepness. She tells him she has seen the same creature that followed the Hero of Ages.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Sazed transcribes the rubbings he took at the Conventical of Seran, realizing the work could take years. Vin enters through his window and proposes that the mists are the Deepness. She tells him she has seen the same creature that followed the Hero of Ages."
 	},
 	{
 		"book": "woa",
@@ -311,9 +260,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "warehouse-district",
 		"title": "Refuge in the Warehouses",
-		"description": "Sazed offers comfort to newly arrived refugees housed in an arms warehouse. Tindwyl asks to see his rubbing from the Conventical. Breeze soothes everyone—the refugees, Sazed, and Tindwyl—using his allomancy to ease their suffering.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Sazed offers comfort to newly arrived refugees housed in an arms warehouse. Tindwyl asks to see his rubbing from the Conventical. Breeze soothes everyone—the refugees, Sazed, and Tindwyl—using his allomancy to ease their suffering."
 	},
 	{
 		"book": "woa",
@@ -322,9 +269,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Deepness Debate",
-		"description": "Sazed and Tindwyl study a fragment of a biography of King Wednegon, who blamed the Deepness for his army running out of food. Sazed tells Tindwyl he believes the Deepness is a change in the mists. They debate his theories and the Synod's authority. Tindwyl expresses her desire for Sazed, and he asks her to stay—she does.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Sazed and Tindwyl study a fragment of a biography of King Wednegon, who blamed the Deepness for his army running out of food. Sazed tells Tindwyl he believes the Deepness is a change in the mists. They debate his theories and the Synod's authority. Tindwyl expresses her desire for Sazed, and he asks her to stay—she does."
 	},
 	{
 		"book": "woa",
@@ -333,9 +278,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Debating the Prophecy",
-		"description": "Sazed works with Tindwyl at Keep Venture, comparing the original and altered versions of the Hero of Ages prophecy, growing closer to her.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Sazed works with Tindwyl at Keep Venture, comparing the original and altered versions of the Hero of Ages prophecy, growing closer to her."
 	},
 	{
 		"book": "woa",
@@ -344,9 +287,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Altered Prophecy",
-		"description": "Sazed and Tindwyl debate the metal plate at the Conventical and Alendi's logbook, confused about why Kwaan opposed Alendi taking the power from the Well. They realize many will die when Luthadel falls. Elend visits seeking advice, and they applaud him for sticking to his convictions.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Sazed and Tindwyl debate the metal plate at the Conventical and Alendi's logbook, confused about why Kwaan opposed Alendi taking the power from the Well. They realize many will die when Luthadel falls. Elend visits seeking advice, and they applaud him for sticking to his convictions."
 	},
 	{
 		"book": "woa",
@@ -355,9 +296,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Torn Corners",
-		"description": "Tindwyl discovers several copies of transcriptions with their corners mysteriously ripped off—the same sentence destroyed in each. Vin asks Sazed for advice about love, and shortly after Elend comes seeking similar counsel. Sazed resolves to make sure they are not in Luthadel when it falls.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Tindwyl discovers several copies of transcriptions with their corners mysteriously ripped off—the same sentence destroyed in each. Vin asks Sazed for advice about love, and shortly after Elend comes seeking similar counsel. Sazed resolves to make sure they are not in Luthadel when it falls."
 	},
 	{
 		"book": "woa",
@@ -366,9 +305,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "The Escape Plan",
-		"description": "Sazed secretly gathers Breeze, Clubs, Hammond, and Dockson to discuss the likelihood of Straff withdrawing and the koloss attacking unopposed. They agree to stay and defend the city but plan to send Elend, Vin, Spook, and Tindwyl away before the battle.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Sazed secretly gathers Breeze, Clubs, Hammond, and Dockson to discuss the likelihood of Straff withdrawing and the koloss attacking unopposed. They agree to stay and defend the city but plan to send Elend, Vin, Spook, and Tindwyl away before the battle."
 	},
 	{
 		"book": "woa",
@@ -377,9 +314,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "tin-gate-north",
 		"title": "Watching Them Leave",
-		"description": "From atop the city wall, Sazed watches with Breeze, Demoux, Hammond, and Clubs as Elend's party evades Straff's army and rides north. He tells Breeze that Tindwyl chose to stay, and notes a large column of smoke rising from the koloss camp—a troubling sign.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "From atop the city wall, Sazed watches with Breeze, Demoux, Hammond, and Clubs as Elend's party evades Straff's army and rides north. He tells Breeze that Tindwyl chose to stay, and notes a large column of smoke rising from the koloss camp—a troubling sign."
 	},
 	{
 		"book": "woa",
@@ -388,9 +323,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-venture",
 		"title": "Preparing for the Worst",
-		"description": "Sazed fills his metalminds in preparation for a koloss attack and learns from Clubs that Straff's army has withdrawn. He gives Clubs a symbol of the Dadradah faith, then finds Dockson and Tindwyl planning the city's defense. He and Tindwyl argue over sending Elend and Vin away, then embrace before an alarm sounds.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Sazed fills his metalminds in preparation for a koloss attack and learns from Clubs that Straff's army has withdrawn. He gives Clubs a symbol of the Dadradah faith, then finds Dockson and Tindwyl planning the city's defense. He and Tindwyl argue over sending Elend and Vin away, then embrace before an alarm sounds."
 	},
 	{
 		"book": "woa",
@@ -399,9 +332,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "steel-gate",
 		"title": "The Koloss Attack Begins",
-		"description": "Clubs reports that the koloss have worked themselves into a massive brawl, raising their rage until they turn on the city. As soldiers and archers deploy to defensive positions, Sazed watches the assault begin from his post on the city wall above the Steel Gate.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Clubs reports that the koloss have worked themselves into a massive brawl, raising their rage until they turn on the city. As soldiers and archers deploy to defensive positions, Sazed watches the assault begin from his post on the city wall above the Steel Gate."
 	},
 	{
 		"book": "woa",
@@ -410,9 +341,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "steel-gate",
 		"title": "The Holy First Witness",
-		"description": "With the Zinc Gate breached where Breeze and Clubs hold, Sazed mans the unreliable Steel Gate alongside Captain Bedes. A crowd of skaa refuse to flee, calling him the Holy First Witness and insisting they will watch the koloss be defeated. When the koloss break through, Sazed taps his pewtermind, slays a giant koloss with a single punch, and leads the soldiers into battle.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "With the Zinc Gate breached where Breeze and Clubs hold, Sazed mans the unreliable Steel Gate alongside Captain Bedes. A crowd of skaa refuse to flee, calling him the Holy First Witness and insisting they will watch the koloss be defeated. When the koloss break through, Sazed taps his pewtermind, slays a giant koloss with a single punch, and leads the soldiers into battle."
 	},
 	{
 		"book": "woa",
@@ -421,9 +350,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "steel-gate",
 		"title": "Holding the Steel Gate",
-		"description": "Sazed fights at the Steel Gate, clearing the koloss enough to reclose it and tapping his ironmind to gain weight and hold it shut. The reprieve is brief—his ironmind runs out, the koloss break through again, and he learns that the Tin Gate, where Tindwyl commanded, has fallen.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Sazed fights at the Steel Gate, clearing the koloss enough to reclose it and tapping his ironmind to gain weight and hold it shut. The reprieve is brief—his ironmind runs out, the koloss break through again, and he learns that the Tin Gate, where Tindwyl commanded, has fallen."
 	},
 	{
 		"book": "woa",
@@ -432,9 +359,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "keep-hasting",
 		"title": "Searching for Tindwyl",
-		"description": "Sazed stands outside Keep Hasting, finally getting Lord Penrod's attention, though Penrod refuses to shelter refugees. After hours of searching, Sazed locates Tindwyl's body and mourns—unable to choose a religious rite for her, since he believes in none of the faiths he has studied.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "Sazed stands outside Keep Hasting, finally getting Lord Penrod's attention, though Penrod refuses to shelter refugees. After hours of searching, Sazed locates Tindwyl's body and mourns—unable to choose a religious rite for her, since he believes in none of the faiths he has studied."
 	},
 	{
 		"book": "woa",
@@ -443,9 +368,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "tin-gate-north",
 		"title": "Left in Charge",
-		"description": "From a safe distance, Sazed watches Vin's controlled koloss and Cett's army crush Straff's forces. He reviews the prophecies of the Hero of Ages in his mind as Vin forces Penrod, Cett, and Janarle to accept Elend as Emperor, then leaves Sazed in charge of the city.",
-		"season": "Late Winter",
-		"year": "1024 FE"
+		"description": "From a safe distance, Sazed watches Vin's controlled koloss and Cett's army crush Straff's forces. He reviews the prophecies of the Hero of Ages in his mind as Vin forces Penrod, Cett, and Janarle to accept Elend as Emperor, then leaves Sazed in charge of the city."
 	},
 	{
 		"book": "woa",
@@ -454,9 +377,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Fighting Marsh",
-		"description": "Reviewing the journal he wrote with Tindwyl, Sazed realizes he is the 'Holy First Witness' and senses something wrong in the prophecies. The mist spirit urges him toward Kredik Shaw, where he finds Marsh—who says he wishes he knew why he must kill Sazed before slamming him into the wall.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Reviewing the journal he wrote with Tindwyl, Sazed realizes he is the 'Holy First Witness' and senses something wrong in the prophecies. The mist spirit urges him toward Kredik Shaw, where he finds Marsh—who says he wishes he knew why he must kill Sazed before slamming him into the wall."
 	},
 	{
 		"book": "woa",
@@ -465,9 +386,7 @@
 		"cityId": "luthadel",
 		"cityLandmark": "kredik-shaw",
 		"title": "Surviving the Inquisitor",
-		"description": "Marsh shatters Sazed's rib and arm and drives metal rings into his flesh—but Sazed taps those very metalminds to heal and fight on. His reserves run out and Marsh gains the upper hand, until Hammond cracks a dueling cane across the Inquisitor's skull. Sazed and Hammond hurry downstairs toward Vin.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Marsh shatters Sazed's rib and arm and drives metal rings into his flesh—but Sazed taps those very metalminds to heal and fight on. His reserves run out and Marsh gains the upper hand, until Hammond cracks a dueling cane across the Inquisitor's skull. Sazed and Hammond hurry downstairs toward Vin."
 	},
 	{
 		"book": "woa",
@@ -476,60 +395,129 @@
 		"cityId": "luthadel",
 		"cityLandmark": "well-of-ascension",
 		"title": "Too Late at the Well",
-		"description": "Sazed arrives at the Well of Ascension just too late to stop Vin from taking and releasing the power. Grieving Tindwyl and shaken by all he has witnessed, he is left questioning every religion he carries.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Sazed arrives at the Well of Ascension just too late to stop Vin from taking and releasing the power. Grieving Tindwyl and shaken by all he has witnessed, he is left questioning every religion he carries."
 	},
 	{
 		"book": "woa",
 		"chapter": 60,
 		"location": "conventical",
 		"title": "Loss of All Faith",
-		"description": "Sazed returns to the Conventical of Seran and compares his rubbing against the original steel plate—finding they do not match. The true inscription warns that Alendi must not reach the Well, for he must not be allowed to release the thing imprisoned there. Reading how a malevolent force altered the prophecies and how Kwaan sent Rashek to stop Alendi, Sazed grasps the disaster Vin has unleashed and loses all faith in every religion he has gathered.",
-		"season": "Winter",
-		"year": "1024 FE"
+		"description": "Sazed returns to the Conventical of Seran and compares his rubbing against the original steel plate—finding they do not match. The true inscription warns that Alendi must not reach the Well, for he must not be allowed to release the thing imprisoned there. Reading how a malevolent force altered the prophecies and how Kwaan sent Rashek to stop Alendi, Sazed grasps the disaster Vin has unleashed and loses all faith in every religion he has gathered."
 	},
 	{
 		"book": "hoa",
 		"chapter": 4,
 		"location": "lekal-city",
 		"title": "Southern Diplomacy",
-		"description": "Sazed visits Lekal City with Breeze to negotiate a treaty, using diplomacy to bring the southern king into Elend's growing coalition.",
-		"season": "Summer",
-		"year": "1026 FE"
+		"description": "Sazed visits Lekal City with Breeze to negotiate a treaty, using diplomacy to bring the southern king into Elend's growing coalition. He reviews the tenets of the Canzi religion but rejects them as self-contradictory."
 	},
 	{
 		"book": "hoa",
 		"chapter": 8,
 		"location": "luthadel",
-		"cityId": "luthadel",
-		"cityLandmark": "tin-gate-north",
-		"title": "Heading North",
-		"description": "Sazed receives his assignment to secure Urteau through diplomacy while Elend takes the army west. He departs through the northern gate.",
-		"season": "Summer",
-		"year": "1026 FE"
+		"offset": [
+			-140,
+			-130
+		],
+		"title": "En Route to the Army",
+		"description": "Having secured the treaty with King Audil Lekal, Sazed travels with Breeze to meet up with Vin and Elend's army. He is mentioned only in this chapter — his division of forces with Elend happens offscreen.",
+		"placementNote": "⚠️ Placed south west of Luthadel — Sazed is mentioned only in this chapter; his exact location is unspecified."
 	},
 	{
 		"book": "hoa",
-		"chapter": 14,
-		"location": "urteau",
-		"cityId": "urteau",
-		"cityLandmark": "venture-estate",
-		"title": "Arriving in Urteau",
-		"description": "Sazed arrives in Urteau to find it under the Citizen Quellion's oppressive rule, establishing a diplomatic enclave at the abandoned Venture estate.",
-		"season": "Autumn",
-		"year": "1026 FE"
+		"chapter": 10,
+		"location": "luthadel",
+		"offset": [
+			-80,
+			-100
+		],
+		"title": "Rejoining the Army",
+		"description": "Sazed, Breeze, Goradel, and Allrianne catch up to Elend's army south of Luthadel on the march toward Fadrex. Allrianne greets Breeze warmly. Sazed debates religion with Breeze and shares his crisis of faith with Vin, who leaves him Mare's flower drawing — a follower of the Larsta religion.",
+		"placementNote": "⚠️ Placed south west of Luthadel on the route toward Fadrex as a best guess — the chapter only says they meet up with the army, not the exact location."
+	},
+	{
+		"book": "hoa",
+		"chapter": 12,
+		"location": "luthadel",
+		"offset": [
+			-80,
+			-100
+		],
+		"title": "The Council Meeting",
+		"description": "Sazed attends Elend's war council alongside Vin, Cett, Breeze, Allrianne, Hammond, and Demoux. They debate the encroaching mists and options for growing food, as well as plans to capture the caches in Urteau and Fadrex. Elend asks 'What would Kelsier do?' to rally the crew.",
+		"placementNote": "⚠️ Placed south west of Luthadel on the march toward Fadrex — the army council is held en route, not in any city."
+	},
+	{
+		"book": "hoa",
+		"chapter": 18,
+		"location": "pits-hathsin",
+		"offset": [
+			60,
+			-70
+		],
+		"title": "Traveling North",
+		"description": "Sazed, Breeze, Allrianne, and Captain Goradel travel north toward Urteau. Sazed continues his search for a religion to believe in, stopping at farms along the way where Goradel shares stories of his life."
+	},
+	{
+		"book": "hoa",
+		"chapter": 18.2,
+		"location": "pits-hathsin",
+		"title": "Among the Terris People",
+		"description": "En route to Urteau, Sazed stops at the Pits of Hathsin where the Terris people have relocated. He is greeted warmly by his people and meets with the Terris elders, advising them but refusing to be their leader, believing himself unworthy."
+	},
+	{
+		"book": "hoa",
+		"chapter": 22,
+		"location": "pits-hathsin",
+		"title": "The Terris Anomaly",
+		"description": "Sazed meets with the Terris elders, giving them counsel. He inquires about mist deaths and learns a crucial fact: not a single Terris person has been stricken with the mist sickness—a pattern he files away among his growing doubts."
 	},
 	{
 		"book": "hoa",
 		"chapter": 25,
+		"location": "pits-hathsin",
+		"offset": [
+			10,
+			10
+		],
+		"title": "Leaving the Terris",
+		"description": "Sazed departs the Pits of Hathsin, continuing his journey north toward Urteau. He carries with him the troubling fact that no Terris person has fallen to the mist sickness."
+	},
+	{
+		"book": "hoa",
+		"chapter": 29,
 		"location": "urteau",
 		"cityId": "urteau",
-		"cityLandmark": "venture-estate",
-		"title": "Building Trust",
-		"description": "Sazed works to build trust with Urteau's population while studying the city's history and searching for the storage cavern beneath the ministry building.",
-		"season": "Early Winter",
-		"year": "1026 FE"
+		"cityLandmark": "citizens-home",
+		"title": "Summoned by the Citizen",
+		"description": "Sazed, Breeze, Allrianne, and their honor guard arrive in Urteau and are immediately summoned before Quellion. The Citizen is antagonistic, rejecting Sazed's offer of alliance against the killer mists and grudgingly allowing them to stay only if they obey the law."
+	},
+	{
+		"book": "hoa",
+		"chapter": 29.2,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "The Underground Lake",
+		"description": "As their carriage traverses the streets, Spook meets them dressed as a soldier. He leads Sazed, Breeze, Allrianne, and Goradel to the unused Canton of Inquisition building as their new base. Beneath it, Spook reveals the Lord Ruler's supply cache — and the hidden underground lake, the diverted water source that explains why the canals have stood dry for a hundred years."
+	},
+	{
+		"book": "hoa",
+		"chapter": 31,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "The Water Diversion",
+		"description": "Sazed, Spook, and Breeze discuss the rationale for diverting Urteau's water supply to the underground lake beneath the Canton of Inquisition. They debate how to depose Quellion without creating a worse replacement. Sazed plays devil's advocate for Quellion's position as a true follower of Kelsier's anti-noble policies."
+	},
+	{
+		"book": "hoa",
+		"chapter": 38,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "marketpit",
+		"title": "The Survivor of the Flames",
+		"description": "Sazed and Breeze sit in a tavern, observing how skaa now walk freely into the mists — something once unthinkable. They join a table of locals to explain their presence in Urteau and plead Elend's case as a replacement for Quellion. The skaa are unmoved: they don't need outside help, because the Survivor of the Flames is already dealing with the Citizen. Intrigued, Sazed asks to meet this new Survivor and is told to attend an execution the following day — not yet realizing the hero the city whispers about is Spook."
 	},
 	{
 		"book": "hoa",
@@ -538,9 +526,52 @@
 		"cityId": "urteau",
 		"cityLandmark": "ministry-canton",
 		"title": "The Ministry Investigation",
-		"description": "Sazed investigates the Ministry Canton, working to access the storage cavern beneath it while navigating Quellion's paranoid government.",
-		"season": "Winter",
-		"year": "1026 FE"
+		"description": "Sazed investigates the Ministry Canton, working to access the storage cavern beneath it while navigating Quellion's paranoid government."
+	},
+	{
+		"book": "hoa",
+		"chapter": 41,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "burning-district",
+		"title": "The Survivor Revealed",
+		"description": "Sazed accompanies Breeze and Allrianne to an execution, pondering how the Church of the Survivor is evolving and whether this new 'Survivor of the Flames' can truly challenge the Citizen. They watch a burning building as the crowd grows restless — then a figure bursts from the flames carrying a young girl. Allrianne Riots the onlookers, who rush the guards in the chaos. For the first time, Sazed sees the Survivor of the Flames with his own eyes and realizes the hero Urteau reveres is Spook."
+	},
+	{
+		"book": "hoa",
+		"chapter": 46,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "Trellism and Trust",
+		"description": "Sazed awaits Spook's return with Breeze and Allrianne, speculating on how he could survive a two-story drop — no known Allomancer has ever gained new powers after Snapping. He reviews Trellism, a religion he has always been partial to, finding it appealingly vague but deferring judgment. Studying his metalminds, he recalls Marsh using them as weapons at the Well and feels his search for faith is pointless. Breeze asks why he tends his metalminds so carefully yet never wears them; Sazed replies it would do no good — it may be too late to save the world. An earthquake rattles the building. Spook returns, tells them to spread rumors about Quellion's Allomancers, and asks Sazed to restore water to the canals. When questioned about his survival, Spook declines to explain — asking only that Sazed trust him."
+	},
+	{
+		"book": "hoa",
+		"chapter": 49,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "The Engineering of Canals",
+		"description": "Spurred by Spook's request, Sazed withdraws a book on engineering from his copperminds and begins researching how to refill Urteau's dry canals. He speaks in detail to Breeze about the mechanics of water flow — and Breeze is quietly pleased, seeing Sazed show interest in his scholarship again for the first time since Tindwyl's death. Breeze urges him to be himself and do what makes him happy. Spook joins them with a grim observation: Quellion hasn't attacked, which feels wrong — the Citizen rose to power by sending people into the mists, declaring the survivors pure, and killing nobles in the Survivor's name while concealing that no nobles ever died in the mists. Sazed announces he is ready to begin construction. Goradel interrupts: Beldre has come asking to speak with Spook. Beldre pleads with the group not to kill her brother. After a private conference, they decide to hold her hostage while spreading rumors that she has defected."
+	},
+	{
+		"book": "hoa",
+		"chapter": 53,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "Watching Spook Lead",
+		"description": "Sazed is present as Spook speaks with Beldre, the hostage they took in Ch49. He listens as Spook tells Beldre of his life in Kelsier's crew and admits that Sazed and Breeze let him give orders even though he feels out of his depth. Spook's confession cuts both ways — the boy is growing into leadership, but Sazed sees his own doubts mirrored in the young Tineye. When Spook leaves to rally the city, Sazed remains, watching the one who once spoke in street slang become something more."
+	},
+	{
+		"book": "hoa",
+		"chapter": 56,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "The Need for Faith",
+		"description": "Sazed watches as workers build his canal-diversion structures, pleased by their efficiency. Spook finds him and reports riots in the city — then pauses, sensing Sazed's lack of confidence in him. Spook tells Sazed he still has faith that even if he himself fails, someone is watching over events and will make things right. The words land harder than Spook knows: Sazed realizes that what he has been missing all along is not a perfect religion, but simply the capacity to believe in something again."
 	},
 	{
 		"book": "hoa",
@@ -549,9 +580,7 @@
 		"cityId": "urteau",
 		"cityLandmark": "ministry-canton",
 		"title": "The Cavern Discovery",
-		"description": "Sazed discovers the mechanism to flood the dry canal system—the Lord Ruler had drained the canals to hide the water in the storage cavern below.",
-		"season": "Early Spring",
-		"year": "1027 FE"
+		"description": "Sazed discovers the mechanism to flood the dry canal system—the Lord Ruler had drained the canals to hide the water in the storage cavern below."
 	},
 	{
 		"book": "hoa",
@@ -560,61 +589,102 @@
 		"cityId": "urteau",
 		"cityLandmark": "ministry-canton",
 		"title": "Saving Urteau",
-		"description": "As fires rage through the city during the revolution against Quellion, Sazed releases the stored water to flood the canals, saving Urteau from destruction.",
-		"season": "Spring",
-		"year": "1027 FE"
+		"description": "Sazed instructs Spook on how to activate the water-diversion mechanism and confirms the canals are clear of people — no one will drown when the water returns. He watches the confrontation at Quellion's speech unfold from a distance: the riot, Beldre revealed as a Coinshot, Spook tearing spikes from Quellion and himself. As fires rage through the city and the Canton building itself goes up in flames, Sazed realizes no one can reach the mechanism. But Spook, the boy who once feared fire above all else, charges into the inferno. Moments later the water rushes through the canals, extinguishing the flames and saving Urteau — bought at the cost of the young Tineye who proved himself a hero."
 	},
 	{
 		"book": "hoa",
-		"chapter": 64,
+		"chapter": 59,
 		"location": "urteau",
 		"cityId": "urteau",
-		"cityLandmark": "marketpit",
-		"title": "Rebuilding",
-		"description": "With Quellion deposed and the fires extinguished, Sazed helps rebuild Urteau, distributing supplies from the cache while studying the Lord Ruler's message.",
-		"season": "Summer",
-		"year": "1027 FE"
+		"cityLandmark": "ministry-canton",
+		"title": "The Announcer's Burden",
+		"description": "TenSoon reaches Urteau to find burned buildings and canals flowing again after Spook's sacrifice. He bluffs past Elend's soldiers by claiming to be a messenger and finds Breeze — who briefly mistakes him for OreSeur before TenSoon corrects him. They go to Sazed, who explains Vin is far away in Fadrex City. TenSoon is distressed: he must reach her because it concerns the Hero of Ages and the end of the world. He is puzzled when Sazed receives this news with hollow indifference — the Keeper has lost all faith."
 	},
 	{
 		"book": "hoa",
-		"chapter": 69,
-		"location": "pits-hathsin",
-		"title": "Journey to Hathsin",
-		"description": "Sazed travels to the Pits of Hathsin, drawn by the convergence of events. His study of religions and Kwaan's inscription has led him to a terrible revelation.",
-		"season": "Autumn",
-		"year": "1027 FE"
+		"chapter": 62,
+		"location": "urteau",
+		"cityId": "urteau",
+		"cityLandmark": "ministry-canton",
+		"title": "The Announcer",
+		"description": "Sazed watches over Spook in the hospital — the boy is alive but unconscious, badly burned. Beldre speaks of how Spook changed her brother and that he is a hero now. Sazed leaves to review the last ten religions in his portfolio, spending a full day reading and rejecting them all. He ponders the commonalities, the shared inconsistencies. Opening the journal he and Tindwyl compiled on the Hero of Ages, he finds Mare's flower tucked within and feels betrayal — his rational belief in the absence of god blocks him from having faith. Overhearing TenSoon say goodbye to Breeze, he prays silently for something to believe in. TenSoon asks Breeze to give his regards to 'the Announcer' — and the word sparks something deep. Sazed rushes out, demands TenSoon repeat the term, then checks his notes: Ruin changed 'Announcer' to 'Holy First Witness.' How does TenSoon know the original? TenSoon counters: why does no one wonder what happened to Rashek's fellow packmen? Breeze guesses nobles; Sazed disputes it — they would have been Allomancers AND Feruchemists, the very combination the Lord Ruler worked to prevent. Then TenSoon reveals the truth: the packmen were changed into mistwraiths, then into kandra. They are the First Generation. Sazed's religion — the Terris faith — still lives. He readies himself to find the kandra Homeland, and TenSoon offers to lead him there and convince them that the end has come."
+	},
+	{
+		"book": "hoa",
+		"chapter": 66,
+		"location": "imperial-canal",
+		"offset": [
+			30,
+			-200
+		],
+		"title": "Riding to the Homeland",
+		"description": "Sazed rides south toward the kandra Homeland on TenSoon, who has taken the form of a powerful, muscular horse. Along the way, TenSoon tells him how kandra were created from the Lord Ruler's fellow packmen, explains their abilities and the First Contract, and speaks of other creatures of Ruin. TenSoon also reveals his belief: Vin will lead an army of Allomancers to the Homeland, and Sazed must convince the First Generation how dire the situation is — for they have a task to fulfill. They arrive at a cave complex in the Pits of Hathsin where the Homeland lies hidden. TenSoon leaves Sazed at the entrance, and Sazed walks into the kandra tunnels alone, encountering guards who escort him deeper into the darkness."
+	},
+	{
+		"book": "hoa",
+		"chapter": 68,
+		"location": "kandra-homeland",
+		"title": "The Worldbringer",
+		"description": "Sazed is escorted through the kandra tunnels beneath the Pits of Hathsin, noticing the kandra display fear toward him. He inquires about the status of the First Contract now that the Lord Ruler is dead — but the kandra does not know. Led to the Trustwarren, he proclaims himself the Announcer: he is Terris, as are the kandra, and he has discovered the Hero of Ages and watched her. He declares the end is here. Given a table to write at, a crowd of the Second Generation gathers. When he asks to speak with their superiors, they scoff. KanPaar demands to know if TenSoon sent him; Sazed confirms it. KanPaar asks what Sazed thinks he can say to change their minds. Sazed speaks of his lifelong study of religions — and how it is ominous that only one still exists, that of the Terris people, whose prophecies describe exactly what is happening now. He urges them to read his corrupted notes and compare them with the original knowledge of the First Generation, to see what Ruin is trying to conceal. The First Generation appears, ordering all other kandra to leave so they may speak with Sazed alone — calling him a Worldbringer."
 	},
 	{
 		"book": "hoa",
 		"chapter": 71,
-		"location": "luthadel",
-		"cityId": "luthadel",
-		"cityLandmark": "kredik-shaw",
-		"title": "The Final Gathering",
-		"description": "Sazed returns to Luthadel as the world dies around him, the ash falling in black curtains. He carries the knowledge of every religion and every prophecy.",
-		"season": "Autumn",
-		"year": "1027 FE"
+		"location": "kandra-homeland",
+		"title": "The Trust",
+		"description": "Sazed and the First Generation examine his corrupted notes alongside original Terris records to find Ruin's alterations. He marvels at how much his own religion shares with those he rejected — Haddek tells him his quest for a faith requiring no proof is fruitless, for no such religion exists. Haddek explains their god is Preservation, not the Lord Ruler, and that Preservation gave more of himself to humanity than Ruin did — which is why Ruin will come for his body. Sazed uses pewter to uncover the Trust: an enormous cache of atium hidden by the kandra, moved around the empire in secret for centuries. Far away, TenSoon finds a river of lava blocking his path to Fadrex and despairs that the detour will take too long."
+	},
+	{
+		"book": "hoa",
+		"chapter": 75,
+		"location": "kandra-homeland",
+		"title": "The Resolution",
+		"description": "Sazed learns about the kandra religion: their god Terr translates to 'to preserve,' and the Terris prophecies speak of the Hero of Ages being Preservation's successor. Reviewing his metalminds, he realizes faith is rooted in perception, not rules — and that Breeze was right: he is not meant to be an atheist. He goes to the Trustwarren, crowded with kandra discussing the mists' disappearance. Haddek speaks of the Resolution — the First Generation's command that all kandra must remove their Blessings — and Sazed hypothesizes someone has taken up Preservation's power. Before anyone can act, KanPaar leads a coup to depose the First Generation. Sazed argues but is bound and locked away as the kandra descend into civil war."
+	},
+	{
+		"book": "hoa",
+		"chapter": 78,
+		"location": "kandra-homeland",
+		"title": "Rescued by TenSoon",
+		"description": "TenSoon rescues Sazed and the First Generation from their imprisonment during the kandra civil war. Impersonating FhorKood, he buys the Firsts time to regenerate their bodies — a process that will restore the oldest kandra to full strength. Sazed watches as the ancient ones begin to regrow, knowing that whatever comes next, the First Generation's wisdom may be their last hope."
+	},
+	{
+		"book": "hoa",
+		"chapter": 79,
+		"location": "kandra-homeland",
+		"title": "The Resolution Begins",
+		"description": "The First Generation have finished regenerating. Without warning, TenSoon attacks Sazed — seizing him by the throat. Though TenSoon tries to warn of the danger, his body is no longer his own: Ruin has seized control of the kandra through their Blessings. All around the cavern, other kandra begin to shake and change. Haddek yells out that the Resolution has come. TenSoon reaches for his own shoulder with one hand even as he keeps choking Sazed into unconsciousness — a final, futile gesture of resistance against the force that now commands his people."
+	},
+	{
+		"book": "hoa",
+		"chapter": 80,
+		"location": "kandra-homeland",
+		"title": "The Trust Defended",
+		"description": "Sazed wakes among a large group of mistwraiths. Realizing some kandra did not remove their Blessings, he rushes to protect the atium. Led by KanPaar, the renegade kandra are trying to deliver the hoard to Ruin. Discovered, Sazed taps his steelmind for speed to reach his sack of metalminds, then draws on his charged pewtermind and ironmind — using the extra weight and strength to close and block the doorway to the Trustwarren. He pleads for help as KanPaar's forces press against the door. Then, impossibly, Elend Venture steps into the chamber. Sazed is startled — but there is no time for reunions. He tells Elend to stop the kandra emerging from a second door, and the soldiers easily subdue them."
+	},
+	{
+		"book": "hoa",
+		"chapter": 81,
+		"location": "kandra-homeland",
+		"title": "The Body of a God",
+		"description": "Sazed tells Elend the truth: the atium is Ruin's body, and surrendering it would doom the world immediately. He speaks with a calm certainty — Vin will save them, he says. When Demoux reports the mistfallen soldiers have no Allomantic abilities, Elend hands Demoux an atium bead and the man burns it: they are all Seers. As Elend gives his speech and leads the charge, Sazed takes his post at the cave entrance, resupplying any soldier who needs more atium. He watches the battle rage for hours, telling those huddled nearby that Vin will appear. He believes it with a faith he thought he had lost forever."
 	},
 	{
 		"book": "hoa",
 		"chapter": 82,
-		"location": "luthadel",
-		"cityId": "luthadel",
-		"cityLandmark": "well-of-ascension",
+		"location": "kandra-homeland",
 		"title": "The Hero of Ages",
-		"description": "With Vin and Ruin both destroyed, Sazed realizes he is the Hero of Ages. He takes up both Preservation and Ruin's power at the Well of Ascension.",
-		"season": "Autumn",
-		"year": "1027 FE"
+		"description": "Sazed remains at the entrance to the kandra caverns as the world dies. He sees the bodies of Vin and Ati appear beside Elend's corpse. Reaching out, he takes up both Preservation and Ruin—then draws upon the knowledge in all his copperminds to restore the world and its people to their pre-Ascension state, becoming Harmony."
 	},
 	{
 		"book": "hoa",
 		"chapter": 83,
-		"location": "luthadel",
-		"cityId": "luthadel",
-		"cityLandmark": "kredik-shaw",
 		"title": "Harmony",
 		"description": "Sazed ascends as Harmony, combining Ruin and Preservation. He remakes the world—moving the planet, restoring the green, and healing a thousand years of damage.",
-		"season": "Autumn",
-		"year": "1027 FE"
+		"locationCoords": [
+			1392,
+			905
+		],
+		"placementNote": "⚠️ Approximate placement — after the Catacendre, the world has been completely remade. Old landmarks no longer exist. This is the field of flowers and green grass where Vin and Elend are found."
 	}
 ]
