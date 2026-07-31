@@ -240,9 +240,7 @@ export const AboutModal: React.FC = () => {
 
 							{TRANSLATION_CONTRIBUTORS.length > 0 && (
 								<section className={styles.section}>
-									<h3 className={styles.sectionTitle}>
-										{t.about.communityTranslationsTitle}
-									</h3>
+									<h3 className={styles.sectionTitle}>{t.about.communityTranslationsTitle}</h3>
 									<p>{t.about.communityTranslationsDesc}</p>
 									<ul className={styles.attributionList}>
 										{TRANSLATION_CONTRIBUTORS.map(({ language, contributors }) => (
@@ -251,11 +249,7 @@ export const AboutModal: React.FC = () => {
 												{contributors.map((c, i) => (
 													<React.Fragment key={c.name}>
 														{i > 0 && ', '}
-														<a
-															href={c.url}
-															target="_blank"
-															rel="noopener noreferrer"
-														>
+														<a href={c.url} target="_blank" rel="noopener noreferrer">
 															{c.name}
 														</a>
 													</React.Fragment>

@@ -331,7 +331,8 @@ export const fr: Translation = {
 		roadmap080: "Le Puits de l'Ascension — chronologie complète",
 		roadmap090: 'Le Héros des Siècles — chronologie complète',
 		roadmap100: 'Histoire Secrète — chronologie complète',
-		translationNote: 'Les traductions sont générées par IA et n\'ont pas encore été vérifiées par des locuteurs natifs.',
+		translationNote:
+			"Les traductions sont générées par IA et n'ont pas encore été vérifiées par des locuteurs natifs.",
 	},
 
 	welcome: {

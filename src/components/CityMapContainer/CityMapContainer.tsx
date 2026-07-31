@@ -40,8 +40,15 @@ const SetInitialView: React.FC = () => {
 };
 
 export const CityMapContainer: React.FC = () => {
-	const { activeCity, exitCity, controlsPanelOpen, showAtmosphere, currentBook, currentChapter, hideMovementSpoilers } =
-		useMapContext();
+	const {
+		activeCity,
+		exitCity,
+		controlsPanelOpen,
+		showAtmosphere,
+		currentBook,
+		currentChapter,
+		hideMovementSpoilers,
+	} = useMapContext();
 	const { t, language } = useLanguage();
 	const { characterPositions, characterPaths } = useMapData();
 	const [isExiting, setIsExiting] = useState(false);

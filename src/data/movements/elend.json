@@ -393,10 +393,7 @@
 		"book": "woa",
 		"chapter": 50,
 		"location": "imperial-canal",
-		"offset": [
-			19,
-			-291
-		],
+		"offset": [19, -291],
 		"title": "The Journey North",
 		"description": "Elend, Vin, and Spook break camp a day north of Luthadel, believing they have slipped past Straff's scouts. Spook senses something trailing them, and Vin names it the mist spirit. Their certainty about the Well's location in the mountains begins to waver."
 	},
@@ -404,10 +401,7 @@
 		"book": "woa",
 		"chapter": 51,
 		"location": "imperial-canal",
-		"offset": [
-			16,
-			-249
-		],
+		"offset": [16, -249],
 		"title": "Executing Jastes",
 		"description": "The five men trailing the party turn out to be Jastes Lekal, who abandoned the koloss when his counterfeit currency burned and he lost control of them. Furious that Jastes left the beasts to ravage Luthadel unchecked, Elend executes his old friend. When Spook reveals that Sazed deceived them into leaving, the group resolves to return."
 	},
@@ -415,10 +409,7 @@
 		"book": "woa",
 		"chapter": 52,
 		"location": "imperial-canal",
-		"offset": [
-			18,
-			-277
-		],
+		"offset": [18, -277],
 		"title": "Turning Back",
 		"description": "While Vin races ahead on a pewter drag, Elend and Spook ride hard for Luthadel, unable to match her Allomantic speed but determined to reach the besieged city and aid any survivors of the koloss assault."
 	},
@@ -426,10 +417,7 @@
 		"book": "woa",
 		"chapter": 56,
 		"location": "imperial-canal",
-		"offset": [
-			12,
-			-200
-		],
+		"offset": [12, -200],
 		"title": "Refugees from Tathingdwen",
 		"description": "On the road, Elend encounters the mist spirit, which points north and tries to push him before vanishing. He and Spook meet a group of Terris refugees fleeing Tathingdwen, where Steel Inquisitors slaughtered the Synod. Elend accompanies them toward Luthadel, trusting that Vin has somehow prevailed."
 	},
@@ -487,10 +475,7 @@
 		"book": "hoa",
 		"chapter": 8,
 		"location": "luthadel",
-		"offset": [
-			-80,
-			-100
-		],
+		"offset": [-80, -100],
 		"title": "The Canal Camp",
 		"description": "Elend explains to Fatren that exposing refugees to the mists is necessary — the survivors are now inoculated. He and Vin lead the refugees to a canal where Demoux's forces are bivouacked. Elend orders the refugees escorted to Luthadel and two task forces back to Vetitan to retrieve the supplies.",
 		"placementNote": "⚠️ Placed south west of Luthadel — the chapter places them at a canal between Vetitan and Luthadel, not within the city itself."
@@ -499,10 +484,7 @@
 		"book": "hoa",
 		"chapter": 10,
 		"location": "luthadel",
-		"offset": [
-			-80,
-			-100
-		],
+		"offset": [-80, -100],
 		"title": "Marching West",
 		"description": "Elend leads his army south of Luthadel on the march toward Fadrex when Sazed, Breeze, Goradel, and Allrianne rejoin them after their diplomatic mission. Sazed shares his deepening depression over Tindwyl's death with the crew.",
 		"placementNote": "⚠️ Placed south west of Luthadel on the route toward Fadrex as a best guess — the chapter only says they meet up with the army, not the exact location."
@@ -511,10 +493,7 @@
 		"book": "hoa",
 		"chapter": 12,
 		"location": "luthadel",
-		"offset": [
-			-80,
-			-100
-		],
+		"offset": [-80, -100],
 		"title": "What Would Kelsier Do?",
 		"description": "Elend convenes a council with Vin, Cett, Breeze, Allrianne, Hammond, Demoux, and Sazed. They discuss the encroaching mists, food shortages, and plans to capture the storage caches. Elend proposes exposing the army to the mists on the march to Fadrex to inoculate them — then asks the crew 'What would Kelsier do?' to reignite their hope and resolve.",
 		"placementNote": "⚠️ Placed south west of Luthadel on the march toward Fadrex — the army council is held en route, not in any city."
@@ -523,10 +502,7 @@
 		"book": "hoa",
 		"chapter": 15,
 		"location": "luthadel",
-		"offset": [
-			-240,
-			-80
-		],
+		"offset": [-240, -80],
 		"title": "Debating Exposure",
 		"description": "Elend and Hammond debate the pros and cons of exposing the soldiers to the mists as the army continues its westward march. When Human the koloss causes a disturbance, Elend sends Vin to deal with him. The koloss's unsettling words — that the mists hate both him and Vin — give Elend further reason to doubt the mists' intentions.",
 		"placementNote": "⚠️ Placed south west of Luthadel on the march toward Fadrex — the army remains en route."
@@ -535,10 +511,7 @@
 		"book": "hoa",
 		"chapter": 17,
 		"location": "luthadel",
-		"offset": [
-			-240,
-			-80
-		],
+		"offset": [-240, -80],
 		"title": "The Mist Exposure",
 		"description": "Elend orders his soldiers exposed to the mists under controlled conditions so they are immunized for future battles. Demoux confronts him — asking him not to speak in the Survivor's name unless he is a true believer, insisting Kelsier was granted divine power. Elend watches as soldiers begin to fall sick, including Demoux himself.",
 		"placementNote": "⚠️ Placed south west of Luthadel on the march toward Fadrex — the army remains en route."
@@ -547,10 +520,7 @@
 		"book": "hoa",
 		"chapter": 21,
 		"location": "luthadel",
-		"offset": [
-			-270,
-			-70
-		],
+		"offset": [-270, -70],
 		"title": "The Sixteen Percent",
 		"description": "Demoux survives his sickness. Elend confides to Vin that he fears he is becoming ruthless like the Lord Ruler for exposing his soldiers to the mists — and second-guesses his own law outlawing the beating of noble children to Snap them. Noorden presents mist sickness reports; Vin questions his methodology and has him recalculate using only soldiers never before exposed. The result: exactly sixteen percent. A second sample matches to the nearest whole person. A third and fourth produce the same ratio with zero margin of error. Elend admits the pattern is too precise to ignore — something intelligent is behind it."
 	},
@@ -657,10 +627,7 @@
 		"book": "hoa",
 		"chapter": 51,
 		"location": "fadrex-city",
-		"offset": [
-			80,
-			50
-		],
+		"offset": [80, 50],
 		"title": "The Duralumin Gambit",
 		"description": "Elend uses Steelpushes to travel toward a village being attacked by a koloss army. He fights through them alone, then performs a duralumin-enhanced emotional Pull — seizing control of thirty thousand koloss in a single overwhelming moment. He returns to camp with his new army."
 	},
@@ -731,10 +698,7 @@
 		"book": "hoa",
 		"chapter": 74.2,
 		"location": "fadrex-city",
-		"offset": [
-			80,
-			-30
-		],
+		"offset": [80, -30],
 		"title": "Flying Toward Luthadel",
 		"description": "Elend leaves Fadrex behind and begins the journey to Luthadel. He travels as Vin once taught him — dropping a horseshoe, Steelpushing off it to launch himself into the air, then Pulling another anchor to repeat the cycle. Flying across the ashen landscape alone, he races eastward carrying Yomen's atium bead and hoping he will find Vin alive at the end of the road.",
 		"placementNote": "⚠️ The book never specifies which route Elend takes from Fadrex to Luthadel. Placed east of Fadrex as a best guess."
@@ -743,10 +707,7 @@
 		"book": "hoa",
 		"chapter": 76,
 		"location": "luthadel",
-		"offset": [
-			-150,
-			-30
-		],
+		"offset": [-150, -30],
 		"title": "Bound for Luthadel",
 		"description": "Still crossing the Central Dominance toward Luthadel, Elend pushes on through the ashen wilderness — dropping a horseshoe, Steelpushing off it, then pulling another anchor, eating up the miles as Vin once taught him. He carries Yomen's atium bead and the desperate hope that he will find Vin alive when he reaches the capital.",
 		"placementNote": "⚠️ Placed west of Luthadel on the approach from Fadrex — the book only says Vin sees him heading toward the capital, not his exact position."
@@ -819,10 +780,7 @@
 		"chapter": 83,
 		"title": "Reunited in Death",
 		"description": "Elend's body is found beside Vin's in the field of flowers—Sazed's first gift to the remade world—at peace after all their struggles.",
-		"locationCoords": [
-			1392,
-			905
-		],
+		"locationCoords": [1392, 905],
 		"placementNote": "⚠️ Approximate placement — after the Catacendre, the world has been completely remade. Old landmarks no longer exist. This is the field of flowers and green grass where Vin and Elend are found."
 	}
 ]

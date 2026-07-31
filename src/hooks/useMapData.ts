@@ -179,7 +179,14 @@ export const useMapData = (): UseMapDataReturn => {
 		);
 
 		return positions;
-	}, [visibleCharacters, bookMovements, currentChapter, currentBook, hideMovementSpoilers, secretHistoryMode]);
+	}, [
+		visibleCharacters,
+		bookMovements,
+		currentChapter,
+		currentBook,
+		hideMovementSpoilers,
+		secretHistoryMode,
+	]);
 
 	const characterPaths = useMemo(() => {
 		const paths: {
@@ -257,7 +264,14 @@ export const useMapData = (): UseMapDataReturn => {
 		});
 
 		return paths;
-	}, [visibleCharacters, bookMovements, currentChapter, currentBook, hideMovementSpoilers, secretHistoryMode]);
+	}, [
+		visibleCharacters,
+		bookMovements,
+		currentChapter,
+		currentBook,
+		hideMovementSpoilers,
+		secretHistoryMode,
+	]);
 
 	return {
 		visibleLocations,

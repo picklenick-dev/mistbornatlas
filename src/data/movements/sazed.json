@@ -177,20 +177,14 @@
 	{
 		"book": "woa",
 		"chapter": 4,
-		"locationCoords": [
-			1605.9,
-			468.1
-		],
+		"locationCoords": [1605.9, 468.1],
 		"title": "The Traveling Teacher",
 		"description": "Sazed travels through the Eastern Dominance, visiting rural villages to share suppressed religions and knowledge with the newly freed skaa."
 	},
 	{
 		"book": "woa",
 		"chapter": 7,
-		"locationCoords": [
-			1605.9,
-			468.1
-		],
+		"locationCoords": [1605.9, 468.1],
 		"title": "Marsh Returns",
 		"description": "Sazed continues teaching suppressed religions to freed skaa in the Eastern Dominance. Marsh appears at the village, having wandered alone since the fall of the Lord Ruler, and offers to guide Sazed to a place of answers—the Conventical of Seran."
 	},
@@ -198,10 +192,7 @@
 		"book": "woa",
 		"chapter": 9,
 		"location": "conventical",
-		"offset": [
-			0,
-			30
-		],
+		"offset": [0, 30],
 		"title": "Journey to the Conventical",
 		"description": "Sazed and Marsh travel through the desolate Eastern Dominance toward the Conventical of Seran. Marsh grows increasingly distant and strange during the journey, unsettling Sazed."
 	},
@@ -415,10 +406,7 @@
 		"book": "hoa",
 		"chapter": 8,
 		"location": "luthadel",
-		"offset": [
-			-140,
-			-130
-		],
+		"offset": [-140, -130],
 		"title": "En Route to the Army",
 		"description": "Having secured the treaty with King Audil Lekal, Sazed travels with Breeze to meet up with Vin and Elend's army. He is mentioned only in this chapter — his division of forces with Elend happens offscreen.",
 		"placementNote": "⚠️ Placed south west of Luthadel — Sazed is mentioned only in this chapter; his exact location is unspecified."
@@ -427,10 +415,7 @@
 		"book": "hoa",
 		"chapter": 10,
 		"location": "luthadel",
-		"offset": [
-			-80,
-			-100
-		],
+		"offset": [-80, -100],
 		"title": "Rejoining the Army",
 		"description": "Sazed, Breeze, Goradel, and Allrianne catch up to Elend's army south of Luthadel on the march toward Fadrex. Allrianne greets Breeze warmly. Sazed debates religion with Breeze and shares his crisis of faith with Vin, who leaves him Mare's flower drawing — a follower of the Larsta religion.",
 		"placementNote": "⚠️ Placed south west of Luthadel on the route toward Fadrex as a best guess — the chapter only says they meet up with the army, not the exact location."
@@ -439,10 +424,7 @@
 		"book": "hoa",
 		"chapter": 12,
 		"location": "luthadel",
-		"offset": [
-			-80,
-			-100
-		],
+		"offset": [-80, -100],
 		"title": "The Council Meeting",
 		"description": "Sazed attends Elend's war council alongside Vin, Cett, Breeze, Allrianne, Hammond, and Demoux. They debate the encroaching mists and options for growing food, as well as plans to capture the caches in Urteau and Fadrex. Elend asks 'What would Kelsier do?' to rally the crew.",
 		"placementNote": "⚠️ Placed south west of Luthadel on the march toward Fadrex — the army council is held en route, not in any city."
@@ -451,10 +433,7 @@
 		"book": "hoa",
 		"chapter": 18,
 		"location": "pits-hathsin",
-		"offset": [
-			60,
-			-70
-		],
+		"offset": [60, -70],
 		"title": "Traveling North",
 		"description": "Sazed, Breeze, Allrianne, and Captain Goradel travel north toward Urteau. Sazed continues his search for a religion to believe in, stopping at farms along the way where Goradel shares stories of his life."
 	},
@@ -476,10 +455,7 @@
 		"book": "hoa",
 		"chapter": 25,
 		"location": "pits-hathsin",
-		"offset": [
-			10,
-			10
-		],
+		"offset": [10, 10],
 		"title": "Leaving the Terris",
 		"description": "Sazed departs the Pits of Hathsin, continuing his journey north toward Urteau. He carries with him the troubling fact that no Terris person has fallen to the mist sickness."
 	},
@@ -613,10 +589,7 @@
 		"book": "hoa",
 		"chapter": 66,
 		"location": "imperial-canal",
-		"offset": [
-			30,
-			-200
-		],
+		"offset": [30, -200],
 		"title": "Riding to the Homeland",
 		"description": "Sazed rides south toward the kandra Homeland on TenSoon, who has taken the form of a powerful, muscular horse. Along the way, TenSoon tells him how kandra were created from the Lord Ruler's fellow packmen, explains their abilities and the First Contract, and speaks of other creatures of Ruin. TenSoon also reveals his belief: Vin will lead an army of Allomancers to the Homeland, and Sazed must convince the First Generation how dire the situation is — for they have a task to fulfill. They arrive at a cave complex in the Pits of Hathsin where the Homeland lies hidden. TenSoon leaves Sazed at the entrance, and Sazed walks into the kandra tunnels alone, encountering guards who escort him deeper into the darkness."
 	},
@@ -681,10 +654,7 @@
 		"chapter": 83,
 		"title": "Harmony",
 		"description": "Sazed ascends as Harmony, combining Ruin and Preservation. He remakes the world—moving the planet, restoring the green, and healing a thousand years of damage.",
-		"locationCoords": [
-			1392,
-			905
-		],
+		"locationCoords": [1392, 905],
 		"placementNote": "⚠️ Approximate placement — after the Catacendre, the world has been completely remade. Old landmarks no longer exist. This is the field of flowers and green grass where Vin and Elend are found."
 	}
 ]

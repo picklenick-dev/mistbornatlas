@@ -161,10 +161,7 @@
 		"book": "woa",
 		"chapter": 50,
 		"location": "imperial-canal",
-		"offset": [
-			19,
-			-291
-		],
+		"offset": [19, -291],
 		"title": "Something in the Mists",
 		"description": "Breaking camp north of the city, Spook is first to sense that something is trailing the party through the mists. Vin tells him it is the mist spirit. Resolving to make the most of his single Allomantic sense, Spook keeps his tin burning as a constant watch."
 	},
@@ -172,10 +169,7 @@
 		"book": "woa",
 		"chapter": 51,
 		"location": "imperial-canal",
-		"offset": [
-			16,
-			-249
-		],
+		"offset": [16, -249],
 		"title": "Five Men Following",
 		"description": "Spook's enhanced senses pick out five men shadowing the camp—Jastes Lekal's group. After Elend executes Jastes, Spook reveals the secret he overheard: Sazed tricked them into leaving so they would survive the coming attack. The group turns back for Luthadel."
 	},
@@ -183,10 +177,7 @@
 		"book": "woa",
 		"chapter": 52,
 		"location": "imperial-canal",
-		"offset": [
-			18,
-			-277
-		],
+		"offset": [18, -277],
 		"title": "Riding Back",
 		"description": "Unable to match Vin's pewter-fueled speed, Spook rides hard alongside Elend toward the besieged city, desperate to reach Luthadel before the koloss destroy everything they left behind."
 	},
@@ -194,10 +185,7 @@
 		"book": "woa",
 		"chapter": 56,
 		"location": "imperial-canal",
-		"offset": [
-			12,
-			-200
-		],
+		"offset": [12, -200],
 		"title": "The Terris Refugees",
 		"description": "Spook travels with Elend as they meet a column of Terris refugees fleeing Tathingdwen, where Inquisitors killed the Synod. When the mist spirit appears to Elend, Spook's arrival drives it off. Together they escort the refugees toward Luthadel."
 	},
@@ -420,10 +408,7 @@
 	{
 		"book": "hoa",
 		"chapter": 83,
-		"locationCoords": [
-			1392,
-			905
-		],
+		"locationCoords": [1392, 905],
 		"title": "A New World",
 		"description": "Spook emerges from the caverns into Sazed's remade world—a field of flowers and green grass beneath a blue sky. He finds the bodies of Vin and Elend, and a book written by Sazed explaining all that transpired, including that Sazed made Spook a Mistborn at Kelsier's request."
 	}

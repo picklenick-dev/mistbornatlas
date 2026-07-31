@@ -72,10 +72,7 @@
 	{
 		"book": "woa",
 		"chapter": 7,
-		"locationCoords": [
-			1605.9,
-			468.1
-		],
+		"locationCoords": [1605.9, 468.1],
 		"title": "The Conventical Guide",
 		"description": "Marsh appears at Sazed's village in the Eastern Dominance and offers to guide him to the Conventical of Seran—an Inquisitor stronghold where answers about the Hero of Ages may lie."
 	},
@@ -83,10 +80,7 @@
 		"book": "woa",
 		"chapter": 9,
 		"location": "conventical",
-		"offset": [
-			0,
-			30
-		],
+		"offset": [0, 30],
 		"title": "Traveling with Sazed",
 		"description": "Marsh travels with Sazed toward the Conventical of Seran. His behaviour grows more erratic and withdrawn during the journey as Ruin's subtle influence takes hold."
 	},
@@ -127,10 +121,7 @@
 		"book": "hoa",
 		"chapter": 6,
 		"location": "imperial-canal",
-		"offset": [
-			100,
-			0
-		],
+		"offset": [100, 0],
 		"title": "Leading Koloss",
 		"description": "Marsh commands a growing army of koloss on behalf of Ruin, gathering forces for the final battle.",
 		"placementNote": "⚠️ Marsh's exact location during this chapter is never specified in the book. Placed east of Luthadel as a best guess—he was last seen creating Inquisitors in Tathingdwen (HOA ch 0) and is gathering koloss forces for Ruin's endgame."
@@ -139,10 +130,7 @@
 		"book": "hoa",
 		"chapter": 13,
 		"location": "imperial-canal",
-		"offset": [
-			100,
-			0
-		],
+		"offset": [100, 0],
 		"title": "Ruin's Pawn",
 		"description": "Marsh sits unmoving in a koloss camp, deliberating about Kelsier and his role in Ruin's plans. He decides to cease his futile struggles and feign compliance, hoping to lull Ruin into a false sense of security and foil his plans at a critical moment."
 	},
@@ -193,10 +181,7 @@
 		"book": "hoa",
 		"chapter": 69,
 		"location": "imperial-canal",
-		"offset": [
-			-150,
-			-180
-		],
+		"offset": [-150, -180],
 		"title": "The Messenger's Fate",
 		"description": "Marsh intercepts and kills Captain Goradel, who was carrying Spook's urgent message to Vin. He reads the note — a warning written in steel that Ruin cannot alter, warning of the danger of metal piercing the body. Troubled, Marsh departs for Luthadel to confront Vin at Kredik Shaw.",
 		"placementNote": "⚠️ The book never specifies where Marsh intercepts Goradel — only that he departs for Luthadel afterward. Placed along the imperial canal route between Urteau and Luthadel as a best guess."

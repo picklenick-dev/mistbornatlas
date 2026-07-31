@@ -95,7 +95,9 @@ const resolveMovement = (raw: RawMovement): Movement => {
 	const cityLandmarkId = raw.cityLandmark;
 
 	// Look up season/year from centralized chapterSeasons map
-	const seasonInfo = (chapterSeasons as Record<string, Record<string, { season: string; year: string }>>)[raw.book]?.[String(Math.floor(raw.chapter))];
+	const seasonInfo = (
+		chapterSeasons as Record<string, Record<string, { season: string; year: string }>>
+	)[raw.book]?.[String(Math.floor(raw.chapter))];
 
 	return {
 		book: raw.book,

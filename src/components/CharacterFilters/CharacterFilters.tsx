@@ -58,8 +58,7 @@ export const CharacterFilters: React.FC = () => {
 				const charName = charTrans?.name ?? character.name;
 
 				// Reader already knows this character if they debuted in a prior book
-				const knownFromPriorBook =
-					BOOK_ORDER[character.debutBook] < BOOK_ORDER[currentBook];
+				const knownFromPriorBook = BOOK_ORDER[character.debutBook] < BOOK_ORDER[currentBook];
 
 				const title = debuted
 					? getCharacterTitle(character, currentBook, currentChapter, secretHistoryMode, charTrans)
@@ -113,10 +112,10 @@ export const CharacterFilters: React.FC = () => {
 						</span>
 						<div className={styles.characterInfo}>
 							<span className={styles.characterName}>
-							{showIdentity ? charName : t.characters.hiddenPlaceholder}
-						</span>
-						<span className={styles.characterTitle} title={showIdentity ? title : undefined}>
-							{showIdentity ? title : t.characters.hiddenPlaceholder}
+								{showIdentity ? charName : t.characters.hiddenPlaceholder}
+							</span>
+							<span className={styles.characterTitle} title={showIdentity ? title : undefined}>
+								{showIdentity ? title : t.characters.hiddenPlaceholder}
 							</span>
 						</div>
 						<button

@@ -132,9 +132,7 @@ export function isCharacterPresentInBook(
 	const charMovements = allMovements[characterId];
 	if (!charMovements) return false;
 
-	return charMovements.some(
-		m => m.book === bookId && (secretHistoryMode || !m.secretHistory)
-	);
+	return charMovements.some(m => m.book === bookId && (secretHistoryMode || !m.secretHistory));
 }
 
 /**

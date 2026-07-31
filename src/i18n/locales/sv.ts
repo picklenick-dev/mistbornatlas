@@ -330,7 +330,8 @@ export const sv: Translation = {
 		roadmap080: 'Uppstigningens Brunn — tidslinje klar',
 		roadmap090: 'Evighetens Hjälte — tidslinje klar',
 		roadmap100: 'Hemlig Historia — tidslinje klar',
-		translationNote: 'Översättningarna är AI-genererade och har ännu inte granskats av modersmålstalare.',
+		translationNote:
+			'Översättningarna är AI-genererade och har ännu inte granskats av modersmålstalare.',
 	},
 
 	welcome: {

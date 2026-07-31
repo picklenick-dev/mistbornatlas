@@ -330,7 +330,8 @@ export const pl: Translation = {
 		roadmap080: 'Studnia Wstąpienia — oś czasu ukończona',
 		roadmap090: 'Bohater Wieków — oś czasu ukończona',
 		roadmap100: 'Tajna Historia — oś czasu ukończona',
-		translationNote: 'Tłumaczenia są generowane przez AI i nie zostały jeszcze sprawdzone przez rodzimych użytkowników.',
+		translationNote:
+			'Tłumaczenia są generowane przez AI i nie zostały jeszcze sprawdzone przez rodzimych użytkowników.',
 	},
 
 	welcome: {

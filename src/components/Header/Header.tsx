@@ -3,12 +3,7 @@ import { useMapContext } from '@/context/MapContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { books, cityMaps, BOOK_COLORS } from '@/data';
 import { languages } from '@/i18n';
-import {
-	LogoIcon,
-	GlobeIcon,
-	ChevronDownIcon,
-	MapFoldIcon
-} from '@/components/icons';
+import { LogoIcon, GlobeIcon, ChevronDownIcon, MapFoldIcon } from '@/components/icons';
 import type { BookId, CityId } from '@/types';
 import type { LanguageCode } from '@/i18n/types';
 import styles from './Header.module.scss';

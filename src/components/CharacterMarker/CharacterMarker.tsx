@@ -44,7 +44,7 @@ interface CharacterMarkerProps {
 const createCharacterIcon = (
 	characterId: CharacterId,
 	imageSrc: string,
-	partNumber?: number,
+	partNumber?: number
 ): L.DivIcon => {
 	const color = CHARACTER_COLORS[characterId];
 	const badgeHtml =
@@ -205,7 +205,7 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 	);
 	const icon = useMemo(
 		() => createCharacterIcon(character.id, characterImage, partNumber),
-		[character.id, characterImage, partNumber],
+		[character.id, characterImage, partNumber]
 	);
 	const color = CHARACTER_COLORS[character.id];
 	const charColorVars = {
@@ -444,7 +444,9 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 							)}
 						</>
 					)}
-					{(!hideMovementSpoilers || spoilerRevealed) && movPlacementNote && <div className="popup-placement-note">{movPlacementNote}</div>}
+					{(!hideMovementSpoilers || spoilerRevealed) && movPlacementNote && (
+						<div className="popup-placement-note">{movPlacementNote}</div>
+					)}
 					<div className="popup-metadata">
 						<div className="popup-meta-item">
 							<span className="popup-meta-label">{t.characterMarker.chapter}</span>
@@ -452,11 +454,19 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 						</div>
 						<div className="popup-meta-item">
 							<span className="popup-meta-label">{t.characterMarker.season}</span>
-							<span className="popup-meta-value">{movTrans?.season ?? activeMovement.season}</span>
+							<span className="popup-meta-value">
+								{t.data.chapterSeasons[activeMovement.book]?.[
+									String(Math.floor(activeMovement.chapter))
+								]?.season ?? activeMovement.season}
+							</span>
 						</div>
 						<div className="popup-meta-item">
 							<span className="popup-meta-label">{t.characterMarker.year}</span>
-							<span className="popup-meta-value">{movTrans?.year ?? activeMovement.year}</span>
+							<span className="popup-meta-value">
+								{t.data.chapterSeasons[activeMovement.book]?.[
+									String(Math.floor(activeMovement.chapter))
+								]?.year ?? activeMovement.year}
+							</span>
 						</div>
 					</div>
 					<div

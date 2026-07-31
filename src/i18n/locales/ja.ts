@@ -327,7 +327,8 @@ export const ja: Translation = {
 		roadmap080: '昇華の泉 — タイムライン完了',
 		roadmap090: '永遠の英雄 — タイムライン完了',
 		roadmap100: '秘密の歴史 — タイムライン完了',
-		translationNote: '翻訳はAIによって生成され、まだネイティブスピーカーによる確認が行われていません。',
+		translationNote:
+			'翻訳はAIによって生成され、まだネイティブスピーカーによる確認が行われていません。',
 	},
 
 	welcome: {

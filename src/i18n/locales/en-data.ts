@@ -17,6 +17,7 @@ import sazedMovements from '@/data/movements/sazed.json';
 import elendMovements from '@/data/movements/elend.json';
 import marshMovements from '@/data/movements/marsh.json';
 import spookMovements from '@/data/movements/spook.json';
+import chapterSeasonsData from '@/data/chapterSeasons.json';
 
 // Helpers
 
@@ -36,18 +37,13 @@ function buildMovements(
 		chapter: number;
 		title: string;
 		description: string;
-		season: string;
-		year: string;
 	}[]
-): Record<string, { title: string; description: string; season: string; year: string }> {
-	const out: Record<string, { title: string; description: string; season: string; year: string }> =
-		{};
+): Record<string, { title: string; description: string }> {
+	const out: Record<string, { title: string; description: string }> = {};
 	for (const m of movements) {
 		out[`${m.book}-${m.chapter}`] = {
 			title: m.title,
 			description: m.description,
-			season: m.season,
-			year: m.year,
 		};
 	}
 	return out;
@@ -161,4 +157,10 @@ export const enData: DataTranslations = {
 		ministry: 'Canton',
 		plaza: 'Square',
 	},
+
+	// ── Chapter seasons (book → chapter → season/year)
+	chapterSeasons: chapterSeasonsData as Record<
+		string,
+		Record<string, { season: string; year: string }>
+	>,
 };

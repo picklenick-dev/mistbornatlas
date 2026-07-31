@@ -5,7 +5,7 @@ export const tr: Translation = {
 	meta: {
 		title: 'Sisçocuğu İnteraktif Harita — Scadrial',
 		description:
-			'Brandon Sanderson\'un orijinal Sisçocuğu Üçlemesi\'nin interaktif krono-kartografik görselleştirmesi. Karakter hareketlerini Scadrial boyunca takip edin.',
+			"Brandon Sanderson'un orijinal Sisçocuğu Üçlemesi'nin interaktif krono-kartografik görselleştirmesi. Karakter hareketlerini Scadrial boyunca takip edin.",
 	},
 
 	header: {
@@ -146,7 +146,7 @@ export const tr: Translation = {
 		label: 'Kontroller',
 		title: 'Kontroller',
 		closePanel: 'Paneli kapat',
-		secretHistoryTitle: 'Gizli Tarih içeriğini dahil et (Kelsier\'ın Bilişsel Diyar hareketleri)',
+		secretHistoryTitle: "Gizli Tarih içeriğini dahil et (Kelsier'ın Bilişsel Diyar hareketleri)",
 		secretHistoryContent: 'Gizli Tarih İçeriği',
 		ashAndMist: 'Kül ve Sis',
 		cityLandmarksNote: 'Şehir simgeleri her zaman görünür',
@@ -226,10 +226,10 @@ export const tr: Translation = {
 	donation: {
 		buttonLabel: 'Bana bir kahve ısmarla',
 		buttonLabelShort: 'Kahve',
-		modalTitle: 'Sisçocuğu Atlası\'nı Destekle',
+		modalTitle: "Sisçocuğu Atlası'nı Destekle",
 		modalDesc:
 			'Sisçocuğu Atlası, boş zamanlarımda geliştirdiğim ücretsiz, açık kaynaklı bir hayran projesidir. Hosting, alan adı ve geliştirme maliyetleri birikiyor. Uygulamayı beğendiyseniz ve sislerin akmasına yardım etmek istiyorsanız, küçük bir bağış çok işe yarar — ama hiç baskı yok, uygulama her zaman tamamen ücretsiz olacak!',
-		modalButton: 'Ko-fi\'den bana bir kahve ısmarla',
+		modalButton: "Ko-fi'den bana bir kahve ısmarla",
 		modalDismiss: 'Belki sonra',
 		modalDontAsk: 'Bunu bir daha gösterme',
 		close: 'Kapat',
@@ -244,7 +244,7 @@ export const tr: Translation = {
 		wipItem2: 'Tüm konum içeriklerini doğruluk açısından iki kez kontrol etme',
 		wipItem3: 'Yerelleştirme — çoklu dil desteği',
 		wipItem4: 'Daha fazla harita ve 2. Çağ içeriği (belki?)',
-		supportKofi: 'Ko-fi\'de Destekle',
+		supportKofi: "Ko-fi'de Destekle",
 		mapLabel: 'Harita:',
 		selectLanguage: 'Dil seç',
 	},
@@ -268,15 +268,15 @@ export const tr: Translation = {
 			'Bu proje yalnızca eğitim ve eğlence amaçlıdır. Karakterler, konumlar, hikâyeler ve çizimler dahil tüm Sisçocuğu içeriklerinin telif hakları ilgili sahiplerine aittir.',
 		mapAttributionTitle: 'Harita Atfı',
 		mapAttributionDesc:
-			'Bu projede kullanılan harita, Coppermind Wiki\'den alınan Isaac Stewart\'ın resmi Son İmparatorluk haritasıdır.',
+			"Bu projede kullanılan harita, Coppermind Wiki'den alınan Isaac Stewart'ın resmi Son İmparatorluk haritasıdır.",
 		mapArtist: 'Isaac Stewart',
 		mapSource: 'Coppermind Wiki',
-		mapOriginalWork: 'Brandon Sanderson\'un Sisçocuğu serisi için oluşturulmuştur',
+		mapOriginalWork: "Brandon Sanderson'un Sisçocuğu serisi için oluşturulmuştur",
 		mapNote:
-			'Isaac Stewart, Brandon Sanderson\'un Cosmere evreni için haritalar ve çizimler dahil birçok eserinin resmi çizeridir.',
+			"Isaac Stewart, Brandon Sanderson'un Cosmere evreni için haritalar ve çizimler dahil birçok eserinin resmi çizeridir.",
 		portraitsTitle: 'Karakter Portreleri',
 		portraitsDesc:
-			'Karakter portre çizimleri Coppermind Wiki\'den CC BY-NC-ND 4.0 lisansı altında alınmıştır.',
+			"Karakter portre çizimleri Coppermind Wiki'den CC BY-NC-ND 4.0 lisansı altında alınmıştır.",
 		portraitVinMistborn: 'Sisçocuğu',
 		portraitVinUrchin: 'Sokak Çocuğu',
 		portraitKelsier: 'Kelsier',
@@ -287,7 +287,7 @@ export const tr: Translation = {
 		portraitSpook: 'Spook',
 		symbolsTitle: 'Allomantik Semboller',
 		symbolsDesc:
-			'Konum işaretleyici glifleri, Coppermind Wiki\'deki Çelik Alfabe sayfasından alınan Isaac Stewart tasarımı Allomantik metal sembollerini kullanır.',
+			"Konum işaretleyici glifleri, Coppermind Wiki'deki Çelik Alfabe sayfasından alınan Isaac Stewart tasarımı Allomantik metal sembollerini kullanır.",
 		symbolsArtist: 'Isaac Stewart',
 		symbolsSource: 'Coppermind Wiki — Çelik Alfabe',
 		symbolsLicense: 'Bu ticari olmayan hayran projesi için adil kullanım kapsamında kullanılmıştır',
@@ -313,7 +313,8 @@ export const tr: Translation = {
 		communityTranslationsDesc:
 			'Çeviri verileri ve yerelleştirilmiş haritalar topluluk tarafından sağlanmıştır. Teşekkürler!',
 		copyrightTitle: 'Telif Hakkı Bildirimi',
-		copyrightTrademark: 'Mistborn, Dragonsteel Entertainment, LLC\'nin tescilli bir ticari markasıdır',
+		copyrightTrademark:
+			"Mistborn, Dragonsteel Entertainment, LLC'nin tescilli bir ticari markasıdır",
 		copyrightMap: 'Harita çizimleri © Isaac Stewart',
 		copyrightBook: 'Kitap içerikleri © Brandon Sanderson',
 		closeButton: 'Kapat',
@@ -330,15 +331,15 @@ export const tr: Translation = {
 		roadmap080: 'Yükseliş Kuyusu — zaman çizelgesi tamamlandı',
 		roadmap090: 'Çağların Kahramanı — zaman çizelgesi tamamlandı',
 		roadmap100: 'Gizli Tarih — zaman çizelgesi tamamlandı',
-		translationNote: 'Çeviriler yapay zeka tarafından oluşturulmuştur ve henüz anadili konuşanlar tarafından incelenmemiştir.',
+		translationNote:
+			'Çeviriler yapay zeka tarafından oluşturulmuştur ve henüz anadili konuşanlar tarafından incelenmemiştir.',
 	},
 
 	welcome: {
 		title: 'Sisçocuğu İnteraktif Haritasına Hoş Geldiniz',
 		description:
 			'Şu anda Sisçocuğu üçlemesini mi okuyorsunuz? Spoiler olmadan haritayı keşfetmek için Birlikte Okuma Modunu etkinleştirin.',
-		featureMovements:
-			'Her bölümde ilerledikçe karakter hareketleri haritada gösterilir',
+		featureMovements: 'Her bölümde ilerledikçe karakter hareketleri haritada gösterilir',
 		featureTitles: 'Hareket başlıkları her zaman görünür, böylece ne olduğunu bilirsiniz',
 		featureSummaries: 'Detaylı özetler, görmek için dokunana kadar gizli kalır',
 		enableButton: 'Birlikte Okuma Modunu Etkinleştir',

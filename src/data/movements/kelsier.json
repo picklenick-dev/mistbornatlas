@@ -395,10 +395,7 @@
 		"book": "hoa",
 		"chapter": 8,
 		"location": "longsfollow",
-		"offset": [
-			110,
-			5
-		],
+		"offset": [110, 5],
 		"title": "Running West",
 		"description": "Kelsier runs west along the Imperial Canal toward the ocean. As a Cognitive Shadow, he doesn't tire—as long as he doesn't think about exhaustion. He passes through towns empty from the encroaching mist sickness, the ash falling thicker than ever as Ruin accelerates the world's decay.",
 		"secretHistory": true
@@ -415,10 +412,7 @@
 		"book": "hoa",
 		"chapter": 15,
 		"location": "longsfollow",
-		"offset": [
-			-120,
-			0
-		],
+		"offset": [-120, 0],
 		"title": "The Lonely Road",
 		"description": "West of Longsfollow, Kelsier stops at a fire pit and discovers he can start flames with his mind alone. The ash falls thicker than ever, and he watches skaa refugees fleeing ever westward to escape the encroaching destruction. Utterly alone, he craves any kind of interaction—even with Hoid—as he continues his relentless march toward the distant ocean.",
 		"secretHistory": true
@@ -435,10 +429,7 @@
 		"book": "hoa",
 		"chapter": 21,
 		"location": "western-coast",
-		"offset": [
-			-85,
-			-30
-		],
+		"offset": [-85, -30],
 		"title": "The Ocean of Thought",
 		"description": "Kelsier crosses the Cognitive Realm ocean with only a makeshift torch for light in the endless darkness. Far from Scadrial, he feels a tugging at his soul—an indication he is leaving his own world behind. He trudges through a strange jungle that gradually thins, its trees becoming jagged stone-like sculptures, until he sees a brilliant light ahead: the Ire's fortress.",
 		"secretHistory": true,
@@ -479,10 +470,7 @@
 		"description": "Every time Kelsier tries to reach Vin, Ruin blocks his path. From outside Fadrex, he watches koloss attack Elend's army at the ash mounds—and as they die, he sees their true forms: humans from all walks of life, created by Hemalurgy. Preservation shows him a vision of every person Ruin controls through spikes: Inquisitors stalking the land, Vin with her earring, King Penrod on the throne of Luthadel, Spook in Urteau, and his brother Marsh—who, even now, is in Luthadel driving a spike through Penrod's heart.",
 		"secretHistory": true,
 		"cityLandmark": "ash-mounds",
-		"offset": [
-			30,
-			-20
-		]
+		"offset": [30, -20]
 	},
 	{
 		"book": "hoa",
@@ -493,10 +481,7 @@
 		"description": "Kelsier searches the army camp outside Fadrex for days, looking for a semi-insane soldier he can communicate with to warn Vin: don't trust anyone pierced with metal. The man garbles the message and merely starts a brawl. Ruin arrives to taunt him once more. Realizing he can do no more here—Ruin's attention is too focused on Vin and Elend—Kelsier turns his awareness elsewhere. Far to the north, in Urteau, a young Tineye named Spook burns with devotion to the Survivor. That Connection might be strong enough to use.",
 		"secretHistory": true,
 		"cityLandmark": "ash-mounds",
-		"offset": [
-			20,
-			-15
-		]
+		"offset": [20, -15]
 	},
 	{
 		"book": "hoa",
@@ -538,10 +523,7 @@
 		"book": "hoa",
 		"chapter": 69,
 		"location": "imperial-canal",
-		"offset": [
-			-150,
-			-180
-		],
+		"offset": [-150, -180],
 		"title": "The Messenger's Fall",
 		"description": "Kelsier watches as Goradel rides from Urteau bearing Spook's warning inscribed on metal—but Ruin summons Marsh. The Inquisitor descends on the messenger and kills him, reading the message aloud to his master. Kelsier thanks Goradel as the soldier's soul passes through the Cognitive Realm, then sinks into despair. But a thought cuts through: Ruin is not complete without the atium. There is still hope.",
 		"secretHistory": true,
@@ -585,10 +567,7 @@
 		"title": "The Survivor's Choice",
 		"description": "The world is destroyed and reborn. During the Catacendre, Kelsier sees all three Realms at once. When it ends, he is again trapped in the Cognitive Realm. Sazed (Harmony) visits and admits he cannot bring Vin and Elend back from the Beyond. Kelsier asks him to heal Spook and make him a Mistborn. When Sazed says there is no way back to the Physical Realm, Kelsier decides Harmony is a terrible liar—and begins to scheme.",
 		"secretHistory": true,
-		"locationCoords": [
-			1392,
-			905
-		],
+		"locationCoords": [1392, 905],
 		"placementNote": "⚠️ Approximate placement — after the Catacendre, the world has been completely remade. Old landmarks no longer exist. This is the field of flowers and green grass where Vin and Elend are found."
 	},
 	{

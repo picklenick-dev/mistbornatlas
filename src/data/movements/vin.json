@@ -681,10 +681,7 @@
 		"book": "woa",
 		"chapter": 50,
 		"location": "imperial-canal",
-		"offset": [
-			19,
-			-291
-		],
+		"offset": [19, -291],
 		"title": "Breaking Camp",
 		"description": "A day north of Luthadel, Vin, Elend, and Spook break camp, confident they have eluded Straff's scouts. Spook senses something following them through the mists, and Vin recognizes it as the mysterious mist spirit that has shadowed her for months."
 	},
@@ -692,10 +689,7 @@
 		"book": "woa",
 		"chapter": 51,
 		"location": "imperial-canal",
-		"offset": [
-			16,
-			-249
-		],
+		"offset": [16, -249],
 		"title": "Jastes and the Truth",
 		"description": "Vin wakes to find the mist spirit hovering over Elend and stabs at it, striking something before it vanishes. Spook reports five men following them—Jastes Lekal, who abandoned the koloss. Elend executes his old friend for leaving the beasts leaderless. Spook reveals that Sazed tricked them into leaving, and Vin realizes the Well of Ascension is in Luthadel. They turn back to save their friends."
 	},
@@ -703,10 +697,7 @@
 		"book": "woa",
 		"chapter": 52,
 		"location": "imperial-canal",
-		"offset": [
-			18,
-			-277
-		],
+		"offset": [18, -277],
 		"title": "The Pewter Drag",
 		"description": "Vin races back toward Luthadel alone on a desperate pewter drag, burning her metals to the limit and terrified she will arrive too late as the koloss assault the city."
 	},
@@ -782,10 +773,7 @@
 		"book": "hoa",
 		"chapter": 8,
 		"location": "luthadel",
-		"offset": [
-			-80,
-			-100
-		],
+		"offset": [-80, -100],
 		"title": "The Mist Sickness",
 		"description": "Vin watches as the mists attack refugees from Vetitan, sickening a predictable number. Fatren disbelieves, but Elend argues exposure is necessary for inoculation. Vin interrogates her koloss Human about reproduction. She and Elend lead the refugees to a canal where Demoux's soldiers are bivouacked.",
 		"placementNote": "⚠️ Placed south west of Luthadel — the chapter places them at a canal between Vetitan and Luthadel, not within the city itself."
@@ -794,10 +782,7 @@
 		"book": "hoa",
 		"chapter": 10,
 		"location": "luthadel",
-		"offset": [
-			-80,
-			-100
-		],
+		"offset": [-80, -100],
 		"title": "The Army Reunited",
 		"description": "Vin is with Elend's army south west of Luthadel on the march toward Fadrex when Sazed, Breeze, Goradel, and Allrianne catch up. Sazed shares his crisis of faith with Vin, who gives him Mare's flower drawing for comfort.",
 		"placementNote": "⚠️ Placed south west of Luthadel on the route toward Fadrex as a best guess — the chapter only says they meet up with the army, not the exact location."
@@ -806,10 +791,7 @@
 		"book": "hoa",
 		"chapter": 12,
 		"location": "luthadel",
-		"offset": [
-			-80,
-			-100
-		],
+		"offset": [-80, -100],
 		"title": "The War Council",
 		"description": "Vin and Elend discuss how Kelsier's crew are losing hope. Elend convenes a council with Vin, Cett, Breeze, Allrianne, Hammond, Demoux, and Sazed. They debate the encroaching mists, growing food, and plans to capture the caches in Urteau and Fadrex. Elend considers exposing his army to the mists despite the risks and asks the crew: 'What would Kelsier do?' to motivate them.",
 		"placementNote": "⚠️ Placed south west of Luthadel on the march toward Fadrex — the army council is held en route, not in any city."
@@ -818,10 +800,7 @@
 		"book": "hoa",
 		"chapter": 15,
 		"location": "luthadel",
-		"offset": [
-			-240,
-			-80
-		],
+		"offset": [-240, -80],
 		"title": "Enemy in the Mists",
 		"description": "Vin wonders why the mists feel different — she no longer feels sheltered by them. As soldiers emerge from their tents for the day's march, Elend and Hammond debate whether to expose the troops. Elend tells Vin that Human is causing a disturbance. The koloss says the mists hate him, and that they hate Vin as well. To her surprise, she agrees — the mists are now her enemy.",
 		"placementNote": "⚠️ Placed south west of Luthadel on the march toward Fadrex — the army remains en route."
@@ -830,10 +809,7 @@
 		"book": "hoa",
 		"chapter": 21,
 		"location": "luthadel",
-		"offset": [
-			-270,
-			-70
-		],
+		"offset": [-270, -70],
 		"title": "The Sixteen Percent",
 		"description": "Vin reads Alendi's logbook, puzzling on how to fight Ruin since he cannot read thoughts — she realizes he is powerful but not omnipotent, subject to consequences. Elend fears he is becoming ruthless like the Lord Ruler for exposing soldiers to the mists, and second-guesses outlawing the noble practice of beating children to Snap them. Noorden presents mist sickness data; Vin makes him recalculate using only previously unexposed soldiers. The result: exactly sixteen percent. When four separate samples all produce the same ratio with no margin of error, Elend concedes the pattern is too precise to be coincidence."
 	},
@@ -1003,10 +979,7 @@
 		"book": "hoa",
 		"chapter": 67.2,
 		"location": "fadrex-city",
-		"offset": [
-			80,
-			-50
-		],
+		"offset": [80, -50],
 		"title": "Leaving for Luthadel",
 		"description": "Vin leaves Fadrex for Luthadel, flying eastward and deliberately drawing the Inquisitors away from Elend and his army. She gambles that she can outrace a god, hoping to force Ruin to tip his hand by making him chase her instead of destroying those she loves."
 	},
@@ -1071,10 +1044,7 @@
 		"chapter": 83,
 		"title": "The Field of Rebirth",
 		"description": "Vin's body is found in a field of flowers and green grass—the first signs of Sazed's remade world. She lies at peace beside Elend.",
-		"locationCoords": [
-			1392,
-			905
-		],
+		"locationCoords": [1392, 905],
 		"placementNote": "⚠️ Approximate placement — after the Catacendre, the world has been completely remade. Old landmarks no longer exist. This is the field of flowers and green grass where Vin and Elend are found."
 	}
 ]

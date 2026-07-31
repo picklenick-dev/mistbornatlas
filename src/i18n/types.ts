@@ -451,12 +451,11 @@ export interface DataTranslations {
 			Confident<{
 				title: string;
 				description: string;
-				season: string;
-				year: string;
 				placementNote?: string;
 			}>
 		>
 	>;
+	chapterSeasons: Record<string, Record<string, Confident<{ season: string; year: string }>>>;
 	markerLabels: Record<string, string>;
 	cityMarkerLabels: Record<string, string>;
 	/** Overall confidence markers for marker labels */

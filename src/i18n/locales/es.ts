@@ -331,7 +331,8 @@ export const es: Translation = {
 		roadmap080: 'El Pozo de la Ascensión — línea temporal completa',
 		roadmap090: 'El Héroe de las Eras — línea temporal completa',
 		roadmap100: 'Historia Secreta — línea temporal completa',
-		translationNote: 'Las traducciones son generadas por IA y aún no han sido revisadas por hablantes nativos.',
+		translationNote:
+			'Las traducciones son generadas por IA y aún no han sido revisadas por hablantes nativos.',
 	},
 
 	welcome: {
