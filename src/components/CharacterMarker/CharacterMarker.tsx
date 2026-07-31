@@ -370,7 +370,28 @@ export const CharacterMarker: React.FC<CharacterMarkerProps> = ({
 							</span>
 						)}
 					</span>
-					<h3 className="popup-title">{movTrans?.title ?? activeMovement.title}</h3>
+					{isSpoilerRedacted ? (
+						<h3
+							className={`popup-title ${styles.redacted}`}
+							role="button"
+							tabIndex={0}
+							onClick={e => {
+								e.stopPropagation();
+								setSpoilerRevealed(true);
+							}}
+							onKeyDown={e => {
+								if (e.key === 'Enter' || e.key === ' ') {
+									e.preventDefault();
+									e.stopPropagation();
+									setSpoilerRevealed(true);
+								}
+							}}
+						>
+							<span>{movTrans?.title ?? activeMovement.title}</span>
+						</h3>
+					) : (
+						<h3 className="popup-title">{movTrans?.title ?? activeMovement.title}</h3>
+					)}
 					{allMovements.length > 1 && (
 						<div className={styles.historyNav}>
 							<button
