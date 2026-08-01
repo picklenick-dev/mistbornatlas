@@ -751,11 +751,6 @@ export const zhData: DataTranslations = {
 				description: '形成南面地质屏障的岩石阵列。',
 				confidence: 'probable',
 			},
-			'yomens-palace': {
-				name: '约门宫殿',
-				description: '义务官阿拉丹·约门的行政驻地。',
-				confidence: 'probable',
-			},
 			'main-gate': {
 				name: '正门',
 				description: '穿过地质构造进入城市的主入口。',

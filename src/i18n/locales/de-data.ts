@@ -798,11 +798,6 @@ export const deData: DataTranslations = {
 				description: 'Felsformation als geologische Barriere im Süden.',
 				confidence: 'verified',
 			},
-			'yomens-palace': {
-				name: 'Yomens Palast',
-				description: 'Verwaltungssitz von Obligator Aradan Yomen.',
-				confidence: 'probable',
-			},
 			'main-gate': {
 				name: 'Haupttor',
 				description: 'Haupteingang der Stadt durch die geologischen Formationen.',

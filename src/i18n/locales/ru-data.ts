@@ -794,11 +794,6 @@ export const ruData: DataTranslations = {
 				description: 'Скальная формация, образующая геологический барьер с юга.',
 				confidence: 'verified',
 			},
-			'yomens-palace': {
-				name: 'Дворец Йомена',
-				description: 'Административная резиденция облигатора Арадана Йомена.',
-				confidence: 'probable',
-			},
 			'main-gate': {
 				name: 'Главные ворота',
 				description: 'Главный вход в город через геологические образования.',

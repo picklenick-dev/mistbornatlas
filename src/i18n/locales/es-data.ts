@@ -834,11 +834,6 @@ export const esData: DataTranslations = {
 				description: 'Estante natural de roca que forma una barrera geológica al sur.',
 				confidence: 'verified',
 			},
-			'yomens-palace': {
-				name: 'Palacio de Yomen',
-				description: 'Sede administrativa del obligador Aradan Yomen.',
-				confidence: 'probable',
-			},
 			'main-gate': {
 				name: 'Puerta Principal',
 				description: 'Entrada principal a la ciudad a través de las formaciones geológicas.',

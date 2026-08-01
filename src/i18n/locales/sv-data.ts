@@ -758,11 +758,6 @@ export const svData: DataTranslations = {
 				description: 'Klippformation som bildar en geologisk barriär söderut.',
 				confidence: 'unconfirmed',
 			},
-			'yomens-palace': {
-				name: 'Yomens palats',
-				description: 'Administrativt säte för obligator Aradan Yomen.',
-				confidence: 'unconfirmed',
-			},
 			'main-gate': {
 				name: 'Huvudporten',
 				description: 'Stadens huvudingång genom de geologiska formationerna.',

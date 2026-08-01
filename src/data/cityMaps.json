@@ -494,15 +494,6 @@
 				"description": "The natural dark red and orange rock shelf that cups the city to the south, forming a geological barrier against attack."
 			},
 			{
-				"id": "yomens-palace",
-				"name": "Yomen's Palace",
-				"type": "palace",
-				"coords": [46.9, 55.2],
-				"description": "The administrative seat of Aradan Yomen, the Obligator who controls the city.",
-				"safeDescription": "An administrative building in Fadrex City.",
-				"spoiler": { "book": "hoa", "chapter": 10 }
-			},
-			{
 				"id": "main-gate",
 				"name": "Main Gate",
 				"type": "gate",
@@ -513,7 +504,7 @@
 				"id": "conway-canal",
 				"name": "Conway Canal",
 				"type": "canal",
-				"coords": [46.9, 55.2],
+				"coords": [56.8, 45],
 				"description": "One of the major canals in the area, facilitating trade and transport through the city basin at the lower elevation beneath the rock shelves."
 			},
 			{

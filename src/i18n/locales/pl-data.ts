@@ -800,11 +800,6 @@ export const plData: DataTranslations = {
 				description: 'Formacja skalna stanowiąca barierę geologiczną od południa.',
 				confidence: 'verified',
 			},
-			'yomens-palace': {
-				name: 'Pałac Yomena',
-				description: 'Siedziba administracyjna obligatora Aradana Yomena.',
-				confidence: 'probable',
-			},
 			'main-gate': {
 				name: 'Brama Główna',
 				description: 'Główne wejście do miasta przez formacje geologiczne.',

@@ -728,10 +728,6 @@ export const trData: DataTranslations = {
 				description:
 					'Şehri güneyden kucaklayan, saldırıya karşı jeolojik bir bariyer oluşturan doğal koyu kırmızı ve turuncu kaya çıkıntısı.',
 			},
-			'yomens-palace': {
-				name: "Yomen'in Sarayı",
-				description: "Şehri kontrol eden Obligatör Aradan Yomen'in idari merkezi.",
-			},
 			'main-gate': {
 				name: 'Ana Kapı',
 				description: 'Jeolojik oluşumlar arasından şehre birincil giriş.',

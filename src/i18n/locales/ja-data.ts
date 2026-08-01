@@ -765,11 +765,6 @@ export const jaData: DataTranslations = {
 				description: '南の地質的障壁を成す岩石。',
 				confidence: 'probable',
 			},
-			'yomens-palace': {
-				name: 'ヨーメンの宮殿',
-				description: '義務官アラダン・ヨーメンの行政拠点。',
-				confidence: 'probable',
-			},
 			'main-gate': {
 				name: '正門',
 				description: '地質形成を通る市の正面入口。',

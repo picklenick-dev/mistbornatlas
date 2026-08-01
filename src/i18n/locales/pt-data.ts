@@ -802,11 +802,6 @@ export const ptData: DataTranslations = {
 				description: 'Formação rochosa formando uma barreira geológica a sul.',
 				confidence: 'verified',
 			},
-			'yomens-palace': {
-				name: 'Palácio de Yomen',
-				description: 'Sede administrativa do obrigador Aradan Yomen.',
-				confidence: 'probable',
-			},
 			'main-gate': {
 				name: 'Portão Principal',
 				description: 'Entrada principal da cidade através das formações geológicas.',

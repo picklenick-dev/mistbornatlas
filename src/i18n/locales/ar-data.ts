@@ -777,11 +777,6 @@ export const arData: DataTranslations = {
 				description: 'تشكيل صخري يشكل حاجزاً جيولوجياً من الجنوب.',
 				confidence: 'probable',
 			},
-			'yomens-palace': {
-				name: 'قصر يومن',
-				description: 'المقر الإداري للملزم أرادان يومن.',
-				confidence: 'probable',
-			},
 			'main-gate': {
 				name: 'البوابة الرئيسية',
 				description: 'المدخل الرئيسي للمدينة عبر التشكيلات الجيولوجية.',
