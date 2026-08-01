@@ -3,13 +3,13 @@ import { trData } from './tr-data';
 
 export const tr: Translation = {
 	meta: {
-		title: 'Sisçocuğu İnteraktif Harita — Scadrial',
+		title: 'Sissoylu İnteraktif Harita — Scadrial',
 		description:
-			"Brandon Sanderson'un orijinal Sisçocuğu Üçlemesi'nin interaktif krono-kartografik görselleştirmesi. Karakter hareketlerini Scadrial boyunca takip edin.",
+			"Brandon Sanderson'un orijinal Sissoylu Üçlemesi'nin interaktif krono-kartografik görselleştirmesi. Karakter hareketlerini Scadrial boyunca takip edin.",
 	},
 
 	header: {
-		title: 'SİSÇOCUĞU ATLASI',
+		title: 'SİSSOYLU ATLASI',
 		help: 'Yardım',
 		selectBook: 'Kitap seç',
 		selectMap: 'Harita görünümü seç',
@@ -22,7 +22,7 @@ export const tr: Translation = {
 
 	books: {
 		tfe: 'Son İmparatorluk',
-		woa: 'Yükseliş Kuyusu',
+		woa: 'Miraç Kuyusu',
 		hoa: 'Çağların Kahramanı',
 	},
 
@@ -62,7 +62,7 @@ export const tr: Translation = {
 
 	locations: {
 		type: 'Konum Türü',
-		dominance: 'Hakimiyet',
+		dominance: 'Salahiyet',
 		coordinates: 'Koordinatlar',
 		exploreCity: 'Şehri Keşfet',
 		features: 'Özellikler',
@@ -162,12 +162,12 @@ export const tr: Translation = {
 	locationMarker: {
 		showLess: 'Daha az göster',
 		readMore: 'Devamını oku',
-		dominance: 'Hakimiyet',
+		dominance: 'Salahiyet',
 		exploreCity: 'Şehri Keşfet',
 	},
 
 	loading: {
-		title: 'SİSÇOCUĞU ATLASI',
+		title: 'SİSSOYLU ATLASI',
 		subtitle: 'Kül ve sis dünyası yükleniyor...',
 	},
 
@@ -209,26 +209,26 @@ export const tr: Translation = {
 		safehouse: 'Güvenli Ev',
 		landmark: 'Simge',
 		canal: 'Kanal',
-		ministry: 'Bakanlık Kantonu',
+		ministry: 'Nezaret Kantonu',
 		plaza: 'Meydan',
 	},
 
 	dominances: {
-		Central: 'Merkez Hakimiyeti',
-		Northern: 'Kuzey Hakimiyeti',
-		Southern: 'Güney Hakimiyeti',
-		Eastern: 'Doğu Hakimiyeti',
-		Western: 'Batı Hakimiyeti',
-		Terris: 'Terris Hakimiyeti',
+		Central: 'Merkez Salahiyeti',
+		Northern: 'Kuzey Salahiyeti',
+		Southern: 'Güney Salahiyeti',
+		Eastern: 'Doğu Salahiyeti',
+		Western: 'Batı Salahiyeti',
+		Terris: 'Terris Salahiyeti',
 		None: 'İmparatorluk Dışı',
 	},
 
 	donation: {
 		buttonLabel: 'Bana bir kahve ısmarla',
 		buttonLabelShort: 'Kahve',
-		modalTitle: "Sisçocuğu Atlası'nı Destekle",
+		modalTitle: "Sissoylu Atlası'nı Destekle",
 		modalDesc:
-			'Sisçocuğu Atlası, boş zamanlarımda geliştirdiğim ücretsiz, açık kaynaklı bir hayran projesidir. Hosting, alan adı ve geliştirme maliyetleri birikiyor. Uygulamayı beğendiyseniz ve sislerin akmasına yardım etmek istiyorsanız, küçük bir bağış çok işe yarar — ama hiç baskı yok, uygulama her zaman tamamen ücretsiz olacak!',
+			'Sissoylu Atlası, boş zamanlarımda geliştirdiğim ücretsiz, açık kaynaklı bir hayran projesidir. Hosting, alan adı ve geliştirme maliyetleri birikiyor. Uygulamayı beğendiyseniz ve sislerin akmasına yardım etmek istiyorsanız, küçük bir bağış çok işe yarar — ama hiç baskı yok, uygulama her zaman tamamen ücretsiz olacak!',
 		modalButton: "Ko-fi'den bana bir kahve ısmarla",
 		modalDismiss: 'Belki sonra',
 		modalDontAsk: 'Bunu bir daha gösterme',
@@ -265,26 +265,26 @@ export const tr: Translation = {
 		disclaimerTor: 'Tor Books / Macmillan Publishers',
 		disclaimerIsaac: 'Isaac Stewart',
 		disclaimerOutro:
-			'Bu proje yalnızca eğitim ve eğlence amaçlıdır. Karakterler, konumlar, hikâyeler ve çizimler dahil tüm Sisçocuğu içeriklerinin telif hakları ilgili sahiplerine aittir.',
+			'Bu proje yalnızca eğitim ve eğlence amaçlıdır. Karakterler, konumlar, hikâyeler ve çizimler dahil tüm Sissoylu içeriklerinin telif hakları ilgili sahiplerine aittir.',
 		mapAttributionTitle: 'Harita Atfı',
 		mapAttributionDesc:
 			"Bu projede kullanılan harita, Coppermind Wiki'den alınan Isaac Stewart'ın resmi Son İmparatorluk haritasıdır.",
 		mapArtist: 'Isaac Stewart',
 		mapSource: 'Coppermind Wiki',
-		mapOriginalWork: "Brandon Sanderson'un Sisçocuğu serisi için oluşturulmuştur",
+		mapOriginalWork: "Brandon Sanderson'un Sissoylu serisi için oluşturulmuştur",
 		mapNote:
 			"Isaac Stewart, Brandon Sanderson'un Cosmere evreni için haritalar ve çizimler dahil birçok eserinin resmi çizeridir.",
 		portraitsTitle: 'Karakter Portreleri',
 		portraitsDesc:
 			"Karakter portre çizimleri Coppermind Wiki'den CC BY-NC-ND 4.0 lisansı altında alınmıştır.",
-		portraitVinMistborn: 'Sisçocuğu',
+		portraitVinMistborn: 'Sissoylu',
 		portraitVinUrchin: 'Sokak Çocuğu',
 		portraitKelsier: 'Kelsier',
 		portraitSazed: 'Sazed',
 		portraitElend: 'Elend',
-		portraitMarshInquisitor: 'Engizisyoncu',
+		portraitMarshInquisitor: 'Sorgucu',
 		portraitMarshKelsier: 'Kelsier ile',
-		portraitSpook: 'Spook',
+		portraitSpook: 'Dikiz',
 		symbolsTitle: 'Allomantik Semboller',
 		symbolsDesc:
 			"Konum işaretleyici glifleri, Coppermind Wiki'deki Çelik Alfabe sayfasından alınan Isaac Stewart tasarımı Allomantik metal sembollerini kullanır.",
@@ -292,7 +292,7 @@ export const tr: Translation = {
 		symbolsSource: 'Coppermind Wiki — Çelik Alfabe',
 		symbolsLicense: 'Bu ticari olmayan hayran projesi için adil kullanım kapsamında kullanılmıştır',
 		symbolsUsed: 'Haritada kullanılan semboller:',
-		symbolGold: 'Hakimiyet Merkezi · Asil Kale · Asil Mülk',
+		symbolGold: 'Salahiyet Merkezi · Asil Kale · Asil Mülk',
 		symbolSteel: 'Şehir · Şehir Kapısı',
 		symbolAtium: 'Kül Dağı · Saray',
 		symbolTin: 'Simge · Önemli Alan',
@@ -328,7 +328,7 @@ export const tr: Translation = {
 		roadmapCompleteTag: 'TAMAMLANDI',
 		roadmap070: 'Son İmparatorluk — zaman çizelgesi tamamlandı',
 		roadmapCurrent: 'Son İmparatorluk',
-		roadmap080: 'Yükseliş Kuyusu — zaman çizelgesi tamamlandı',
+		roadmap080: 'Miraç Kuyusu — zaman çizelgesi tamamlandı',
 		roadmap090: 'Çağların Kahramanı — zaman çizelgesi tamamlandı',
 		roadmap100: 'Gizli Tarih — zaman çizelgesi tamamlandı',
 		translationNote:
@@ -336,9 +336,9 @@ export const tr: Translation = {
 	},
 
 	welcome: {
-		title: 'Sisçocuğu İnteraktif Haritasına Hoş Geldiniz',
+		title: 'Sissoylu İnteraktif Haritasına Hoş Geldiniz',
 		description:
-			'Şu anda Sisçocuğu üçlemesini mi okuyorsunuz? Spoiler olmadan haritayı keşfetmek için Birlikte Okuma Modunu etkinleştirin.',
+			'Şu anda Sissoylu üçlemesini mi okuyorsunuz? Spoiler olmadan haritayı keşfetmek için Birlikte Okuma Modunu etkinleştirin.',
 		featureMovements: 'Her bölümde ilerledikçe karakter hareketleri haritada gösterilir',
 		featureTitles: 'Hareket başlıkları her zaman görünür, böylece ne olduğunu bilirsiniz',
 		featureSummaries: 'Detaylı özetler, görmek için dokunana kadar gizli kalır',
