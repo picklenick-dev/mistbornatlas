@@ -1,26 +1,41 @@
 import React, { useState } from 'react';
 import { useMapEvents } from 'react-leaflet';
 import { isDebugMode } from '@/utils';
+import { getCityCoordScale } from '@/config';
+import type { CityId } from '@/types';
 import styles from './DebugOverlay.module.scss';
 
 interface DebugOverlayProps {
 	mapType?: 'world' | 'city';
+	cityId?: CityId;
 }
 
-export const DebugOverlay: React.FC<DebugOverlayProps> = ({ mapType = 'world' }) => {
+export const DebugOverlay: React.FC<DebugOverlayProps> = ({ mapType = 'world', cityId }) => {
 	const [coords, setCoords] = useState<{ x: number; y: number } | null>(null);
 	const [frozenCoords, setFrozenCoords] = useState<{ x: number; y: number } | null>(null);
 	const [copied, setCopied] = useState(false);
+
+	/** Reverse-scale Leaflet coords back to the data's [0-100]² normalised space. */
+	const toDataCoords = (lng: number, lat: number): { x: number; y: number } => {
+		if (mapType === 'city' && cityId) {
+			const [xScale, yScale] = getCityCoordScale(cityId);
+			return {
+				x: Math.round((lng / xScale) * 10) / 10,
+				y: Math.round((lat / yScale) * 10) / 10,
+			};
+		}
+		return {
+			x: Math.round(lng * 10) / 10,
+			y: Math.round(lat * 10) / 10,
+		};
+	};
 
 	useMapEvents({
 		mousemove: e => {
 			if (!isDebugMode) return;
 
 			if (frozenCoords === null) {
-				const x = Math.round(e.latlng.lng * 10) / 10;
-				const y = Math.round(e.latlng.lat * 10) / 10;
-
-				setCoords({ x, y });
+				setCoords(toDataCoords(e.latlng.lng, e.latlng.lat));
 			}
 		},
 		mouseout: () => {
@@ -37,10 +52,9 @@ export const DebugOverlay: React.FC<DebugOverlayProps> = ({ mapType = 'world' })
 
 			if (mouseEvent.button === 0) {
 				e.originalEvent.preventDefault();
-				const x = Math.round(e.latlng.lng * 10) / 10;
-				const y = Math.round(e.latlng.lat * 10) / 10;
-				setFrozenCoords({ x, y });
-				setCoords({ x, y });
+				const dataCoords = toDataCoords(e.latlng.lng, e.latlng.lat);
+				setFrozenCoords(dataCoords);
+				setCoords(dataCoords);
 			}
 		},
 		contextmenu: e => {

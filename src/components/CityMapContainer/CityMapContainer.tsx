@@ -200,7 +200,7 @@ export const CityMapContainer: React.FC = () => {
 
 				<ZoomTracker />
 
-				<DebugOverlay mapType="city" />
+				<DebugOverlay mapType="city" cityId={activeCity} />
 
 				<ImageOverlay url={mapImageUrl} bounds={getCityMapBounds(activeCity)} />
 
