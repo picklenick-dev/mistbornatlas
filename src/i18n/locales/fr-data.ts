@@ -799,11 +799,6 @@ export const frData: DataTranslations = {
 				description: "Cache secrète de vivres et d'electrum dissimulée dans les roches du nord.",
 				confidence: 'verified',
 			},
-			'cetts-base': {
-				name: 'Base de Cett',
-				description: "Enceinte fortifiée d'Ashweather Cett avant son départ pour Luthadel.",
-				confidence: 'probable',
-			},
 			'cremnol-wall-north': {
 				name: 'Mur de Cremnol Nord',
 				description: 'Formation rocheuse naturelle rouge et orange protégeant la ville au nord.',

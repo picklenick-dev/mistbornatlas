@@ -790,11 +790,6 @@ export const plData: DataTranslations = {
 				description: 'Tajne składy żywności i electrum ukryte w północnych skałach.',
 				confidence: 'verified',
 			},
-			'cetts-base': {
-				name: 'Baza Cetta',
-				description: 'Umocniona siedziba Ashweathera Cetta przed wymarszonem na Luthadel.',
-				confidence: 'probable',
-			},
 			'cremnol-wall-north': {
 				name: 'Mur Cremnolowy Północny',
 				description: 'Naturalna czerwono-pomarańczowa formacja skalna chroniąca miasto od północy.',

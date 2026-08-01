@@ -755,11 +755,6 @@ export const jaData: DataTranslations = {
 				description: '北の岩場に隠された食料とエレクトラムの秘密貯蔵庫。',
 				confidence: 'probable',
 			},
-			'cetts-base': {
-				name: 'セットの拠点',
-				description: 'アッシュウェザー・セットがルサデルへ出発する前の要塞化された拠点。',
-				confidence: 'probable',
-			},
 			'cremnol-wall-north': {
 				name: 'クレムノル壁（北）',
 				description: '市の北を守る天然の赤橙色の岩石。',

@@ -748,11 +748,6 @@ export const svData: DataTranslations = {
 				description: 'Hemligt förråd av förnödenheter och elektrum gömt i de norra klipporna.',
 				confidence: 'unconfirmed',
 			},
-			'cetts-base': {
-				name: 'Cetts bas',
-				description: 'Ashweather Cetts befästa anläggning innan hans avfärd till Luthadel.',
-				confidence: 'unconfirmed',
-			},
 			'cremnol-wall-north': {
 				name: 'Cremnolväggen (norr)',
 				description: 'Naturlig röd-orange klippformation som skyddar staden norrifrån.',

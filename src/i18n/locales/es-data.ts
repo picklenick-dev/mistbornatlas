@@ -824,11 +824,6 @@ export const esData: DataTranslations = {
 					'Caché secreto con comida y electrum, oculto en las formaciones rocosas del norte.',
 				confidence: 'verified',
 			},
-			'cetts-base': {
-				name: 'Base de Cett',
-				description: 'Recinto fortificado de Ashweather Cett antes de partir a Luthadel.',
-				confidence: 'probable',
-			},
 			'cremnol-wall-north': {
 				name: 'Muro de Cremnol Norte',
 				description: 'Estante natural de roca roja y naranja que protege la ciudad por el norte.',

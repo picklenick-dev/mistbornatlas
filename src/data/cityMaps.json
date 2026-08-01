@@ -480,15 +480,6 @@
 				"placementNote": "⚠️ Approximate location — the storage cache is accessed via the Canton of Resource, but its exact underground position relative to the surface is not specified."
 			},
 			{
-				"id": "cetts-base",
-				"name": "Cett's Base",
-				"type": "keep",
-				"coords": [40.0, 45.0],
-				"description": "Ashweather Cett's fortified compound before he moved to Luthadel.",
-				"safeDescription": "A fortified compound in Fadrex City.",
-				"spoiler": { "book": "hoa", "chapter": 35 }
-			},
-			{
 				"id": "cremnol-wall-north",
 				"name": "Northern Cremnol Wall",
 				"type": "landmark",

@@ -792,11 +792,6 @@ export const ptData: DataTranslations = {
 				description: 'Depósito secreto de mantimentos e electrum oculto nas rochas do norte.',
 				confidence: 'verified',
 			},
-			'cetts-base': {
-				name: 'Base de Cett',
-				description: 'Recinto fortificado de Ashweather Cett antes da sua partida para Luthadel.',
-				confidence: 'probable',
-			},
 			'cremnol-wall-north': {
 				name: 'Muro de Cremnol Norte',
 				description: 'Formação rochosa natural vermelha e laranja que protege a cidade a norte.',

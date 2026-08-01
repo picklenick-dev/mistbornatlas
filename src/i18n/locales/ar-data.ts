@@ -767,11 +767,6 @@ export const arData: DataTranslations = {
 				description: 'مخبأ سري للمؤن والإلكتروم مخفي في صخور الشمال.',
 				confidence: 'probable',
 			},
-			'cetts-base': {
-				name: 'قاعدة كيت',
-				description: 'معقل آشويذر كيت المحصن قبل رحيله إلى لوثادل.',
-				confidence: 'probable',
-			},
 			'cremnol-wall-north': {
 				name: 'جدار الكريمنول الشمالي',
 				description: 'تشكيل صخري طبيعي أحمر برتقالي يحمي المدينة من الشمال.',

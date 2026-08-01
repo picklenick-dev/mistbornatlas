@@ -741,12 +741,6 @@ export const zhData: DataTranslations = {
 				description: '隐藏在北部岩石中的秘密粮食和电金库藏。',
 				confidence: 'probable',
 			},
-			'cetts-base': {
-				name: '凯特基地',
-				description: '阿什韦泽·凯特前往陆沙德前的设防驻地。',
-				safeDescription: '法德雷克斯城的一处设防驻地。',
-				confidence: 'probable',
-			},
 			'cremnol-wall-north': {
 				name: '北克雷诺尔壁',
 				description: '保护城市北面的天然红橙色岩石阵列。',

@@ -783,11 +783,6 @@ export const ruData: DataTranslations = {
 				description: 'Тайный склад провизии и электрума, спрятанный в северных скалах.',
 				confidence: 'verified',
 			},
-			'cetts-base': {
-				name: 'База Кетта',
-				description: 'Укреплённая база Эшвезера Кетта до его похода на Лютадель.',
-				confidence: 'probable',
-			},
 			'cremnol-wall-north': {
 				name: 'Кремноловая стена (север)',
 				description:

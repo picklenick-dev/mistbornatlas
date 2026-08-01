@@ -718,10 +718,6 @@ export const trData: DataTranslations = {
 				description:
 					"Kuzey kaya oluşumlarında Keep Orielle yakınında gizlenmiş, yiyecek ve elektrum içeren gizli depo. Elend'in kuşatmasının stratejik hedefi.",
 			},
-			'cetts-base': {
-				name: "Cett'in Üssü",
-				description: "Ashweather Cett'in Luthadel'e taşınmadan önceki tahkimatlı karargâhı.",
-			},
 			'cremnol-wall-north': {
 				name: 'Kuzey Cremnol Duvarı',
 				description:

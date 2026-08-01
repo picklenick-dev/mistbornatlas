@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState, Suspense, lazy } from 'react';
+import React, { useCallback, useEffect, useMemo, useState, Suspense, lazy } from 'react';
 import { MapContainer as LeafletMapContainer, ImageOverlay, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import { useMapContext } from '@/context/MapContext';
@@ -14,13 +14,15 @@ import { ZoomTracker } from '@/components/ZoomTracker';
 import { MapFoldIcon } from '@/components/icons';
 import {
 	getLocalizedCityMapUrl,
-	CITY_MAP_BOUNDS,
-	CITY_MAX_BOUNDS,
-	CITY_MAP_CENTER,
+	getCityMapBounds,
+	getCityMaxBounds,
+	getCityMapCenter,
+	getCityCoordScale,
 	CITY_MAP_ZOOM,
 	CITY_MIN_ZOOM,
 	CITY_MAX_ZOOM,
 } from '@/config';
+import type { CityId } from '@/types';
 import styles from './CityMapContainer.module.scss';
 
 const AtmosphereOverlay = lazy(() =>
@@ -29,12 +31,13 @@ const AtmosphereOverlay = lazy(() =>
 
 import 'leaflet/dist/leaflet.css';
 
-const SetInitialView: React.FC = () => {
+const SetInitialView: React.FC<{ cityId: CityId }> = ({ cityId }) => {
 	const map = useMap();
+	const center = getCityMapCenter(cityId);
 
 	useEffect(() => {
-		map.setView([50, 50], 2.5, { animate: false });
-	}, [map]);
+		map.setView(center, 2.5, { animate: false });
+	}, [map, center]);
 
 	return null;
 };
@@ -63,34 +66,82 @@ export const CityMapContainer: React.FC = () => {
 	if (!cityMap) return null;
 
 	const mapImageUrl = getLocalizedCityMapUrl(activeCity, language);
+	const coordScale = getCityCoordScale(activeCity);
+
+	/** Scale a data coordinate [x, y] to match the image's native aspect ratio. */
+	const scaleCoords = useCallback(
+		(coords: [number, number]): [number, number] => [
+			coords[0] * coordScale[0],
+			coords[1] * coordScale[1],
+		],
+		[coordScale]
+	);
 
 	// Filter landmarks by books (visibility). Book-level gates always respected;
 	// chapter-level gates only enforced when read-along is ON.
-	const visibleLandmarks = cityMap.landmarks.filter(landmark => {
-		if (!landmark.books) return true;
-		return landmark.books.some(entry => {
-			if (typeof entry === 'string') return entry === currentBook;
-			if (entry.book !== currentBook) return false;
-			if (!hideMovementSpoilers) return true;
-			return currentChapter >= entry.chapter;
-		});
-	});
+	// Also scale landmark coordinates to match native image aspect ratio.
+	const visibleLandmarks = useMemo(
+		() =>
+			cityMap.landmarks
+				.filter(landmark => {
+					if (!landmark.books) return true;
+					return landmark.books.some(entry => {
+						if (typeof entry === 'string') return entry === currentBook;
+						if (entry.book !== currentBook) return false;
+						if (!hideMovementSpoilers) return true;
+						return currentChapter >= entry.chapter;
+					});
+				})
+				.map(landmark => ({
+					...landmark,
+					coords: scaleCoords(landmark.coords),
+				})),
+		[cityMap.landmarks, currentBook, currentChapter, hideMovementSpoilers, scaleCoords]
+	);
 
-	const cityCharacterPositions = characterPositions.filter(
-		({ movement }) => movement?.cityId === activeCity && movement?.cityCoords
+	const cityCharacterPositions = useMemo(
+		() =>
+			characterPositions
+				.filter(
+					({ movement }) => movement?.cityId === activeCity && movement?.cityCoords
+				)
+				.map(pos => ({
+					...pos,
+					movement: pos.movement
+						? {
+								...pos.movement,
+								cityCoords: pos.movement.cityCoords
+									? scaleCoords(pos.movement.cityCoords)
+									: undefined,
+							}
+						: null,
+					displayCityCoords: pos.displayCityCoords
+						? scaleCoords(pos.displayCityCoords)
+						: null,
+				})),
+		[characterPositions, activeCity, scaleCoords]
 	);
 
 	const cityCharacterIds = new Set(cityCharacterPositions.map(({ character }) => character.id));
 
-	const cityCharacterPaths = characterPaths
-		.filter(({ character }) => cityCharacterIds.has(character.id))
-		.map(({ character, movements, offsetIndex, totalAtPath }) => ({
-			character,
-			movements: movements.filter(m => m.cityId === activeCity && m.cityCoords),
-			offsetIndex,
-			totalAtPath,
-		}))
-		.filter(({ movements }) => movements.length > 0);
+	const cityCharacterPaths = useMemo(
+		() =>
+			characterPaths
+				.filter(({ character }) => cityCharacterIds.has(character.id))
+				.map(({ character, movements, offsetIndex, totalAtPath }) => ({
+					character,
+					movements: movements
+						.filter(m => m.cityId === activeCity && m.cityCoords)
+						.map(m => ({
+							...m,
+							cityCoords: m.cityCoords ? scaleCoords(m.cityCoords) : undefined,
+						})),
+					offsetIndex,
+					totalAtPath,
+				}))
+				.filter(({ movements }) => movements.length > 0),
+		[characterPaths, cityCharacterIds, activeCity, scaleCoords]
+	);
 
 	return (
 		<div
@@ -135,23 +186,23 @@ export const CityMapContainer: React.FC = () => {
 
 			<LeafletMapContainer
 				className={styles.cityMap}
-				center={CITY_MAP_CENTER}
+				center={getCityMapCenter(activeCity)}
 				zoom={CITY_MAP_ZOOM}
 				minZoom={CITY_MIN_ZOOM}
 				maxZoom={CITY_MAX_ZOOM}
-				maxBounds={CITY_MAX_BOUNDS}
+				maxBounds={getCityMaxBounds(activeCity)}
 				maxBoundsViscosity={0.5}
 				crs={L.CRS.Simple}
 				zoomControl={true}
 				attributionControl={false}
 			>
-				<SetInitialView />
+				<SetInitialView cityId={activeCity} />
 
 				<ZoomTracker />
 
 				<DebugOverlay mapType="city" />
 
-				<ImageOverlay url={mapImageUrl} bounds={CITY_MAP_BOUNDS} />
+				<ImageOverlay url={mapImageUrl} bounds={getCityMapBounds(activeCity)} />
 
 				{cityCharacterPaths.map(({ character, movements, offsetIndex, totalAtPath }) => (
 					<CharacterPath

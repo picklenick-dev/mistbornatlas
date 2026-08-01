@@ -76,17 +76,41 @@ export const getLocalizedCityMapUrl = (cityId: string, lang: LanguageCode): stri
 	return CITY_MAP_IMAGES[cityId] ?? '';
 };
 
-export const CITY_MAP_BOUNDS: L.LatLngBoundsExpression = [
-	[0, 0],
-	[100, 100],
-];
 
-export const CITY_MAX_BOUNDS: L.LatLngBoundsExpression = [
-	[-100, -100],
-	[140, 140],
-];
+export const CITY_IMAGE_DIMS: Record<CityId, { w: number; h: number }> = {
+	luthadel: { w: 1482, h: 1200 },
+	urteau: { w: 1200, h: 800 },
+	fadrex: { w: 800, h: 1200 },
+};
 
-export const CITY_MAP_CENTER: L.LatLngExpression = [50, 50];
+export const getCityCoordScale = (cityId: CityId): [number, number] => {
+	const { w, h } = CITY_IMAGE_DIMS[cityId];
+	const maxDim = Math.max(w, h);
+	return [w / maxDim, h / maxDim];
+};
+
+export const getCityMapBounds = (cityId: CityId): L.LatLngBoundsExpression => {
+	const { w, h } = CITY_IMAGE_DIMS[cityId];
+	const maxDim = Math.max(w, h);
+	const yMax = (h / maxDim) * 100;
+	const xMax = (w / maxDim) * 100;
+	return [[0, 0], [yMax, xMax]];
+};
+
+export const getCityMaxBounds = (cityId: CityId): L.LatLngBoundsExpression => {
+	const { w, h } = CITY_IMAGE_DIMS[cityId];
+	const maxDim = Math.max(w, h);
+	const yMax = (h / maxDim) * 100;
+	const xMax = (w / maxDim) * 100;
+	return [[-60, -60], [yMax + 60, xMax + 60]];
+};
+
+export const getCityMapCenter = (cityId: CityId): L.LatLngExpression => {
+	const { w, h } = CITY_IMAGE_DIMS[cityId];
+	const maxDim = Math.max(w, h);
+	return [(h / maxDim) * 50, (w / maxDim) * 50];
+};
+
 export const CITY_MAP_ZOOM = 1;
 export const CITY_MIN_ZOOM = -1;
 export const CITY_MAX_ZOOM = 6;

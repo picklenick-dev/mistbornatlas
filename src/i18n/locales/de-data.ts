@@ -788,11 +788,6 @@ export const deData: DataTranslations = {
 				description: 'Geheimes Lager für Vorräte und Electrum, verborgen in den nördlichen Felsen.',
 				confidence: 'verified',
 			},
-			'cetts-base': {
-				name: 'Cetts Basis',
-				description: 'Befestigte Anlage von Ashweather Cett vor seinem Aufbruch nach Luthadel.',
-				confidence: 'probable',
-			},
 			'cremnol-wall-north': {
 				name: 'Cremnol-Mauer Nord',
 				description: 'Natürliche rot-orange Felsformation, die die Stadt im Norden schützt.',
