@@ -110,6 +110,7 @@ export const en: Translation = {
 		nextPart: 'Next Part',
 		revealSpoiler: 'Tap to reveal',
 		readAlongNote: 'Read-along mode enabled',
+		portraitSpoilerBlurNote: 'Portrait hidden — Read-along mode enabled',
 	},
 
 	characterPath: {
@@ -277,14 +278,16 @@ export const en: Translation = {
 		portraitsTitle: 'Character Portraits',
 		portraitsDesc:
 			'Character portrait artwork sourced from the Coppermind Wiki under CC BY-NC-ND 4.0.',
-		portraitVinMistborn: 'Mistborn',
-		portraitVinUrchin: 'Street Urchin',
+		portraitVinMistborn: 'Vin',
+		portraitVinUrchin: 'Vin',
 		portraitKelsier: 'Kelsier',
 		portraitSazed: 'Sazed',
 		portraitElend: 'Elend',
-		portraitMarshInquisitor: 'Inquisitor',
-		portraitMarshKelsier: 'with Kelsier',
+		portraitElendYoung: 'Elend',
+		portraitMarshInquisitor: 'Marsh',
+		portraitMarshKelsier: 'Marsh',
 		portraitSpook: 'Spook',
+		portraitSpookYoung: 'Spook',
 		symbolsTitle: 'Allomantic Symbols',
 		symbolsDesc:
 			'Location marker glyphs use Allomantic metal symbols designed by Isaac Stewart, sourced from the Steel Alphabet page on the Coppermind Wiki.',

@@ -1,5 +1,6 @@
 ﻿import React, { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
+import { useMapContext } from '@/context/MapContext';
 import {
 	APP_VERSION,
 	CHARACTER_COLORS,
@@ -13,6 +14,7 @@ import styles from './AboutModal.module.scss';
 export const AboutModal: React.FC = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	const { t } = useLanguage();
+	const { hideMovementSpoilers } = useMapContext();
 
 	const handleOpen = () => setIsOpen(true);
 	const handleClose = () => setIsOpen(false);
@@ -143,23 +145,40 @@ export const AboutModal: React.FC = () => {
 									.
 								</p>
 								<ul className={styles.portraitList}>
-									{PORTRAIT_ATTRIBUTIONS.map((p, i) => (
-										<li key={`${p.characterId}-${i}`}>
-											<span
-												className={styles.portraitIcon}
-												style={{ borderColor: CHARACTER_COLORS[p.characterId] }}
-											>
-												<img src={p.image} alt={p.alt} />
-											</span>
-											<span>
-												<strong>{(t.about as Record<string, string>)[p.labelKey] ?? p.alt}</strong>{' '}
-												—{' '}
-												<a href={p.artistUrl} target="_blank" rel="noopener noreferrer">
-													{p.artistName}
-												</a>
-											</span>
-										</li>
-									))}
+									{PORTRAIT_ATTRIBUTIONS.map((p, i) => {
+										const isSpoilerPortrait =
+											(p.characterId === 'marsh' && p.image === '/characters/marsh.png') ||
+										(p.characterId === 'vin' && p.image === '/characters/vin.jpg') ||
+										(p.characterId === 'elend' && p.image === '/characters/elend.jpg') ||
+										(p.characterId === 'spook' && p.image === '/characters/spook.png');
+										const isBlurred = hideMovementSpoilers && isSpoilerPortrait;
+
+										return (
+											<li key={`${p.characterId}-${i}`}>
+												<span
+													className={`${styles.portraitIcon}${isBlurred ? ` ${styles.portraitBlurred}` : ''}`}
+													style={{ borderColor: CHARACTER_COLORS[p.characterId] }}
+												>
+													<img src={p.image} alt={p.alt} />
+												</span>
+												<span>
+													<strong>{(t.about as Record<string, string>)[p.labelKey] ?? p.alt}</strong>
+													{isBlurred ? (
+														<span className={styles.portraitSpoilerNote}>
+															{' — '}{t.characterMarker.portraitSpoilerBlurNote}
+														</span>
+													) : (
+														<>
+															{' — '}
+															<a href={p.artistUrl} target="_blank" rel="noopener noreferrer">
+																{p.artistName}
+															</a>
+														</>
+													)}
+												</span>
+											</li>
+										);
+									})}
 								</ul>
 							</section>
 

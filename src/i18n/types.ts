@@ -137,6 +137,7 @@ export interface TranslationKeys {
 		nextPart: string;
 		revealSpoiler: string;
 		readAlongNote: string;
+		portraitSpoilerBlurNote: string;
 	};
 
 	// Character path
@@ -316,9 +317,11 @@ export interface TranslationKeys {
 		portraitKelsier: string;
 		portraitSazed: string;
 		portraitElend: string;
+		portraitElendYoung: string;
 		portraitMarshInquisitor: string;
 		portraitMarshKelsier: string;
 		portraitSpook: string;
+		portraitSpookYoung: string;
 		symbolsTitle: string;
 		symbolsDesc: string;
 		symbolsArtist: string;

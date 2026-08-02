@@ -267,8 +267,8 @@ export const PORTRAIT_ATTRIBUTIONS: PortraitAttribution[] = [
 		image: '/characters/kelsier.jpg',
 		alt: 'Kelsier',
 		labelKey: 'portraitKelsier',
-		artistName: 'Diego López',
-		artistUrl: 'https://www.instagram.com/diegolopez_artist/',
+		artistName: 'Deandra Scicluna',
+		artistUrl: 'https://x.com/dealunart/',
 	},
 	{
 		characterId: 'sazed',
@@ -285,6 +285,14 @@ export const PORTRAIT_ATTRIBUTIONS: PortraitAttribution[] = [
 		labelKey: 'portraitElend',
 		artistName: 'Shayndlart',
 		artistUrl: 'https://www.instagram.com/shayndl_art/',
+	},
+	{
+		characterId: 'elend',
+		image: '/characters/elend_young.jpg',
+		alt: 'Elend',
+		labelKey: 'portraitElendYoung',
+		artistName: 'Shuravf',
+		artistUrl: 'https://shuravf.tumblr.com/',
 	},
 	{
 		characterId: 'marsh',
@@ -309,6 +317,14 @@ export const PORTRAIT_ATTRIBUTIONS: PortraitAttribution[] = [
 		labelKey: 'portraitSpook',
 		artistName: 'Lazifyre',
 		artistUrl: 'https://www.instagram.com/lazifyre/',
+	},
+	{
+		characterId: 'spook',
+		image: '/characters/spook_young.jpg',
+		alt: 'Spook',
+		labelKey: 'portraitSpookYoung',
+		artistName: 'Egilde Art',
+		artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Egilde_Art',
 	},
 ];
 

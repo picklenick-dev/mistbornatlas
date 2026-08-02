@@ -437,8 +437,11 @@
 
 		// Young Spook portrait — face is right of center, shift left
 		&[src*='spook_young'] {
-			object-position: 30% 15%;
-			margin-left: -50%;
+			width: 150%;
+			height: 150%;
+			object-position: 35% 10%;
+			margin-left: -25%;
+			margin-top: -5%;
 		}
 	}
 }

@@ -221,6 +221,27 @@
 
 .portraitIcon {
 	@include portrait-icon(55px);
+
+	&.portraitBlurred {
+		border-style: dashed;
+
+		img {
+			filter: blur(10px) grayscale(0.6);
+			opacity: 0.4;
+		}
+	}
+
+	img[src*='spook_young'] {
+		object-position: 50% 12%;
+		margin-left: 0%;
+		margin-top: -8%;
+	}
+}
+
+.portraitSpoilerNote {
+	font-size: $font-size-xs;
+	font-style: italic;
+	color: $color-copper;
 }
 
 .symbolIcon {
